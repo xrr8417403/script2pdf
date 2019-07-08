@@ -7,15 +7,26 @@ Data:2019/7/2
 """
 
 import re
+from docx import Document
+from docx.shared import Inches,Pt
 
 def isdialog(str,row=0):
-    res = re.search(r'Dialogue: 0.*NTP,0,0,0,,(.*)\\N{.*}(.*)',str)
+    res = re.search(r'Dialogue: 0.*,0,0,0,,(.*)\\N{.*}(.*)',str)
     if res:
-        print(res.group(1))
-        print(res.group(2))
+        if not re.search(r'[\{\}]',res.group(1)):
+            #print(res.groups())
+            print(res.group(1))
+            print(res.group(2))
+            document.add_paragraph(res.group(2))
+            document.add_paragraph(res.group(1))
+            document.add_paragraph('\n')
+
 
 path = "C:\\Users\Administrator\\Desktop\Personal\\字幕文件"
-filepath = "C:\\Users\Administrator\\Desktop\Personal\\字幕文件\\Game.of.Thrones.S08E01.Kings.Landing.720p.AMZN.WEB-DL.DDP5.1.H.264-GoT.简体&英文.ass"
+filepath = "C:\\Users\\SEAG\\Desktop\\Chernobyl.S01E01.1.23.45.720p.AMZN.WEB-DL.DDP5.1.H.264-NTb.简体&英文.ass"
+
+document = Document()
+document.add_heading('Chernobyl.S01E01', 0)
 
 try:
     with open(filepath,'r',encoding='utf-16',errors='ignore') as f:
@@ -26,3 +37,5 @@ except UnicodeError as e:
     with open(filepath,'r',encoding='utf-8',errors='ignore') as f:
         for line in f:
             isdialog(line)
+
+document.save('demo.docx')
