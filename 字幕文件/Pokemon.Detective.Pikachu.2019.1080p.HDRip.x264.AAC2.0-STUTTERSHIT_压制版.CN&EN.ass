@@ -1,0 +1,1527 @@
+﻿[Script Info]
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+ScaledBorderAndShadow: no
+ScriptType: v4.00+
+Synch Point: 1
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正黑体_GBK,20,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0.00,1,2,1,2,5,5,15,1
+Style: 译文字幕,方正黑体_GBK,20,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0.00,1,2,1,2,5,5,15,1
+Style: 原文字幕,微软雅黑,14,&H00FFFFFF,&HF0000000,&H00H202020,&H32000000,0,0,0,0,100,100,0,0.00,1,2,1,2,5,5,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.00,0:00:08.00,Default,,0,0,0,,{\fad(0,400)}{\fscx2300\fscy600{\c&H000000&{\bord0\shad0.5\be2\pos(200,310)}{\fs28}{\alphaFF\t(0,800,\alpha&H80&)}{\clip(100,200,300,200)\t(0,1350,0.8,\clip(100,200,300,300))}■
+Dialogue: 0,0:00:01.00,0:00:08.00,Default,,0,0,0,,{\move(200,210,200,275,0,1000)}{\fad(800,400)}{\clip(100,210,300,275)}{\shad0.5}{\4c&H000000&}{\fn方正黑体简体}{\fs18}{\b0}{\c&HEA9E00&}{\bord0\fn方正黑体简体}本字幕由网络爱好者联盟原创翻译\N{\c&HFDFDFD&}欢迎加入我们 {\fn方正黑体简体}{\fs18}{\b0}{\c&H00B9FF&}www.ZiMuZu.pub\N{\c&H0C95C2&}{\fs12}在保留译者名单的前提下任何人不需要经得我们的同意\N可用本字幕做任何用途因此所产生的后果由您自行承担
+Dialogue: 0,0:00:08.00,0:00:13.00,Default,,0,0,0,,{\pos(200,260)}{\clip(110,216,292,216)\t(600,1000,2,\clip(110,192,292,240))\t(4200,4600,2,\clip(110,216,292,216))}{\alpha80\c&H000000&}{\be1\bord0\shad0}{\fs28}{\fscx2100\fscy400}■
+Dialogue: 0,0:00:08.00,0:00:13.00,Default,,0,0,0,,{\pos(200,216)}{\clip(201,214,201,216)\t(0,600,2,\clip(110,214,292,216))\t(4200,4800,2,\clip(201,214,201,216))}{\alpha50\c&HC6BCA5&}{\be1\bord0\shad0}{\fs28}{\fscx1600\fscy10}■
+Dialogue: 0,0:00:08.00,0:00:13.00,Default,,0,0,0,,{\clip(110,216,292,216)\t(600,1000,2,\clip(110,192,292,240))\t(4200,4600,2,\clip(110,216,292,216))}{\i0}{\fn微软雅黑}{\bord0\shad0.5}{\c&H02B4FF&}{\fs16}{\pos(200,233)}翻\h译\N\N{\fs14}{\c&HF4A40D&}低调付付\h\h\h\h青色桔子 \h\h\h\hCharles#Zhang\h\h\h\h陆修
+Dialogue: 0,0:00:13.00,0:00:18.00,Default,,0,0,0,,{\pos(200,260)}{\clip(110,216,292,216)\t(600,1000,2,\clip(110,192,292,240))\t(4200,4600,2,\clip(110,216,292,216))}{\alpha80\c&H000000&}{\be1\bord0\shad0}{\fs28}{\fscx2100\fscy400}■
+Dialogue: 0,0:00:13.00,0:00:18.00,Default,,0,0,0,,{\pos(200,216)}{\clip(201,214,201,216)\t(0,600,2,\clip(110,214,292,216))\t(4200,4800,2,\clip(201,214,201,216))}{\alpha50\c&HC6BCA5&}{\be1\bord0\shad0}{\fs28}{\fscx1600\fscy10}■
+Dialogue: 0,0:00:13.00,0:00:18.00,Default,,0,0,0,,{\clip(110,216,292,216)\t(600,1000,2,\clip(110,192,292,240))\t(4200,4600,2,\clip(110,216,292,216))}{\i0}{\fn微软雅黑}{\bord0\shad0.5}{\c&H02B4FF&}{\fs16}{\pos(200,233)}翻\h译\N\N{\fs14}{\c&HF4A40D&}刺罗森林\h\h\h\h吃薯条不想蘸酱\h\h\h\h甜甜的棉花糖
+Dialogue: 0,0:00:18.00,0:00:24.00,Default,,0,0,0,,{\pos(200,260)}{\clip(110,216,292,216)\t(600,1000,2,\clip(110,192,292,240))\t(4200,4600,2,\clip(110,216,292,216))}{\alpha80\c&H000000&}{\be1\bord0\shad0}{\fs28}{\fscx2100\fscy400}■
+Dialogue: 0,0:00:18.00,0:00:24.00,Default,,0,0,0,,{\pos(200,216)}{\clip(201,214,201,216)\t(0,600,2,\clip(110,214,292,216))\t(4200,4800,2,\clip(201,214,201,216))}{\alpha50\c&HC6BCA5&}{\be1\bord0\shad0}{\fs28}{\fscx1600\fscy10}■
+Dialogue: 0,0:00:18.00,0:00:24.00,Default,,0,0,0,,{\clip(110,216,292,216)\t(600,1000,2,\clip(110,192,292,240))\t(4200,4600,2,\clip(110,216,292,216))}{\i0}{\fn微软雅黑}{\bord0\shad0.5}{\c&H02B4FF&}{\fs16}{\pos(200,233)}校对\h&\h后期\N\N{\fs14}{\c&HF4A40D&}glendrunker\h\h\h\h大红
+Dialogue: 0,0:00:24.00,0:00:32.00,Default,,0,0,0,,{\clip(62,224,336,224)\t(1000,1400,2,\clip(62,204,336,224))\t(7600,8000,\clip(62,224,336,224))}{\pos(199,229)}{\alpha&H80&\c&H000000&}{\bord0\shad0.5\be1}{\fs28}{\fscx3100\fscy150}■
+Dialogue: 0,0:00:24.00,0:00:32.00,Default,,0,0,0,,{\clip(62,224,336,224)\t(1000,1400,2,\clip(62,204,336,224))\t(7600,8000,\clip(62,224,336,224))}{\i0}{\fn微软雅黑}{\bord0\shad0.5}{\c&H02B4FF&}{\fs16}{\pos(200,220)}片头推广合作洽谈：{\fs14}{\c&HF4A40D&}请联系普罗米修斯邮箱{\c&H2455FF&} PLMXS2016@GmaiL.com
+Dialogue: 0,0:01:40.86,0:01:43.63,Default,,0,0,0,,{\r译文字幕}他们在外面\N{\r原文字幕}They are outside.
+Dialogue: 0,0:01:46.70,0:01:49.70,Default,,0,0,0,,{\r译文字幕}控制室发生电力故障\N{\r原文字幕}We're losing power in the containment chamber.
+Dialogue: 0,0:01:46.70,0:01:48.15,Default,,0,0,0,,{\r译文字幕}{\pos(150,130)\fs40\fr6.5}红色警告
+Dialogue: 0,0:03:04.79,0:03:05.85,Default,,0,0,0,,{\r译文字幕}你听到了吗\N{\r原文字幕}You hear that？
+Dialogue: 0,0:03:05.86,0:03:07.85,Default,,0,0,0,,{\r译文字幕}就在附近\N{\r原文字幕}Something's close.
+Dialogue: 0,0:03:08.73,0:03:11.86,Default,,0,0,0,,{\r译文字幕}看  我说的就是这个  我心跳好快\N{\r原文字幕}See, this is what I'm talking about. My heart is pounding.
+Dialogue: 0,0:03:11.87,0:03:13.74,Default,,0,0,0,,{\r译文字幕}趴下  趴下\N{\r原文字幕}Get down, get down.
+Dialogue: 0,0:03:24.73,0:03:26.79,Default,,0,0,0,,{\r译文字幕}一只卡拉卡拉吗\N{\r原文字幕}A...a Cubone?
+Dialogue: 0,0:03:29.91,0:03:32.75,Default,,0,0,0,,{\r译文字幕}来这就为了给你抓宝可梦精灵  是吗\N{\r原文字幕}We are not catching you a Pokémon, are we?
+Dialogue: 0,0:03:32.75,0:03:33.07,Default,,0,0,0,,{\r译文字幕}什么\N{\r原文字幕}What?
+Dialogue: 0,0:03:33.07,0:03:34.91,Default,,0,0,0,,{\r译文字幕}别告诉我这是你计划好的  杰克\N{\r原文字幕}Tell me you didn't plan this, Jack.
+Dialogue: 0,0:03:34.95,0:03:35.59,Default,,0,0,0,,{\r译文字幕}抱歉  你是说\N{\r原文字幕}I'm sorry, are you...
+Dialogue: 0,0:03:35.59,0:03:37.38,Default,,0,0,0,,{\r译文字幕}杰克  别告诉我这是你计划好的\N{\r原文字幕}Jack, said you didn't plan this.
+Dialogue: 0,0:03:37.38,0:03:38.50,Default,,0,0,0,,{\r译文字幕}你认真的吗  你怎么能这么说\N{\r原文字幕}Are you serious, how dare you?
+Dialogue: 0,0:03:38.50,0:03:41.69,Default,,0,0,0,,{\r译文字幕}拜托  当然不是了\N{\r原文字幕}OK? Of course not, come on!
+Dialogue: 0,0:03:41.80,0:03:43.79,Default,,0,0,0,,{\r译文字幕}好吧  也许有一点点\N{\r原文字幕}Okay, maybe.
+Dialogue: 0,0:03:44.74,0:03:45.99,Default,,0,0,0,,{\r译文字幕}昨天晚上是满月\N{\r原文字幕}It was a full moon last night
+Dialogue: 0,0:03:45.99,0:03:47.40,Default,,0,0,0,,{\r译文字幕}我妈妈听它哭得眼睛都快哭瞎了\N{\r原文字幕}and my mom heard it crying its' eyes out.
+Dialogue: 0,0:03:47.40,0:03:49.21,Default,,0,0,0,,{\r译文字幕}因为她一直不停的做噩梦\N{\r原文字幕}Cuz she can't help having a nightmare
+Dialogue: 0,0:03:49.21,0:03:51.07,Default,,0,0,0,,{\r译文字幕}所以她起来给我拿了一杯热牛奶\N{\r原文字幕}so she brought me a glass of warm milk.
+Dialogue: 0,0:03:51.10,0:03:53.31,Default,,0,0,0,,{\r译文字幕}兄弟  我以为你只是想出来转转\N{\r原文字幕}Dude, I thought you wanted to, you know, hang out
+Dialogue: 0,0:03:53.31,0:03:55.50,Default,,0,0,0,,{\r译文字幕}重温我们小时候的美好时光\N{\r原文字幕}and relive the good old days, like we were kids
+Dialogue: 0,0:03:55.50,0:03:57.93,Default,,0,0,0,,{\r译文字幕}是的啊  但是你看\N{\r原文字幕}I do, but just look at it.
+Dialogue: 0,0:03:57.96,0:04:01.87,Default,,0,0,0,,{\r译文字幕}这只宝可梦精灵简直是为你量身定做的\N{\r原文字幕}That is the perfect Pokémon for you.
+Dialogue: 0,0:04:02.87,0:04:05.00,Default,,0,0,0,,{\r译文字幕}杰克  我并不想要一只宝可梦精灵\N{\r原文字幕}Jack, I'm not looking for a Pokémon,
+Dialogue: 0,0:04:05.00,0:04:05.90,Default,,0,0,0,,{\r译文字幕}我跟你说过的\N{\r原文字幕}I've told you this.
+Dialogue: 0,0:04:05.91,0:04:07.98,Default,,0,0,0,,{\r译文字幕}我已经仔细想了很久了  好吗\N{\r原文字幕}I have thought long and hard about this, ok?
+Dialogue: 0,0:04:07.98,0:04:09.75,Default,,0,0,0,,{\r译文字幕}水属性的不适合你\N{\r原文字幕}Water type is not right for you,
+Dialogue: 0,0:04:09.75,0:04:10.88,Default,,0,0,0,,{\r译文字幕}火属性的也是  但是卡拉卡拉\N{\r原文字幕}neither is fire type, but Cubone is...
+Dialogue: 0,0:04:10.92,0:04:11.98,Default,,0,0,0,,{\r译文字幕}很孤独\N{\r原文字幕}...lonely.
+Dialogue: 0,0:04:11.99,0:04:13.96,Default,,0,0,0,,{\r译文字幕}一点没错\N{\r原文字幕}Exactly!
+Dialogue: 0,0:04:14.00,0:04:16.65,Default,,0,0,0,,{\r译文字幕}好吧  谢谢你  杰克  非常感谢\N{\r原文字幕}Ok, thank you Jack. Thank you for that.
+Dialogue: 0,0:04:16.80,0:04:19.77,Default,,0,0,0,,{\r译文字幕}你还有更扎心的大实话要跟我说的吗\N{\r原文字幕}Are there any another emotional truth bomb you wanna drop on me?
+Dialogue: 0,0:04:19.77,0:04:22.94,Default,,0,0,0,,{\r译文字幕}以后再说  但现在我手里这个更实在\N{\r原文字幕}Maybe later, but right now the truth is in my hands.
+Dialogue: 0,0:04:25.85,0:04:26.82,Default,,0,0,0,,{\r译文字幕}沙雕球\N{\r原文字幕}Stupid ball.
+Dialogue: 0,0:04:26.86,0:04:28.76,Default,,0,0,0,,{\r译文字幕}是啊  去吧\N{\r原文字幕}Yes，yes!
+Dialogue: 0,0:04:28.76,0:04:31.82,Default,,0,0,0,,{\r译文字幕}记住了抓宝可梦精灵可不单单是技巧的事\N{\r原文字幕}OK. Remember catching a Pokémon is not about skill.
+Dialogue: 0,0:04:31.83,0:04:32.86,Default,,0,0,0,,{\r译文字幕}所以一定可以做到的\N{\r原文字幕}So you can do this.
+Dialogue: 0,0:04:32.90,0:04:33.89,Default,,0,0,0,,{\r译文字幕}真是会鼓舞人\N{\r原文字幕}Good pep talk.
+Dialogue: 0,0:04:33.90,0:04:35.58,Default,,0,0,0,,{\r译文字幕}必须要它选择你\N{\r原文字幕}OK, it has to choose you too,
+Dialogue: 0,0:04:35.58,0:04:37.87,Default,,0,0,0,,{\r译文字幕}所以得让它愿意成为你的伙伴\N{\r原文字幕}so make him want to be your partner.
+Dialogue: 0,0:04:38.88,0:04:41.01,Default,,0,0,0,,{\r译文字幕}嘿  卡拉卡拉  你好吗  老铁\N{\r原文字幕}Hey, Cubone. What's up, buddy?
+Dialogue: 0,0:04:41.05,0:04:43.82,Default,,0,0,0,,{\r译文字幕}你知道不是谁都能\N{\r原文字幕}You know not everyone can...
+Dialogue: 0,0:04:43.86,0:04:46.92,Default,,0,0,0,,{\r译文字幕}把他们死去亲戚的头骨戴在头上  但是\N{\r原文字幕}pull off wearing the skull of their dead relatives, but...
+Dialogue: 0,0:04:46.93,0:04:49.99,Default,,0,0,0,,{\r译文字幕}你肯定可以\N{\r原文字幕}..you know, you sure can.
+Dialogue: 0,0:04:51.77,0:04:53.90,Default,,0,0,0,,{\r译文字幕}好吧  它不喜欢谈论这个\N{\r原文字幕}Okay, he doesn't like that.
+Dialogue: 0,0:04:53.94,0:04:55.91,Default,,0,0,0,,{\r译文字幕}一点也不喜欢\N{\r原文字幕}He did not like that.
+Dialogue: 0,0:04:58.02,0:04:59.85,Default,,0,0,0,,{\r译文字幕}杰克\N{\r原文字幕}Jack!
+Dialogue: 0,0:04:59.95,0:05:01.82,Default,,0,0,0,,{\r译文字幕}快点扔出去\N{\r原文字幕}Throw it!
+Dialogue: 0,0:05:01.86,0:05:04.80,Default,,0,0,0,,{\r译文字幕}-只管扔出去  -像个男人一样\N{\r原文字幕}- Throw the ball. - Like a man.
+Dialogue: 0,0:05:16.25,0:05:18.02,Default,,0,0,0,,{\r译文字幕}我成功了\N{\r原文字幕}I did it!
+Dialogue: 0,0:05:19.03,0:05:21.00,Default,,0,0,0,,{\r译文字幕}抓到了\N{\r原文字幕}Still got it!
+Dialogue: 0,0:05:24.80,0:05:25.90,Default,,0,0,0,,{\r译文字幕}不是绿色的光\N{\r原文字幕}The light's not green.
+Dialogue: 0,0:05:26.01,0:05:27.76,Default,,0,0,0,,{\r译文字幕}它还没有变成绿色的\N{\r原文字幕}It still hasn't turned green yet,
+Dialogue: 0,0:05:27.76,0:05:29.04,Default,,0,0,0,,{\r译文字幕}杰克  不太妙啊  是吧\N{\r原文字幕}Jack, that's bad, right?
+Dialogue: 0,0:05:29.05,0:05:31.92,Default,,0,0,0,,{\r译文字幕}快跑\N{\r原文字幕}Run!
+Dialogue: 0,0:05:34.99,0:05:36.09,Default,,0,0,0,,{\r译文字幕}他没有选择我\N{\r原文字幕}He didn't choose me.
+Dialogue: 0,0:05:36.09,0:05:37.06,Default,,0,0,0,,{\r译文字幕}快跑\N{\r原文字幕}Run!
+Dialogue: 0,0:05:37.10,0:05:38.90,Default,,0,0,0,,{\r译文字幕}他没有选择我  杰克\N{\r原文字幕}He didn't choose me, Jack!
+Dialogue: 0,0:05:39.20,0:05:39.92,Default,,0,0,0,,{\r译文字幕}我看见了\N{\r原文字幕}I can see that.
+Dialogue: 0,0:05:39.97,0:05:42.06,Default,,0,0,0,,{\r译文字幕}我不是它的选择\N{\r原文字幕}I'm not its' choice.
+Dialogue: 0,0:05:49.99,0:05:51.65,Default,,0,0,0,,{\r译文字幕}那是只气炸了的卡拉卡拉\N{\r原文字幕}That was one angry Cubone.
+Dialogue: 0,0:05:51.65,0:05:53.86,Default,,0,0,0,,{\r译文字幕}让我回想起很多我妈妈的事情\N{\r原文字幕}He remind me a lot about my mom.
+Dialogue: 0,0:05:53.86,0:05:57.13,Default,,0,0,0,,{\r译文字幕}我知道我可能会有点婆婆妈妈的\N{\r原文字幕}So umm... I don't know if this is gonna sound corny, or whatever
+Dialogue: 0,0:05:57.13,0:05:59.07,Default,,0,0,0,,{\r译文字幕}有话直说吧  杰克  我懒得生气了\N{\r原文字幕}Just say it, Jack. I'm too tired to be angry.
+Dialogue: 0,0:05:59.11,0:06:00.91,Default,,0,0,0,,{\r译文字幕}我很担心你\N{\r原文字幕}I'm worried about you.
+Dialogue: 0,0:06:00.91,0:06:03.94,Default,,0,0,0,,{\r译文字幕}-又来了  -我们认识的人都离开了镇子\N{\r原文字幕}- This again! - OK, listen, everyone we know has left town.
+Dialogue: 0,0:06:03.98,0:06:05.41,Default,,0,0,0,,{\r译文字幕}现在我也要离开了\N{\r原文字幕}and now I'm leaving too.
+Dialogue: 0,0:06:05.41,0:06:06.39,Default,,0,0,0,,{\r译文字幕}没关系啊\N{\r原文字幕}Yeah, but that's okay.
+Dialogue: 0,0:06:06.39,0:06:08.92,Default,,0,0,0,,{\r译文字幕}你要在时机到来时做出最好的选择\N{\r原文字幕}You gotta do what's best for you with the time that you got.
+Dialogue: 0,0:06:08.96,0:06:09.95,Default,,0,0,0,,{\r译文字幕}我也是这样做的\N{\r原文字幕}That's what I'm doing.
+Dialogue: 0,0:06:09.96,0:06:11.99,Default,,0,0,0,,{\r译文字幕}你知道我一直被工作压得喘不过气\N{\r原文字幕}You know I'm crushing at work,
+Dialogue: 0,0:06:12.03,0:06:14.83,Default,,0,0,0,,{\r译文字幕}但很快我就要升职了\N{\r原文字幕}getting a promotion real soon.
+Dialogue: 0,0:06:14.87,0:06:17.04,Default,,0,0,0,,{\r译文字幕}保险评估员还能晋升成什么\N{\r原文字幕}What is the promotion for insurance appraiser,
+Dialogue: 0,0:06:17.04,0:06:19.91,Default,,0,0,0,,{\r译文字幕}高级保险评估员吗\N{\r原文字幕}Senior Insurance Appraiser?
+Dialogue: 0,0:06:19.95,0:06:22.88,Default,,0,0,0,,{\r译文字幕}不  实际上  比我现在还要高两级\N{\r原文字幕}No, actually that's two steps up, above where I'm at.
+Dialogue: 0,0:06:22.88,0:06:26.12,Default,,0,0,0,,{\r译文字幕}这话我听得我都要吐了  这些都是虚的\N{\r原文字幕}You're gonna make me throw up. That's not a real thing.
+Dialogue: 0,0:06:26.90,0:06:28.76,Default,,0,0,0,,{\r译文字幕}终于有信号了\N{\r原文字幕}Oh, I finally have service.
+Dialogue: 0,0:06:28.76,0:06:32.01,Default,,0,0,0,,{\r译文字幕}等等  5封语音邮件  怎么会有5封\N{\r原文字幕}Wait, 5 voicemails? Why do I have 5 voicemails?
+Dialogue: 0,0:06:32.01,0:06:34.94,Default,,0,0,0,,{\r译文字幕}可能是紧急保险案件\N{\r原文字幕}Maybe it's an insurance emergency.
+Dialogue: 0,0:06:37.98,0:06:39.85,Default,,0,0,0,,{\r译文字幕}是谁\N{\r原文字幕}Who is it?
+Dialogue: 0,0:06:41.96,0:06:45.09,Default,,0,0,0,,{\r译文字幕}是莱姆市警察局\N{\r原文字幕}Umm, It's the Ryme City Police Department.
+Dialogue: 0,0:06:46.97,0:06:49.96,Default,,0,0,0,,{\r译文字幕}发生了一起事故\N{\r原文字幕}There was an accident.
+Dialogue: 0,0:07:05.54,0:07:08.31,Default,,0,0,0,,{\r译文字幕}{\pos(150,150)}警探在惨烈车祸中牺牲
+Dialogue: 0,0:07:20.17,0:07:22.14,Default,,0,0,0,,{\r译文字幕}不要  别\N{\r原文字幕}Please don't.
+Dialogue: 0,0:07:23.21,0:07:26.94,Default,,0,0,0,,{\r译文字幕}好吧好汉  舔吧  谢谢\N{\r原文字幕}Alright hero please do, thank you.
+Dialogue: 0,0:07:26.95,0:07:27.92,Default,,0,0,0,,{\r译文字幕}谢谢你\N{\r原文字幕}thank you.
+Dialogue: 0,0:07:27.92,0:07:29.98,Default,,0,0,0,,{\r译文字幕}你的舌头很友好\N{\r原文字幕}You have very generous tongue.
+Dialogue: 0,0:07:32.99,0:07:35.31,Default,,0,0,0,,{\r译文字幕}这是谁的大舌头\N{\r原文字幕}Is this Lickitung belong to anyone?
+Dialogue: 0,0:07:36.10,0:07:37.09,Default,,0,0,0,,{\r译文字幕}谁的啊\N{\r原文字幕}Anybody?
+Dialogue: 0,0:07:37.14,0:07:37.75,Default,,0,0,0,,{\r译文字幕}没人吗\N{\r原文字幕}No?
+Dialogue: 0,0:07:37.75,0:07:39.94,Default,,0,0,0,,{\r译文字幕}感谢您旅途的陪伴\N{\r原文字幕}Thank you for travel with us.
+Dialogue: 0,0:07:39.94,0:07:42.86,Default,,0,0,0,,{\r译文字幕}请您回到座位观看本则短视频\N{\r原文字幕}Please sit back to watch this short informational video
+Dialogue: 0,0:07:42.86,0:07:45.04,Default,,0,0,0,,{\r译文字幕}欢迎您来到莱姆市\N{\r原文字幕}welcoming you into Ryme City.
+Dialogue: 0,0:07:45.12,0:07:48.20,Default,,0,0,0,,{\r译文字幕}回顾历史  宝可梦精灵早已成为\N{\r原文字幕}Throughout history, Pokémon has been
+Dialogue: 0,0:07:48.20,0:07:49.99,Default,,0,0,0,,{\r译文字幕}我们这个世界中的一部分\N{\r原文字幕}part of our world.
+Dialogue: 0,0:07:50.06,0:07:52.52,Default,,0,0,0,,{\r译文字幕}早期的人类常常会捕捉它们\N{\r原文字幕}Early humans used to catch them
+Dialogue: 0,0:07:52.52,0:07:57.17,Default,,0,0,0,,{\r译文字幕}并且训练它们使用独特的能力来实现共赢\N{\r原文字幕}and train them to use their unique powers for the common good.
+Dialogue: 0,0:07:58.08,0:08:04.08,Default,,0,0,0,,{\r译文字幕}渐渐演变成了现在的宝可梦精灵对战\N{\r原文字幕}This relationship evolve into what we now refer to as Pokémon Battles
+Dialogue: 0,0:08:07.00,0:08:09.16,Default,,0,0,0,,{\r译文字幕}一位伟人改变了这一切\N{\r原文字幕}One man changed all of this.
+Dialogue: 0,0:08:09.17,0:08:11.24,Default,,0,0,0,,{\r译文字幕}克利福工业的创始人兼主席\N{\r原文字幕}Howard Clifford,
+Dialogue: 0,0:08:11.24,0:08:14.97,Default,,0,0,0,,{\r译文字幕}霍华德·克利福\N{\r原文字幕}founder and chairman of Clifford Industries.
+Dialogue: 0,0:08:14.98,0:08:17.21,Default,,0,0,0,,{\r译文字幕}他被诊断患有某种罕见的退行性疾病\N{\r原文字幕}Diagnosed with a rare degenerative disease
+Dialogue: 0,0:08:17.25,0:08:22.09,Default,,0,0,0,,{\r译文字幕}他从公司辞职  到世界各地去求医问药\N{\r原文字幕}he resigned from his corporation, and search the world for a cure.
+Dialogue: 0,0:08:22.09,0:08:25.79,Default,,0,0,0,,{\r译文字幕}事实证明  我一直找寻的治疗之法\N{\r原文字幕}And it turned out, the cure I was looking for is
+Dialogue: 0,0:08:25.79,0:08:29.21,Default,,0,0,0,,{\r译文字幕}能让自己进化\N{\r原文字幕}for me to evolve into a better version of myself.
+Dialogue: 0,0:08:29.21,0:08:30.49,Default,,0,0,0,,{\r译文字幕}而且我发现\N{\r原文字幕}And I discovered how to do that
+Dialogue: 0,0:08:30.49,0:08:32.24,Default,,0,0,0,,{\r译文字幕}这得通过与宝可梦精灵成为搭档\N{\r原文字幕}through a partnership with Pokémon.
+Dialogue: 0,0:08:32.25,0:08:36.21,Default,,0,0,0,,{\r译文字幕}他想和全世界分享这一伟大发现\N{\r原文字幕}And he wanted to share that discovry with the world.
+Dialogue: 0,0:08:32.26,0:08:36.22,Default,,0,0,0,,{\r译文字幕}{\pos(95,215)}罗杰·克利福\N克利福工业主席
+Dialogue: 0,0:08:36.88,0:08:40.13,Default,,0,0,0,,{\r译文字幕}这就是霍华德·克利福创立莱姆市的初衷\N{\r原文字幕}This is what inspired Howard Clifford to build Ryme City.
+Dialogue: 0,0:08:40.71,0:08:45.10,Default,,0,0,0,,{\r译文字幕}一个人类和宝可梦精灵互利共存的地方\N{\r原文字幕}A place where humans and Pokémon can live side by side.
+Dialogue: 0,0:08:45.10,0:08:49.05,Default,,0,0,0,,{\r译文字幕}宝可梦精灵不像其他地区那样生活在野外\N{\r原文字幕}Unlike other regions, where Pokémon live in the wild.
+Dialogue: 0,0:08:49.08,0:08:52.11,Default,,0,0,0,,{\r译文字幕}在这里  我们一起生活和工作\N{\r原文字幕}Here, we live and work together.
+Dialogue: 0,0:08:52.15,0:08:55.02,Default,,0,0,0,,{\r译文字幕}没有对战  没有训练师\N{\r原文字幕}No battles, no trainers.
+Dialogue: 0,0:08:55.02,0:08:56.22,Default,,0,0,0,,{\r译文字幕}也没有精灵球\N{\r原文字幕}No Pokeballs.
+Dialogue: 0,0:08:56.26,0:09:00.20,Default,,0,0,0,,{\r译文字幕}一个更强大  更和谐的世界\N{\r原文字幕}A stronger, more harmonious world.
+Dialogue: 0,0:09:00.20,0:09:03.04,Default,,0,0,0,,{\r译文字幕}莱姆市全体公民\N{\r原文字幕}From all our citizens,
+Dialogue: 0,0:09:03.04,0:09:06.24,Default,,0,0,0,,{\r译文字幕}欢迎您的到来\N{\r原文字幕}welcome to Ryme City.
+Dialogue: 0,0:09:57.40,0:10:00.93,Default,,0,0,0,,{\r译文字幕}没有杰尼龟  救火不会这么容易的\N{\r原文字幕}Fighting fires wouldn't be the same without the Squirtle partners.
+Dialogue: 0,0:10:21.66,0:10:23.61,Default,,0,0,0,,{\r译文字幕}吉田警督
+Dialogue: 0,0:10:36.33,0:10:37.32,Default,,0,0,0,,{\r译文字幕}嗨  蒂姆\N{\r原文字幕}Hi, Tim.
+Dialogue: 0,0:10:37.89,0:10:39.32,Default,,0,0,0,,{\r译文字幕}吉田警督\N{\r原文字幕}Lieutenant Yoshida.
+Dialogue: 0,0:10:41.27,0:10:44.14,Default,,0,0,0,,{\r译文字幕}你爸爸是精英中的精英\N{\r原文字幕}Your dad was the best of the best.
+Dialogue: 0,0:10:44.18,0:10:47.17,Default,,0,0,0,,{\r译文字幕}他是这个地方的一个传奇\N{\r原文字幕}He was a legend in this precinct.
+Dialogue: 0,0:10:47.25,0:10:50.15,Default,,0,0,0,,{\r译文字幕}谢谢  谢谢你这么说\N{\r原文字幕}Thank you, thank you for saying that.
+Dialogue: 0,0:10:51.22,0:10:55.29,Default,,0,0,0,,{\r译文字幕}失去他和他的搭档是我们极大的损失\N{\r原文字幕}It was a terrible tragedy losing him and his partner.
+Dialogue: 0,0:10:55.33,0:10:56.30,Default,,0,0,0,,{\r译文字幕}他的搭档\N{\r原文字幕}His partner?
+Dialogue: 0,0:10:56.30,0:10:58.10,Default,,0,0,0,,{\r译文字幕}他的宝可梦精灵\N{\r原文字幕}His Pokémon.
+Dialogue: 0,0:10:58.14,0:11:00.16,Default,,0,0,0,,{\r译文字幕}我不清楚\N{\r原文字幕}Oh, I didn't know...
+Dialogue: 0,0:11:01.31,0:11:03.25,Default,,0,0,0,,{\r译文字幕}不好意思  它是在生我的气吗\N{\r原文字幕}I'm sorry, is yours mad at me?
+Dialogue: 0,0:11:03.25,0:11:05.31,Default,,0,0,0,,{\r译文字幕}-布鲁吗  -嗯\N{\r原文字幕}- Snubbull? - Yeah.
+Dialogue: 0,0:11:05.35,0:11:07.91,Default,,0,0,0,,{\r译文字幕}他表面上看起来可能很暴躁\N{\r原文字幕}He may look grumpy on the outside,
+Dialogue: 0,0:11:07.91,0:11:11.30,Default,,0,0,0,,{\r译文字幕}但我保证他的内心是非常可爱的\N{\r原文字幕}but I assure you he is adorable on the inside.
+Dialogue: 0,0:11:13.17,0:11:15.05,Default,,0,0,0,,{\r译文字幕}不介意的话我想问一句\N{\r原文字幕}If you don't mind me asking,
+Dialogue: 0,0:11:15.05,0:11:17.27,Default,,0,0,0,,{\r译文字幕}为什么你没带宝可梦精灵过来\N{\r原文字幕}how come you don't have a Pokémon.
+Dialogue: 0,0:11:17.28,0:11:19.82,Default,,0,0,0,,{\r译文字幕}我大概记得  哈利曾经说过\N{\r原文字幕}I thought I remember, Harry said you wanted to
+Dialogue: 0,0:11:19.82,0:11:22.31,Default,,0,0,0,,{\r译文字幕}小的时候你想成为一名宝可梦精灵训练员\N{\r原文字幕}become a Pokémon trainer when you were young.
+Dialogue: 0,0:11:22.35,0:11:25.12,Default,,0,0,0,,{\r译文字幕}是的  最终也没能实现\N{\r原文字幕}Yeah, that didn't really... work out.
+Dialogue: 0,0:11:25.16,0:11:28.15,Default,,0,0,0,,{\r译文字幕}我现在在保险公司工作  所以\N{\r原文字幕}Uh I work in Insurance now, so...
+Dialogue: 0,0:11:28.23,0:11:30.17,Default,,0,0,0,,{\r译文字幕}我理解\N{\r原文字幕}I understand.
+Dialogue: 0,0:11:30.40,0:11:34.40,Default,,0,0,0,,{\r译文字幕}但是蒂姆  不要什么事情都自己扛着\N{\r原文字幕}But Tim, please don't put this all on your self.
+Dialogue: 0,0:11:34.41,0:11:37.38,Default,,0,0,0,,{\r译文字幕}没有人应该独自承受那么多\N{\r原文字幕}No one should go throught this type of thing alone.
+Dialogue: 0,0:11:37.82,0:11:40.03,Default,,0,0,0,,{\r译文字幕}如果你像你爸爸一样\N{\r原文字幕}If you are anything like your dad.
+Dialogue: 0,0:11:40.03,0:11:42.43,Default,,0,0,0,,{\r译文字幕}我不像他\N{\r原文字幕}I'm not.
+Dialogue: 0,0:11:43.10,0:11:44.92,Default,,0,0,0,,{\r译文字幕}我是我奶奶带大的\N{\r原文字幕}I was just really raised by my grandmother.
+Dialogue: 0,0:11:44.92,0:11:46.27,Default,,0,0,0,,{\r译文字幕}你有他公寓的备用钥匙吗\N{\r原文字幕}You have the spare keys for his apartment?
+Dialogue: 0,0:11:46.27,0:11:48.27,Default,,0,0,0,,{\r译文字幕}我该去那里收拾下东西了\N{\r原文字幕}I should go wrap things up there.
+Dialogue: 0,0:11:48.30,0:11:52.18,Default,,0,0,0,,{\r译文字幕}当然有\N{\r原文字幕}Of course.
+Dialogue: 0,0:11:53.41,0:11:55.41,Default,,0,0,0,,{\r译文字幕}-这是他的地址  -太好了\N{\r原文字幕}- Here's his address. - Awesome.
+Dialogue: 0,0:11:55.42,0:11:56.41,Default,,0,0,0,,{\r译文字幕}愿意的话  我可以送你过去\N{\r原文字幕}I can take you over if you want.
+Dialogue: 0,0:11:56.45,0:11:59.26,Default,,0,0,0,,{\r译文字幕}不  不用了  我自己就行\N{\r原文字幕}No, no. I'm all good.
+Dialogue: 0,0:11:59.29,0:12:01.35,Default,,0,0,0,,{\r译文字幕}非常感谢\N{\r原文字幕}Thank you so much.
+Dialogue: 0,0:12:04.40,0:12:06.27,Default,,0,0,0,,{\r译文字幕}蒂姆\N{\r原文字幕}Tim.
+Dialogue: 0,0:12:09.28,0:12:10.41,Default,,0,0,0,,{\r译文字幕}这项工作\N{\r原文字幕}This job...
+Dialogue: 0,0:12:10.41,0:12:12.48,Default,,0,0,0,,{\r译文字幕}需要付出很多\N{\r原文字幕}it demands a lot.
+Dialogue: 0,0:12:13.22,0:12:15.38,Default,,0,0,0,,{\r译文字幕}但是他没有一刻不挂念你的\N{\r原文字幕}But you are on his mind every day.
+Dialogue: 0,0:12:15.42,0:12:19.39,Default,,0,0,0,,{\r译文字幕}他爱你胜过世界上的一切\N{\r原文字幕}He loved you more than anything else in the world.
+Dialogue: 0,0:12:25.41,0:12:28.38,Default,,0,0,0,,{\r译文字幕}很高兴见到你  警督\N{\r原文字幕}It was nice to meet you, Lieutenant.
+Dialogue: 0,0:13:29.47,0:13:31.38,Default,,0,0,0,,{\r译文字幕}打扰一下\N{\r原文字幕}Excuse me?
+Dialogue: 0,0:13:33.28,0:13:34.44,Default,,0,0,0,,{\r译文字幕}好吧\N{\r原文字幕}Ok.
+Dialogue: 0,0:13:42.83,0:13:43.78,Default,,0,0,0,,{\r译文字幕}{\pos(130,145)\fr5}哈利·古德曼
+Dialogue: 0,0:13:52.55,0:13:55.42,Default,,0,0,0,,{\r译文字幕}你是想抢劫我还是只是想烦我\N{\r原文字幕}Are you trying to rob me or just annoy me?
+Dialogue: 0,0:13:55.46,0:13:57.39,Default,,0,0,0,,{\r译文字幕}他是我搭档\N{\r原文字幕}He's with me.
+Dialogue: 0,0:13:59.43,0:14:01.50,Default,,0,0,0,,{\r译文字幕}-我们需要谈谈  -是吗\N{\r原文字幕}- We need to talk. - We do?
+Dialogue: 0,0:14:01.54,0:14:04.48,Default,,0,0,0,,{\r译文字幕}我一直在等着看谁会打开那个信箱\N{\r原文字幕}I've been waiting to see who would open that mailbox.
+Dialogue: 0,0:14:04.48,0:14:07.51,Default,,0,0,0,,{\r译文字幕}你刚刚卷入了一个有趣的事件\N{\r原文字幕}You just walked into quite a story.
+Dialogue: 0,0:14:08.38,0:14:10.32,Default,,0,0,0,,{\r译文字幕}这样的事件会传播恐惧\N{\r原文字幕}Stories like this spread fear.
+Dialogue: 0,0:14:10.35,0:14:11.55,Default,,0,0,0,,{\r译文字幕}他们都害怕这些恐惧\N{\r原文字幕}And they are afraid of fear.
+Dialogue: 0,0:14:11.59,0:14:13.39,Default,,0,0,0,,{\r译文字幕}但是我不怕\N{\r原文字幕}But I don't fear fear.
+Dialogue: 0,0:14:13.39,0:14:14.58,Default,,0,0,0,,{\r译文字幕}我说到就一定会做到\N{\r原文字幕}I walk the walk and talk the talk
+Dialogue: 0,0:14:14.58,0:14:16.96,Default,,0,0,0,,{\r译文字幕}我愿意不惜一切代价拿到真实的独家新闻\N{\r原文字幕}and I'm willing to do whatever it takes to get the honest scoop
+Dialogue: 0,0:14:16.96,0:14:18.00,Default,,0,0,0,,{\r译文字幕}哪怕是血淋淋的真相\N{\r原文字幕}and that's the hard truth.
+Dialogue: 0,0:14:20.47,0:14:24.42,Default,,0,0,0,,{\r译文字幕}抱歉  你到底是谁\N{\r原文字幕}I'm sorry... Who are you?
+Dialogue: 0,0:14:24.45,0:14:25.61,Default,,0,0,0,,{\r译文字幕}露西·史蒂文斯\N{\r原文字幕}Lucy Stevens.
+Dialogue: 0,0:14:25.62,0:14:28.35,Default,,0,0,0,,{\r译文字幕}-CNM的记者  -哦\N{\r原文字幕}- Reporter for CNM. - Oh.
+Dialogue: 0,0:14:28.36,0:14:31.39,Default,,0,0,0,,{\r译文字幕}你这年龄看起来不太像\N{\r原文字幕}You seem kind of... young for that.
+Dialogue: 0,0:14:31.43,0:14:32.66,Default,,0,0,0,,{\r译文字幕}我的工作就是给CNM写博客\N{\r原文字幕}I work for the CNM blogs,
+Dialogue: 0,0:14:32.66,0:14:34.49,Default,,0,0,0,,{\r译文字幕}每天更新宝可梦精灵列表  好吗\N{\r原文字幕}making Pokémon listicles all day, okay?
+Dialogue: 0,0:14:34.50,0:14:36.50,Default,,0,0,0,,{\r译文字幕}-十大最可爱的宝可梦  -我奶奶喜看\N{\r原文字幕}- Top 10 cutest Pokémon. - Yeah, my grandmother loves those.
+Dialogue: 0,0:14:36.51,0:14:38.44,Default,,0,0,0,,{\r译文字幕}没错  新闻快讯  它们都超可爱\N{\r原文字幕}Yeah,news flash! They are all cute.
+Dialogue: 0,0:14:38.48,0:14:40.26,Default,,0,0,0,,{\r译文字幕}我发掘故事的本事\N{\r原文字幕}Such a waste of time for someone
+Dialogue: 0,0:14:40.26,0:14:41.58,Default,,0,0,0,,{\r译文字幕}全浪费到那种事情上了\N{\r原文字幕}with my nose for a story.
+Dialogue: 0,0:14:41.58,0:14:42.71,Default,,0,0,0,,{\r译文字幕}不不  现在不行可达鸭\N{\r原文字幕}Oh no, no, not now,Psyduck.
+Dialogue: 0,0:14:42.71,0:14:44.52,Default,,0,0,0,,{\r译文字幕}我得先工作  就一会儿\N{\r原文字幕}I'm working the sorts, just one more minute
+Dialogue: 0,0:14:44.56,0:14:47.39,Default,,0,0,0,,{\r译文字幕}好的我先\N{\r原文字幕}OK, I'm gonna...
+Dialogue: 0,0:14:47.46,0:14:49.69,Default,,0,0,0,,{\r译文字幕}我需要全程录音然后你告诉我\N{\r原文字幕}I'm gonna need you to go on record and tell me
+Dialogue: 0,0:14:49.69,0:14:51.63,Default,,0,0,0,,{\r译文字幕}所有有关哈利·古德曼的事\N{\r原文字幕}everything you know about Harry Goodman.
+Dialogue: 0,0:14:53.47,0:14:56.45,Default,,0,0,0,,{\r译文字幕}-等等  啥  -哈利摊上事了\N{\r原文字幕}- Wait,what? - Harry is onto something big.
+Dialogue: 0,0:14:56.45,0:14:57.51,Default,,0,0,0,,{\r译文字幕}非常棘手的\N{\r原文字幕}Real big.
+Dialogue: 0,0:14:57.52,0:14:58.63,Default,,0,0,0,,{\r译文字幕}然后当时突然\N{\r原文字幕}And then all of a sudden,
+Dialogue: 0,0:14:58.63,0:15:00.52,Default,,0,0,0,,{\r译文字幕}他的车就冲出了桥面\N{\r原文字幕}his car crashes over a bridge,
+Dialogue: 0,0:15:00.52,0:15:01.47,Default,,0,0,0,,{\r译文字幕}但我不认为事情有那么简单\N{\r原文字幕}I think not.
+Dialogue: 0,0:15:01.47,0:15:02.49,Default,,0,0,0,,{\r译文字幕}这里面肯定有秘密\N{\r原文字幕}Something is rotten,
+Dialogue: 0,0:15:02.49,0:15:03.78,Default,,0,0,0,,{\r译文字幕}我得把它找出来\N{\r原文字幕}and I'm gonna get to the bottom of it.
+Dialogue: 0,0:15:03.78,0:15:04.74,Default,,0,0,0,,{\r译文字幕}我对他不了解\N{\r原文字幕}Look, I barely know the guy,
+Dialogue: 0,0:15:04.74,0:15:05.92,Default,,0,0,0,,{\r译文字幕}我已经有很多年没有见过他了\N{\r原文字幕}I haven't seen him for years.
+Dialogue: 0,0:15:05.92,0:15:06.56,Default,,0,0,0,,{\r译文字幕}你的宝可梦精灵伙伴在哪\N{\r原文字幕}Where is your Pokémon partner?
+Dialogue: 0,0:15:06.60,0:15:09.40,Default,,0,0,0,,{\r译文字幕}我没有  为啥每个人都这么问我\N{\r原文字幕}I don't have one, why is everyone keep asking me that?
+Dialogue: 0,0:15:09.41,0:15:10.60,Default,,0,0,0,,{\r译文字幕}孤僻之人  可能在掩饰什么\N{\r原文字幕}A loner. Probably hiding something.
+Dialogue: 0,0:15:10.64,0:15:11.63,Default,,0,0,0,,{\r译文字幕}好吧  我得走了\N{\r原文字幕}Okay, I'm gonna go.
+Dialogue: 0,0:15:13.58,0:15:15.86,Default,,0,0,0,,{\r译文字幕}我或许只是一个没工资的实习生\N{\r原文字幕}I may only be an unpaid intern,
+Dialogue: 0,0:15:15.86,0:15:17.45,Default,,0,0,0,,{\r译文字幕}但我能嗅出故事\N{\r原文字幕}but I can smell a story.
+Dialogue: 0,0:15:17.45,0:15:19.43,Default,,0,0,0,,{\r译文字幕}然后挖掘出来\N{\r原文字幕}And I'm going to find it.
+Dialogue: 0,0:15:19.46,0:15:21.45,Default,,0,0,0,,{\r译文字幕}好的  那你加油\N{\r原文字幕}OK, you do that.
+Dialogue: 0,0:15:23.60,0:15:26.44,Default,,0,0,0,,{\r译文字幕}来吧可达鸭  我们走吧\N{\r原文字幕}Come on, Psyduck. Let's go.
+Dialogue: 0,0:15:43.51,0:15:44.53,Default,,0,0,0,,{\r译文字幕}是谁\N{\r原文字幕}Who is it?
+Dialogue: 0,0:15:44.58,0:15:45.55,Default,,0,0,0,,{\r译文字幕}你好\N{\r原文字幕}Hello?
+Dialogue: 0,0:15:45.55,0:15:46.67,Default,,0,0,0,,{\r译文字幕}是我  斯奈克\N{\r原文字幕}It's me, Snakes
+Dialogue: 0,0:15:46.71,0:15:49.41,Default,,0,0,0,,{\r译文字幕}我拿到东西了\N{\r原文字幕}I got the stuff.
+Dialogue: 0,0:15:46.71,0:15:49.41,Default,,0,0,0,,{\r译文字幕}{\an8\fs16}此处致敬电影《小鬼当家》2
+Dialogue: 0,0:15:49.62,0:15:52.49,Default,,0,0,0,,{\r译文字幕}把它放在门边上  然后从这滚出去\N{\r原文字幕}Leave it on the doorstep, now get the hell outta here.
+Dialogue: 0,0:15:52.53,0:15:55.32,Default,,0,0,0,,{\r译文字幕}好的约翰尼  但是我的钱呢\N{\r原文字幕}Alright, Johnny, but what about my money?
+Dialogue: 0,0:15:56.57,0:15:59.54,Default,,0,0,0,,{\r译文字幕}还放着些古老侦探片\N{\r原文字幕}Still with the old detective films.
+Dialogue: 0,0:16:15.50,0:16:19.57,Default,,0,0,0,,{\r译文字幕}{\pos(200,150)\fr8}在莱姆市中\N新出土的一批远古梦幻遗物
+Dialogue: 0,0:16:48.64,0:16:50.57,Default,,0,0,0,,{\r译文字幕}这他妈\N{\r原文字幕}What the...
+Dialogue: 0,0:16:51.71,0:16:53.51,Default,,0,0,0,,{\r译文字幕}是什么\N{\r原文字幕}What...
+Dialogue: 0,0:16:53.51,0:16:55.51,Default,,0,0,0,,{\r译文字幕}这什么鬼\N{\r原文字幕}is this stuff?
+Dialogue: 0,0:17:13.10,0:17:14.29,Default,,0,0,0,,{\r译文字幕}{\pos(200,160)\fr8}给蒂姆·古德曼
+Dialogue: 0,0:17:21.67,0:17:25.58,Default,,0,0,0,,{\r译文字幕}亲爱的蒂姆  若你愿意再给次机会的话\N{\r原文字幕}Dear Tim, I can do better if you give me a chance.
+Dialogue: 0,0:17:25.61,0:17:28.40,Default,,0,0,0,,{\r译文字幕}我会做得更好  家门会一直为你敞开\N{\r原文字幕}I will always have a place for you to stay.
+Dialogue: 0,0:17:31.56,0:17:33.69,Default,,0,0,0,,{\r译文字幕}你爸爸会来车站接你\N{\r原文字幕}Your father will pick you up at the station.
+Dialogue: 0,0:17:33.73,0:17:35.72,Default,,0,0,0,,{\r译文字幕}我不走了\N{\r原文字幕}I'm not going.
+Dialogue: 0,0:17:35.77,0:17:36.70,Default,,0,0,0,,{\r译文字幕}什么\N{\r原文字幕}What?
+Dialogue: 0,0:17:36.70,0:17:38.62,Default,,0,0,0,,{\r译文字幕}我不想走  这里是我的家\N{\r原文字幕}I don't want to go, this is home,
+Dialogue: 0,0:17:38.62,0:17:40.64,Default,,0,0,0,,{\r译文字幕}奶奶我要和你一起待在这里\N{\r原文字幕}I wanna stay here with you grandma.
+Dialogue: 0,0:18:02.72,0:18:04.75,Default,,0,0,0,,{\r译文字幕}天呐\N{\r原文字幕}Oh, man.
+Dialogue: 0,0:18:05.04,0:18:07.98,Default,,0,0,0,,{\r译文字幕}{\pos(200,40)}第二十四届宝可梦冠军
+Dialogue: 0,0:18:06.63,0:18:08.60,Default,,0,0,0,,{\r译文字幕}这是我生命中最重要的一天\N{\r原文字幕}This is the most important day of my life.
+Dialogue: 0,0:18:08.63,0:18:10.60,Default,,0,0,0,,{\r译文字幕}我知道  蒂姆\N{\r原文字幕}I know, Tim.
+Dialogue: 0,0:18:10.63,0:18:13.80,Default,,0,0,0,,{\r译文字幕}但你母亲要去看医生   不能再拖了\N{\r原文字幕}But your mother had to see the doctor. It couldn't wait.
+Dialogue: 0,0:18:40.73,0:18:42.63,Default,,0,0,0,,{\r译文字幕}谁在那\N{\r原文字幕}Someone there?
+Dialogue: 0,0:18:45.80,0:18:47.71,Default,,0,0,0,,{\r译文字幕}你好\N{\r原文字幕}Hello?
+Dialogue: 0,0:18:57.65,0:18:59.10,Default,,0,0,0,,{\r译文字幕}差点扭伤\N{\r原文字幕}Ah! That's a sprain.
+Dialogue: 0,0:19:04.91,0:19:07.71,Default,,0,0,0,,{\r译文字幕}好的  不慌  别怕\N{\r原文字幕}Okay, okay, okay
+Dialogue: 0,0:19:08.88,0:19:10.86,Default,,0,0,0,,{\r译文字幕}不论你是谁\N{\r原文字幕}Whoever you are...
+Dialogue: 0,0:19:11.82,0:19:13.82,Default,,0,0,0,,{\r译文字幕}我知道怎么用这个\N{\r原文字幕}I know how to use this.
+Dialogue: 0,0:19:21.74,0:19:23.65,Default,,0,0,0,,{\r译文字幕}皮卡丘\N{\r原文字幕}So Pikachu?
+Dialogue: 0,0:19:23.68,0:19:24.74,Default,,0,0,0,,{\r译文字幕}天了噜\N{\r原文字幕}Aw jesus.
+Dialogue: 0,0:19:24.78,0:19:28.40,Default,,0,0,0,,{\r译文字幕}你好呀小家伙  你是怎么  进来的\N{\r原文字幕}Hey,little guy. How did you... get in here?
+Dialogue: 0,0:19:28.40,0:19:31.82,Default,,0,0,0,,{\r译文字幕}我知道你听不懂我说的话\N{\r原文字幕}I know you can't understand me.
+Dialogue: 0,0:19:31.86,0:19:34.31,Default,,0,0,0,,{\r译文字幕}但是放下那台订书机\N{\r原文字幕}But put down the stapler,
+Dialogue: 0,0:19:34.31,0:19:39.78,Default,,0,0,0,,{\r译文字幕}不然人家就  电死  你\N{\r原文字幕}or I... will electrocute... You.
+Dialogue: 0,0:19:41.72,0:19:42.78,Default,,0,0,0,,{\r译文字幕}你说啥\N{\r原文字幕}Did you just talk?
+Dialogue: 0,0:19:42.82,0:19:44.91,Default,,0,0,0,,{\r译文字幕}哇哦  你能听懂我吗\N{\r原文字幕}Wow, did you just understand me?
+Dialogue: 0,0:19:44.92,0:19:46.72,Default,,0,0,0,,{\r译文字幕}等等  等等\N{\r原文字幕}Wait, wait, wait, wait, wait
+Dialogue: 0,0:19:46.73,0:19:48.93,Default,,0,0,0,,{\r译文字幕}你的眼神告诉我  你能听懂我说的话\N{\r原文字幕}That is heavy eye contact right there, you heard me.
+Dialogue: 0,0:19:48.93,0:19:49.86,Default,,0,0,0,,{\r译文字幕}-不不不  -是的  你听得到\N{\r原文字幕}- No, no, no - Yes, you did.
+Dialogue: 0,0:19:49.87,0:19:51.80,Default,,0,0,0,,{\r译文字幕}-我的天  这真是个奇迹  -别说了\N{\r原文字幕}- Oh my god, this is amazing! - Stop it, stop, stop!
+Dialogue: 0,0:19:51.84,0:19:53.25,Default,,0,0,0,,{\r译文字幕}你能听懂我\N{\r原文字幕}You can understand me.
+Dialogue: 0,0:19:53.25,0:19:54.93,Default,,0,0,0,,{\r译文字幕}-别说了  -我真的很孤单\N{\r原文字幕}- Stop! - I've been so lonely.
+Dialogue: 0,0:19:55.66,0:19:56.61,Default,,0,0,0,,{\r译文字幕}我一定是疯了\N{\r原文字幕}I'm gonna throw up.
+Dialogue: 0,0:19:56.61,0:19:57.92,Default,,0,0,0,,{\r译文字幕}不  孩子我需要你帮忙\N{\r原文字幕}No, kid, I need your help.
+Dialogue: 0,0:19:57.92,0:19:58.60,Default,,0,0,0,,{\r译文字幕}我想吐\N{\r原文字幕}I'm gonna throw up.
+Dialogue: 0,0:19:58.60,0:20:01.75,Default,,0,0,0,,{\r译文字幕}我遇上了大麻烦  我需要你听我说话\N{\r原文字幕}I'm in serious trouble, I need you to listen.
+Dialogue: 0,0:20:01.79,0:20:03.66,Default,,0,0,0,,{\r译文字幕}-不不不  -不好意思手尾猴\N{\r原文字幕}- No, no, no - Excuse me, Aipom.
+Dialogue: 0,0:20:03.69,0:20:04.86,Default,,0,0,0,,{\r译文字幕}我们在进行一场很私密的谈话\N{\r原文字幕}We're having a private conversation here.
+Dialogue: 0,0:20:04.86,0:20:06.91,Default,,0,0,0,,{\r译文字幕}别说了  你就是我的幻觉\N{\r原文字幕}Stop talking, you're hallucination.
+Dialogue: 0,0:20:06.91,0:20:07.74,Default,,0,0,0,,{\r译文字幕}你才是个幻觉\N{\r原文字幕}You are hallucination.
+Dialogue: 0,0:20:07.80,0:20:09.78,Default,,0,0,0,,{\r译文字幕}出去  咻  出去\N{\r原文字幕}You out! Shush, go!
+Dialogue: 0,0:20:10.50,0:20:12.12,Default,,0,0,0,,{\r译文字幕}看来我得小心点  长官\N{\r原文字幕}Now I'd tread lightly there, chief,
+Dialogue: 0,0:20:12.12,0:20:13.81,Default,,0,0,0,,{\r译文字幕}这只手尾猴看起来有点失智\N{\r原文字幕}that that Aipom don't look bright.
+Dialogue: 0,0:20:13.81,0:20:15.68,Default,,0,0,0,,{\r译文字幕}不\N{\r原文字幕}No!
+Dialogue: 0,0:20:15.98,0:20:18.72,Default,,0,0,0,,{\r译文字幕}放开他  快试着反击\N{\r原文字幕}Get off him, whack job!
+Dialogue: 0,0:20:18.92,0:20:21.86,Default,,0,0,0,,{\r译文字幕}快起来小伙子  他要攻回来了\N{\r原文字幕}Get up, kid. He's coming back to raven.
+Dialogue: 0,0:20:22.30,0:20:23.71,Default,,0,0,0,,{\r译文字幕}听着  我来教你\N{\r原文字幕}Okay, here's what you wanna do.
+Dialogue: 0,0:20:23.71,0:20:25.67,Default,,0,0,0,,{\r译文字幕}你得咬他  你得大叫\N{\r原文字幕}Okay, you wanna bite him, you wanna scream.
+Dialogue: 0,0:20:25.70,0:20:26.58,Default,,0,0,0,,{\r译文字幕}我们来玩你划我猜\N{\r原文字幕}We'are play charades,
+Dialogue: 0,0:20:26.58,0:20:27.57,Default,,0,0,0,,{\r译文字幕}还是别玩了\N{\r原文字幕}We are not playing charades!
+Dialogue: 0,0:20:27.70,0:20:28.83,Default,,0,0,0,,{\r译文字幕}-好的我找到了一把刀  -别扔刀\N{\r原文字幕}- OK, I'm gonna get a knife - Not the knife!
+Dialogue: 0,0:20:29.71,0:20:31.40,Default,,0,0,0,,{\r译文字幕}好的  刀不是个好点子\N{\r原文字幕}OK, bad idea with the knife.
+Dialogue: 0,0:20:32.42,0:20:32.42,Default,,0,0,0,,{\r译文字幕}我再找个其他的\N{\r原文字幕}I'll find something else.
+Dialogue: 0,0:20:32.42,0:20:33.78,Default,,0,0,0,,{\r译文字幕}吃这个\N{\r原文字幕}Eat this!
+Dialogue: 0,0:20:33.85,0:20:35.79,Default,,0,0,0,,{\r译文字幕}不用谢\N{\r原文字幕}You're so welcome.
+Dialogue: 0,0:20:35.79,0:20:36.88,Default,,0,0,0,,{\r译文字幕}他只是个饿坏了的小家伙\N{\r原文字幕}He is just a hungry little guy.
+Dialogue: 0,0:20:37.31,0:20:38.92,Default,,0,0,0,,{\r译文字幕}妈鸭\N{\r原文字幕}Oh my god!
+Dialogue: 0,0:20:40.48,0:20:42.49,Default,,0,0,0,,{\r译文字幕}快来小伙子  我们跑\N{\r原文字幕}Come on kid, let's move.
+Dialogue: 0,0:20:46.41,0:20:47.00,Default,,0,0,0,,{\r译文字幕}去屋顶\N{\r原文字幕}To the roof!
+Dialogue: 0,0:20:57.80,0:20:59.28,Default,,0,0,0,,{\r译文字幕}好主意\N{\r原文字幕}Brilliant idea.
+Dialogue: 0,0:20:59.28,0:21:01.63,Default,,0,0,0,,{\r译文字幕}你把住门  我去找人帮忙\N{\r原文字幕}You hold the door, I'll go get help!
+Dialogue: 0,0:21:01.63,0:21:02.95,Default,,0,0,0,,{\r译文字幕}-啥  -救命啊  救命\N{\r原文字幕}- What? - Help! Help!
+Dialogue: 0,0:21:02.98,0:21:05.75,Default,,0,0,0,,{\r译文字幕}我的天  救命\N{\r原文字幕}Oh my god, help!
+Dialogue: 0,0:21:09.86,0:21:11.80,Default,,0,0,0,,{\r译文字幕}卧槽\N{\r原文字幕}Oh Shit!
+Dialogue: 0,0:21:11.90,0:21:13.73,Default,,0,0,0,,{\r译文字幕}救命  救命\N{\r原文字幕}Help! Help!
+Dialogue: 0,0:21:13.73,0:21:16.83,Default,,0,0,0,,{\r译文字幕}我的娘啊  救命  他要被生吞了\N{\r原文字幕}Oh my god, help! Oh he's getting eaten alive.
+Dialogue: 0,0:21:16.87,0:21:22.01,Default,,0,0,0,,{\r译文字幕}他要被生吞了  他要死啦\N{\r原文字幕}He's being eaten alive! I mean he's dying!
+Dialogue: 0,0:21:30.90,0:21:33.84,Default,,0,0,0,,{\r译文字幕}根本没人来  真是世态炎凉\N{\r原文字幕}No one is coming, people are so insensitive.
+Dialogue: 0,0:21:33.84,0:21:36.87,Default,,0,0,0,,{\r译文字幕}穿上裤子  以最快的速度跑\N{\r原文字幕}Put your pants back on and run like the wind!
+Dialogue: 0,0:21:38.02,0:21:41.05,Default,,0,0,0,,{\r译文字幕}快点  再快点\N{\r原文字幕}Blazing speed! Blazing speed!
+Dialogue: 0,0:21:42.96,0:21:46.80,Default,,0,0,0,,{\r译文字幕}老兄  他们被你逐渐裸露的身躯所吸引\N{\r原文字幕}Dude, they seem to be attracting to your increasing nudeness!
+Dialogue: 0,0:21:46.83,0:21:47.40,Default,,0,0,0,,{\r译文字幕}好的\N{\r原文字幕}OK.
+Dialogue: 0,0:21:48.84,0:21:50.34,Default,,0,0,0,,{\r译文字幕}好了  我们从这儿跳下去\N{\r原文字幕}Alright, we're jumping down here.
+Dialogue: 0,0:21:50.34,0:21:52.28,Default,,0,0,0,,{\r译文字幕}不不  我可不想进垃圾专用管道\N{\r原文字幕}No, No, I'm not going to trash chute!
+Dialogue: 0,0:21:52.28,0:21:53.51,Default,,0,0,0,,{\r译文字幕}说得好  让我看看\N{\r原文字幕}Good call, let me know
+Dialogue: 0,0:21:53.51,0:21:55.85,Default,,0,0,0,,{\r译文字幕}再加上一个超级疯狂的宝可梦精灵会怎样\N{\r原文字幕}how it goes with the super crazy Pokémon.
+Dialogue: 0,0:21:55.85,0:21:57.91,Default,,0,0,0,,{\r译文字幕}你死得很光荣\N{\r原文字幕}You died a hero!
+Dialogue: 0,0:22:05.48,0:22:07.00,Default,,0,0,0,,{\r译文字幕}笔直落地啊小伙子\N{\r原文字幕}Way to stick the landing, kid.
+Dialogue: 0,0:22:07.00,0:22:07.92,Default,,0,0,0,,{\r译文字幕}离我远点\N{\r原文字幕}Leave me alone!
+Dialogue: 0,0:22:09.81,0:22:12.94,Default,,0,0,0,,{\r译文字幕}看来某些人心情又变好了\N{\r原文字幕}Oh, looks like someone is back in the good mood.
+Dialogue: 0,0:22:12.99,0:22:15.96,Default,,0,0,0,,{\r译文字幕}快跑  可怕的手尾猴来了\N{\r原文字幕}Run! Rapid Aipom!
+Dialogue: 0,0:22:15.96,0:22:17.93,Default,,0,0,0,,{\r译文字幕}当心  快跑\N{\r原文字幕}Look out! Run!
+Dialogue: 0,0:22:17.96,0:22:19.02,Default,,0,0,0,,{\r译文字幕}跑  跑  跑  跑\N{\r原文字幕}Go, go, go, go!
+Dialogue: 0,0:22:19.06,0:22:21.80,Default,,0,0,0,,{\r译文字幕}快跑鸭  先生\N{\r原文字幕}Go, go, go, sir! The...
+Dialogue: 0,0:22:23.40,0:22:26.84,Default,,0,0,0,,{\r译文字幕}我觉得穿上裤子会好一点\N{\r原文字幕}I think pants are gonna do you a lot of good right now.
+Dialogue: 0,0:22:29.12,0:22:30.82,Default,,0,0,0,,{\r译文字幕}嘘  快走\N{\r原文字幕}Shush! Go!
+Dialogue: 0,0:22:30.82,0:22:32.97,Default,,0,0,0,,{\r译文字幕}我以为你的穿的是蓝色的内裤\N{\r原文字幕}You know, I pictured yours ass a bit of a brief sky,
+Dialogue: 0,0:22:32.98,0:22:33.89,Default,,0,0,0,,{\r译文字幕}其实看起来还不错\N{\r原文字幕}but those are nice.
+Dialogue: 0,0:22:33.93,0:22:35.83,Default,,0,0,0,,{\r译文字幕}我的话  我不穿内裤的\N{\r原文字幕}Me? I... I don't wear underwear.
+Dialogue: 0,0:22:35.86,0:22:36.99,Default,,0,0,0,,{\r译文字幕}你知道我不会害羞\N{\r原文字幕}You know,I'm not modest.
+Dialogue: 0,0:22:37.03,0:22:38.90,Default,,0,0,0,,{\r译文字幕}打扰一下  你好  请问下\N{\r原文字幕}Excuse me, excuse me. Hi, sorry.
+Dialogue: 0,0:22:38.90,0:22:41.93,Default,,0,0,0,,{\r译文字幕}你能听到他说话吗  能听到吗\N{\r原文字幕}You can hear him, right? You can hear him talking?
+Dialogue: 0,0:22:42.41,0:22:45.20,Default,,0,0,0,,{\r译文字幕}能啊  皮卡皮卡皮卡\N{\r原文字幕}Oh, yeah.'Pika-Pika-Pika'.
+Dialogue: 0,0:22:45.22,0:22:47.10,Default,,0,0,0,,{\r译文字幕}-他真可爱  -你才真可爱\N{\r原文字幕}- He's adorable. - You're adorable.
+Dialogue: 0,0:22:47.10,0:22:48.01,Default,,0,0,0,,{\r译文字幕}小子  他们听不懂\N{\r原文字幕}They can't understand me, kid.
+Dialogue: 0,0:22:48.06,0:22:51.93,Default,,0,0,0,,{\r译文字幕}是我的原因  我吸了点不对劲的东西\N{\r原文字幕}It's me, It's... It's that stuff I put up my nose.
+Dialogue: 0,0:22:51.93,0:22:54.93,Default,,0,0,0,,{\r译文字幕}不是你想的那个  煤气  我闻了煤气\N{\r原文字幕}No, not like that. No, it was a gas, I was breathing gas.
+Dialogue: 0,0:22:54.94,0:22:56.60,Default,,0,0,0,,{\r译文字幕}是意外情况  我不是有意的\N{\r原文字幕}Accidentally, accidentally, I was accidentally...
+Dialogue: 0,0:22:56.60,0:22:58.00,Default,,0,0,0,,{\r译文字幕}意外地闻了煤气\N{\r原文字幕}Accidentally on the gas.
+Dialogue: 0,0:22:58.04,0:22:59.41,Default,,0,0,0,,{\r译文字幕}如果你不想因为违法犯忌\N{\r原文字幕}Unless you want charming law to give
+Dialogue: 0,0:22:59.41,0:23:00.95,Default,,0,0,0,,{\r译文字幕}而去监狱旅躺游  那就快走\N{\r原文字幕}you a one-way ticket to hoosegow, let's move.
+Dialogue: 0,0:23:01.29,0:23:02.01,Default,,0,0,0,,{\r译文字幕}就没人能听见他说话吗\N{\r原文字幕}No one else can hear him?
+Dialogue: 0,0:23:02.02,0:23:04.01,Default,,0,0,0,,{\r译文字幕}-我也是第一次遇到这种  -他在说话\N{\r原文字幕}- This is a first for me too, kid. - He's saying words.
+Dialogue: 0,0:23:04.05,0:23:05.41,Default,,0,0,0,,{\r译文字幕}一般你想和人类说话\N{\r原文字幕}You try to talked to people all the time,
+Dialogue: 0,0:23:05.42,0:23:06.53,Default,,0,0,0,,{\r译文字幕}而他们只听见皮卡皮卡\N{\r原文字幕}all they hear is 'Pika Pika'.
+Dialogue: 0,0:23:06.53,0:23:07.89,Default,,0,0,0,,{\r译文字幕}-拍拍我或者亲亲我  -你能\N{\r原文字幕}- Pat me,or kiss me, - Can you...?
+Dialogue: 0,0:23:07.89,0:23:08.84,Default,,0,0,0,,{\r译文字幕}-还会用手指来戳我  -没有人吗\N{\r原文字幕}- they stick a finger in me. - Anyone?
+Dialogue: 0,0:23:08.84,0:23:09.83,Default,,0,0,0,,{\r译文字幕}真过分\N{\r原文字幕}It's really gross.
+Dialogue: 0,0:23:09.83,0:23:10.90,Default,,0,0,0,,{\r译文字幕}没人能够听见他吗\N{\r原文字幕}Can no one else hear him?
+Dialogue: 0,0:23:10.93,0:23:11.99,Default,,0,0,0,,{\r译文字幕}你能听见他在说话吗\N{\r原文字幕}Can you hear him, talking?
+Dialogue: 0,0:23:12.00,0:23:12.97,Default,,0,0,0,,{\r译文字幕}你能听见他在说话吗\N{\r原文字幕}Can you hear him saying words?
+Dialogue: 0,0:23:12.97,0:23:14.97,Default,,0,0,0,,{\r译文字幕}你在这又能得到什么答案呢  小伙子\N{\r原文字幕}What are you not getting here, kid?
+Dialogue: 0,0:23:15.01,0:23:16.88,Default,,0,0,0,,{\r译文字幕}你是唯一一个能听见我说话的人\N{\r原文字幕}You are the only one who could hear me.
+Dialogue: 0,0:23:16.91,0:23:18.70,Default,,0,0,0,,{\r译文字幕}-就像是命中注定  -才不是命中注定\N{\r原文字幕}- It's like destiny. - It's not destiny.
+Dialogue: 0,0:23:18.71,0:23:19.92,Default,,0,0,0,,{\r译文字幕}那你为啥在那间公寓里呢\N{\r原文字幕}Then why were you in that apartment?
+Dialogue: 0,0:23:19.92,0:23:21.42,Default,,0,0,0,,{\r译文字幕}那是我爸爸的房子\N{\r原文字幕}It's my father's place.
+Dialogue: 0,0:23:21.42,0:23:22.89,Default,,0,0,0,,{\r译文字幕}所以我在那\N{\r原文字幕}That's why I was there.
+Dialogue: 0,0:23:22.93,0:23:24.05,Default,,0,0,0,,{\r译文字幕}你又是为什么在那呢\N{\r原文字幕}Why were you there?
+Dialogue: 0,0:23:24.50,0:23:26.03,Default,,0,0,0,,{\r译文字幕}你是哈利的儿子吗\N{\r原文字幕}You are Harry's son?
+Dialogue: 0,0:23:28.97,0:23:30.36,Default,,0,0,0,,{\r译文字幕}你怎么会知道他的名字\N{\r原文字幕}How do you know his name?
+Dialogue: 0,0:23:33.76,0:23:36.20,Default,,0,0,0,,{\r译文字幕}{\pos(205,155)\fr-25}若走失请送还给\N哈利·古德曼
+Dialogue: 0,0:23:38.92,0:23:41.05,Default,,0,0,0,,{\r译文字幕}你是哈利的宝可梦精灵搭档吗\N{\r原文字幕}You're Harry's Pokémon partner?
+Dialogue: 0,0:23:42.06,0:23:44.06,Default,,0,0,0,,{\r译文字幕}要喝杯咖啡吗\N{\r原文字幕}You want a coffee?
+Dialogue: 0,0:23:45.50,0:23:47.13,Default,,0,0,0,,{\r译文字幕}若我能喝一杯的话  那真是\N{\r原文字幕}Cuz I could use a coffee, I mean, that's...
+Dialogue: 0,0:23:47.14,0:23:49.08,Default,,0,0,0,,{\r译文字幕}好的  那就去喝一杯吧\N{\r原文字幕}Yeah, let's get a coffee.
+Dialogue: 0,0:23:49.50,0:23:51.22,Default,,0,0,0,,{\r译文字幕}来  走吧\N{\r原文字幕}Yeah, come on.
+Dialogue: 0,0:24:00.35,0:24:04.00,Default,,0,0,0,,{\r译文字幕}{\move(20,240,60,90)\fr4\fs30}高帽子咖啡
+Dialogue: 0,0:24:04.07,0:24:05.17,Default,,0,0,0,,{\r译文字幕}所以我才会在那\N{\r原文字幕}So there I was.
+Dialogue: 0,0:24:05.18,0:24:08.95,Default,,0,0,0,,{\r译文字幕}在不知名的地方失忆是最坏的事\N{\r原文字幕}In the middle of nowhere with bad case of the forgetness.
+Dialogue: 0,0:24:08.98,0:24:11.24,Default,,0,0,0,,{\r译文字幕}这帽子里哈利的名字和地址\N{\r原文字幕}The only clue to my past is the Harry's name
+Dialogue: 0,0:24:11.24,0:24:12.92,Default,,0,0,0,,{\r译文字幕}成了唯一能追溯到我过去的线索\N{\r原文字幕}and the address inside this hat.
+Dialogue: 0,0:24:12.96,0:24:16.99,Default,,0,0,0,,{\r译文字幕}所以我回到了公寓  我在那儿遇见了你\N{\r原文字幕}So, I made my way to the apartment, and that's where I found you.
+Dialogue: 0,0:24:16.00,0:24:18.90,Default,,0,0,0,,{\r译文字幕}{\pos(220,80)\fs30}浓缩咖啡
+Dialogue: 0,0:24:18.94,0:24:20.91,Default,,0,0,0,,{\r译文字幕}我不知道  可能哈利也深陷其中\N{\r原文字幕}I don't know, maybe Harry got in too deep.
+Dialogue: 0,0:24:20.94,0:24:22.04,Default,,0,0,0,,{\r译文字幕}-深陷什么  -你知道\N{\r原文字幕}- Deep in what? - You know...
+Dialogue: 0,0:24:22.04,0:24:24.07,Default,,0,0,0,,{\r译文字幕}一堆坏事缠身  很麻烦的那种事\N{\r原文字幕}Mixed up with the wrong crowd, that kind of thing.
+Dialogue: 0,0:24:24.40,0:24:25.98,Default,,0,0,0,,{\r译文字幕}发生在最好的我们身上\N{\r原文字幕}Happens to the best of us.
+Dialogue: 0,0:24:25.98,0:24:28.11,Default,,0,0,0,,{\r译文字幕}死物堆积  围墙逼近\N{\r原文字幕}The deads pile up, the walls close in.
+Dialogue: 0,0:24:28.12,0:24:29.55,Default,,0,0,0,,{\r译文字幕}对的变成错的\N{\r原文字幕}Right becomes wrong.
+Dialogue: 0,0:24:29.55,0:24:30.99,Default,,0,0,0,,{\r译文字幕}错的变成对的\N{\r原文字幕}Wrong becomes wrong.
+Dialogue: 0,0:24:31.03,0:24:32.19,Default,,0,0,0,,{\r译文字幕}-等等你在和谁打电话呢  -没谁\N{\r原文字幕}- Wait, who are you calling? - No one.
+Dialogue: 0,0:24:32.90,0:24:34.13,Default,,0,0,0,,{\r译文字幕}是的是的  那听起来不错\N{\r原文字幕}Yeah yeah, no, that sounds great,that sounds great.
+Dialogue: 0,0:24:34.13,0:24:35.16,Default,,0,0,0,,{\r译文字幕}好多事要告诉你\N{\r原文字幕}There's many of those really you know...
+Dialogue: 0,0:24:35.17,0:24:38.01,Default,,0,0,0,,{\r译文字幕}等等  我很好奇  你在听谁说话\N{\r原文字幕}Wait, I'm confused, Are you hearing other voices besides mine?
+Dialogue: 0,0:24:38.04,0:24:40.14,Default,,0,0,0,,{\r译文字幕}我只想知道为啥我能听懂你\N{\r原文字幕}All I wanna know is why I can understand you.
+Dialogue: 0,0:24:40.15,0:24:41.67,Default,,0,0,0,,{\r译文字幕}这我可答不上来  小伙子\N{\r原文字幕}Can't help you there, kid.
+Dialogue: 0,0:24:41.84,0:24:44.61,Default,,0,0,0,,{\r译文字幕}就像我有健忘症  总该死的记不住事\N{\r原文字幕}Like I said I have amnesia. Can't remember a darn thing.
+Dialogue: 0,0:24:44.61,0:24:46.68,Default,,0,0,0,,{\r译文字幕}好吧所以你现在是在和一只\N{\r原文字幕}Okay, so you are talking Pikachu with
+Dialogue: 0,0:24:46.69,0:24:48.93,Default,,0,0,0,,{\r译文字幕}失忆了并对咖啡上瘾的皮卡丘对话\N{\r原文字幕}no memories who's addicted to caffeine.
+Dialogue: 0,0:24:48.96,0:24:50.61,Default,,0,0,0,,{\r译文字幕}我能戒掉咖啡  只要我想\N{\r原文字幕}I can stop whenever I want.
+Dialogue: 0,0:24:50.61,0:24:52.07,Default,,0,0,0,,{\r译文字幕}这些都只是自愿的\N{\r原文字幕}These are just choices.
+Dialogue: 0,0:24:52.07,0:24:53.45,Default,,0,0,0,,{\r译文字幕}再来一杯  双份的\N{\r原文字幕}Another round, extra shot.
+Dialogue: 0,0:24:53.45,0:24:54.84,Default,,0,0,0,,{\r译文字幕}浓得像黑夜一样  谢谢你宝贝\N{\r原文字幕}Black as night, thank you sweetie.
+Dialogue: 0,0:24:55.66,0:24:56.87,Default,,0,0,0,,{\r译文字幕}你看  虽然我是个大侦探\N{\r原文字幕}Look, I'm a great detective.
+Dialogue: 0,0:24:56.87,0:24:59.43,Default,,0,0,0,,{\r译文字幕}但是我没有记忆就解不开身世之谜\N{\r原文字幕}But I can't solve my own mystery if I have no memory.
+Dialogue: 0,0:24:59.43,0:25:00.98,Default,,0,0,0,,{\r译文字幕}那你又是怎么知道自己是个侦探的呢\N{\r原文字幕}Then how do you even know you're a detective?
+Dialogue: 0,0:25:01.02,0:25:03.15,Default,,0,0,0,,{\r译文字幕}那个啊  我打肚脐眼里能感觉到\N{\r原文字幕}Oh that, I can, I can feel that in my jellys.
+Dialogue: 0,0:25:03.16,0:25:04.71,Default,,0,0,0,,{\r译文字幕}什么  你说在哪感觉到的\N{\r原文字幕}What is that? What is that?
+Dialogue: 0,0:25:04.71,0:25:08.00,Default,,0,0,0,,{\r译文字幕}打肚脐眼里啊  就那个  你能感觉到的\N{\r原文字幕}It's the jellys! It's a thing, you know, you feel it,
+Dialogue: 0,0:25:08.04,0:25:09.53,Default,,0,0,0,,{\r译文字幕}就是当其他所有人都否定你的时候\N{\r原文字幕}when you really believe in something
+Dialogue: 0,0:25:09.53,0:25:11.17,Default,,0,0,0,,{\r译文字幕}你心里依然深信不疑的那个地方\N{\r原文字幕}despite everyone telling you you're wrong,
+Dialogue: 0,0:25:11.17,0:25:13.20,Default,,0,0,0,,{\r译文字幕}所以我得找到哈利\N{\r原文字幕}which is why I need to find Harry.
+Dialogue: 0,0:25:13.21,0:25:15.01,Default,,0,0,0,,{\r译文字幕}他是解开我身世的关键\N{\r原文字幕}He's the key to my past.
+Dialogue: 0,0:25:16.26,0:25:16.99,Default,,0,0,0,,{\r译文字幕}谢了  医生\N{\r原文字幕}Thanks, Doc.
+Dialogue: 0,0:25:17.02,0:25:19.22,Default,,0,0,0,,{\r译文字幕}那我顺便告诉你个坏消息\N{\r原文字幕}I got some bad news for you cuz...
+Dialogue: 0,0:25:19.26,0:25:21.16,Default,,0,0,0,,{\r译文字幕}哈利已经死了\N{\r原文字幕}Harry's dead.
+Dialogue: 0,0:25:22.23,0:25:23.20,Default,,0,0,0,,{\r译文字幕}什么\N{\r原文字幕}What?
+Dialogue: 0,0:25:23.23,0:25:25.03,Default,,0,0,0,,{\r译文字幕}不\N{\r原文字幕}No.
+Dialogue: 0,0:25:25.04,0:25:26.06,Default,,0,0,0,,{\r译文字幕}不不不\N{\r原文字幕}No, no, no, no, no, no, no...
+Dialogue: 0,0:25:26.10,0:25:27.07,Default,,0,0,0,,{\r译文字幕}不  哈利没死\N{\r原文字幕}No, Harry ain't dead.
+Dialogue: 0,0:25:27.07,0:25:28.13,Default,,0,0,0,,{\r译文字幕}不  哈利死了\N{\r原文字幕}No, Harry is dead
+Dialogue: 0,0:25:28.18,0:25:29.98,Default,,0,0,0,,{\r译文字幕}抱歉  你错了\N{\r原文字幕}You're wrong, sorry.
+Dialogue: 0,0:25:30.01,0:25:31.12,Default,,0,0,0,,{\r译文字幕}我在警方那里看到了他的死亡报告\N{\r原文字幕}I saw in the police report that he's dead
+Dialogue: 0,0:25:31.12,0:25:32.14,Default,,0,0,0,,{\r译文字幕}就凭那些条子说他死了吗\N{\r原文字幕}Just cuz the cop says he's dead?
+Dialogue: 0,0:25:32.15,0:25:34.34,Default,,0,0,0,,{\r译文字幕}-法律意义上他已经死了  -真的吗\N{\r原文字幕}- I mean he's legally dead. - Really?
+Dialogue: 0,0:25:34.60,0:25:36.32,Default,,0,0,0,,{\r译文字幕}他们找到尸体了吗\N{\r原文字幕}Did they find a body?
+Dialogue: 0,0:25:37.60,0:25:39.06,Default,,0,0,0,,{\r译文字幕}噢  没找到是吧\N{\r原文字幕}Oh I didn't think so.
+Dialogue: 0,0:25:39.10,0:25:42.07,Default,,0,0,0,,{\r译文字幕}而且  那份报告还说我也死了对吧\N{\r原文字幕}And by the way, did that report also said it that I'm dead?
+Dialogue: 0,0:25:42.07,0:25:43.41,Default,,0,0,0,,{\r译文字幕}因为我还在这活蹦乱跳\N{\r原文字幕}Cuz if I'm still alive and kicking,
+Dialogue: 0,0:25:43.42,0:25:44.74,Default,,0,0,0,,{\r译文字幕}所以哈利也还活着\N{\r原文字幕}that means Harry is out there too.
+Dialogue: 0,0:25:44.74,0:25:46.12,Default,,0,0,0,,{\r译文字幕}结案\N{\r原文字幕}Case closed.
+Dialogue: 0,0:25:46.12,0:25:47.08,Default,,0,0,0,,{\r译文字幕}但在我解开它之前\N{\r原文字幕}But still open,
+Dialogue: 0,0:25:47.11,0:25:48.13,Default,,0,0,0,,{\r译文字幕}还是悬而未决\N{\r原文字幕}until I solve it.
+Dialogue: 0,0:25:48.13,0:25:50.05,Default,,0,0,0,,{\r译文字幕}好吧  我姑且听听你的推论\N{\r原文字幕}OK, I'll bite it somewhere.
+Dialogue: 0,0:25:50.09,0:25:51.18,Default,,0,0,0,,{\r译文字幕}我真是高兴你能听我断案\N{\r原文字幕}Oh, I'm glad you're gonna bite.
+Dialogue: 0,0:25:51.19,0:25:53.22,Default,,0,0,0,,{\r译文字幕}好的  听好了\N{\r原文字幕}All right, here it is.
+Dialogue: 0,0:25:53.23,0:25:55.86,Default,,0,0,0,,{\r译文字幕}要么哈利伪造了自己的死亡\N{\r原文字幕}Harry faked his own death,
+Dialogue: 0,0:25:55.86,0:25:58.89,Default,,0,0,0,,{\r译文字幕}要么某人伪造了哈利的死亡\N{\r原文字幕}or somebody else faked Harry's death,
+Dialogue: 0,0:25:58.89,0:26:02.30,Default,,0,0,0,,{\r译文字幕}要么哈利伪造了某人的死亡\N{\r原文字幕}or Harry faked somebody else's death.
+Dialogue: 0,0:26:02.88,0:26:04.89,Default,,0,0,0,,{\r译文字幕}最后那条完全说不通啊\N{\r原文字幕}That last one doesn't work at all!
+Dialogue: 0,0:26:04.89,0:26:05.95,Default,,0,0,0,,{\r译文字幕}是  是说不通\N{\r原文字幕}No, no, it doesn't
+Dialogue: 0,0:26:05.95,0:26:07.12,Default,,0,0,0,,{\r译文字幕}前面那两条  可能性倒挺大的\N{\r原文字幕}The first two, those are real contenders.
+Dialogue: 0,0:26:07.12,0:26:08.46,Default,,0,0,0,,{\r译文字幕}算了  我得走了\N{\r原文字幕}No, uh, I'm gonna go.
+Dialogue: 0,0:26:08.46,0:26:09.47,Default,,0,0,0,,{\r译文字幕}这事已经结束了  这只是在\N{\r原文字幕}We are done here.I mean this is...
+Dialogue: 0,0:26:09.47,0:26:10.21,Default,,0,0,0,,{\r译文字幕}不  事情还没有结束\N{\r原文字幕}No, we are not done here.
+Dialogue: 0,0:26:10.21,0:26:12.40,Default,,0,0,0,,{\r译文字幕}等等  等一下  你去哪儿\N{\r原文字幕}Wait, wait, wait a minute, where are you going?
+Dialogue: 0,0:26:12.50,0:26:14.00,Default,,0,0,0,,{\r译文字幕}等一下  我们彼此都需要对方\N{\r原文字幕}Hold up a sec, we're gonna need each other.
+Dialogue: 0,0:26:14.07,0:26:15.20,Default,,0,0,0,,{\r译文字幕}不  我们不需要\N{\r原文字幕}No, we don't.
+Dialogue: 0,0:26:15.20,0:26:16.81,Default,,0,0,0,,{\r译文字幕}我不需要一只宝可梦精灵\N{\r原文字幕}I don't need a Pokémon.
+Dialogue: 0,0:26:16.81,0:26:17.87,Default,,0,0,0,,{\r译文字幕}句号  懂了吗\N{\r原文字幕}Period. Got it?
+Dialogue: 0,0:26:17.87,0:26:19.20,Default,,0,0,0,,{\r译文字幕}那你需要一个世界级的侦探吗\N{\r原文字幕}Then what about a world-class detective?
+Dialogue: 0,0:26:19.21,0:26:21.07,Default,,0,0,0,,{\r译文字幕}因为如果你想找到你爸爸\N{\r原文字幕}Because if you want to find your pops,
+Dialogue: 0,0:26:21.07,0:26:22.15,Default,,0,0,0,,{\r译文字幕}我是你的最佳选择\N{\r原文字幕}I am your best bet.
+Dialogue: 0,0:26:22.15,0:26:24.50,Default,,0,0,0,,{\r译文字幕}一个世界级侦探应该早就能推断出来\N{\r原文字幕}I think a world class detective ought to have figured out
+Dialogue: 0,0:26:24.50,0:26:26.84,Default,,0,0,0,,{\r译文字幕}我不是来这找我爸爸的\N{\r原文字幕}by now that I'm not here to find my father.
+Dialogue: 0,0:26:26.84,0:26:28.89,Default,,0,0,0,,{\r译文字幕}我是来这跟他告别的\N{\r原文字幕}I'm here to say goodbye.
+Dialogue: 0,0:26:28.89,0:26:31.20,Default,,0,0,0,,{\r译文字幕}嘿  这儿没有你要告别的人\N{\r原文字幕}Hey, hey, there's no one to say goodbye to.
+Dialogue: 0,0:26:31.23,0:26:33.06,Default,,0,0,0,,{\r译文字幕}你看  你可以跟人类交流\N{\r原文字幕}Look, you can talk to humans,
+Dialogue: 0,0:26:33.06,0:26:34.46,Default,,0,0,0,,{\r译文字幕}我可以跟宝可梦精灵交流\N{\r原文字幕}I can talk to Pokémon,
+Dialogue: 0,0:26:34.46,0:26:36.11,Default,,0,0,0,,{\r译文字幕}我们可以互相交流\N{\r原文字幕}We can talk to each other.
+Dialogue: 0,0:26:36.11,0:26:37.83,Default,,0,0,0,,{\r译文字幕}这种事千载难逢啊  小子\N{\r原文字幕}This doesn't happen, kid.
+Dialogue: 0,0:26:37.83,0:26:39.08,Default,,0,0,0,,{\r译文字幕}这肯定意味着什么\N{\r原文字幕}It has to mean something!
+Dialogue: 0,0:26:39.12,0:26:41.21,Default,,0,0,0,,{\r译文字幕}-你难道就不能  -一股魔力使我们相遇\N{\r原文字幕}- Can you just...? - There's magic that brought us together,
+Dialogue: 0,0:26:41.22,0:26:45.19,Default,,0,0,0,,{\r译文字幕}那股魔力就叫作希望\N{\r原文字幕}And that magic is called hope.
+Dialogue: 0,0:26:46.13,0:26:49.50,Default,,0,0,0,,{\r译文字幕}希望着哈利还活着\N{\r原文字幕}Hope that Harry is still alive.
+Dialogue: 0,0:26:54.00,0:26:55.52,Default,,0,0,0,,{\r译文字幕}你感觉到了吧\N{\r原文字幕}Oh, you feel it,
+Dialogue: 0,0:26:55.52,0:26:57.32,Default,,0,0,0,,{\r译文字幕}你打肚脐眼里感觉到了  是吧\N{\r原文字幕}you feel it in your jellys, don't you?
+Dialogue: 0,0:26:57.35,0:26:59.15,Default,,0,0,0,,{\r译文字幕}我肚脐眼里什么都没有\N{\r原文字幕}There's nothing in my jellys.
+Dialogue: 0,0:26:59.16,0:27:02.19,Default,,0,0,0,,{\r译文字幕}你和我  我们来一起办案\N{\r原文字幕}We'll gonna do this. You and me.
+Dialogue: 0,0:27:04.96,0:27:06.36,Default,,0,0,0,,{\r译文字幕}我真是服了\N{\r原文字幕}I can't believe...
+Dialogue: 0,0:27:07.27,0:27:09.24,Default,,0,0,0,,{\r译文字幕}那我们约好明天早上在这见面\N{\r原文字幕}I will meet you here tomorrow morning
+Dialogue: 0,0:27:09.24,0:27:11.15,Default,,0,0,0,,{\r译文字幕}好嘞\N{\r原文字幕}Great.
+Dialogue: 0,0:27:11.25,0:27:12.22,Default,,0,0,0,,{\r译文字幕}你去哪呢\N{\r原文字幕}Where are you going?
+Dialogue: 0,0:27:12.25,0:27:13.22,Default,,0,0,0,,{\r译文字幕}回我的公寓啊\N{\r原文字幕}To my apartment.
+Dialogue: 0,0:27:13.25,0:27:14.79,Default,,0,0,0,,{\r译文字幕}什么意思  怎么是你的公寓\N{\r原文字幕}What do you mean, your apartment?
+Dialogue: 0,0:27:14.79,0:27:15.31,Default,,0,0,0,,{\r译文字幕}什么\N{\r原文字幕}What?
+Dialogue: 0,0:27:15.32,0:27:17.10,Default,,0,0,0,,{\r译文字幕}那好吧  你可以睡沙发上\N{\r原文字幕}Alright, you can sleep on the couch.
+Dialogue: 0,0:27:17.10,0:27:18.82,Default,,0,0,0,,{\r译文字幕}不  我才不要睡沙发\N{\r原文字幕}No, I'm not gonna sleep on the couch.
+Dialogue: 0,0:27:18.82,0:27:20.20,Default,,0,0,0,,{\r译文字幕}那你可以睡这石头上\N{\r原文字幕}Well, then you can sleep on the stone.
+Dialogue: 0,0:27:20.23,0:27:22.20,Default,,0,0,0,,{\r译文字幕}小皮卡乖乖  把门开开  好吗\N{\r原文字幕}Be a dear, would you? Get the door for me.
+Dialogue: 0,0:27:22.24,0:27:23.21,Default,,0,0,0,,{\r译文字幕}我的天哪  我在干嘛\N{\r原文字幕}Oh my god, what am I doing?
+Dialogue: 0,0:27:23.21,0:27:25.20,Default,,0,0,0,,{\r译文字幕}我刚邀请了人到我的公寓里\N{\r原文字幕}I just invited someone to my apartment.
+Dialogue: 0,0:27:25.21,0:27:29.15,Default,,0,0,0,,{\r译文字幕}我从没这么干过  我不是那种宝可梦\N{\r原文字幕}I never do this, I'm not that kind of Pokémon.
+Dialogue: 0,0:27:33.12,0:27:34.25,Default,,0,0,0,,{\r译文字幕}到处都是灰尘\N{\r原文字幕}Dust everywhere,
+Dialogue: 0,0:27:34.29,0:27:36.26,Default,,0,0,0,,{\r译文字幕}却没有指纹\N{\r原文字幕}no fingerprints.
+Dialogue: 0,0:27:36.26,0:27:38.39,Default,,0,0,0,,{\r译文字幕}这说不通啊\N{\r原文字幕}eh,it doesn't add up.
+Dialogue: 0,0:27:39.18,0:27:40.20,Default,,0,0,0,,{\r译文字幕}这是在干嘛呢\N{\r原文字幕}What is going on in here?
+Dialogue: 0,0:27:40.21,0:27:42.14,Default,,0,0,0,,{\r译文字幕}我在搜寻现场  寻找我身世的线索\N{\r原文字幕}I'm searching the joint, looking for clues to my past...
+Dialogue: 0,0:27:42.18,0:27:42.91,Default,,0,0,0,,{\r译文字幕}这是你的房间吗\N{\r原文字幕}Is this your room?
+Dialogue: 0,0:27:42.91,0:27:43.53,Default,,0,0,0,,{\r译文字幕}不是\N{\r原文字幕}No!
+Dialogue: 0,0:27:43.53,0:27:45.35,Default,,0,0,0,,{\r译文字幕}哈利还有其他孩子吗\N{\r原文字幕}Does Harry have other children?
+Dialogue: 0,0:27:45.38,0:27:47.25,Default,,0,0,0,,{\r译文字幕}没有\N{\r原文字幕}No.
+Dialogue: 0,0:27:47.25,0:27:49.44,Default,,0,0,0,,{\r译文字幕}我小的时候他就想让我住在这  所以\N{\r原文字幕}He wanted me to live here when I was a kid, so...
+Dialogue: 0,0:27:49.44,0:27:51.19,Default,,0,0,0,,{\r译文字幕}他把这弄得像我童年时的房间\N{\r原文字幕}He made it look like my childhood room.
+Dialogue: 0,0:27:51.23,0:27:54.33,Default,,0,0,0,,{\r译文字幕}你不该说说你这皮卡丘款的童年床吗\N{\r原文字幕}Should we talk about the fact that your childhood bed is a Pikachu bed?
+Dialogue: 0,0:27:54.33,0:27:55.30,Default,,0,0,0,,{\r译文字幕}碰巧而已\N{\r原文字幕}It's a coincidence.
+Dialogue: 0,0:27:55.30,0:27:57.21,Default,,0,0,0,,{\r译文字幕}不好意思  你能大点声吗\N{\r原文字幕}I'm sorry, can you speak up?
+Dialogue: 0,0:27:57.24,0:27:59.18,Default,,0,0,0,,{\r译文字幕}我听不清你说的呢\N{\r原文字幕}I can't hear you.
+Dialogue: 0,0:27:59.21,0:28:01.52,Default,,0,0,0,,{\r译文字幕}我从未感到如此荣幸  同时也吓到我了\N{\r原文字幕}I have never been so flattered and creeped out at the same time.
+Dialogue: 0,0:28:01.52,0:28:03.25,Default,,0,0,0,,{\r译文字幕}你是不是还要弄个皮卡丘灯罩\N{\r原文字幕}Are you gonna make me into a lamp shade?
+Dialogue: 0,0:28:03.25,0:28:04.56,Default,,0,0,0,,{\r译文字幕}说不定呢\N{\r原文字幕}Oh, I might.
+Dialogue: 0,0:28:04.56,0:28:05.60,Default,,0,0,0,,{\r译文字幕}等等  等等  等等\N{\r原文字幕}Hang on, hang on, hang on...
+Dialogue: 0,0:28:05.60,0:28:08.22,Default,,0,0,0,,{\r译文字幕}这些宝可梦精灵卡牌  这些对战海报\N{\r原文字幕}All these Pokémon cards, and the battle posters,
+Dialogue: 0,0:28:08.22,0:28:09.16,Default,,0,0,0,,{\r译文字幕}这跟你有联系呢  是吧\N{\r原文字幕}there's connection, isn't there?
+Dialogue: 0,0:28:10.27,0:28:13.14,Default,,0,0,0,,{\r译文字幕}-你喜欢宝可梦精灵  -不是\N{\r原文字幕}- You love Pokémon. - No.
+Dialogue: 0,0:28:13.17,0:28:14.55,Default,,0,0,0,,{\r译文字幕}是的  是的  你可喜欢了\N{\r原文字幕}Yeah, yeah, you do.
+Dialogue: 0,0:28:14.55,0:28:15.74,Default,,0,0,0,,{\r译文字幕}那也是很久以前的事了\N{\r原文字幕}That was a long time ago.
+Dialogue: 0,0:28:15.74,0:28:17.22,Default,,0,0,0,,{\r译文字幕}那是在我爸爸搬到城里来\N{\r原文字幕}Before my father moved to the city
+Dialogue: 0,0:28:17.23,0:28:19.41,Default,,0,0,0,,{\r译文字幕}陪宝可梦的时间比陪儿子多之前\N{\r原文字幕}and spent more time with Pokémon than his own son.
+Dialogue: 0,0:28:19.45,0:28:21.32,Default,,0,0,0,,{\r译文字幕}是啊  什么都怨老爸\N{\r原文字幕}Umm, yeah, blame it on dad.
+Dialogue: 0,0:28:21.32,0:28:23.22,Default,,0,0,0,,{\r译文字幕}好吧  那这个呢\N{\r原文字幕}Okay, look, what about this?
+Dialogue: 0,0:28:23.26,0:28:25.10,Default,,0,0,0,,{\r译文字幕}公寓里到处都是她的相片\N{\r原文字幕}These pictures of her all over the apartment.
+Dialogue: 0,0:28:25.10,0:28:27.43,Default,,0,0,0,,{\r译文字幕}很明显她跟哈利有联系  她也许认识我\N{\r原文字幕}She's obviously connected to Harry, she might know me.
+Dialogue: 0,0:28:27.47,0:28:29.23,Default,,0,0,0,,{\r译文字幕}她可能是一条线索\N{\r原文字幕}She could be a lead.
+Dialogue: 0,0:28:29.27,0:28:31.33,Default,,0,0,0,,{\r译文字幕}不  她不认识你\N{\r原文字幕}No, she's not.
+Dialogue: 0,0:28:32.24,0:28:33.40,Default,,0,0,0,,{\r译文字幕}那是我的妈妈\N{\r原文字幕}That's my mom.
+Dialogue: 0,0:28:34.00,0:28:35.38,Default,,0,0,0,,{\r译文字幕}她在我很小的时候就去世了\N{\r原文字幕}She passed away when I was little.
+Dialogue: 0,0:28:36.80,0:28:38.41,Default,,0,0,0,,{\r译文字幕}抱歉  我没有\N{\r原文字幕}I'm sorry I didn't, I didn't...
+Dialogue: 0,0:28:38.46,0:28:40.45,Default,,0,0,0,,{\r译文字幕}我没注意到\N{\r原文字幕}I didn't realize.
+Dialogue: 0,0:28:44.30,0:28:46.10,Default,,0,0,0,,{\r译文字幕}明天我带你去见吉田\N{\r原文字幕}Tomorrow morning I'm gonna take you to Yoshida
+Dialogue: 0,0:28:46.10,0:28:47.50,Default,,0,0,0,,{\r译文字幕}好找找我们要的答案\N{\r原文字幕}so we can get some answers.
+Dialogue: 0,0:29:17.10,0:29:18.37,Default,,0,0,0,,{\r译文字幕}啊  我的线索\N{\r原文字幕}Ahhh! My clues!
+Dialogue: 0,0:29:18.37,0:29:19.39,Default,,0,0,0,,{\r译文字幕}这怎么回事\N{\r原文字幕}What is all this?
+Dialogue: 0,0:29:19.44,0:29:22.31,Default,,0,0,0,,{\r译文字幕}这些可是我辛勤的劳作  而且\N{\r原文字幕}Hard work, that's what this is, and by the way...
+Dialogue: 0,0:29:22.31,0:29:24.47,Default,,0,0,0,,{\r译文字幕}要等到弄清了谁能信得过我们才能去报警\N{\r原文字幕}we can't go to the cops. Not until we know who we can trust.
+Dialogue: 0,0:29:24.51,0:29:26.42,Default,,0,0,0,,{\r译文字幕}把我的线索原样放整齐  好吗\N{\r原文字幕}So put my clues back in order, would you?
+Dialogue: 0,0:29:26.42,0:29:28.45,Default,,0,0,0,,{\r译文字幕}这些不是线索  这是连环杀手的手稿\N{\r原文字幕}These aren't clues! This is the work of a serial killer.
+Dialogue: 0,0:29:28.46,0:29:29.45,Default,,0,0,0,,{\r译文字幕}未指明的线索\N{\r原文字幕}Almost clues.
+Dialogue: 0,0:29:29.46,0:29:30.97,Default,,0,0,0,,{\r译文字幕}那又是什么意思啊\N{\r原文字幕}What does that even mean?
+Dialogue: 0,0:29:30.97,0:29:32.90,Default,,0,0,0,,{\r译文字幕}我在试着唤起我的记忆  追溯我的踪迹\N{\r原文字幕}I'm trying to jog my memory. Retrace my steps,
+Dialogue: 0,0:29:32.90,0:29:34.42,Default,,0,0,0,,{\r译文字幕}有助于我把案件的来龙去脉理顺\N{\r原文字幕}it helps me to see it all laid out.
+Dialogue: 0,0:29:35.00,0:29:36.69,Default,,0,0,0,,{\r译文字幕}然后我就找到了这个\N{\r原文字幕}That's how I found this, this...
+Dialogue: 0,0:29:36.69,0:29:38.34,Default,,0,0,0,,{\r译文字幕}这个被法国人叫作\N{\r原文字幕}is what a Frenchman would call
+Dialogue: 0,0:29:38.34,0:29:39.38,Default,,0,0,0,,{\r译文字幕}"热门派对"\N{\r原文字幕}{\i1}Caliente Fiesta{\i0}
+Dialogue: 0,0:29:39.38,0:29:40.40,Default,,0,0,0,,{\r译文字幕}那不是法语\N{\r原文字幕}Not French.
+Dialogue: 0,0:29:40.45,0:29:42.31,Default,,0,0,0,,{\r译文字幕}闻闻我的小指头\N{\r原文字幕}Smell my finger.
+Dialogue: 0,0:29:42.35,0:29:43.95,Default,,0,0,0,,{\r译文字幕}打死我也不会闻你的指头\N{\r原文字幕}I will never smell your finger.
+Dialogue: 0,0:29:43.95,0:29:45.25,Default,,0,0,0,,{\r译文字幕}胆小鬼\N{\r原文字幕}Coward.
+Dialogue: 0,0:29:45.26,0:29:47.45,Default,,0,0,0,,{\r译文字幕}重点是在昨天攻击我们的手尾猴手身上\N{\r原文字幕}The point is I smelled this R stuff on those Aipom
+Dialogue: 0,0:29:47.45,0:29:48.87,Default,,0,0,0,,{\r译文字幕}我也闻到了这种R什么的东西\N{\r原文字幕}when they attacked us yesterday.
+Dialogue: 0,0:29:48.87,0:29:50.49,Default,,0,0,0,,{\r译文字幕}-R吗  -对了\N{\r原文字幕}- R? - Bingo.
+Dialogue: 0,0:29:50.50,0:29:51.70,Default,,0,0,0,,{\r译文字幕}蟑螂之歌\N{\r原文字幕}{\i1}La cucaracha{\i0}
+Dialogue: 0,0:29:50.50,0:29:51.70,Default,,0,0,0,,{\r译文字幕}{\an8\fs18}墨西哥流行的西班牙语传统童谣  曲调欢快
+Dialogue: 0,0:29:53.03,0:29:53.82,Default,,0,0,0,,{\r译文字幕}有些事情变得\N{\r原文字幕}Something can it get...
+Dialogue: 0,0:29:54.84,0:29:57.75,Default,,0,0,0,,{\r译文字幕}哈利在案子里发现了重大突破\N{\r原文字幕}Harry, had a break in the case
+Dialogue: 0,0:29:57.75,0:29:59.49,Default,,0,0,0,,{\r译文字幕}迫使暗中的幕后主使\N{\r原文字幕}forcing the shadowing kingpins,
+Dialogue: 0,0:29:59.49,0:30:00.52,Default,,0,0,0,,{\r译文字幕}派出雇佣的暴徒\N{\r原文字幕}send out hired goons,
+Dialogue: 0,0:30:00.52,0:30:01.21,Default,,0,0,0,,{\r译文字幕}来传递这条惊天的\N{\r原文字幕}to deliver the big,
+Dialogue: 0,0:30:01.21,0:30:02.27,Default,,0,0,0,,{\r译文字幕}秘密\N{\r原文字幕}Hush, hush!
+Dialogue: 0,0:30:02.27,0:30:02.46,Default,,0,0,0,,{\r译文字幕}为什么呢\N{\r原文字幕}Why?
+Dialogue: 0,0:30:02.46,0:30:05.36,Default,,0,0,0,,{\r译文字幕}我们可以追溯哈利的踪迹  把案件解决\N{\r原文字幕}We need retrace Harry's steps, either solve the case ourselves,
+Dialogue: 0,0:30:05.36,0:30:06.61,Default,,0,0,0,,{\r译文字幕}或者我们暗中等待\N{\r原文字幕}we get far enough long,
+Dialogue: 0,0:30:06.61,0:30:09.43,Default,,0,0,0,,{\r译文字幕}等着头号大坏蛋露出他或者她的真面目\N{\r原文字幕}that the No.1 bad guy has to reveal himself, or herself.
+Dialogue: 0,0:30:09.47,0:30:11.30,Default,,0,0,0,,{\r译文字幕}你能别这么多戏吗\N{\r原文字幕}Can you stop doing that?
+Dialogue: 0,0:30:11.31,0:30:13.47,Default,,0,0,0,,{\r译文字幕}那么案情的切入点在哪呢\N{\r原文字幕}So what is the way in, huh?
+Dialogue: 0,0:30:13.51,0:30:15.07,Default,,0,0,0,,{\r译文字幕}答案就在这个房间里\N{\r原文字幕}The answer is in this room.
+Dialogue: 0,0:30:15.08,0:30:17.28,Default,,0,0,0,,{\r译文字幕}这儿哪还像个房间  现在是火灾隐患了\N{\r原文字幕}This isn't a room. This is a fire hazard.
+Dialogue: 0,0:30:17.32,0:30:19.31,Default,,0,0,0,,{\r译文字幕}到处都是垃圾\N{\r原文字幕}There's, it's just junk and...
+Dialogue: 0,0:30:19.32,0:30:20.60,Default,,0,0,0,,{\r译文字幕}还有废纸\N{\r原文字幕}papers and...
+Dialogue: 0,0:30:20.60,0:30:22.20,Default,,0,0,0,,{\r译文字幕}{\an8\fs18}宝可梦精灵游行前准备
+Dialogue: 0,0:30:23.12,0:30:24.34,Default,,0,0,0,,{\r译文字幕}还有报纸\N{\r原文字幕}...newspapers.
+Dialogue: 0,0:30:24.43,0:30:25.76,Default,,0,0,0,,{\r译文字幕}小子  你想起什么了吗\N{\r原文字幕}What you got, kid?
+Dialogue: 0,0:30:25.76,0:30:30.41,Default,,0,0,0,,{\r译文字幕}我刚碰见过一个人  她是CNM的实习记者\N{\r原文字幕}I, I literally just met someone, she was a, junior reporter at CNM.
+Dialogue: 0,0:30:30.41,0:30:32.54,Default,,0,0,0,,{\r译文字幕}她在报道关于哈利的故事\N{\r原文字幕}She was doing a story on Harry.
+Dialogue: 0,0:30:33.32,0:30:34.58,Default,,0,0,0,,{\r译文字幕}我觉得她知道的比她透露的更多\N{\r原文字幕}I think she knows more than she let on.
+Dialogue: 0,0:30:35.32,0:30:36.52,Default,,0,0,0,,{\r译文字幕}聪明人都这样\N{\r原文字幕}The smart ones always do.
+Dialogue: 0,0:30:37.02,0:30:38.52,Default,,0,0,0,,{\r译文字幕}我们得去她办公室撬她嘴巴\N{\r原文字幕}We gotta go down to her work and press her.
+Dialogue: 0,0:30:39.06,0:30:39.58,Default,,0,0,0,,{\r译文字幕}那是个比喻\N{\r原文字幕}That's a metaphor.
+Dialogue: 0,0:30:39.58,0:30:41.47,Default,,0,0,0,,{\r译文字幕}我知道什么是比喻\N{\r原文字幕}Yeah, I know what a metaphor is.
+Dialogue: 0,0:30:41.87,0:30:43.33,Default,,0,0,0,,{\r译文字幕}好吧  我之前在喝那杯\N{\r原文字幕}Yeah, I was drinking that.
+Dialogue: 0,0:30:43.34,0:30:44.04,Default,,0,0,0,,{\r译文字幕}我也在喝那杯\N{\r原文字幕}I was also drinking...
+Dialogue: 0,0:30:44.04,0:30:45.47,Default,,0,0,0,,{\r译文字幕}请你随意踩踏我的毕生心血吧\N{\r原文字幕}Just step anywhere, it's only my life's work.
+Dialogue: 0,0:30:45.48,0:30:47.38,Default,,0,0,0,,{\r译文字幕}不  不\N{\r原文字幕}No, no.
+Dialogue: 0,0:30:47.41,0:30:48.40,Default,,0,0,0,,{\r译文字幕}我们不要这样\N{\r原文字幕}We are not doing that.
+Dialogue: 0,0:30:48.41,0:30:49.54,Default,,0,0,0,,{\r译文字幕}行吧  我走路就是了\N{\r原文字幕}Fine, I'll walk.
+Dialogue: 0,0:30:50.00,0:30:52.55,Default,,0,0,0,,{\r译文字幕}一小时内我要走1万步\N{\r原文字幕}I'm trying to get 100,000 steps this hour.
+Dialogue: 0,0:30:55.20,0:30:56.49,Default,,0,0,0,,{\r译文字幕}大家好 我是罗杰 克利福\N{\r原文字幕}Hello, I'm Roger Clifford,
+Dialogue: 0,0:30:56.49,0:30:59.37,Default,,0,0,0,,{\r译文字幕}CNM的董事长以及克利福企业的主席\N{\r原文字幕}President of CNM, and chairman of Clifford's enterprises.
+Dialogue: 0,0:30:59.37,0:31:01.11,Default,,0,0,0,,{\r译文字幕}我是霍华德·克利福\N{\r原文字幕}And I'm Howard Clifford,
+Dialogue: 0,0:31:01.11,0:31:03.31,Default,,0,0,0,,{\r译文字幕}莱姆市未来的构想者\N{\r原文字幕}the visionary icon behind Ryme City.
+Dialogue: 0,0:31:03.34,0:31:05.26,Default,,0,0,0,,{\r译文字幕}为了和睦共处  集合起来\N{\r原文字幕}Together, in the spirits of harmony,
+Dialogue: 0,0:31:05.26,0:31:09.06,Default,,0,0,0,,{\r译文字幕}我们将举办莱姆市史上最大的游行\N{\r原文字幕}we're throwing the largest parade the Ryme City has ever seen.
+Dialogue: 0,0:31:09.06,0:31:10.20,Default,,0,0,0,,{\r译文字幕}您一定不要错过\N{\r原文字幕}You won't wanna miss it.
+Dialogue: 0,0:31:10.21,0:31:14.50,Default,,0,0,0,,{\r译文字幕}在周末  我们邀请人类和宝可梦精灵\N{\r原文字幕}So at the weekend, we invite the people and the Pokémon to be there.
+Dialogue: 0,0:31:14.50,0:31:18.60,Default,,0,0,0,,{\r译文字幕}来共同庆祝我们之间和睦共处\N{\r原文字幕}A celebration of the harmony between humans and Pokémon.
+Dialogue: 0,0:31:18.61,0:31:20.58,Default,,0,0,0,,{\r译文字幕}好的  卡\N{\r原文字幕}And, cut!
+Dialogue: 0,0:31:22.00,0:31:23.20,Default,,0,0,0,,{\r译文字幕}我觉得录得挺好的\N{\r原文字幕}I think that went rather well.
+Dialogue: 0,0:31:23.20,0:31:24.41,Default,,0,0,0,,{\r译文字幕}拜托你闭嘴吧  爸\N{\r原文字幕}Oh, shut up dad!
+Dialogue: 0,0:31:24.42,0:31:25.35,Default,,0,0,0,,{\r译文字幕}他看上去很棒\N{\r原文字幕}He seems nice.
+Dialogue: 0,0:31:25.36,0:31:26.28,Default,,0,0,0,,{\r译文字幕}罗杰  拜托\N{\r原文字幕}Roger, please.
+Dialogue: 0,0:31:26.28,0:31:29.39,Default,,0,0,0,,{\r译文字幕}这应该是我们给市民的礼物\N{\r原文字幕}This is supposed to be our gift to the citizen.
+Dialogue: 0,0:31:29.40,0:31:31.39,Default,,0,0,0,,{\r译文字幕}未来构想者  认真的吗\N{\r原文字幕}Visionary icon, really?
+Dialogue: 0,0:31:31.43,0:31:33.43,Default,,0,0,0,,{\r译文字幕}是个救世主吗\N{\r原文字幕}Was savior of the world taken?
+Dialogue: 0,0:31:33.47,0:31:36.34,Default,,0,0,0,,{\r译文字幕}儿子  这是你的人写的宣传稿\N{\r原文字幕}It was your people who wrote the promos, son.
+Dialogue: 0,0:31:36.38,0:31:39.58,Default,,0,0,0,,{\r译文字幕}这就是你治疗癌症的完整经过吗\N{\r原文字幕}Is there an unabridged version where you cure cancer?
+Dialogue: 0,0:31:39.62,0:31:41.35,Default,,0,0,0,,{\r译文字幕}噢  好得很啊\N{\r原文字幕}Oh, that's right.
+Dialogue: 0,0:31:41.39,0:31:43.52,Default,,0,0,0,,{\r译文字幕}每次都是这样背对我\N{\r原文字幕}Turn your back on me like you always did.
+Dialogue: 0,0:31:43.53,0:31:46.40,Default,,0,0,0,,{\r译文字幕}顺便说一句  没人喜欢你的宝可梦精灵\N{\r原文字幕}By the way, no one likes your Pokémon.
+Dialogue: 0,0:31:46.40,0:31:47.59,Default,,0,0,0,,{\r译文字幕}她在那\N{\r原文字幕}There she is.
+Dialogue: 0,0:31:48.43,0:31:50.08,Default,,0,0,0,,{\r译文字幕}我明白你为什么如此兴奋了\N{\r原文字幕}I can see why you're so excited.
+Dialogue: 0,0:31:50.08,0:31:54.38,Default,,0,0,0,,{\r译文字幕}我没有  听着  我没有 兴奋\N{\r原文字幕}I wasn't...Okay, I was not, that excited.
+Dialogue: 0,0:31:54.41,0:31:57.44,Default,,0,0,0,,{\r译文字幕}克利福先生  我这有个事件\N{\r原文字幕}Mr. Clifford, I may have a story for you.
+Dialogue: 0,0:31:57.49,0:32:00.36,Default,,0,0,0,,{\r译文字幕}我听说了宝可梦精灵袭击人类的传言\N{\r原文字幕}I've heard rumors of Pokémon attacking people,
+Dialogue: 0,0:32:00.39,0:32:01.92,Default,,0,0,0,,{\r译文字幕}但是没有主流媒体报道  我认为\N{\r原文字幕}But there's been no main stream to cover it, I think that...
+Dialogue: 0,0:32:01.92,0:32:02.22,Default,,0,0,0,,{\r译文字幕}抱歉\N{\r原文字幕}I'm sorry,
+Dialogue: 0,0:32:02.22,0:32:03.81,Default,,0,0,0,,{\r译文字幕}我们不是八卦小报\N{\r原文字幕}We are not a tabloid,
+Dialogue: 0,0:32:03.81,0:32:08.20,Default,,0,0,0,,{\r译文字幕}不报道无凭无据的流言蜚语或八卦消息\N{\r原文字幕}which means we don't report on rumors, gossip, or hearsay.
+Dialogue: 0,0:32:08.20,0:32:10.67,Default,,0,0,0,,{\r译文字幕}无法证实就不是新闻\N{\r原文字幕}It's not news if it can't be verified.
+Dialogue: 0,0:32:11.30,0:32:12.84,Default,,0,0,0,,{\r译文字幕}想要报道一个事件\N{\r原文字幕}You want a story?
+Dialogue: 0,0:32:12.84,0:32:14.62,Default,,0,0,0,,{\r译文字幕}就去追根溯源\N{\r原文字幕}Find a source!
+Dialogue: 0,0:32:15.20,0:32:17.57,Default,,0,0,0,,{\r译文字幕}哦  最重要的一点\N{\r原文字幕}Oh, and pro tip,
+Dialogue: 0,0:32:18.30,0:32:20.67,Default,,0,0,0,,{\r译文字幕}对时下热点保持理性\N{\r原文字幕}have reasonable sense of fashion.
+Dialogue: 0,0:32:32.59,0:32:34.53,Default,,0,0,0,,{\r译文字幕}她来了  她来了  认真点\N{\r原文字幕}Here she comes, here she comes, try to look deep.
+Dialogue: 0,0:32:34.53,0:32:36.21,Default,,0,0,0,,{\r译文字幕}你在这干什么\N{\r原文字幕}What are you doing here?
+Dialogue: 0,0:32:36.21,0:32:37.56,Default,,0,0,0,,{\r译文字幕}又见面了  呃\N{\r原文字幕}Hey again, uh...
+Dialogue: 0,0:32:37.60,0:32:38.76,Default,,0,0,0,,{\r译文字幕}我这样可能有点奇怪\N{\r原文字幕}Yeah, I know this seems weird
+Dialogue: 0,0:32:38.76,0:32:40.40,Default,,0,0,0,,{\r译文字幕}但我要问你个事\N{\r原文字幕}but I actually need to ask you something.
+Dialogue: 0,0:32:40.44,0:32:43.43,Default,,0,0,0,,{\r译文字幕}但在这里不  不太  合适\N{\r原文字幕}Now is not... not really the good... the good time.
+Dialogue: 0,0:32:43.48,0:32:46.20,Default,,0,0,0,,{\r译文字幕}我明白了  抱歉\N{\r原文字幕}Yeah, I saw that. I'm...I'm sorry.
+Dialogue: 0,0:32:51.53,0:32:53.35,Default,,0,0,0,,{\r译文字幕}对不起  有点烫\N{\r原文字幕}Sorry, it's piping hot.
+Dialogue: 0,0:32:54.20,0:32:56.63,Default,,0,0,0,,{\r译文字幕}你找到了个宝可梦精灵伙伴\N{\r原文字幕}You found yourself a Pokémon partner.
+Dialogue: 0,0:32:56.64,0:32:59.51,Default,,0,0,0,,{\r译文字幕}-呃  他并不是  -哇  他好可爱\N{\r原文字幕}- Hmm... not exactly... - Oh, he's cute.
+Dialogue: 0,0:32:59.54,0:33:01.60,Default,,0,0,0,,{\r译文字幕}她想拉拢我  但相信我\N{\r原文字幕}Yeah, she's trying to work me kid, but trust me,
+Dialogue: 0,0:33:01.62,0:33:04.58,Default,,0,0,0,,{\r译文字幕}我不会  啊我的大地母亲  好舒服\N{\r原文字幕}I can't... oh sweet mother of earthiest, that feels so good.
+Dialogue: 0,0:33:04.59,0:33:07.46,Default,,0,0,0,,{\r译文字幕}-听着  -天啊\N{\r原文字幕}- So...listen - Oh my god, ohh.
+Dialogue: 0,0:33:07.49,0:33:08.52,Default,,0,0,0,,{\r译文字幕}发生什么事了\N{\r原文字幕}What happened?
+Dialogue: 0,0:33:08.56,0:33:10.46,Default,,0,0,0,,{\r译文字幕}我在哈利桌子上发现这个\N{\r原文字幕}I found something on Harry's desk.
+Dialogue: 0,0:33:10.50,0:33:12.47,Default,,0,0,0,,{\r译文字幕}它差点让我窒息而亡  而且我没有\N{\r原文字幕}It nearly choked me to death, and I wasn't...
+Dialogue: 0,0:33:12.50,0:33:13.67,Default,,0,0,0,,{\r译文字幕}别  别在这说\N{\r原文字幕}No, not here.
+Dialogue: 0,0:33:15.48,0:33:16.74,Default,,0,0,0,,{\r译文字幕}来我办公室\N{\r原文字幕}In my office.
+Dialogue: 0,0:33:18.00,0:33:18.74,Default,,0,0,0,,{\r译文字幕}来我办公室\N{\r原文字幕}"In my office"
+Dialogue: 0,0:33:18.74,0:33:20.71,Default,,0,0,0,,{\r译文字幕}我们去她办公室\N{\r原文字幕}We're going to her office.
+Dialogue: 0,0:33:22.69,0:33:24.56,Default,,0,0,0,,{\r译文字幕}太棒了\N{\r原文字幕}This is great.
+Dialogue: 0,0:33:24.59,0:33:27.50,Default,,0,0,0,,{\r译文字幕}这不是办公室  这是放这些铅笔的棺材\N{\r原文字幕}This isn't an office, It's a coffin. with pencils.
+Dialogue: 0,0:33:28.60,0:33:29.36,Default,,0,0,0,,{\r译文字幕}是的  没错\N{\r原文字幕}Yeah, that's right,
+Dialogue: 0,0:33:29.36,0:33:31.63,Default,,0,0,0,,{\r译文字幕}我能和这孩子说话也能和你说话\N{\r原文字幕}I can talk to the kiddy and can talk to you, who gifted.
+Dialogue: 0,0:33:31.64,0:33:33.54,Default,,0,0,0,,{\r译文字幕}你这个傻瓜  她有可达鸭\N{\r原文字幕}You're a dummy that she has a Psyduck!
+Dialogue: 0,0:33:33.58,0:33:35.57,Default,,0,0,0,,{\r译文字幕}受到压力时会爆发\N{\r原文字幕}These things explode when they're stressed.
+Dialogue: 0,0:33:35.58,0:33:38.00,Default,,0,0,0,,{\r译文字幕}保持冷静  兄弟\N{\r原文字幕}Hey, hey, keep calm, pal.
+Dialogue: 0,0:33:38.00,0:33:40.62,Default,,0,0,0,,{\r译文字幕}安静  安静\N{\r原文字幕}Serenity now, serenity now.
+Dialogue: 0,0:33:40.66,0:33:42.56,Default,,0,0,0,,{\r译文字幕}-不  -好\N{\r原文字幕}- No. - OK.
+Dialogue: 0,0:33:43.73,0:33:45.05,Default,,0,0,0,,{\r译文字幕}-好  -你找到了吗\N{\r原文字幕}- Okay. - You got it?
+Dialogue: 0,0:33:45.05,0:33:46.70,Default,,0,0,0,,{\r译文字幕}给你\N{\r原文字幕}Here it is.
+Dialogue: 0,0:33:50.55,0:33:51.54,Default,,0,0,0,,{\r译文字幕}你在哪找到的\N{\r原文字幕}Where did you find this?
+Dialogue: 0,0:33:51.55,0:33:54.58,Default,,0,0,0,,{\r译文字幕}我的线人说码头附近有哈利的消息\N{\r原文字幕}Word on the street was that Harry had an informant near the docks.
+Dialogue: 0,0:33:54.62,0:33:56.59,Default,,0,0,0,,{\r译文字幕}我去那打探了一番\N{\r原文字幕}I went there to snoop around.
+Dialogue: 0,0:33:56.62,0:33:58.56,Default,,0,0,0,,{\r译文字幕}我在那找到了小药瓶\N{\r原文字幕}And that's where I found the vial.
+Dialogue: 0,0:33:58.56,0:34:00.39,Default,,0,0,0,,{\r译文字幕}但是码头很危险\N{\r原文字幕}But the docks can be dangerous.
+Dialogue: 0,0:34:01.29,0:34:04.54,Default,,0,0,0,,{\r译文字幕}那种地方晚上别独自一人去\N{\r原文字幕}It's not the sort of place you wanna visit alone at night.
+Dialogue: 0,0:34:04.71,0:34:07.74,Default,,0,0,0,,{\r译文字幕}其实我很习惯晚上独自一人\N{\r原文字幕}I'm actually pretty good of being alone at night.
+Dialogue: 0,0:34:08.65,0:34:11.55,Default,,0,0,0,,{\r译文字幕}不行  完全不会说话\N{\r原文字幕}Nope, that did not land right at all.
+Dialogue: 0,0:34:11.72,0:34:15.66,Default,,0,0,0,,{\r译文字幕}我不是  我不是这意思\N{\r原文字幕}That's not... that's not what I meant to say.
+Dialogue: 0,0:34:15.66,0:34:17.69,Default,,0,0,0,,{\r译文字幕}-没事  -我只想\N{\r原文字幕}- It's okay. - I'm just gonna...
+Dialogue: 0,0:34:17.73,0:34:18.79,Default,,0,0,0,,{\r译文字幕}我  我们应该马上出发  所以\N{\r原文字幕}I...I, We should go soon, so...
+Dialogue: 0,0:34:19.34,0:34:20.77,Default,,0,0,0,,{\r译文字幕}没错  我们得马上出发\N{\r原文字幕}Yeah, yeah, we should go.
+Dialogue: 0,0:34:20.81,0:34:24.22,Default,,0,0,0,,{\r译文字幕}天啊  你以前有和姑娘说过话吗\N{\r原文字幕}Good god, have you ever talked to woman before?
+Dialogue: 0,0:34:24.22,0:34:25.81,Default,,0,0,0,,{\r译文字幕}你有点\N{\r原文字幕}You got some...
+Dialogue: 0,0:34:26.46,0:34:27.55,Default,,0,0,0,,{\r译文字幕}是的  我以前和姑娘说过话\N{\r原文字幕}Yes, I've talked to women before,
+Dialogue: 0,0:34:27.55,0:34:28.58,Default,,0,0,0,,{\r译文字幕}所以  我不需要你的帮助\N{\r原文字幕}and no, I don't need your help.
+Dialogue: 0,0:34:28.62,0:34:30.65,Default,,0,0,0,,{\r译文字幕}是在你妈妈肚子里吗还是\N{\r原文字幕}Was it during the birth canal or...?
+Dialogue: 0,0:34:35.67,0:34:37.73,Default,,0,0,0,,{\r译文字幕}你知道你需要什么吗 一个 肩鞍\N{\r原文字幕}You know what you need? A shoulder saddle.
+Dialogue: 0,0:34:37.74,0:34:39.17,Default,,0,0,0,,{\r译文字幕}我打赌肯定有人做过\N{\r原文字幕}I bet someone makes one.
+Dialogue: 0,0:34:39.17,0:34:40.69,Default,,0,0,0,,{\r译文字幕}好  你还有其他办法吗\N{\r原文字幕}Okay, there are other ways for you to get around.
+Dialogue: 0,0:34:40.69,0:34:41.61,Default,,0,0,0,,{\r译文字幕}你这是在侮辱我\N{\r原文字幕}This is humiliating.
+Dialogue: 0,0:34:41.61,0:34:43.13,Default,,0,0,0,,{\r译文字幕}你每走一步\N{\r原文字幕}Every step for you is 1000 for me
+Dialogue: 0,0:34:43.13,0:34:44.71,Default,,0,0,0,,{\r译文字幕}我的肺和肋骨要走一千步\N{\r原文字幕}and my lungs and the side to ribs.
+Dialogue: 0,0:34:44.72,0:34:46.13,Default,,0,0,0,,{\r译文字幕}为了使我们伙伴关系稳固\N{\r原文字幕}We need to get some ground rules
+Dialogue: 0,0:34:46.13,0:34:47.59,Default,,0,0,0,,{\r译文字幕}我们需要定些规矩\N{\r原文字幕}if this partnership's gonna work.
+Dialogue: 0,0:34:47.59,0:34:48.51,Default,,0,0,0,,{\r译文字幕}你才不是我的同伴\N{\r原文字幕}You're not my partner.
+Dialogue: 0,0:34:48.51,0:34:50.66,Default,,0,0,0,,{\r译文字幕}导师  老师  大师  随你怎么称呼\N{\r原文字幕}Mentor, sensei, master, whatever you wanna call it.
+Dialogue: 0,0:34:50.65,0:34:51.70,Default,,0,0,0,,{\r译文字幕}不  这些都不行\N{\r原文字幕}No, none of those.
+Dialogue: 0,0:34:51.73,0:34:53.44,Default,,0,0,0,,{\r译文字幕}如果这  如果这不是煤气的原因\N{\r原文字幕}Hey, what if it, what if wasn't the gas?
+Dialogue: 0,0:34:53.44,0:34:54.64,Default,,0,0,0,,{\r译文字幕}如果你天生就听得懂我说话呢\N{\r原文字幕}What if it's voluntary, huh?
+Dialogue: 0,0:34:54.64,0:34:56.63,Default,,0,0,0,,{\r译文字幕}如果哈利也能听懂你烦人的声音呢\N{\r原文字幕}What if Harry can understand your annoying voice too?
+Dialogue: 0,0:34:56.68,0:34:59.20,Default,,0,0,0,,{\r译文字幕}你不说话我们也懂\N{\r原文字幕}You don't need to talk to us for us to understand.
+Dialogue: 0,0:34:59.20,0:35:00.72,Default,,0,0,0,,{\r译文字幕}我们能感觉你在说什么\N{\r原文字幕}We can feel what you are saying.
+Dialogue: 0,0:35:00.75,0:35:02.75,Default,,0,0,0,,{\r译文字幕}你得分享下自己的经历\N{\r原文字幕}You have to be open to the experience.
+Dialogue: 0,0:35:02.76,0:35:04.69,Default,,0,0,0,,{\r译文字幕}-偶尔尝试一下  -那还是算了吧\N{\r原文字幕}- Try it sometimes. - Yeah, I'd rather not.
+Dialogue: 0,0:35:04.73,0:35:06.79,Default,,0,0,0,,{\r译文字幕}我一整天都在和你说话\N{\r原文字幕}I got my plate full of talking to you.
+Dialogue: 0,0:35:07.73,0:35:08.70,Default,,0,0,0,,{\r译文字幕}那是什么\N{\r原文字幕}What is that?
+Dialogue: 0,0:35:08.74,0:35:09.99,Default,,0,0,0,,{\r译文字幕}安静却又致命\N{\r原文字幕}Silent but deadly.
+Dialogue: 0,0:35:09.99,0:35:11.73,Default,,0,0,0,,{\r译文字幕}抱歉  我咖啡喝多了  肚子有点疼\N{\r原文字幕}Apologies, my tummy is bashed from all that coffee.
+Dialogue: 0,0:35:11.74,0:35:14.68,Default,,0,0,0,,{\r译文字幕}不  下来\N{\r原文字幕}No, ew, get off!
+Dialogue: 0,0:35:14.71,0:35:15.84,Default,,0,0,0,,{\r译文字幕}我是说那个\N{\r原文字幕}I meant that.
+Dialogue: 0,0:35:15.85,0:35:19.00,Default,,0,0,0,,{\r译文字幕}那个\N{\r原文字幕}Oh, oh... that.
+Dialogue: 0,0:35:19.50,0:35:22.25,Default,,0,0,0,,{\r译文字幕}是魔墙人偶  他们是最讨厌的\N{\r原文字幕}It's a Mr.Mime, they're the worst.
+Dialogue: 0,0:35:22.26,0:35:23.83,Default,,0,0,0,,{\r译文字幕}安静但令人讨厌\N{\r原文字幕}Silent but annoying.
+Dialogue: 0,0:35:24.77,0:35:26.70,Default,,0,0,0,,{\r译文字幕}他认出你了吗\N{\r原文字幕}Does he recognize you?
+Dialogue: 0,0:35:26.70,0:35:27.73,Default,,0,0,0,,{\r译文字幕}我觉得他认出了你\N{\r原文字幕}I think he recognizes you.
+Dialogue: 0,0:35:28.00,0:35:29.36,Default,,0,0,0,,{\r译文字幕}我是哈利的伙伴\N{\r原文字幕}Well, I was Harry's partner,
+Dialogue: 0,0:35:29.36,0:35:30.72,Default,,0,0,0,,{\r译文字幕}我跟哈利一起出现过\N{\r原文字幕}so I would've been with him.
+Dialogue: 0,0:35:31.68,0:35:33.68,Default,,0,0,0,,{\r译文字幕}哈利的线人是个宝可梦精灵啊\N{\r原文字幕}Harry's informant is a Pokémon!
+Dialogue: 0,0:35:33.72,0:35:34.81,Default,,0,0,0,,{\r译文字幕}抓住它\N{\r原文字幕}Get him!
+Dialogue: 0,0:35:40.73,0:35:43.64,Default,,0,0,0,,{\r译文字幕}-他在原地踏步啊  -别告诉他真相\N{\r原文字幕}- He's barely moving. - Don't tell him that.
+Dialogue: 0,0:35:43.64,0:35:44.73,Default,,0,0,0,,{\r译文字幕}哦  他上车了\N{\r原文字幕}Oh, he on a bike!
+Dialogue: 0,0:35:44.74,0:35:46.26,Default,,0,0,0,,{\r译文字幕}看  他以为他逃得掉\N{\r原文字幕}Come on, he thinks he's getting away.
+Dialogue: 0,0:35:46.26,0:35:47.51,Default,,0,0,0,,{\r译文字幕}看  快  绕到他前面去\N{\r原文字幕}Look! Quick, get in front of him!
+Dialogue: 0,0:35:47.51,0:35:48.61,Default,,0,0,0,,{\r译文字幕}包抄他  你可以的\N{\r原文字幕}Cut him off, you can make it.
+Dialogue: 0,0:35:48.65,0:35:49.88,Default,,0,0,0,,{\r译文字幕}住手\N{\r原文字幕}Stop!
+Dialogue: 0,0:35:50.50,0:35:51.41,Default,,0,0,0,,{\r译文字幕}不\N{\r原文字幕}Oh no...
+Dialogue: 0,0:35:52.30,0:35:53.70,Default,,0,0,0,,{\r译文字幕}他一头栽了下来  蒂姆\N{\r原文字幕}He going down hard, Tim.
+Dialogue: 0,0:35:54.44,0:35:55.75,Default,,0,0,0,,{\r译文字幕}他应该戴个头盔\N{\r原文字幕}Should've worn a helmet.
+Dialogue: 0,0:35:56.66,0:35:57.74,Default,,0,0,0,,{\r译文字幕}我希望他活着\N{\r原文字幕}I hope he makes it.
+Dialogue: 0,0:35:57.74,0:35:59.30,Default,,0,0,0,,{\r译文字幕}拜托  这太荒唐了\N{\r原文字幕}Come on, this is ridiculous!
+Dialogue: 0,0:35:59.94,0:36:01.70,Default,,0,0,0,,{\r译文字幕}我是好警察  你是坏警察\N{\r原文字幕}I'm good cop, you're bad cop.
+Dialogue: 0,0:36:01.71,0:36:03.68,Default,,0,0,0,,{\r译文字幕}-我们不是警察  -对自己有点信心\N{\r原文字幕}- We are not cops. - Grow some pairs
+Dialogue: 0,0:36:03.71,0:36:06.09,Default,,0,0,0,,{\r译文字幕}你比我看起来更大更壮  站直一点\N{\r原文字幕}You're bigger and tougher look than I am, stand up straight!
+Dialogue: 0,0:36:07.00,0:36:07.78,Default,,0,0,0,,{\r译文字幕}你听着\N{\r原文字幕}Listen up!
+Dialogue: 0,0:36:07.82,0:36:09.88,Default,,0,0,0,,{\r译文字幕}我们有办法让你开口  或永远沉默\N{\r原文字幕}We got ways to make you talk, or mime!
+Dialogue: 0,0:36:09.90,0:36:11.71,Default,,0,0,0,,{\r译文字幕}-没错  -所以我们问什么老实回答\N{\r原文字幕}- Yeah. - So tell us what we wanna know.
+Dialogue: 0,0:36:11.71,0:36:13.15,Default,,0,0,0,,{\r译文字幕}为什么哈利·古德曼出现在这\N{\r原文字幕}Why was Harry Goodman here?
+Dialogue: 0,0:36:13.15,0:36:15.80,Default,,0,0,0,,{\r译文字幕}这与R有何关系\N{\r原文字幕}And what did it have to do with the R?
+Dialogue: 0,0:36:16.77,0:36:18.74,Default,,0,0,0,,{\r译文字幕}管道  嗯  一个罐头吗\N{\r原文字幕}Pipe, yes, okay, a can?
+Dialogue: 0,0:36:18.78,0:36:20.08,Default,,0,0,0,,{\r译文字幕}挤  推\N{\r原文字幕}Shoving? Pushing?
+Dialogue: 0,0:36:20.08,0:36:21.50,Default,,0,0,0,,{\r译文字幕}我的错误是推开人们\N{\r原文字幕}My problem is that I push people away
+Dialogue: 0,0:36:21.50,0:36:22.65,Default,,0,0,0,,{\r译文字幕}然后逃跑而被他们讨厌么\N{\r原文字幕}and hate them for leaving?
+Dialogue: 0,0:36:22.68,0:36:23.81,Default,,0,0,0,,{\r译文字幕}他说你能推开它\N{\r原文字幕}He's saying you can shove it.
+Dialogue: 0,0:36:23.82,0:36:25.17,Default,,0,0,0,,{\r译文字幕}什么  我能推开它\N{\r原文字幕}What? I can shove it?
+Dialogue: 0,0:36:25.17,0:36:26.72,Default,,0,0,0,,{\r译文字幕}是的  不  我们换一下\N{\r原文字幕}Okay, that's it, no, we're switching roles.
+Dialogue: 0,0:36:26.76,0:36:28.43,Default,,0,0,0,,{\r译文字幕}我是坏警察  你是好警察\N{\r原文字幕}I'm bad cop, you're good cop.
+Dialogue: 0,0:36:28.43,0:36:29.95,Default,,0,0,0,,{\r译文字幕}不  不  我们不是警察\N{\r原文字幕}No, no, no, we are not cops! Oh!
+Dialogue: 0,0:36:29.95,0:36:31.73,Default,,0,0,0,,{\r译文字幕}天啊  看起来好痛\N{\r原文字幕}Oh god, that's very hurtful.
+Dialogue: 0,0:36:31.73,0:36:32.57,Default,,0,0,0,,{\r译文字幕}是  是\N{\r原文字幕}Oh yeah yeah yeah,
+Dialogue: 0,0:36:32.57,0:36:34.87,Default,,0,0,0,,{\r译文字幕}魔墙人偶能造一座隐形墙\N{\r原文字幕}Mr.Mime has the ability to make a invisible wall.
+Dialogue: 0,0:36:34.87,0:36:35.68,Default,,0,0,0,,{\r译文字幕}是的我知道\N{\r原文字幕}Ah, yes I know,
+Dialogue: 0,0:36:35.68,0:36:37.80,Default,,0,0,0,,{\r译文字幕}我是个能记事的宝可梦精灵\N{\r原文字幕}I happened to be a Pokémon to remember.
+Dialogue: 0,0:36:37.80,0:36:38.80,Default,,0,0,0,,{\r译文字幕}看\N{\r原文字幕}Look,
+Dialogue: 0,0:36:38.80,0:36:40.88,Default,,0,0,0,,{\r译文字幕}哈利认出了这家伙\N{\r原文字幕}Harry figured this guy out somehow.
+Dialogue: 0,0:36:41.79,0:36:44.60,Default,,0,0,0,,{\r译文字幕}我猜办法就是进入他的头脑\N{\r原文字幕}I think the trick is get inside his head.
+Dialogue: 0,0:36:45.76,0:36:46.86,Default,,0,0,0,,{\r译文字幕}我有注意了\N{\r原文字幕}I have an idea.
+Dialogue: 0,0:36:48.80,0:36:49.50,Default,,0,0,0,,{\r译文字幕}你在干什么\N{\r原文字幕}What are you doing?
+Dialogue: 0,0:36:51.50,0:36:52.96,Default,,0,0,0,,{\r译文字幕}-这是什么  -那儿有扇门\N{\r原文字幕}- Oh what's this? - Oh there's a door there.
+Dialogue: 0,0:36:52.97,0:36:53.71,Default,,0,0,0,,{\r译文字幕}我看到了  我不\N{\r原文字幕}Oh I see, I didn't...
+Dialogue: 0,0:36:53.71,0:36:54.84,Default,,0,0,0,,{\r译文字幕}也许因为它是隐形的\N{\r原文字幕}probably because it's invisible.
+Dialogue: 0,0:36:54.88,0:36:57.88,Default,,0,0,0,,{\r译文字幕}是的  我现在在你的空间里  对吗\N{\r原文字幕}Huh yeah, I'm in your space now, right?
+Dialogue: 0,0:36:57.95,0:37:00.76,Default,,0,0,0,,{\r译文字幕}你不太喜欢这个  是吗\N{\r原文字幕}You don't like this so much, do you?
+Dialogue: 0,0:37:00.79,0:37:01.85,Default,,0,0,0,,{\r译文字幕}你在干什么\N{\r原文字幕}What are you doing?
+Dialogue: 0,0:37:02.80,0:37:04.82,Default,,0,0,0,,{\r译文字幕}那是个罐子  好  你在倒什么东西\N{\r原文字幕}That's a jar. Okay, now you're pouring.
+Dialogue: 0,0:37:04.83,0:37:05.08,Default,,0,0,0,,{\r译文字幕}不\N{\r原文字幕}No.
+Dialogue: 0,0:37:05.08,0:37:06.83,Default,,0,0,0,,{\r译文字幕}盐  是盐制饼干\N{\r原文字幕}Salt. It's a salt shakier cookie!
+Dialogue: 0,0:37:06.84,0:37:07.04,Default,,0,0,0,,{\r译文字幕}不\N{\r原文字幕}No.
+Dialogue: 0,0:37:07.04,0:37:09.32,Default,,0,0,0,,{\r译文字幕}好饼干应该用心做  而不是照着食谱\N{\r原文字幕}Real cookie is by following your heart, not a recipe!
+Dialogue: 0,0:37:09.32,0:37:11.27,Default,,0,0,0,,{\r译文字幕}你在说什么\N{\r原文字幕}What are you talking about?
+Dialogue: 0,0:37:11.27,0:37:12.39,Default,,0,0,0,,{\r译文字幕}煤气\N{\r原文字幕}The gas!
+Dialogue: 0,0:37:12.39,0:37:13.98,Default,,0,0,0,,{\r译文字幕}你在倒汽油\N{\r原文字幕}You're pouring gasoline!
+Dialogue: 0,0:37:14.75,0:37:15.27,Default,,0,0,0,,{\r译文字幕}是的\N{\r原文字幕}Oh yeah
+Dialogue: 0,0:37:15.27,0:37:18.89,Default,,0,0,0,,{\r译文字幕}变黑了  这个办法好  我喜欢\N{\r原文字幕}That went dark my style, I like this, I like this very much.
+Dialogue: 0,0:37:20.73,0:37:21.93,Default,,0,0,0,,{\r译文字幕}好吧  好吧\N{\r原文字幕}All right, all right.
+Dialogue: 0,0:37:23.77,0:37:26.84,Default,,0,0,0,,{\r译文字幕}好  你想玩那游戏吗  我会玩和这个\N{\r原文字幕}Okay, you wanna play that game? I can play that game.
+Dialogue: 0,0:37:29.61,0:37:32.86,Default,,0,0,0,,{\r译文字幕}你觉得很好玩吗  你觉得很好玩吗\N{\r原文字幕}You think that's funny? You think that's funny, huh?
+Dialogue: 0,0:37:32.89,0:37:34.99,Default,,0,0,0,,{\r译文字幕}我好想笑\N{\r原文字幕}I'll be laughing soon.
+Dialogue: 0,0:37:36.28,0:37:37.96,Default,,0,0,0,,{\r译文字幕}现在轮到谁笑了\N{\r原文字幕}Who is laughing now, huh?
+Dialogue: 0,0:37:38.80,0:37:41.74,Default,,0,0,0,,{\r译文字幕}我闻到了你踏进去的味道\N{\r原文字幕}Oh ... oh I smell what you are stepping in.
+Dialogue: 0,0:37:41.77,0:37:43.30,Default,,0,0,0,,{\r译文字幕}没错  魔墙人偶\N{\r原文字幕}That's right, Mr.Mime,
+Dialogue: 0,0:37:43.30,0:37:47.01,Default,,0,0,0,,{\r译文字幕}如果你不说的话你就会变成魔灰人偶\N{\r原文字幕}you'are about to be Mr.Melt unless you start talking.
+Dialogue: 0,0:37:48.33,0:37:49.89,Default,,0,0,0,,{\r译文字幕}打牌  打牌  扑克\N{\r原文字幕}Cards, cards, playing cards, poker.
+Dialogue: 0,0:37:49.89,0:37:51.88,Default,,0,0,0,,{\r译文字幕}不  我觉得他是在说R\N{\r原文字幕}No, I think he's talking about R.
+Dialogue: 0,0:37:51.93,0:37:53.80,Default,,0,0,0,,{\r译文字幕}有人供出了R\N{\r原文字幕}Someone was heading out R!
+Dialogue: 0,0:37:53.80,0:37:55.77,Default,,0,0,0,,{\r译文字幕}用你的肢体语言告诉我们  在哪\N{\r原文字幕}Use your body words, where?
+Dialogue: 0,0:37:55.80,0:37:57.25,Default,,0,0,0,,{\r译文字幕}圆圈  屋子  月亮屋\N{\r原文字幕}Circles, house, moon house.
+Dialogue: 0,0:37:57.25,0:37:57.90,Default,,0,0,0,,{\r译文字幕}月亮  屋子\N{\r原文字幕}Moon, house.
+Dialogue: 0,0:37:57.91,0:38:00.71,Default,,0,0,0,,{\r译文字幕}别玩了  快点说  快说\N{\r原文字幕}Enough of the games. Say it! Just say it!
+Dialogue: 0,0:38:00.71,0:38:02.42,Default,,0,0,0,,{\r译文字幕}说话  你这傻逼小丑\N{\r原文字幕}Talk, you're stupid mime!
+Dialogue: 0,0:38:02.42,0:38:04.95,Default,,0,0,0,,{\r译文字幕}好了  你  冷静点\N{\r原文字幕}Okay, you... relax.
+Dialogue: 0,0:38:04.99,0:38:07.82,Default,,0,0,0,,{\r译文字幕}圆形  圆形屋\N{\r原文字幕}Umm round, round house, umm...
+Dialogue: 0,0:38:07.86,0:38:09.85,Default,,0,0,0,,{\r译文字幕}R来自圆形的屋子\N{\r原文字幕}The source of the R came from the round house.
+Dialogue: 0,0:38:09.90,0:38:11.27,Default,,0,0,0,,{\r译文字幕}小子  干得漂亮\N{\r原文字幕}Yeah nice work kid,
+Dialogue: 0,0:38:11.27,0:38:14.81,Default,,0,0,0,,{\r译文字幕}说不定你是个小侦探\N{\r原文字幕}maybe there' a little detective in you after all.
+Dialogue: 0,0:38:30.20,0:38:31.46,Default,,0,0,0,,{\r译文字幕}致命一击\N{\r原文字幕}Critical Hit!
+Dialogue: 0,0:38:31.46,0:38:32.46,Default,,0,0,0,,{\r译文字幕}额外伤害\N{\r原文字幕}Additional Damage！
+Dialogue: 0,0:38:46.84,0:38:48.93,Default,,0,0,0,,{\r译文字幕}莱姆城不是没有宝可梦战斗吗\N{\r原文字幕}Ain't no there Pokémon battles in Ryme City?
+Dialogue: 0,0:38:49.31,0:38:50.60,Default,,0,0,0,,{\r译文字幕}本来是不该有的\N{\r原文字幕}There are not supposed to.
+Dialogue: 0,0:38:52.85,0:38:55.91,Default,,0,0,0,,{\r译文字幕}耿鬼使用了暗影球\N{\r原文字幕}Gengar used his Shadow Ball!
+Dialogue: 0,0:39:05.98,0:39:07.95,Default,,0,0,0,,{\r译文字幕}来吧  我们四处看看\N{\r原文字幕}Come on, let's take a look around.
+Dialogue: 0,0:39:10.80,0:39:13.20,Default,,0,0,0,,{\r译文字幕}那孩子在这  还有那个皮卡丘\N{\r原文字幕}The kid's here. And he's with the Pikachu.
+Dialogue: 0,0:39:13.30,0:39:15.00,Default,,0,0,0,,{\r译文字幕}所以小子  目前已知的是\N{\r原文字幕}Okay kid, so here's what we know,
+Dialogue: 0,0:39:15.60,0:39:16.96,Default,,0,0,0,,{\r译文字幕}哈利追踪R到这里\N{\r原文字幕}Harry traces the R to here.
+Dialogue: 0,0:39:17.03,0:39:18.19,Default,,0,0,0,,{\r译文字幕}通常这种情况下\N{\r原文字幕}And frequent this joint,
+Dialogue: 0,0:39:18.19,0:39:20.56,Default,,0,0,0,,{\r译文字幕}因为这儿的某个人知道些内幕\N{\r原文字幕}cuz someone here knows something about something.
+Dialogue: 0,0:39:20.56,0:39:23.08,Default,,0,0,0,,{\r译文字幕}我们只需要找出那个人问出内幕\N{\r原文字幕}We just need to find the someone, and the something.
+Dialogue: 0,0:39:23.11,0:39:28.02,Default,,0,0,0,,{\r译文字幕}那个皮卡丘搭档呢  站住\N{\r原文字幕}Hey, where is that Pikachu's partner? Don't go!
+Dialogue: 0,0:39:28.02,0:39:29.99,Default,,0,0,0,,{\r译文字幕}我想有人发现我们了\N{\r原文字幕}I think someone just found us.
+Dialogue: 0,0:39:30.02,0:39:32.90,Default,,0,0,0,,{\r译文字幕}我想看看这家伙的网络搜索记录\N{\r原文字幕}Wow, I'd like to see this guy's internet search history.
+Dialogue: 0,0:39:32.93,0:39:33.90,Default,,0,0,0,,{\r译文字幕}你是谁\N{\r原文字幕}Who are you?
+Dialogue: 0,0:39:33.93,0:39:34.82,Default,,0,0,0,,{\r译文字幕}这是个什么情况\N{\r原文字幕}Let's see where this goes.
+Dialogue: 0,0:39:34.82,0:39:35.90,Default,,0,0,0,,{\r译文字幕}告诉他你是我的新伙伴\N{\r原文字幕}Tell him you're my new partner.
+Dialogue: 0,0:39:35.90,0:39:38.55,Default,,0,0,0,,{\r译文字幕}我是他的新伙伴\N{\r原文字幕}I am his new partner.
+Dialogue: 0,0:39:38.55,0:39:40.74,Default,,0,0,0,,{\r译文字幕}皮卡丘的十万伏特\N{\r原文字幕}Well that Pikachu's thunder bolt,
+Dialogue: 0,0:39:40.74,0:39:42.87,Default,,0,0,0,,{\r译文字幕}差点杀了我引以为傲的喷火龙\N{\r原文字幕}almost wreck my pride Charizard,
+Dialogue: 0,0:39:42.95,0:39:45.11,Default,,0,0,0,,{\r译文字幕}上次他来这儿的时候\N{\r原文字幕}last time he was here.
+Dialogue: 0,0:39:45.96,0:39:47.65,Default,,0,0,0,,{\r译文字幕}伤疤还很新呢\N{\r原文字幕}Scar's still fresh.
+Dialogue: 0,0:39:47.65,0:39:49.30,Default,,0,0,0,,{\r译文字幕}我听见的只有嘟囔声\N{\r原文字幕}All I hear are consonants
+Dialogue: 0,0:39:49.30,0:39:51.00,Default,,0,0,0,,{\r译文字幕}我看见的只有那些凸起\N{\r原文字幕}and all I see are nipples.
+Dialogue: 0,0:39:51.03,0:39:52.54,Default,,0,0,0,,{\r译文字幕}嘿  你知道吗\N{\r原文字幕}Hey, you know what?
+Dialogue: 0,0:39:53.04,0:39:55.87,Default,,0,0,0,,{\r译文字幕}他弄烂了我的外套  瞧瞧这\N{\r原文字幕}He ruined my coat, man, look at this.
+Dialogue: 0,0:39:55.88,0:39:56.84,Default,,0,0,0,,{\r译文字幕}我很抱歉\N{\r原文字幕}I'm so sorry.
+Dialogue: 0,0:39:56.88,0:39:58.51,Default,,0,0,0,,{\r译文字幕}别管那外套  他的衬衫呢\N{\r原文字幕}Forget the coat, where's his shirt?
+Dialogue: 0,0:39:58.51,0:40:01.08,Default,,0,0,0,,{\r译文字幕}这  是我的地盘\N{\r原文字幕}This... this is my place.
+Dialogue: 0,0:40:01.60,0:40:03.99,Default,,0,0,0,,{\r译文字幕}没人能随便到我的地盘上瞎逛\N{\r原文字幕}And nobody comes into my place.
+Dialogue: 0,0:40:03.99,0:40:06.05,Default,,0,0,0,,{\r译文字幕}那只小宝可梦精灵也是\N{\r原文字幕}And as that tiny Pokémon.
+Dialogue: 0,0:40:06.10,0:40:07.16,Default,,0,0,0,,{\r译文字幕}你瞅啥\N{\r原文字幕}what are you looking at?
+Dialogue: 0,0:40:07.75,0:40:10.10,Default,,0,0,0,,{\r译文字幕}-也没人能随便弄烂我的外套  -对  外套\N{\r原文字幕}- Or to my coat. - Right, the coat.
+Dialogue: 0,0:40:10.14,0:40:12.04,Default,,0,0,0,,{\r译文字幕}那外套  你在干嘛呢\N{\r原文字幕}the coat, what are you doing?
+Dialogue: 0,0:40:12.07,0:40:13.13,Default,,0,0,0,,{\r译文字幕}瞪眼对决呢  小子\N{\r原文字幕}Last six staredown, kid,
+Dialogue: 0,0:40:13.13,0:40:14.42,Default,,0,0,0,,{\r译文字幕}谁先挪开视线谁就输\N{\r原文字幕}first one to play loses.
+Dialogue: 0,0:40:14.42,0:40:15.64,Default,,0,0,0,,{\r译文字幕}别干扰我了\N{\r原文字幕}Now stop distracting me.
+Dialogue: 0,0:40:15.64,0:40:17.02,Default,,0,0,0,,{\r译文字幕}听着\N{\r原文字幕}Ah, look,
+Dialogue: 0,0:40:17.02,0:40:19.89,Default,,0,0,0,,{\r译文字幕}我只想知道他原来的搭档为什么来这里\N{\r原文字幕}I just wanna know why his old partner was here, that's all.
+Dialogue: 0,0:40:19.90,0:40:22.30,Default,,0,0,0,,{\r译文字幕}耿鬼胜利\N{\r原文字幕}Gengar Wins!
+Dialogue: 0,0:40:22.30,0:40:24.71,Default,,0,0,0,,{\r译文字幕}还有谁上场来试试\N{\r原文字幕}Ready for more to step up!
+Dialogue: 0,0:40:25.10,0:40:27.94,Default,,0,0,0,,{\r译文字幕}我想要重赛\N{\r原文字幕}And I want a rematch.
+Dialogue: 0,0:40:27.94,0:40:29.30,Default,,0,0,0,,{\r译文字幕}如果你跟我重赛\N{\r原文字幕}You give me my rematch,
+Dialogue: 0,0:40:30.78,0:40:33.94,Default,,0,0,0,,{\r译文字幕}我就把你想知道的一切告诉你\N{\r原文字幕}I tell everything you want to know right now.
+Dialogue: 0,0:40:34.95,0:40:37.12,Default,,0,0,0,,{\r译文字幕}告诉他准备开始吧  老铁\N{\r原文字幕}Tell him he's on, amigo.
+Dialogue: 0,0:40:37.19,0:40:38.44,Default,,0,0,0,,{\r译文字幕}好吧\N{\r原文字幕}Okay.
+Dialogue: 0,0:40:38.50,0:40:41.22,Default,,0,0,0,,{\r译文字幕}新的一战即将打响\N{\r原文字幕}Our new battles are holding.
+Dialogue: 0,0:40:41.23,0:40:43.97,Default,,0,0,0,,{\r译文字幕}皮卡丘对决喷火龙\N{\r原文字幕}Pikachu versus Charizard!
+Dialogue: 0,0:40:44.01,0:40:46.07,Default,,0,0,0,,{\r译文字幕}重赛开始\N{\r原文字幕}Rematch!
+Dialogue: 0,0:40:49.23,0:40:51.38,Default,,0,0,0,,{\r译文字幕}拿好我的帽子\N{\r原文字幕}Here, hold my hat,
+Dialogue: 0,0:40:51.38,0:40:53.36,Default,,0,0,0,,{\r译文字幕}-我就要燃爆全场了  -好吧\N{\r原文字幕}- I'm about to rock this place. - Okay.
+Dialogue: 0,0:40:55.03,0:40:58.09,Default,,0,0,0,,{\r译文字幕}先来做轻拉伸  咱可不想对战时太紧绷\N{\r原文字幕}Let's do some light stretching. You never wanna go do these things tight.
+Dialogue: 0,0:40:58.64,0:40:59.60,Default,,0,0,0,,{\r译文字幕}你这次会赢的  好吗\N{\r原文字幕}You're gonna win this time, okay?
+Dialogue: 0,0:41:00.55,0:41:02.70,Default,,0,0,0,,{\r译文字幕}你要干嘛  你的进攻计划是什么\N{\r原文字幕}What are you doing? What is your plan of attack?
+Dialogue: 0,0:41:02.70,0:41:04.75,Default,,0,0,0,,{\r译文字幕}我从来不按计划行事  小子\N{\r原文字幕}I don't know how to play according to plans, kid.
+Dialogue: 0,0:41:04.75,0:41:06.14,Default,,0,0,0,,{\r译文字幕}兵来将挡  水来土掩\N{\r原文字幕}I deal with things in the moment.
+Dialogue: 0,0:41:09.12,0:41:10.58,Default,,0,0,0,,{\r译文字幕}好的  来吧\N{\r原文字幕}Okay, here we go.
+Dialogue: 0,0:41:15.03,0:41:16.32,Default,,0,0,0,,{\r译文字幕}很显然\N{\r原文字幕}Now obviously,
+Dialogue: 0,0:41:16.32,0:41:18.54,Default,,0,0,0,,{\r译文字幕}我之前打败过这个二货\N{\r原文字幕}I've dealt with this putz before,
+Dialogue: 0,0:41:18.54,0:41:21.00,Default,,0,0,0,,{\r译文字幕}那我只要再来一次就行了\N{\r原文字幕}so I'll just do it again.
+Dialogue: 0,0:41:21.70,0:41:22.89,Default,,0,0,0,,{\r译文字幕}快把帽子还给我\N{\r原文字幕}Give me my hat back!
+Dialogue: 0,0:41:22.89,0:41:26.01,Default,,0,0,0,,{\r译文字幕}那家伙吸了一整管的那R什么的东西\N{\r原文字幕}That thing just choked a year worth of that R stuff.
+Dialogue: 0,0:41:26.02,0:41:28.08,Default,,0,0,0,,{\r译文字幕}别紧张  就像你说的\N{\r原文字幕}Hey, hey, hey, its' like you said, okay?
+Dialogue: 0,0:41:28.13,0:41:29.15,Default,,0,0,0,,{\r译文字幕}你之前就打败过它\N{\r原文字幕}You did it before.
+Dialogue: 0,0:41:29.16,0:41:30.43,Default,,0,0,0,,{\r译文字幕}你只需要用上你的技能\N{\r原文字幕}You just gotta use your powers,
+Dialogue: 0,0:41:30.43,0:41:33.55,Default,,0,0,0,,{\r译文字幕}你可以用电光石火  放电  或者电球\N{\r原文字幕}you can use Quick Attack, Discharge, or Electro Ball.
+Dialogue: 0,0:41:33.55,0:41:35.71,Default,,0,0,0,,{\r译文字幕}但我觉得伏特攻击是你最有利的技能\N{\r原文字幕}But I think Volt Tackle is your best move.
+Dialogue: 0,0:41:35.71,0:41:36.69,Default,,0,0,0,,{\r译文字幕}所以用它来开场\N{\r原文字幕}So start with that.
+Dialogue: 0,0:41:36.69,0:41:38.29,Default,,0,0,0,,{\r译文字幕}首先  你什么时候学会变成\N{\r原文字幕}First of all, when did you learn how to be
+Dialogue: 0,0:41:38.29,0:41:39.15,Default,,0,0,0,,{\r译文字幕}一个宝可梦精灵训练师了\N{\r原文字幕}a Pokémon trainer?
+Dialogue: 0,0:41:39.18,0:41:41.21,Default,,0,0,0,,{\r译文字幕}其次  快把我从这鬼地方弄出来\N{\r原文字幕}And secondly, get me the hell out of here!
+Dialogue: 0,0:41:41.60,0:41:43.12,Default,,0,0,0,,{\r译文字幕}对战开始\N{\r原文字幕}Be-gin!
+Dialogue: 0,0:41:45.06,0:41:46.12,Default,,0,0,0,,{\r译文字幕}当心\N{\r原文字幕}Look out!
+Dialogue: 0,0:41:46.69,0:41:48.10,Default,,0,0,0,,{\r译文字幕}我忘了你刚才说的了\N{\r原文字幕}I forgot everything you said!
+Dialogue: 0,0:41:48.10,0:41:50.48,Default,,0,0,0,,{\r译文字幕}我就是会忘记事情  我有失忆症\N{\r原文字幕}I forget things, It's what I do, I have amnesia!
+Dialogue: 0,0:41:50.48,0:41:52.66,Default,,0,0,0,,{\r译文字幕}你得想办法造成击中要害  用伏特攻击\N{\r原文字幕}You need to go for a Critical Hit, use Volt Tackle!
+Dialogue: 0,0:41:52.66,0:41:54.55,Default,,0,0,0,,{\r译文字幕}伏特攻击会把我撞晕的\N{\r原文字幕}Volt Tackle will knock me out!
+Dialogue: 0,0:41:54.56,0:41:56.18,Default,,0,0,0,,{\r译文字幕}我要用十万伏特\N{\r原文字幕}I'm going for Thunderbolt!
+Dialogue: 0,0:41:57.02,0:41:58.33,Default,,0,0,0,,{\r译文字幕}你行的  你行的\N{\r原文字幕}Come on, you got it, you got it!
+Dialogue: 0,0:42:08.04,0:42:09.27,Default,,0,0,0,,{\r译文字幕}快点快点快点\N{\r原文字幕}Come on, come on, come on...
+Dialogue: 0,0:42:09.85,0:42:11.98,Default,,0,0,0,,{\r译文字幕}哥们儿  你在干嘛呢\N{\r原文字幕}Hey bud, what are you doing?
+Dialogue: 0,0:42:12.01,0:42:13.28,Default,,0,0,0,,{\r译文字幕}有人在旁边看的时候我使不出来\N{\r原文字幕}I can't do it when people are watching.
+Dialogue: 0,0:42:13.71,0:42:15.30,Default,,0,0,0,,{\r译文字幕}大家都转过去不要看可以吗\N{\r原文字幕}Can everyone just look away please?
+Dialogue: 0,0:42:16.22,0:42:18.00,Default,,0,0,0,,{\r译文字幕}还是使不出来\N{\r原文字幕}It's not working.
+Dialogue: 0,0:42:18.00,0:42:19.55,Default,,0,0,0,,{\r译文字幕}我忘了怎么用技能了\N{\r原文字幕}I forgot how to use my powers!
+Dialogue: 0,0:42:22.40,0:42:23.41,Default,,0,0,0,,{\r译文字幕}但是他可没忘\N{\r原文字幕}But he didn't!
+Dialogue: 0,0:42:28.15,0:42:29.00,Default,,0,0,0,,{\r译文字幕}皮卡丘  快跑\N{\r原文字幕}Pikachu, run!
+Dialogue: 0,0:42:38.17,0:42:40.16,Default,,0,0,0,,{\r译文字幕}受到重重一击\N{\r原文字幕}Taking on one hit!
+Dialogue: 0,0:42:40.40,0:42:42.00,Default,,0,0,0,,{\r译文字幕}皮卡丘  要不要哭一哭呀\N{\r原文字幕}Hey Pikachu, wanna cry?
+Dialogue: 0,0:42:46.60,0:42:47.80,Default,,0,0,0,,{\r译文字幕}你不会想这么做的\N{\r原文字幕}You don't wanna do this,
+Dialogue: 0,0:42:47.80,0:42:49.68,Default,,0,0,0,,{\r译文字幕}我这么可爱\N{\r原文字幕}I'm adorable.
+Dialogue: 0,0:42:49.68,0:42:51.25,Default,,0,0,0,,{\r译文字幕}皮卡  皮卡\N{\r原文字幕}Pika-Pika.
+Dialogue: 0,0:43:01.00,0:43:04.14,Default,,0,0,0,,{\r译文字幕}你疯了吗  快出去\N{\r原文字幕}Are you crazy? Get out of there!
+Dialogue: 0,0:43:05.50,0:43:07.07,Default,,0,0,0,,{\r译文字幕}交给我了  老大\N{\r原文字幕}I got it, chief!
+Dialogue: 0,0:43:17.11,0:43:19.08,Default,,0,0,0,,{\r译文字幕}你在对我的宝贝做什么\N{\r原文字幕}What are you doing to my baby?!
+Dialogue: 0,0:43:19.08,0:43:21.21,Default,,0,0,0,,{\r译文字幕}快给我让开\N{\r原文字幕}Get out of the way!
+Dialogue: 0,0:43:29.00,0:43:31.20,Default,,0,0,0,,{\r译文字幕}这可不妙啊\N{\r原文字幕}Oh oh, that's not good!
+Dialogue: 0,0:44:05.50,0:44:06.34,Default,,0,0,0,,{\r译文字幕}你真烦人\N{\r原文字幕}You're annoying!
+Dialogue: 0,0:44:06.34,0:44:08.14,Default,,0,0,0,,{\r译文字幕}把你知道的告诉我\N{\r原文字幕}Tell me what you know!
+Dialogue: 0,0:44:08.18,0:44:09.48,Default,,0,0,0,,{\r译文字幕}你要找的那个人\N{\r原文字幕}The guy you were looking for
+Dialogue: 0,0:44:09.48,0:44:12.18,Default,,0,0,0,,{\r译文字幕}想知道R的来源\N{\r原文字幕}wanted to know the source of R.
+Dialogue: 0,0:44:12.32,0:44:15.28,Default,,0,0,0,,{\r译文字幕}他是医生介绍来的  我只知道这些\N{\r原文字幕}He comes from the doctor, that's all I know.
+Dialogue: 0,0:44:15.28,0:44:17.16,Default,,0,0,0,,{\r译文字幕}现在离我远点\N{\r原文字幕}Now leave me alone!
+Dialogue: 0,0:44:31.16,0:44:34.15,Default,,0,0,0,,{\r译文字幕}接得不错  小子  我们从这里出去吧\N{\r原文字幕}Nice catch, kid. Let's get out of here!
+Dialogue: 0,0:44:38.00,0:44:38.66,Default,,0,0,0,,{\r译文字幕}我有个计划\N{\r原文字幕}I got a plan.
+Dialogue: 0,0:44:39.31,0:44:41.65,Default,,0,0,0,,{\r译文字幕}那没用的  鲤鱼王是最没用了\N{\r原文字幕}Look, that's not gonna work! Magikarp is the worst!
+Dialogue: 0,0:44:41.65,0:44:43.27,Default,,0,0,0,,{\r译文字幕}鲤鱼王可以进化成暴鲤龙\N{\r原文字幕}Magickarp can evolve into Gyrados,
+Dialogue: 0,0:44:43.27,0:44:46.31,Default,,0,0,0,,{\r译文字幕}只需轻轻一脚  水溅跃\N{\r原文字幕}all it needs is a little kick, water in the hole!
+Dialogue: 0,0:44:49.19,0:44:51.26,Default,,0,0,0,,{\r译文字幕}在我脑海里想象的是另一番场景\N{\r原文字幕}In my head I saw that differently.
+Dialogue: 0,0:45:07.26,0:45:09.43,Default,,0,0,0,,{\r译文字幕}蒂姆  我不会漂流\N{\r原文字幕}Hey Tim, I don't float.
+Dialogue: 0,0:45:17.69,0:45:20.06,Default,,0,0,0,,{\r译文字幕}我说过鲤鱼王肯定有用\N{\r原文字幕}I told you Magikarp weren't useless.
+Dialogue: 0,0:45:21.36,0:45:23.10,Default,,0,0,0,,{\r译文字幕}你被捕了\N{\r原文字幕}You're under arrest.
+Dialogue: 0,0:45:24.47,0:45:27.34,Default,,0,0,0,,{\r译文字幕}我以为你马上就出城了\N{\r原文字幕}I thought you couldn't wait to get out town.
+Dialogue: 0,0:45:27.80,0:45:30.38,Default,,0,0,0,,{\r译文字幕}是的  但计划有变  因为我找到了他\N{\r原文字幕}Yeah, well, my plan's changed because I found him.
+Dialogue: 0,0:45:31.31,0:45:32.47,Default,,0,0,0,,{\r译文字幕}我没懂你的意思\N{\r原文字幕}I'm not following.
+Dialogue: 0,0:45:33.00,0:45:34.20,Default,,0,0,0,,{\r译文字幕}哈利没有死\N{\r原文字幕}Harry is not dead.
+Dialogue: 0,0:45:34.75,0:45:36.00,Default,,0,0,0,,{\r译文字幕}如果他的宝可梦精灵还活着\N{\r原文字幕}If his Pokémon partner still alive
+Dialogue: 0,0:45:36.00,0:45:36.79,Default,,0,0,0,,{\r译文字幕}那就说明他也活着\N{\r原文字幕}that means he is too.
+Dialogue: 0,0:45:36.79,0:45:38.19,Default,,0,0,0,,{\r译文字幕}这不叫证据  孩子\N{\r原文字幕}That is not proof, son.
+Dialogue: 0,0:45:38.23,0:45:39.63,Default,,0,0,0,,{\r译文字幕}告诉他那个R试剂\N{\r原文字幕}Tell him about the chemical R
+Dialogue: 0,0:45:39.63,0:45:40.36,Default,,0,0,0,,{\r译文字幕}给我点时间\N{\r原文字幕}Give me a minute.
+Dialogue: 0,0:45:40.40,0:45:42.90,Default,,0,0,0,,{\r译文字幕}哈利的最后一个案子和地下对战有关\N{\r原文字幕}Harry's last case had to do with underground battles,
+Dialogue: 0,0:45:42.90,0:45:43.39,Default,,0,0,0,,{\r译文字幕}所以我才会去那里\N{\r原文字幕}that's why I was there.
+Dialogue: 0,0:45:43.44,0:45:45.46,Default,,0,0,0,,{\r译文字幕}-有一种化学试剂  -我们进行了调查\N{\r原文字幕}- There's a chemical. - We've ran an investigation.
+Dialogue: 0,0:45:45.51,0:45:47.06,Default,,0,0,0,,{\r译文字幕}哈利调查清楚了但是陷入了麻烦\N{\r原文字幕}Harry figured it out and he's in trouble!
+Dialogue: 0,0:45:47.06,0:45:48.28,Default,,0,0,0,,{\r译文字幕}我们调查了  调查都结束了\N{\r原文字幕}We did, and it was all over!
+Dialogue: 0,0:45:48.31,0:45:49.68,Default,,0,0,0,,{\r译文字幕}那就重新展开调查\N{\r原文字幕}Then reopen the investigation,
+Dialogue: 0,0:45:49.68,0:45:51.25,Default,,0,0,0,,{\r译文字幕}他还活着  我能感觉到\N{\r原文字幕}he's out there, I can feel it.
+Dialogue: 0,0:45:51.25,0:45:52.28,Default,,0,0,0,,{\r译文字幕}打肚脐眼里  告诉他\N{\r原文字幕}In your jellys, go ahead, say it.
+Dialogue: 0,0:45:52.35,0:45:53.47,Default,,0,0,0,,{\r译文字幕}我才不会那么说的\N{\r原文字幕}I'm not gonna say that.
+Dialogue: 0,0:45:53.47,0:45:55.45,Default,,0,0,0,,{\r译文字幕}我能感觉到  警督  从骨子里\N{\r原文字幕}I can feel it, Lieutenant, in my bones.
+Dialogue: 0,0:45:55.49,0:45:57.46,Default,,0,0,0,,{\r译文字幕}-没有肚脐好  -别打断我\N{\r原文字幕}- Not as good. - Stop!
+Dialogue: 0,0:45:57.91,0:46:00.58,Default,,0,0,0,,{\r译文字幕}是的  我能听懂皮卡丘说话\N{\r原文字幕}Oh yeah, and I can understand Pikachu,
+Dialogue: 0,0:46:00.58,0:46:02.34,Default,,0,0,0,,{\r译文字幕}我们是伙伴  所以\N{\r原文字幕}we're partners, so...
+Dialogue: 0,0:46:04.00,0:46:08.32,Default,,0,0,0,,{\r译文字幕}蒂姆  亲人的逝去确实很难面对\N{\r原文字幕}Tim, It's very difficult to cope with loss,
+Dialogue: 0,0:46:08.32,0:46:10.92,Default,,0,0,0,,{\r译文字幕}-否认可以成为  -不  我没在否认\N{\r原文字幕}- Denial can be a... - No, I'm not in denial!
+Dialogue: 0,0:46:10.92,0:46:14.40,Default,,0,0,0,,{\r译文字幕}我知道我是对的  他一定还活着\N{\r原文字幕}I'm right! I know it! He's...he's out there.
+Dialogue: 0,0:46:20.41,0:46:22.47,Default,,0,0,0,,{\r译文字幕}我本不想给你看这个\N{\r原文字幕}I never wanted to show you this,
+Dialogue: 0,0:46:22.48,0:46:25.48,Default,,0,0,0,,{\r译文字幕}但我认为你还是应该看一下\N{\r原文字幕}but I think it's important you see it.
+Dialogue: 0,0:46:33.34,0:46:36.37,Default,,0,0,0,,{\r译文字幕}没有人能在那样的车祸中幸存下来\N{\r原文字幕}No one could survive a crash like that,
+Dialogue: 0,0:46:36.41,0:46:39.31,Default,,0,0,0,,{\r译文字幕}你爸爸也不行\N{\r原文字幕}not even your dad.
+Dialogue: 0,0:46:41.29,0:46:44.28,Default,,0,0,0,,{\r译文字幕}他已经死了  蒂姆\N{\r原文字幕}He's gone, Tim.
+Dialogue: 0,0:46:54.48,0:46:57.38,Default,,0,0,0,,{\r译文字幕}我应该坐上那列火车的\N{\r原文字幕}I should've gotten on that train.
+Dialogue: 0,0:46:59.90,0:47:01.53,Default,,0,0,0,,{\r译文字幕}啥意思\N{\r原文字幕}What's that, kid?
+Dialogue: 0,0:47:04.36,0:47:06.36,Default,,0,0,0,,{\r译文字幕}我母亲死后\N{\r原文字幕}After my mother died,
+Dialogue: 0,0:47:07.34,0:47:09.54,Default,,0,0,0,,{\r译文字幕}我和我爸就疏远了\N{\r原文字幕}my dad and I drifted apart.
+Dialogue: 0,0:47:10.41,0:47:14.44,Default,,0,0,0,,{\r译文字幕}他搬到这里  全身心地投入工作\N{\r原文字幕}He moved here and poured himself into his work.
+Dialogue: 0,0:47:16.49,0:47:20.33,Default,,0,0,0,,{\r译文字幕}最后他想让我过来和他一起生活  但是\N{\r原文字幕}Eventually he tried to get me to come live with him but...
+Dialogue: 0,0:47:20.53,0:47:22.53,Default,,0,0,0,,{\r译文字幕}我不愿意过来\N{\r原文字幕}I wouldn't go.
+Dialogue: 0,0:47:23.50,0:47:25.37,Default,,0,0,0,,{\r译文字幕}为什么呢\N{\r原文字幕}How come?
+Dialogue: 0,0:47:29.48,0:47:31.51,Default,,0,0,0,,{\r译文字幕}我觉得他不曾在乎过\N{\r原文字幕}I didn't think he cared.
+Dialogue: 0,0:47:34.32,0:47:39.53,Default,,0,0,0,,{\r译文字幕}我想我只是习惯了他不在身边\N{\r原文字幕}I guess I just got used to him not being around and...
+Dialogue: 0,0:47:40.34,0:47:43.57,Default,,0,0,0,,{\r译文字幕}我不能原谅他\N{\r原文字幕}I couldn't forgive him, for it.
+Dialogue: 0,0:47:44.58,0:47:48.42,Default,,0,0,0,,{\r译文字幕}直到我来到这里\N{\r原文字幕}Until I got here, and...
+Dialogue: 0,0:47:50.46,0:47:52.55,Default,,0,0,0,,{\r译文字幕}我才意识到他很在乎\N{\r原文字幕}I realized that he did care.
+Dialogue: 0,0:47:54.53,0:47:56.53,Default,,0,0,0,,{\r译文字幕}但是\N{\r原文字幕}But...
+Dialogue: 0,0:47:56.57,0:48:02.38,Default,,0,0,0,,{\r译文字幕}我不知道  因为我从未给过他机会\N{\r原文字幕}I didn't know, cuz I never gave him a chance.
+Dialogue: 0,0:48:02.65,0:48:06.49,Default,,0,0,0,,{\r译文字幕}而现在已经太迟了\N{\r原文字幕}And... now it's too late.
+Dialogue: 0,0:48:10.46,0:48:12.53,Default,,0,0,0,,{\r译文字幕}我真的\N{\r原文字幕}I really...
+Dialogue: 0,0:48:14.54,0:48:18.45,Default,,0,0,0,,{\r译文字幕}我真希望我坐上了那列火车\N{\r原文字幕}I really wish I'd gotten on that train.
+Dialogue: 0,0:48:24.46,0:48:26.45,Default,,0,0,0,,{\r译文字幕}听着  小子\N{\r原文字幕}Listen, kid.
+Dialogue: 0,0:48:28.43,0:48:33.57,Default,,0,0,0,,{\r译文字幕}我可能失去了记忆  但我至少知道\N{\r原文字幕}Look, I may not have memories, but I know this much,
+Dialogue: 0,0:48:35.51,0:48:38.45,Default,,0,0,0,,{\r译文字幕}这不是你的错\N{\r原文字幕}It wasn't your fault.
+Dialogue: 0,0:48:39.90,0:48:42.46,Default,,0,0,0,,{\r译文字幕}这不是任何人的错\N{\r原文字幕}It wasn't anybody's fault.
+Dialogue: 0,0:48:44.43,0:48:47.50,Default,,0,0,0,,{\r译文字幕}而且我相信如果你爸爸在这里\N{\r原文字幕}And I'm sure if your dad was here,
+Dialogue: 0,0:48:48.61,0:48:53.57,Default,,0,0,0,,{\r译文字幕}他会紧紧地抱住你  直到不能呼吸\N{\r原文字幕}he would hug you so hard, your bones would pop.
+Dialogue: 0,0:48:53.58,0:48:56.68,Default,,0,0,0,,{\r译文字幕}他会告诉你他很抱歉这一切\N{\r原文字幕}And he tell you he's sorry for everything.
+Dialogue: 0,0:48:59.43,0:49:02.42,Default,,0,0,0,,{\r译文字幕}他会为你骄傲的  小子\N{\r原文字幕}He'd be damn proud of you, kid.
+Dialogue: 0,0:49:05.64,0:49:07.67,Default,,0,0,0,,{\r译文字幕}我还没真正对你友好过呢\N{\r原文字幕}I haven't been really nice to you.
+Dialogue: 0,0:49:07.68,0:49:10.52,Default,,0,0,0,,{\r译文字幕}是啊  确实\N{\r原文字幕}No, you really haven't.
+Dialogue: 0,0:49:16.56,0:49:19.56,Default,,0,0,0,,{\r译文字幕}-我们还有一个谜团要解开呢  -什么\N{\r原文字幕}- We still got one mystery to solve. - What?
+Dialogue: 0,0:49:19.60,0:49:21.47,Default,,0,0,0,,{\r译文字幕}你的身世\N{\r原文字幕}Yours.
+Dialogue: 0,0:49:22.58,0:49:25.41,Default,,0,0,0,,{\r译文字幕}我们来查清楚是谁让你失忆的\N{\r原文字幕}Let's find out who did this to you.
+Dialogue: 0,0:49:25.51,0:49:28.45,Default,,0,0,0,,{\r译文字幕}-找回你的记忆  -我非常乐意\N{\r原文字幕}- Get your memory back. - I'd like that.
+Dialogue: 0,0:49:29.52,0:49:31.62,Default,,0,0,0,,{\r译文字幕}我乐意至极\N{\r原文字幕}I'd like that very much.
+Dialogue: 0,0:49:35.22,0:49:37.53,Default,,0,0,0,,{\r译文字幕}一看就是辆坏蛋的车\N{\r原文字幕}Well, that's a bad-guy car.
+Dialogue: 0,0:49:55.54,0:49:57.08,Default,,0,0,0,,{\r译文字幕}谢谢你  诺曼小姐\N{\r原文字幕}Thank you, Miss Norman.
+Dialogue: 0,0:49:57.08,0:49:59.57,Default,,0,0,0,,{\r译文字幕}谢谢你了  诺曼小姐  就这样吧\N{\r原文字幕}Yes thank you Miss Norman, that'll be all.
+Dialogue: 0,0:50:00.27,0:50:01.50,Default,,0,0,0,,{\r译文字幕}我想撬撬她的嘴\N{\r原文字幕}I want to blab her mouth.
+Dialogue: 0,0:50:02.49,0:50:04.69,Default,,0,0,0,,{\r译文字幕}请进来吧\N{\r原文字幕}Please, come in.
+Dialogue: 0,0:50:09.24,0:50:12.54,Default,,0,0,0,,{\r译文字幕}他们是华丽的生物  对吧\N{\r原文字幕}Magnificent creatures, aren't they?
+Dialogue: 0,0:50:18.55,0:50:21.00,Default,,0,0,0,,{\r译文字幕}哇  一只火伊布\N{\r原文字幕}Wow. A Flareon.
+Dialogue: 0,0:50:22.70,0:50:29.58,Default,,0,0,0,,{\r译文字幕}想象一下  有机会能让自己进化得更完美\N{\r原文字幕}Imagine being able to evolve into the best possible version of yourself.
+Dialogue: 0,0:50:29.90,0:50:30.58,Default,,0,0,0,,{\r译文字幕}你好\N{\r原文字幕}S'up?
+Dialogue: 0,0:50:30.58,0:50:35.65,Default,,0,0,0,,{\r译文字幕}你内心的那股力量  等待着被唤醒\N{\r原文字幕}That greatness inside you, just waiting to be awoken.
+Dialogue: 0,0:50:38.98,0:50:41.63,Default,,0,0,0,,{\r译文字幕}-你好  蒂姆  -他认识你吗\N{\r原文字幕}- Hello Tim. - He knows you?
+Dialogue: 0,0:50:41.63,0:50:44.50,Default,,0,0,0,,{\r译文字幕}我看到你和哈利的皮卡丘搭档了\N{\r原文字幕}I see you partnered with Harry's Pikachu.
+Dialogue: 0,0:50:44.51,0:50:45.60,Default,,0,0,0,,{\r译文字幕}而且他也认识我\N{\r原文字幕}And he knows me too.
+Dialogue: 0,0:50:45.64,0:50:47.61,Default,,0,0,0,,{\r译文字幕}你认识哈利吗\N{\r原文字幕}You knew Harry?
+Dialogue: 0,0:50:47.64,0:50:49.77,Default,,0,0,0,,{\r译文字幕}哈利正在处理的案子\N{\r原文字幕}The case Harry was working on,
+Dialogue: 0,0:50:50.62,0:50:51.76,Default,,0,0,0,,{\r译文字幕}是我委托的\N{\r原文字幕}It was for me.
+Dialogue: 0,0:50:51.76,0:50:54.56,Default,,0,0,0,,{\r译文字幕}真是个大转折  柳暗花明啊\N{\r原文字幕}That's a twist, that's very twisty.
+Dialogue: 0,0:50:54.56,0:50:58.52,Default,,0,0,0,,{\r译文字幕}这种试剂威胁着我所做的一切\N{\r原文字幕}This compound threatens everything I built.
+Dialogue: 0,0:50:58.57,0:51:00.59,Default,,0,0,0,,{\r译文字幕}他知道R  他怎么知道R的事情\N{\r原文字幕}He knows about the R. How does he know about the R?
+Dialogue: 0,0:51:00.60,0:51:03.60,Default,,0,0,0,,{\r译文字幕}我雇了哈利去追踪它的来源\N{\r原文字幕}I hired Harry to trace it to its' source.
+Dialogue: 0,0:51:03.61,0:51:06.66,Default,,0,0,0,,{\r译文字幕}想象一下我是多么震惊\N{\r原文字幕}Imagine my shock when the answer...
+Dialogue: 0,0:51:06.66,0:51:09.61,Default,,0,0,0,,{\r译文字幕}当我发现原来是我自己的儿子在作祟\N{\r原文字幕}turned out to be my own son.
+Dialogue: 0,0:51:10.72,0:51:13.04,Default,,0,0,0,,{\r译文字幕}我毕生致力于完善\N{\r原文字幕}I've devoted my life to perfecting
+Dialogue: 0,0:51:13.05,0:51:16.13,Default,,0,0,0,,{\r译文字幕}宝可梦精灵和人类之间的伙伴关系\N{\r原文字幕}the partnership between Pokémon and humans.
+Dialogue: 0,0:51:16.13,0:51:17.62,Default,,0,0,0,,{\r译文字幕}在这种关系里宝可梦精灵\N{\r原文字幕}A partnership where Pokémon
+Dialogue: 0,0:51:17.62,0:51:19.10,Default,,0,0,0,,{\r译文字幕}能将我们最好的一面引导出来\N{\r原文字幕}bring out the best in us.
+Dialogue: 0,0:51:19.10,0:51:20.42,Default,,0,0,0,,{\r译文字幕}但是这样做的同时\N{\r原文字幕}In doing so,
+Dialogue: 0,0:51:20.42,0:51:24.75,Default,,0,0,0,,{\r译文字幕}恐怕我忽视了作为父母的责任\N{\r原文字幕}I'm afraid I neglected my responsibilities as a parent.
+Dialogue: 0,0:51:26.69,0:51:29.30,Default,,0,0,0,,{\r译文字幕}罗杰憎恨宝可梦精灵\N{\r原文字幕}Roger resents the Pokémon.
+Dialogue: 0,0:51:29.30,0:51:32.34,Default,,0,0,0,,{\r译文字幕}我觉得他在我的阴影下生活了这么久\N{\r原文字幕}I think he's lived in my shadow for so long.
+Dialogue: 0,0:51:32.34,0:51:35.50,Default,,0,0,0,,{\r译文字幕}以至于他真的想毁了我的遗产\N{\r原文字幕}He actually wants to destroy my legacy.
+Dialogue: 0,0:51:35.50,0:51:38.31,Default,,0,0,0,,{\r译文字幕}看来每份仇父情绪里都得有个衰爸\N{\r原文字幕}Well, there's no such thing as daddy issues without daddy.
+Dialogue: 0,0:51:38.31,0:51:40.61,Default,,0,0,0,,{\r译文字幕}但克利福先生  你怎么能让他这么做\N{\r原文字幕}But Mr.Clifford, how could you let him do that?
+Dialogue: 0,0:51:40.62,0:51:43.40,Default,,0,0,0,,{\r译文字幕}自从我的疾病让我深陷在这张椅子上\N{\r原文字幕}Ever since my illness put me in this chair,
+Dialogue: 0,0:51:43.40,0:51:46.65,Default,,0,0,0,,{\r译文字幕}罗杰接管了公司越来越多的股份\N{\r原文字幕}Roger has taken over more and more of the company.
+Dialogue: 0,0:51:46.70,0:51:51.11,Default,,0,0,0,,{\r译文字幕}他控制着董事会  也控制着警察和政客\N{\r原文字幕}He controls the board, he also controls the police and politicians.
+Dialogue: 0,0:51:51.11,0:51:52.80,Default,,0,0,0,,{\r译文字幕}而且他坐拥媒体\N{\r原文字幕}And he owns the press.
+Dialogue: 0,0:51:53.29,0:51:56.26,Default,,0,0,0,,{\r译文字幕}哈利是我唯一信任的人\N{\r原文字幕}Harry is the only one I can trust
+Dialogue: 0,0:51:56.26,0:51:59.65,Default,,0,0,0,,{\r译文字幕}所以你要找到他\N{\r原文字幕}that's why you need to find him.
+Dialogue: 0,0:51:59.69,0:52:02.75,Default,,0,0,0,,{\r译文字幕}你还不知道吗  哈利已经死了\N{\r原文字幕}You haven't heard? Harry is dead.
+Dialogue: 0,0:52:02.79,0:52:09.61,Default,,0,0,0,,{\r译文字幕}不  蒂姆  你父亲还活着\N{\r原文字幕}Oh no, Tim, your father is alive.
+Dialogue: 0,0:52:12.36,0:52:13.61,Default,,0,0,0,,{\r译文字幕}蒂姆  小心\N{\r原文字幕}Look out, Tim!
+Dialogue: 0,0:52:17.72,0:52:19.85,Default,,0,0,0,,{\r译文字幕}先进的全息成像技术\N{\r原文字幕}Advanced holographic imaging.
+Dialogue: 0,0:52:20.42,0:52:22.79,Default,,0,0,0,,{\r译文字幕}自从我被束缚在这把椅子上\N{\r原文字幕}Since being confined to this chair,
+Dialogue: 0,0:52:22.79,0:52:27.74,Default,,0,0,0,,{\r译文字幕}我就在投资能把世界呈现在我面前的办法\N{\r原文字幕}I've invested in ways of bringing the world to me.
+Dialogue: 0,0:52:27.78,0:52:31.41,Default,,0,0,0,,{\r译文字幕}这段影像是根据警方的档案生成的\N{\r原文字幕}This was recreated from police footage,
+Dialogue: 0,0:52:31.41,0:52:33.46,Default,,0,0,0,,{\r译文字幕}可以让我们看到\N{\r原文字幕}It allows us to see things...
+Dialogue: 0,0:52:33.46,0:52:36.63,Default,,0,0,0,,{\r译文字幕}他们不能或不想让我们看到的东西\N{\r原文字幕}that they cannot or don't want us to see.
+Dialogue: 0,0:52:37.63,0:52:39.63,Default,,0,0,0,,{\r译文字幕}他还活着\N{\r原文字幕}He's alive.
+Dialogue: 0,0:52:40.64,0:52:42.66,Default,,0,0,0,,{\r译文字幕}那是我  车祸的时候我在哈利身边\N{\r原文字幕}That's me, I'm was with Harry in the crash.
+Dialogue: 0,0:52:42.66,0:52:43.84,Default,,0,0,0,,{\r译文字幕}我得帮他\N{\r原文字幕}He needs my help.
+Dialogue: 0,0:52:46.78,0:52:49.76,Default,,0,0,0,,{\r译文字幕}如果哈利活着  为什么警察没有找到他\N{\r原文字幕}If Harry is alive, why didn't they find him?
+Dialogue: 0,0:52:56.80,0:52:58.86,Default,,0,0,0,,{\r译文字幕}-那是什么  -超梦\N{\r原文字幕}- What is that? - Mewtwo.
+Dialogue: 0,0:52:58.87,0:53:01.64,Default,,0,0,0,,{\r译文字幕}一个人工制造的恶魔\N{\r原文字幕}A manmade abomination.
+Dialogue: 0,0:53:01.68,0:53:04.09,Default,,0,0,0,,{\r译文字幕}通过实验室提取\N{\r原文字幕}Created in the laboratory using DNA from
+Dialogue: 0,0:53:04.09,0:53:06.82,Default,,0,0,0,,{\r译文字幕}古代梦幻化石DNA创造出来的\N{\r原文字幕}the fossil remains of the ancient Meow.
+Dialogue: 0,0:53:06.86,0:53:08.66,Default,,0,0,0,,{\r译文字幕}难以置信\N{\r原文字幕}I can't believe it.
+Dialogue: 0,0:53:08.69,0:53:10.64,Default,,0,0,0,,{\r译文字幕}如果那个东西出自梦幻\N{\r原文字幕}If that thing came from Mew,
+Dialogue: 0,0:53:10.64,0:53:14.80,Default,,0,0,0,,{\r译文字幕}那这个就是世上最强大的宝可梦精灵了\N{\r原文字幕}then we're looking at the most powerful Pokémon in the world.
+Dialogue: 0,0:53:19.82,0:53:22.79,Default,,0,0,0,,{\r译文字幕}没错  当时就是这样\N{\r原文字幕}That's it, that's what happened to me.
+Dialogue: 0,0:53:22.82,0:53:25.76,Default,,0,0,0,,{\r译文字幕}超梦消除了我的记忆\N{\r原文字幕}Mewtwo wiped my memory.
+Dialogue: 0,0:53:25.76,0:53:27.73,Default,,0,0,0,,{\r译文字幕}可是为什么呢\N{\r原文字幕}But why?
+Dialogue: 0,0:53:31.91,0:53:33.88,Default,,0,0,0,,{\r译文字幕}等等  等等\N{\r原文字幕}Wait, wait, wait!
+Dialogue: 0,0:53:39.72,0:53:40.82,Default,,0,0,0,,{\r译文字幕}慢着\N{\r原文字幕}Wait...
+Dialogue: 0,0:53:40.86,0:53:42.79,Default,,0,0,0,,{\r译文字幕}慢着  他要带他去哪\N{\r原文字幕}Wait, wait, wait, where did he take him?
+Dialogue: 0,0:53:42.79,0:53:44.92,Default,,0,0,0,,{\r译文字幕}这就是你现在要解决的问题了\N{\r原文字幕}That's for you to solve now.
+Dialogue: 0,0:53:44.97,0:53:50.84,Default,,0,0,0,,{\r译文字幕}找到超梦就等于找到了你父亲\N{\r原文字幕}Find Mewtwo and you will find your father.
+Dialogue: 0,0:53:53.58,0:53:56.08,Default,,0,0,0,,{\r译文字幕}孩子  重新来过的机会非常难得\N{\r原文字幕}Second chance is a special thing, kid.
+Dialogue: 0,0:53:56.08,0:53:58.20,Default,,0,0,0,,{\r译文字幕}解决了这件事  很多事都会变得更好\N{\r原文字幕}There's a lot we can make beter if we crack this case.
+Dialogue: 0,0:53:58.20,0:54:00.44,Default,,0,0,0,,{\r译文字幕}不过我还有个问题  我们要去哪\N{\r原文字幕}One question though, where are we going?
+Dialogue: 0,0:54:00.44,0:54:01.40,Default,,0,0,0,,{\r译文字幕}不知道  我负责走\N{\r原文字幕}I don't know, I'm just going.
+Dialogue: 0,0:54:01.40,0:54:02.93,Default,,0,0,0,,{\r译文字幕}你负责告诉我往哪走  你才是侦探啊\N{\r原文字幕}You gotta tell me where, you're the detective.
+Dialogue: 0,0:54:02.97,0:54:06.70,Default,,0,0,0,,{\r译文字幕}如果罗杰·克利福是整件事的关键\N{\r原文字幕}Okay, if Roger Clifford is the key to all of this,
+Dialogue: 0,0:54:06.71,0:54:09.38,Default,,0,0,0,,{\r译文字幕}那我们需要找一个能接触到他的人\N{\r原文字幕}Then we need someone who has access to him.
+Dialogue: 0,0:54:09.38,0:54:11.20,Default,,0,0,0,,{\r译文字幕}那个人是谁  我们都心知肚明\N{\r原文字幕}And we both know who that is.
+Dialogue: 0,0:54:11.20,0:54:12.02,Default,,0,0,0,,{\r译文字幕}小情人儿\N{\r原文字幕}Lover boy.
+Dialogue: 0,0:54:12.02,0:54:15.00,Default,,0,0,0,,{\r译文字幕}别瞎说  别哪壶不开提哪壶\N{\r原文字幕}Okay, come on, that's... come on, let's not start that again.
+Dialogue: 0,0:54:22.30,0:54:23.77,Default,,0,0,0,,{\r译文字幕}她来了\N{\r原文字幕}There she is.
+Dialogue: 0,0:54:23.81,0:54:26.31,Default,,0,0,0,,{\r译文字幕}怎么戴着墨镜  她能看见我们吗\N{\r原文字幕}What... what's with the sunglasses, can she see us?
+Dialogue: 0,0:54:26.31,0:54:27.71,Default,,0,0,0,,{\r译文字幕}不知  应该看不见吧\N{\r原文字幕}I don't... I don't think she can see us.
+Dialogue: 0,0:54:27.75,0:54:29.22,Default,,0,0,0,,{\r译文字幕}谢谢你肯来\N{\r原文字幕}Hey, thanks for coming.
+Dialogue: 0,0:54:29.22,0:54:31.75,Default,,0,0,0,,{\r译文字幕}别跟我说话\N{\r原文字幕}Don't talk to me.
+Dialogue: 0,0:54:31.86,0:54:33.73,Default,,0,0,0,,{\r译文字幕}好的\N{\r原文字幕}Okay.
+Dialogue: 0,0:54:33.83,0:54:35.96,Default,,0,0,0,,{\r译文字幕}-这是什么情况  -表现得随意点\N{\r原文字幕}- What happens now? - Just act casual.
+Dialogue: 0,0:54:36.00,0:54:37.47,Default,,0,0,0,,{\r译文字幕}但是别往我这看\N{\r原文字幕}but don't look at me.
+Dialogue: 0,0:54:39.40,0:54:41.77,Default,,0,0,0,,{\r译文字幕}这一点都不随意好吗\N{\r原文字幕}There's nothing casual about this.
+Dialogue: 0,0:54:42.55,0:54:43.95,Default,,0,0,0,,{\r译文字幕}看看这个\N{\r原文字幕}Look at this.
+Dialogue: 0,0:54:44.82,0:54:45.98,Default,,0,0,0,,{\r译文字幕}-不好意思  我  -没事  没事\N{\r原文字幕}- Sorry, that was... - Oh shit, it's okay, it's okay.
+Dialogue: 0,0:54:47.20,0:54:47.89,Default,,0,0,0,,{\r译文字幕}对不起  对不起\N{\r原文字幕}Sorry, I'm sorry.
+Dialogue: 0,0:54:47.92,0:54:48.98,Default,,0,0,0,,{\r译文字幕}简直好的不得了\N{\r原文字幕}Yeah, this is working out great.
+Dialogue: 0,0:54:48.98,0:54:50.60,Default,,0,0,0,,{\r译文字幕}你叫她坐到这边来不就好了\N{\r原文字幕}Why don't you just have her sit over here?
+Dialogue: 0,0:54:50.60,0:54:51.79,Default,,0,0,0,,{\r译文字幕}不然你过来跟我们一起坐吧\N{\r原文字幕}Do you wanna just come sit with us? Anyway...
+Dialogue: 0,0:54:51.79,0:54:54.00,Default,,0,0,0,,{\r译文字幕}我不该鼓励你  你没戏的\N{\r原文字幕}I should've never encouraged you, you... you have no chance.
+Dialogue: 0,0:54:54.00,0:54:55.61,Default,,0,0,0,,{\r译文字幕}我看了罗杰的电脑\N{\r原文字幕}I got access to Roger's computer.
+Dialogue: 0,0:54:55.61,0:54:56.83,Default,,0,0,0,,{\r译文字幕}真的吗  怎么做到的\N{\r原文字幕}Oh wow, how do you do that?
+Dialogue: 0,0:54:57.03,0:54:58.32,Default,,0,0,0,,{\r译文字幕}在他的实验室里打翻一杯卡布奇诺\N{\r原文字幕}Spilled a kapucino in his lab.
+Dialogue: 0,0:54:58.32,0:54:59.51,Default,,0,0,0,,{\r译文字幕}听起来有点浪费咖啡\N{\r原文字幕}Uh, sounds like a waste of coffee.
+Dialogue: 0,0:54:59.51,0:55:01.23,Default,,0,0,0,,{\r译文字幕}我查了他所有的记录\N{\r原文字幕}So I searched through all his records,
+Dialogue: 0,0:55:01.23,0:55:02.65,Default,,0,0,0,,{\r译文字幕}重点查了那片区域的产权信息\N{\r原文字幕}I targeted the property rights in the region and
+Dialogue: 0,0:55:02.66,0:55:03.79,Default,,0,0,0,,{\r译文字幕}再跟市政府登记的克利福金融公司记录\N{\r原文字幕}I cross check that with city records
+Dialogue: 0,0:55:03.79,0:55:07.07,Default,,0,0,0,,{\r译文字幕}进行交叉比对  然后我发现了\N{\r原文字幕}for any Clifford finance businesses until I found...
+Dialogue: 0,0:55:07.07,0:55:08.60,Default,,0,0,0,,{\r译文字幕}请看\N{\r原文字幕}May I present...
+Dialogue: 0,0:55:08.62,0:55:12.25,Default,,0,0,0,,{\r译文字幕}PCL  一个宝可梦精灵基因研究机构\N{\r原文字幕}PCL, a Pokémon's genetic research facility.
+Dialogue: 0,0:55:12.25,0:55:13.87,Default,,0,0,0,,{\r译文字幕}-不仅如此  -她真不错\N{\r原文字幕}- But that's not all. - She's good.
+Dialogue: 0,0:55:13.88,0:55:15.97,Default,,0,0,0,,{\r译文字幕}上周  PCL出了一场“意外”\N{\r原文字幕}Last week, PCL had an "acccident" and
+Dialogue: 0,0:55:15.97,0:55:17.94,Default,,0,0,0,,{\r译文字幕}不得不关闭了整间机构\N{\r原文字幕}had to shut down the entire facility.
+Dialogue: 0,0:55:17.98,0:55:20.89,Default,,0,0,0,,{\r译文字幕}就在同一天晚上  哈利·古德曼失踪了\N{\r原文字幕}That's the same ngiht Harry Goodman went missing.
+Dialogue: 0,0:55:20.89,0:55:24.99,Default,,0,0,0,,{\r译文字幕}没人知道发生了什么  完全的消息封锁\N{\r原文字幕}No one knows what happened. Total media blackout.
+Dialogue: 0,0:55:25.03,0:55:27.43,Default,,0,0,0,,{\r译文字幕}意味着什么呢  我不知道\N{\r原文字幕}What does it all mean? I don't know.
+Dialogue: 0,0:55:27.43,0:55:28.94,Default,,0,0,0,,{\r译文字幕}简直令人兴奋  你兴奋吗\N{\r原文字幕}This is very exciting, are you excited?
+Dialogue: 0,0:55:28.97,0:55:30.84,Default,,0,0,0,,{\r译文字幕}-兴奋  -我觉得他刚刚尿了一点\N{\r原文字幕}- Yeah. - I think he just peed a little.
+Dialogue: 0,0:55:30.91,0:55:33.88,Default,,0,0,0,,{\r译文字幕}-那  -不是  是我  我尿了\N{\r原文字幕}- So... - No, no, that's me, that was me.
+Dialogue: 0,0:55:33.92,0:55:35.78,Default,,0,0,0,,{\r译文字幕}也就是说\N{\r原文字幕}So umm...
+Dialogue: 0,0:55:35.78,0:55:37.01,Default,,0,0,0,,{\r译文字幕}有人  在掩盖真相\N{\r原文字幕}there's, there's a cover-up.
+Dialogue: 0,0:55:37.60,0:55:38.99,Default,,0,0,0,,{\r译文字幕}可是\N{\r原文字幕}But...
+Dialogue: 0,0:55:40.06,0:55:41.86,Default,,0,0,0,,{\r译文字幕}他们想掩盖的是什么\N{\r原文字幕}What are they covering up?
+Dialogue: 0,0:55:42.93,0:55:44.93,Default,,0,0,0,,{\r译文字幕}我们去看看不就知道了\N{\r原文字幕}What do you say we go find out?
+Dialogue: 0,0:56:01.87,0:56:03.29,Default,,0,0,0,,{\r译文字幕}所以现在是怎么个意思\N{\r原文字幕}So let me get this right,
+Dialogue: 0,0:56:03.29,0:56:05.46,Default,,0,0,0,,{\r译文字幕}我们被迫听这按摩专用背景音乐\N{\r原文字幕}we are forced to listen to this SPA music
+Dialogue: 0,0:56:05.47,0:56:07.91,Default,,0,0,0,,{\r译文字幕}就是为了防止你脑抽然后杀光我们吗\N{\r原文字幕}so your head doesn't explode... and kill us all?
+Dialogue: 0,0:56:09.67,0:56:11.99,Default,,0,0,0,,{\r译文字幕}你的皮卡丘真的很特别\N{\r原文字幕}Your Pikachu is so unusual.
+Dialogue: 0,0:56:13.40,0:56:16.09,Default,,0,0,0,,{\r译文字幕}拿下去  我才不要给你按摩\N{\r原文字幕}Hey you put that down! I am not giving you a massage.
+Dialogue: 0,0:56:17.69,0:56:19.87,Default,,0,0,0,,{\r译文字幕}我从来没见过戴帽子的宝可梦精灵\N{\r原文字幕}I have never known a Pokémon to wear a hat.
+Dialogue: 0,0:56:19.91,0:56:21.04,Default,,0,0,0,,{\r译文字幕}他确实有点怪\N{\r原文字幕}Yeah, he's weird.
+Dialogue: 0,0:56:21.08,0:56:22.88,Default,,0,0,0,,{\r译文字幕}-是吧  -他超奇怪的\N{\r原文字幕}- Yeah. - He is so weird.
+Dialogue: 0,0:56:22.88,0:56:24.39,Default,,0,0,0,,{\r译文字幕}我当然在乎我搭档的性命了\N{\r原文字幕}Of course I care about my partner's life.
+Dialogue: 0,0:56:24.39,0:56:26.12,Default,,0,0,0,,{\r译文字幕}好啦好啦  拿过来吧\N{\r原文字幕}Fine, fine, hand it over!
+Dialogue: 0,0:56:27.06,0:56:28.92,Default,,0,0,0,,{\r译文字幕}你干什么呢\N{\r原文字幕}What are you doing?
+Dialogue: 0,0:56:28.96,0:56:29.98,Default,,0,0,0,,{\r译文字幕}什么\N{\r原文字幕}What?
+Dialogue: 0,0:56:30.39,0:56:35.00,Default,,0,0,0,,{\r译文字幕}没什么  我是想问  这个人是谁\N{\r原文字幕}Nah, nothing, I was... I was actually wondering who umm... this was.
+Dialogue: 0,0:56:35.87,0:56:38.90,Default,,0,0,0,,{\r译文字幕}PCL的首席科学家  安·劳伦特博士\N{\r原文字幕}It's PCL's chief scientist, Dr. Ann Laurent.
+Dialogue: 0,0:56:38.95,0:56:40.92,Default,,0,0,0,,{\r译文字幕}那膀子哥说的博士肯定就是她\N{\r原文字幕}I bet this is the doctor shirtless was talking about.
+Dialogue: 0,0:56:40.95,0:56:43.82,Default,,0,0,0,,{\r译文字幕}她因为一项宝可梦的研究失去了奖学金\N{\r原文字幕}She lost her university grant over a experimentation on Pokémon
+Dialogue: 0,0:56:43.82,0:56:46.05,Default,,0,0,0,,{\r译文字幕}因为她想控制它们的思想\N{\r原文字幕}because she was trying to control theire minds.
+Dialogue: 0,0:56:46.76,0:56:48.93,Default,,0,0,0,,{\r译文字幕}她基本上可以被称为宝可梦精灵神经学家\N{\r原文字幕}She is essentially a neurologist for Pokémon.
+Dialogue: 0,0:56:48.97,0:56:50.93,Default,,0,0,0,,{\r译文字幕}也许这位博士可以着手研究一下\N{\r原文字幕}Maybe this doctor can weigh in
+Dialogue: 0,0:56:50.93,0:56:55.09,Default,,0,0,0,,{\r译文字幕}我被绑在旁边安着一颗炸弹的儿童座椅上\N{\r原文字幕}on the long-term psychological effects of being strapped into a babyseat...
+Dialogue: 0,0:56:55.09,0:56:56.07,Default,,0,0,0,,{\r译文字幕}时的心理阴影面积\N{\r原文字幕}next to a bomb!
+Dialogue: 0,0:57:00.06,0:57:01.89,Default,,0,0,0,,{\r译文字幕}到了\N{\r原文字幕}This is it.
+Dialogue: 0,0:57:04.13,0:57:06.10,Default,,0,0,0,,{\r译文字幕}看到那些牌子了吗\N{\r原文字幕}Look at the signs.
+Dialogue: 0,0:57:05.64,0:57:06.54,Default,,0,0,0,,{\r译文字幕}{\pos(263,60)}私人区域  请勿入内
+Dialogue: 0,0:57:07.50,0:57:09.90,Default,,0,0,0,,{\r译文字幕}一定发生了很严重的事故\N{\r原文字幕}Must've been a really bad accident.
+Dialogue: 0,0:57:06.77,0:57:09.17,Default,,0,0,0,,{\r译文字幕}{\pos(233,85)}有毒 受限区域
+Dialogue: 0,0:57:06.77,0:57:09.17,Default,,0,0,0,,{\r译文字幕}{\pos(33,50)}危险
+Dialogue: 0,0:57:06.77,0:57:09.17,Default,,0,0,0,,{\r译文字幕}{\pos(33,240)}生化危害
+Dialogue: 0,0:57:09.90,0:57:11.64,Default,,0,0,0,,{\r译文字幕}他们就想让你这么以为\N{\r原文字幕}That's what they want you to believe.
+Dialogue: 0,0:57:11.64,0:57:13.52,Default,,0,0,0,,{\r译文字幕}策划这个场景的人干的漂亮啊\N{\r原文字幕}Whoever staged this did an excellent job.
+Dialogue: 0,0:57:13.52,0:57:15.77,Default,,0,0,0,,{\r译文字幕}胆小的人看到这些牌子就吓跑了\N{\r原文字幕}The signs were the perfect scarecrow for suckers.
+Dialogue: 0,0:57:15.77,0:57:17.09,Default,,0,0,0,,{\r译文字幕}对付我是挺管用的\N{\r原文字幕}Yeah, well, they're working on me.
+Dialogue: 0,0:57:17.55,0:57:19.92,Default,,0,0,0,,{\r译文字幕}孩子  这位夫人喜欢刺激\N{\r原文字幕}Kid, this dame's looking for danger.
+Dialogue: 0,0:57:19.93,0:57:21.96,Default,,0,0,0,,{\r译文字幕}要想赢得她的芳心  你就得带她去冒险\N{\r原文字幕}You wanna win her over, you gotta lead her straight to it.
+Dialogue: 0,0:57:22.00,0:57:25.03,Default,,0,0,0,,{\r译文字幕}首先  女生不喜欢被称为  夫人\N{\r原文字幕}Okay, okay. First of all, women don't like to be called "dame".
+Dialogue: 0,0:57:25.04,0:57:29.40,Default,,0,0,0,,{\r译文字幕}其次  女生喜欢头脑冷静  有内涵\N{\r原文字幕}Second, women appreciate calm, level-headed,
+Dialogue: 0,0:57:29.40,0:57:31.98,Default,,0,0,0,,{\r译文字幕}有责任心  有决断力\N{\r原文字幕}and um, responsible decision-making.
+Dialogue: 0,0:57:31.99,0:57:33.05,Default,,0,0,0,,{\r译文字幕}她在干什么\N{\r原文字幕}What is she doing?
+Dialogue: 0,0:57:36.56,0:57:38.22,Default,,0,0,0,,{\r译文字幕}露西  你在干什么\N{\r原文字幕}Lucy, what are you doing?
+Dialogue: 0,0:57:38.23,0:57:42.07,Default,,0,0,0,,{\r译文字幕}剪铁丝网啊  剪开口子我们钻进去\N{\r原文字幕}I'm... I'm cutting the fence so that we can slip through.
+Dialogue: 0,0:57:42.07,0:57:43.72,Default,,0,0,0,,{\r译文字幕}不是  你从哪找来的工具\N{\r原文字幕}No, where... where did you get those?
+Dialogue: 0,0:57:43.72,0:57:44.55,Default,,0,0,0,,{\r译文字幕}不要在意这些细节\N{\r原文字幕}Oh don't worry about it.
+Dialogue: 0,0:57:44.55,0:57:45.57,Default,,0,0,0,,{\r译文字幕}先生  您先请\N{\r原文字幕}After you, sir.
+Dialogue: 0,0:57:45.80,0:57:49.05,Default,,0,0,0,,{\r译文字幕}不请吗  好吧  我先走  你自便\N{\r原文字幕}No? Okay, I'll go first, whatever is most calming for you.
+Dialogue: 0,0:58:19.72,0:58:21.50,Default,,0,0,0,,{\r译文字幕}没事  就待在上面\N{\r原文字幕}It's ok. You can stay up there.
+Dialogue: 0,0:58:29.82,0:58:31.24,Default,,0,0,0,,{\r译文字幕}虽然我有健忘症  但是\N{\r原文字幕}I have amnesia but,
+Dialogue: 0,0:58:31.24,0:58:34.98,Default,,0,0,0,,{\r译文字幕}我敢肯定这是人类能想到的最糟糕的办法\N{\r原文字幕}I'm pretty sure this is the worst idea anyone has ever had.
+Dialogue: 0,0:58:37.74,0:58:39.38,Default,,0,0,0,,{\r译文字幕}那是什么\N{\r原文字幕}What is that?
+Dialogue: 0,0:58:40.64,0:58:42.42,Default,,0,0,0,,{\r译文字幕}不清楚\N{\r原文字幕}I'm not sure.
+Dialogue: 0,0:58:49.20,0:58:50.65,Default,,0,0,0,,{\r译文字幕}是甲贺忍蛙\N{\r原文字幕}It's Greninja.
+Dialogue: 0,0:58:50.65,0:58:52.93,Default,,0,0,0,,{\r译文字幕}它们看起来不太对劲\N{\r原文字幕}They don't look right.
+Dialogue: 0,0:58:52.93,0:58:56.51,Default,,0,0,0,,{\r译文字幕}22号实验  能量增强\N{\r原文字幕}Test 22, power enhancement?
+Dialogue: 0,0:58:58.50,0:59:00.08,Default,,0,0,0,,{\r译文字幕}他们在拿它们做实验\N{\r原文字幕}They were experimenting on them.
+Dialogue: 0,0:59:00.08,0:59:00.77,Default,,0,0,0,,{\r译文字幕}可是为什么呢\N{\r原文字幕}But why?
+Dialogue: 0,0:59:00.77,0:59:03.02,Default,,0,0,0,,{\r译文字幕}如果罗杰·克利福是幕后黑手\N{\r原文字幕}If Roger Clifford it's behind this,
+Dialogue: 0,0:59:03.02,0:59:05.60,Default,,0,0,0,,{\r译文字幕}他用宝可梦精灵做实验想干什么呢\N{\r原文字幕}what's he doing experimenting on Pokémon?
+Dialogue: 0,0:59:13.10,0:59:15.33,Default,,0,0,0,,{\r译文字幕}土台龟花园\N{\r原文字幕}Torterra garden.
+Dialogue: 0,0:59:21.09,0:59:24.78,Default,,0,0,0,,{\r译文字幕}宝可梦进化第33号实验  生长增强\N{\r原文字幕}Pokémon evolution test 33: Growth Enhancement.
+Dialogue: 0,0:59:25.21,0:59:27.85,Default,,0,0,0,,{\r译文字幕}它们看起来还是常规尺寸啊\N{\r原文字幕}They look normal size to me.
+Dialogue: 0,0:59:27.85,0:59:30.17,Default,,0,0,0,,{\r译文字幕}可能还没开始\N{\r原文字幕}Maybe it hasn't started yet.
+Dialogue: 0,0:59:30.85,0:59:34.80,Default,,0,0,0,,{\r译文字幕}像是在试图操控宝可梦精灵的进化进程\N{\r原文字幕}It's like they are trying to manipulate Pokémon evolution.
+Dialogue: 0,0:59:35.36,0:59:37.27,Default,,0,0,0,,{\r译文字幕}有可能做到吗\N{\r原文字幕}Is that possible?
+Dialogue: 0,0:59:37.79,0:59:39.25,Default,,0,0,0,,{\r译文字幕}我不知道\N{\r原文字幕}I don't know.
+Dialogue: 0,0:59:39.80,0:59:42.20,Default,,0,0,0,,{\r译文字幕}不过我得把这些都记录下来\N{\r原文字幕}I need to document all of this though.
+Dialogue: 0,0:59:47.85,0:59:49.41,Default,,0,0,0,,{\r译文字幕}你先走  我马上就来\N{\r原文字幕}You go ahead, I'll catch up to you.
+Dialogue: 0,0:59:49.41,0:59:50.81,Default,,0,0,0,,{\r译文字幕}-你确定  -没错\N{\r原文字幕}- Are you sure? - Yeah.
+Dialogue: 0,1:00:09.93,1:00:11.54,Default,,0,0,0,,{\r译文字幕}这里发生了什么\N{\r原文字幕}What happened here?
+Dialogue: 0,1:00:11.54,1:00:15.20,Default,,0,0,0,,{\r译文字幕}坏事  很坏的事\N{\r原文字幕}Bad stuff. Really bad stuff.
+Dialogue: 0,1:00:15.89,1:00:18.02,Default,,0,0,0,,{\r译文字幕}还觉得这是人工摆的吗\N{\r原文字幕}Still think this was staged?
+Dialogue: 0,1:00:24.74,1:00:27.29,Default,,0,0,0,,{\r译文字幕}看这里\N{\r原文字幕}Kid, hey, over here.
+Dialogue: 0,1:00:28.22,1:00:30.43,Default,,0,0,0,,{\r译文字幕}这里显示劳伦特博士站\N{\r原文字幕}It says Dr. Laurent station.
+Dialogue: 0,1:00:31.15,1:00:32.93,Default,,0,0,0,,{\r译文字幕}看起来还能运行\N{\r原文字幕}Looks like it's still working.
+Dialogue: 0,1:00:42.18,1:00:44.64,Default,,0,0,0,,{\r译文字幕}远程访问已启动\N{\r原文字幕}Remote Access Initiated.
+Dialogue: 0,1:00:59.25,1:01:01.34,Default,,0,0,0,,{\r译文字幕}看起来大部分的文件都已经损坏了\N{\r原文字幕}Looks like most of the files are corrupted.
+Dialogue: 0,1:01:03.71,1:01:05.77,Default,,0,0,0,,{\r译文字幕}不是又要来个全息投影吧\N{\r原文字幕}Not another one of those holograms.
+Dialogue: 0,1:01:16.73,1:01:18.88,Default,,0,0,0,,{\r译文字幕}第42天\N{\r原文字幕}Day 42.
+Dialogue: 0,1:01:18.88,1:01:22.27,Default,,0,0,0,,{\r译文字幕}经过了无数次的尝试和失败  我们终于\N{\r原文字幕}After much trial and error we perfected
+Dialogue: 0,1:01:22.27,1:01:25.84,Default,,0,0,0,,{\r译文字幕}找到了稳定提取超梦DNA的方法\N{\r原文字幕}a stable method to extract Mewtwo's DNA.
+Dialogue: 0,1:01:26.27,1:01:28.22,Default,,0,0,0,,{\r译文字幕}那是超梦  不会吧\N{\r原文字幕}It's Mewtwo, no way.
+Dialogue: 0,1:01:28.22,1:01:30.67,Default,,0,0,0,,{\r译文字幕}等等  超梦是从这来的\N{\r原文字幕}Wait, Mewtwo came from this place?
+Dialogue: 0,1:01:32.33,1:01:36.68,Default,,0,0,0,,{\r译文字幕}第60天  临床试验成功\N{\r原文字幕}Day 60, clinical trials proven successful.
+Dialogue: 0,1:01:37.03,1:01:40.09,Default,,0,0,0,,{\r译文字幕}吸入剂引起了思维混乱\N{\r原文字幕}The inhalant results in confusion,
+Dialogue: 0,1:01:40.09,1:01:43.08,Default,,0,0,0,,{\r译文字幕}完全失去自主意识\N{\r原文字幕}and the total loss of free will,
+Dialogue: 0,1:01:43.08,1:01:47.13,Default,,0,0,0,,{\r译文字幕}假以时日  这个宝可梦精灵就会暴走\N{\r原文字幕}which in time makes the Pokémon go wild.
+Dialogue: 0,1:01:47.52,1:01:51.87,Default,,0,0,0,,{\r译文字幕}我们把这个化学制剂命名为血清R\N{\r原文字幕}We designated this chemical as Serum R.
+Dialogue: 0,1:01:54.14,1:01:55.67,Default,,0,0,0,,{\r译文字幕}他们在用超梦制造血清R\N{\r原文字幕}They use Mewtwo to make R.
+Dialogue: 0,1:01:55.67,1:01:58.64,Default,,0,0,0,,{\r译文字幕}那些战斗  都是他们在测试\N{\r原文字幕}And they were testing it, at the battles.
+Dialogue: 0,1:02:01.89,1:02:04.54,Default,,0,0,0,,{\r译文字幕}第68天\N{\r原文字幕}Day 68.
+Dialogue: 0,1:02:04.54,1:02:07.44,Default,,0,0,0,,{\r译文字幕}神经连接已经可以实现\N{\r原文字幕}The neural link is operational.
+Dialogue: 0,1:02:07.44,1:02:09.71,Default,,0,0,0,,{\r译文字幕}红色警报\N{\r原文字幕}Alert Condition Red
+Dialogue: 0,1:02:13.27,1:02:15.46,Default,,0,0,0,,{\r译文字幕}不  不  不\N{\r原文字幕}No! No! No!
+Dialogue: 0,1:02:15.46,1:02:17.71,Default,,0,0,0,,{\r译文字幕}控制室断电了\N{\r原文字幕}We are losing power in the containment chamber!
+Dialogue: 0,1:02:29.18,1:02:31.13,Default,,0,0,0,,{\r译文字幕}超梦肯定就是这样逃出来的\N{\r原文字幕}That must have been how Mewtwo escaped.
+Dialogue: 0,1:02:31.13,1:02:32.59,Default,,0,0,0,,{\r译文字幕}现在我们大致了解了\N{\r原文字幕}Now we are getting somewhere.
+Dialogue: 0,1:02:32.60,1:02:35.73,Default,,0,0,0,,{\r译文字幕}-可是它把哈利抓走做什么  -好问题\N{\r原文字幕}- But what did that thing want with Harry? - Good question, kid.
+Dialogue: 0,1:02:35.73,1:02:37.99,Default,,0,0,0,,{\r译文字幕}让我试试倒回到开头的时候\N{\r原文字幕}I'll try and take us back to the beginning.
+Dialogue: 0,1:02:44.41,1:02:47.64,Default,,0,0,0,,{\r译文字幕}第一天  实验室已经万事俱备\N{\r原文字幕}Day 1, the lab is almost fully operational.
+Dialogue: 0,1:02:47.64,1:02:49.56,Default,,0,0,0,,{\r译文字幕}现在剩下的就是去抓\N{\r原文字幕}All that remains now is to capture
+Dialogue: 0,1:02:49.56,1:02:52.84,Default,,0,0,0,,{\r译文字幕}史上最强大的宝可梦精灵\N{\r原文字幕}the most powerful Pokémon that known to mankind,
+Dialogue: 0,1:02:52.84,1:02:54.47,Default,,0,0,0,,{\r译文字幕}超梦\N{\r原文字幕}Mewtwo.
+Dialogue: 0,1:02:54.91,1:02:59.02,Default,,0,0,0,,{\r译文字幕}它近二十年前就逃离了关都区\N{\r原文字幕}It escaped nearly 20 years ago from the Kanto region.
+Dialogue: 0,1:02:59.02,1:03:02.52,Default,,0,0,0,,{\r译文字幕}幸而我找了专家来抓它\N{\r原文字幕}Fortunately I've been factious hired a specialist to track it down.
+Dialogue: 0,1:03:02.52,1:03:04.48,Default,,0,0,0,,{\r译文字幕}祝你好运  古德曼侦探\N{\r原文字幕}Good luck, detective Goodman.
+Dialogue: 0,1:03:10.98,1:03:13.08,Default,,0,0,0,,{\r译文字幕}所以超梦才会抓走哈利\N{\r原文字幕}That's why Mewtwo took Harry.
+Dialogue: 0,1:03:13.08,1:03:15.32,Default,,0,0,0,,{\r译文字幕}它是想报仇\N{\r原文字幕}It was revenge for being captured.
+Dialogue: 0,1:03:15.32,1:03:16.88,Default,,0,0,0,,{\r译文字幕}但是这说不通\N{\r原文字幕}This doesn't make any sense!
+Dialogue: 0,1:03:16.88,1:03:18.24,Default,,0,0,0,,{\r译文字幕}哈利肯定不会干这种事儿\N{\r原文字幕}Harry would've never been a part of this.
+Dialogue: 0,1:03:18.24,1:03:19.59,Default,,0,0,0,,{\r译文字幕}孩子  我也想相信他\N{\r原文字幕}I wanna believe that kid.
+Dialogue: 0,1:03:19.59,1:03:21.66,Default,,0,0,0,,{\r译文字幕}但坦白讲  你已经好几年没见过他了\N{\r原文字幕}We gotta be honest here, you haven't seen him in years
+Dialogue: 0,1:03:21.66,1:03:22.35,Default,,0,0,0,,{\r译文字幕}而我现在失去记忆\N{\r原文字幕}and I got amnesia,
+Dialogue: 0,1:03:22.35,1:03:25.17,Default,,0,0,0,,{\r译文字幕}咱俩谁也不能肯定哈利会不会做什么\N{\r原文字幕}neither of us can say for sure what Harry would or wouldn't do.
+Dialogue: 0,1:03:25.17,1:03:26.69,Default,,0,0,0,,{\r译文字幕}我们得赶回城里去\N{\r原文字幕}We gotta get back to the city.
+Dialogue: 0,1:03:26.69,1:03:28.67,Default,,0,0,0,,{\r译文字幕}露西  露西\N{\r原文字幕}Lucy! Lucy!
+Dialogue: 0,1:03:28.67,1:03:30.20,Default,,0,0,0,,{\r译文字幕}我们得赶回\N{\r原文字幕}We gotta get back to...
+Dialogue: 0,1:03:34.05,1:03:35.55,Default,,0,0,0,,{\r译文字幕}露西\N{\r原文字幕}Lucy?
+Dialogue: 0,1:03:37.13,1:03:38.60,Default,,0,0,0,,{\r译文字幕}露西\N{\r原文字幕}Lucy?
+Dialogue: 0,1:03:45.92,1:03:48.37,Default,,0,0,0,,{\r译文字幕}刚刚还没有这玩意儿\N{\r原文字幕}That was not there before, kid.
+Dialogue: 0,1:04:03.78,1:04:05.65,Default,,0,0,0,,{\r译文字幕}孩子  打开火警器\N{\r原文字幕}Kid, the fire alarm!
+Dialogue: 0,1:04:10.84,1:04:12.69,Default,,0,0,0,,{\r译文字幕}快点  快跑  快跑\N{\r原文字幕}Come on, Let's go! Let's go! Let's go!
+Dialogue: 0,1:04:16.87,1:04:20.11,Default,,0,0,0,,{\r译文字幕}回去\N{\r原文字幕}Go back.
+Dialogue: 0,1:04:28.57,1:04:30.85,Default,,0,0,0,,{\r译文字幕}趴下\N{\r原文字幕}Get down!
+Dialogue: 0,1:04:33.88,1:04:35.28,Default,,0,0,0,,{\r译文字幕}快点\N{\r原文字幕}Come on!
+Dialogue: 0,1:04:37.93,1:04:44.46,Default,,0,0,0,,{\r译文字幕}可达鸭\N{\r原文字幕}Psyduck!
+Dialogue: 0,1:04:52.98,1:04:55.19,Default,,0,0,0,,{\r译文字幕}没事的  可达鸭  不会有事的\N{\r原文字幕}It's ok, it's ok Psyduck! Everything's fine!
+Dialogue: 0,1:04:55.19,1:04:56.96,Default,,0,0,0,,{\r译文字幕}孩子  他要爆发了\N{\r原文字幕}He is gonna blow his head, kid.
+Dialogue: 0,1:04:56.96,1:04:59.51,Default,,0,0,0,,{\r译文字幕}没事的  可达鸭  冷静点\N{\r原文字幕}It's ok, Psyduck. It's ok!
+Dialogue: 0,1:05:04.07,1:05:06.08,Default,,0,0,0,,{\r译文字幕}没时间管你的头痛了\N{\r原文字幕}This is no time for your stupid headache!
+Dialogue: 0,1:05:06.35,1:05:07.73,Default,,0,0,0,,{\r译文字幕}不不不  等等\N{\r原文字幕}No, no, no, wait, wait,
+Dialogue: 0,1:05:07.73,1:05:09.95,Default,,0,0,0,,{\r译文字幕}你现在头痛得恰到好处\N{\r原文字幕}This is the perfect time to get a headache!
+Dialogue: 0,1:05:09.97,1:05:10.73,Default,,0,0,0,,{\r译文字幕}可达鸭\N{\r原文字幕}Psyduck?
+Dialogue: 0,1:05:11.00,1:05:12.46,Default,,0,0,0,,{\r译文字幕}我讨厌给你揉脚\N{\r原文字幕}I hated rubbing your feet!
+Dialogue: 0,1:05:13.87,1:05:15.64,Default,,0,0,0,,{\r译文字幕}我不会原谅自己的手碰过那脏东西\N{\r原文字幕}I'll never forgive my hands for what they did.
+Dialogue: 0,1:05:15.64,1:05:18.30,Default,,0,0,0,,{\r译文字幕}现在快点给我头痛到爆  你这只神经鸭\N{\r原文字幕}Get a splitting headache now, you neurotic duck!
+Dialogue: 0,1:05:18.75,1:05:20.26,Default,,0,0,0,,{\r译文字幕}快点  快点\N{\r原文字幕}Do it! Do it!
+Dialogue: 0,1:05:21.00,1:05:21.79,Default,,0,0,0,,{\r译文字幕}快点\N{\r原文字幕}Do it!
+Dialogue: 0,1:05:30.59,1:05:34.01,Default,,0,0,0,,{\r译文字幕}干得好  可达鸭\N{\r原文字幕}Good job, Psyduck.
+Dialogue: 0,1:05:34.01,1:05:35.58,Default,,0,0,0,,{\r译文字幕}我的帽子呢\N{\r原文字幕}Where is my hat?
+Dialogue: 0,1:05:41.29,1:05:43.00,Default,,0,0,0,,{\r译文字幕}有点不对劲\N{\r原文字幕}Something's wrong.
+Dialogue: 0,1:05:59.11,1:06:00.98,Default,,0,0,0,,{\r译文字幕}这不是真的吧\N{\r原文字幕}This isn't really happening.
+Dialogue: 0,1:06:01.51,1:06:02.64,Default,,0,0,0,,{\r译文字幕}放宽心\N{\r原文字幕}Don't worry.
+Dialogue: 0,1:06:03.14,1:06:06.09,Default,,0,0,0,,{\r译文字幕}这是可达鸭的灵能波引发的幻觉\N{\r原文字幕}Psyduck psionic waves are causing hallucinations,
+Dialogue: 0,1:06:06.09,1:06:07.78,Default,,0,0,0,,{\r译文字幕}这些都不是真的\N{\r原文字幕}none of this is real.
+Dialogue: 0,1:06:08.44,1:06:11.00,Default,,0,0,0,,{\r译文字幕}-这些都是真的  跑  -快快快\N{\r原文字幕}- All of this is real! Run! - Go go!
+Dialogue: 0,1:06:20.79,1:06:22.30,Default,,0,0,0,,{\r译文字幕}怎么回事\N{\r原文字幕}What's happening?
+Dialogue: 0,1:06:22.30,1:06:23.77,Default,,0,0,0,,{\r译文字幕}继续跑就对了\N{\r原文字幕}Just going down!
+Dialogue: 0,1:06:25.78,1:06:27.18,Default,,0,0,0,,{\r译文字幕}这种时候\N{\r原文字幕}At this point...
+Dialogue: 0,1:06:27.18,1:06:30.56,Default,,0,0,0,,{\r译文字幕}谁能不相信气候变化呢\N{\r原文字幕}how can you not believe in climate change?
+Dialogue: 0,1:06:43.78,1:06:45.52,Default,,0,0,0,,{\r译文字幕}不\N{\r原文字幕}No!
+Dialogue: 0,1:06:45.52,1:06:47.45,Default,,0,0,0,,{\r译文字幕}抓住你了\N{\r原文字幕}I got you.
+Dialogue: 0,1:06:47.45,1:06:48.85,Default,,0,0,0,,{\r译文字幕}蒂姆\N{\r原文字幕}Tim!
+Dialogue: 0,1:06:50.90,1:06:53.04,Default,,0,0,0,,{\r译文字幕}跑  快跑\N{\r原文字幕}Go! Run!
+Dialogue: 0,1:06:53.62,1:06:55.80,Default,,0,0,0,,{\r译文字幕}快快快\N{\r原文字幕}Go! Go! Go!
+Dialogue: 0,1:06:56.29,1:06:59.01,Default,,0,0,0,,{\r译文字幕}跑  跑\N{\r原文字幕}Go! Go!
+Dialogue: 0,1:07:12.68,1:07:13.69,Default,,0,0,0,,{\r译文字幕}我们逃出来了\N{\r原文字幕}We made it.
+Dialogue: 0,1:07:14.80,1:07:17.49,Default,,0,0,0,,{\r译文字幕}我真讨厌这片森林\N{\r原文字幕}I officially hate this forest.
+Dialogue: 0,1:07:25.69,1:07:27.09,Default,,0,0,0,,{\r译文字幕}蒂姆\N{\r原文字幕}Tim!
+Dialogue: 0,1:07:27.65,1:07:30.01,Default,,0,0,0,,{\r译文字幕}-露西  -蒂姆\N{\r原文字幕}- Lucy! - Tim!
+Dialogue: 0,1:07:41.75,1:07:43.30,Default,,0,0,0,,{\r译文字幕}山体越来越靠近了\N{\r原文字幕}The walls are closing in.
+Dialogue: 0,1:07:43.30,1:07:45.74,Default,,0,0,0,,{\r译文字幕}我们不能傻站着  快点想想办法\N{\r原文字幕}We have to do something, and we gotta do it fast.
+Dialogue: 0,1:07:45.74,1:07:48.59,Default,,0,0,0,,{\r译文字幕}-我要跳过去  -这主意可太烂了\N{\r原文字幕}- I gotta jump for it. - That's a great fifth option,
+Dialogue: 0,1:07:48.59,1:07:50.08,Default,,0,0,0,,{\r译文字幕}咱想想别的办法好吗\N{\r原文字幕}let's work on the first four.
+Dialogue: 0,1:07:50.08,1:07:51.41,Default,,0,0,0,,{\r译文字幕}你跳不过来的\N{\r原文字幕}You are not gonna make it!
+Dialogue: 0,1:07:51.42,1:07:53.20,Default,,0,0,0,,{\r译文字幕}-没得选了  -我们有大把的选择\N{\r原文字幕}- There's no other choice. - We have a lot of choices,
+Dialogue: 0,1:07:53.21,1:07:55.39,Default,,0,0,0,,{\r译文字幕}但是跳下去不是其中一个\N{\r原文字幕}only going down is not one of them.
+Dialogue: 0,1:08:06.55,1:08:07.97,Default,,0,0,0,,{\r译文字幕}使劲\N{\r原文字幕}Come on!
+Dialogue: 0,1:08:10.97,1:08:12.57,Default,,0,0,0,,{\r译文字幕}我还从没\N{\r原文字幕}Never was I...
+Dialogue: 0,1:08:12.57,1:08:13.97,Default,,0,0,0,,{\r译文字幕}我还以为我会\N{\r原文字幕}I thought I was gonna...
+Dialogue: 0,1:08:15.70,1:08:16.10,Default,,0,0,0,,{\r译文字幕}眼\N{\r原文字幕}Eye...
+Dialogue: 0,1:08:16.85,1:08:19.17,Default,,0,0,0,,{\r译文字幕}-眼珠子  -眼珠子\N{\r原文字幕}- Eyeball. - Eyeball.
+Dialogue: 0,1:08:19.17,1:08:20.57,Default,,0,0,0,,{\r译文字幕}眼珠子\N{\r原文字幕}Eyeball!
+Dialogue: 0,1:08:32.99,1:08:34.39,Default,,0,0,0,,{\r译文字幕}我知道了\N{\r原文字幕}I get it!
+Dialogue: 0,1:08:35.13,1:08:38.19,Default,,0,0,0,,{\r译文字幕}我知道了  这里并不是森林\N{\r原文字幕}I get it now, this isn't a forest at all!
+Dialogue: 0,1:08:38.67,1:08:42.74,Default,,0,0,0,,{\r译文字幕}我们在土台龟的背上\N{\r原文字幕}This is the Torterra Garden!
+Dialogue: 0,1:08:50.48,1:08:51.88,Default,,0,0,0,,{\r译文字幕}皮卡丘\N{\r原文字幕}Pikachu!
+Dialogue: 0,1:09:22.40,1:09:23.80,Default,,0,0,0,,{\r译文字幕}他受伤了\N{\r原文字幕}He's hurt.
+Dialogue: 0,1:09:26.35,1:09:28.79,Default,,0,0,0,,{\r译文字幕}-他还好吗  -我不行了\N{\r原文字幕}- Is he ok? - I'm in bad shape, kid.
+Dialogue: 0,1:09:28.79,1:09:30.74,Default,,0,0,0,,{\r译文字幕}我是你搭档  我就在这\N{\r原文字幕}I'm your partner, I'm here.
+Dialogue: 0,1:09:33.05,1:09:34.89,Default,,0,0,0,,{\r译文字幕}你刚说你是我搭档吗\N{\r原文字幕}Did you just called me your partner?
+Dialogue: 0,1:09:34.89,1:09:36.81,Default,,0,0,0,,{\r译文字幕}对  当然了  你是我的搭档\N{\r原文字幕}Yeah of course! You are my partner.
+Dialogue: 0,1:09:36.81,1:09:38.49,Default,,0,0,0,,{\r译文字幕}没错  我是你的搭\N{\r原文字幕}Oh that's right, I'm your par...
+Dialogue: 0,1:09:40.29,1:09:41.69,Default,,0,0,0,,{\r译文字幕}你是我的后盾\N{\r原文字幕}You got my back.
+Dialogue: 0,1:09:43.48,1:09:44.90,Default,,0,0,0,,{\r译文字幕}老铁\N{\r原文字幕}Bud!
+Dialogue: 0,1:09:47.28,1:09:48.68,Default,,0,0,0,,{\r译文字幕}皮卡丘\N{\r原文字幕}Pikachu!
+Dialogue: 0,1:09:49.76,1:09:51.16,Default,,0,0,0,,{\r译文字幕}皮卡丘\N{\r原文字幕}Pikachu!
+Dialogue: 0,1:09:52.04,1:09:53.44,Default,,0,0,0,,{\r译文字幕}不\N{\r原文字幕}No.
+Dialogue: 0,1:10:01.06,1:10:03.48,Default,,0,0,0,,{\r译文字幕}救命  求求你\N{\r原文字幕}Help! Please!
+Dialogue: 0,1:10:03.80,1:10:05.20,Default,,0,0,0,,{\r译文字幕}拜托你\N{\r原文字幕}Please!
+Dialogue: 0,1:10:05.92,1:10:07.32,Default,,0,0,0,,{\r译文字幕}他受伤了\N{\r原文字幕}He's hurt!
+Dialogue: 0,1:10:08.08,1:10:09.48,Default,,0,0,0,,{\r译文字幕}求你\N{\r原文字幕}Please!
+Dialogue: 0,1:10:12.50,1:10:14.64,Default,,0,0,0,,{\r译文字幕}他听不懂你在说什么\N{\r原文字幕}He doesn't know what you are saying.
+Dialogue: 0,1:10:19.99,1:10:21.78,Default,,0,0,0,,{\r译文字幕}但是他知道我的感受\N{\r原文字幕}But he knows what I'm feeling.
+Dialogue: 0,1:10:25.17,1:10:27.97,Default,,0,0,0,,{\r译文字幕}我必须带皮卡丘去找宝可梦精灵治疗师\N{\r原文字幕}I need to get Pikachu to a healer Pokémon.
+Dialogue: 0,1:10:28.97,1:10:30.37,Default,,0,0,0,,{\r译文字幕}拜托了\N{\r原文字幕}Please.
+Dialogue: 0,1:10:31.60,1:10:33.00,Default,,0,0,0,,{\r译文字幕}求求你\N{\r原文字幕}I'm begging you.
+Dialogue: 0,1:10:34.30,1:10:36.12,Default,,0,0,0,,{\r译文字幕}我不想连他也失去了\N{\r原文字幕}I don't wanna lose him too.
+Dialogue: 0,1:10:51.30,1:10:52.70,Default,,0,0,0,,{\r译文字幕}没事的\N{\r原文字幕}It's okay.
+Dialogue: 0,1:11:02.31,1:11:04.11,Default,,0,0,0,,{\r译文字幕}蒂姆  你看\N{\r原文字幕}Tim, look.
+Dialogue: 0,1:11:32.23,1:11:33.63,Default,,0,0,0,,{\r译文字幕}好吧\N{\r原文字幕}Okay.
+Dialogue: 0,1:11:35.87,1:11:37.27,Default,,0,0,0,,{\r译文字幕}我在车里等你\N{\r原文字幕}I'll wait you at the car.
+Dialogue: 0,1:12:13.64,1:12:15.22,Default,,0,0,0,,{\r译文字幕}搭档  你会没事的\N{\r原文字幕}You are gonna be ok, partner.
+Dialogue: 0,1:13:06.04,1:13:07.44,Default,,0,0,0,,{\r译文字幕}这里吗\N{\r原文字幕}Here?
+Dialogue: 0,1:13:19.41,1:13:22.02,Default,,0,0,0,,{\r译文字幕}等等  别走  你们要去哪里\N{\r原文字幕}Wait! Wait! Where are you going?
+Dialogue: 0,1:13:22.72,1:13:24.36,Default,,0,0,0,,{\r译文字幕}我应该做什么\N{\r原文字幕}What am I supposed to do?
+Dialogue: 0,1:13:25.03,1:13:27.78,Default,,0,0,0,,{\r译文字幕}我一直在等你\N{\r原文字幕}I've been waiting for you.
+Dialogue: 0,1:13:32.43,1:13:33.84,Default,,0,0,0,,{\r译文字幕}超梦\N{\r原文字幕}Mewtwo.
+Dialogue: 0,1:13:36.11,1:13:37.53,Default,,0,0,0,,{\r译文字幕}不不不  等等\N{\r原文字幕}No, no, no! Wait!
+Dialogue: 0,1:13:55.70,1:13:57.12,Default,,0,0,0,,{\r译文字幕}这是什么地方\N{\r原文字幕}Where am I?
+Dialogue: 0,1:13:57.51,1:13:58.91,Default,,0,0,0,,{\r译文字幕}你没事了\N{\r原文字幕}You are okay!
+Dialogue: 0,1:13:58.91,1:14:02.26,Default,,0,0,0,,{\r译文字幕}对  怎么回事  我好了\N{\r原文字幕}Yeah I... somehow I'm fine!
+Dialogue: 0,1:14:02.26,1:14:05.78,Default,,0,0,0,,{\r译文字幕}你按照约定把他的儿子带过来了\N{\r原文字幕}You brought the son to me, as agreed.
+Dialogue: 0,1:14:07.22,1:14:08.12,Default,,0,0,0,,{\r译文字幕}他在说什么\N{\r原文字幕}What is he talking about?
+Dialogue: 0,1:14:08.12,1:14:10.24,Default,,0,0,0,,{\r译文字幕}我也不知道啊  我跟你一样摸不着头脑\N{\r原文字幕}I don't know kid, I'm lost as you are.
+Dialogue: 0,1:14:10.83,1:14:12.57,Default,,0,0,0,,{\r译文字幕}我爸爸在哪\N{\r原文字幕}Where is my father?
+Dialogue: 0,1:14:12.57,1:14:14.28,Default,,0,0,0,,{\r译文字幕}你对他做了什么\N{\r原文字幕}What did you do with him?
+Dialogue: 0,1:14:25.82,1:14:27.22,Default,,0,0,0,,{\r译文字幕}警告\N{\r原文字幕}Alert.
+Dialogue: 0,1:14:27.22,1:14:29.72,Default,,0,0,0,,{\r译文字幕}安全舱的电源断开了\N{\r原文字幕}We are losing power in the containment chamber!
+Dialogue: 0,1:14:37.13,1:14:39.13,Default,,0,0,0,,{\r译文字幕}你做得很好\N{\r原文字幕}You've done well.
+Dialogue: 0,1:14:39.79,1:14:42.07,Default,,0,0,0,,{\r译文字幕}人类很邪恶\N{\r原文字幕}Humanity is evil.
+Dialogue: 0,1:14:42.67,1:14:44.86,Default,,0,0,0,,{\r译文字幕}我一直坚信宝可梦精灵\N{\r原文字幕}I always believed Pokémon...
+Dialogue: 0,1:14:47.29,1:14:48.91,Default,,0,0,0,,{\r译文字幕}不\N{\r原文字幕}No!
+Dialogue: 0,1:15:24.49,1:15:28.83,Default,,0,0,0,,{\r译文字幕}等下  等下  皮卡丘  等一下\N{\r原文字幕}Wait, wait, wait. Pikachu, Wait.
+Dialogue: 0,1:15:29.68,1:15:32.32,Default,,0,0,0,,{\r译文字幕}嘿  别走这么快  我们得谈谈\N{\r原文字幕}Hey! Slow down, we have to talk about this.
+Dialogue: 0,1:15:32.32,1:15:33.87,Default,,0,0,0,,{\r译文字幕}你不能继续跟我呆在一起\N{\r原文字幕}You'll have to go on without me.
+Dialogue: 0,1:15:34.59,1:15:36.23,Default,,0,0,0,,{\r译文字幕}什么  你说什么呢\N{\r原文字幕}What? What are you saying?
+Dialogue: 0,1:15:36.23,1:15:38.86,Default,,0,0,0,,{\r译文字幕}罗杰抓走了超梦  而超梦抓走了我爸\N{\r原文字幕}Roger has Mewtwo. Mewtwo has my father.
+Dialogue: 0,1:15:38.86,1:15:40.77,Default,,0,0,0,,{\r译文字幕}我们没时间了  我们还有案子要解决\N{\r原文字幕}We are running out of time, we got a case to solve.
+Dialogue: 0,1:15:40.77,1:15:42.52,Default,,0,0,0,,{\r译文字幕}我的案子已经解决了  我知道我是谁\N{\r原文字幕}We already solved mine. I know who I am.
+Dialogue: 0,1:15:42.52,1:15:44.53,Default,,0,0,0,,{\r译文字幕}我是背叛了哈利的叛徒\N{\r原文字幕}I'm the guy who betrayed Harry.
+Dialogue: 0,1:15:44.93,1:15:46.36,Default,,0,0,0,,{\r译文字幕}这事儿谁也说不准\N{\r原文字幕}We don't know that.
+Dialogue: 0,1:15:46.36,1:15:48.74,Default,,0,0,0,,{\r译文字幕}刚咱俩都看到了  我背叛了你爸爸\N{\r原文字幕}We both saw I betrayed your father,
+Dialogue: 0,1:15:49.21,1:15:50.61,Default,,0,0,0,,{\r译文字幕}也就是说\N{\r原文字幕}Which means...
+Dialogue: 0,1:15:51.60,1:15:52.93,Default,,0,0,0,,{\r译文字幕}我也有可能背叛你\N{\r原文字幕}I could betray you too.
+Dialogue: 0,1:15:52.93,1:15:54.14,Default,,0,0,0,,{\r译文字幕}你不会这么做的\N{\r原文字幕}You wouldn't do that.
+Dialogue: 0,1:15:54.14,1:15:56.33,Default,,0,0,0,,{\r译文字幕}我不管看到了什么  我知道你是谁\N{\r原文字幕}I don't care what I saw, I know who you are.
+Dialogue: 0,1:15:56.33,1:15:57.97,Default,,0,0,0,,{\r译文字幕}-你怎么知道  -因为我\N{\r原文字幕}- How do you know? - Because I...
+Dialogue: 0,1:15:58.77,1:16:00.53,Default,,0,0,0,,{\r译文字幕}我打肚脐眼儿里就能感觉出来\N{\r原文字幕}I can feel it in my jellys.
+Dialogue: 0,1:16:00.53,1:16:01.51,Default,,0,0,0,,{\r译文字幕}那都是我编出来的\N{\r原文字幕}I made that up.
+Dialogue: 0,1:16:01.51,1:16:04.00,Default,,0,0,0,,{\r译文字幕}没有什么肚脐眼儿  也没有我\N{\r原文字幕}There's no jellys. There's no me.
+Dialogue: 0,1:16:04.00,1:16:04.56,Default,,0,0,0,,{\r译文字幕}我不信\N{\r原文字幕}I don't believe that.
+Dialogue: 0,1:16:04.56,1:16:05.75,Default,,0,0,0,,{\r译文字幕}没有我你会过得更好\N{\r原文字幕}You're better off on your own.
+Dialogue: 0,1:16:05.75,1:16:06.51,Default,,0,0,0,,{\r译文字幕}不要这样  皮卡丘\N{\r原文字幕}Come on, Pikachu.
+Dialogue: 0,1:16:06.58,1:16:07.53,Default,,0,0,0,,{\r译文字幕}不  我不\N{\r原文字幕}No, no!
+Dialogue: 0,1:16:07.53,1:16:08.46,Default,,0,0,0,,{\r译文字幕}我需要你\N{\r原文字幕}I need you, please.
+Dialogue: 0,1:16:08.46,1:16:09.53,Default,,0,0,0,,{\r译文字幕}你必须离我远点\N{\r原文字幕}You have to stay away,
+Dialogue: 0,1:16:09.53,1:16:10.46,Default,,0,0,0,,{\r译文字幕}为你自己好\N{\r原文字幕}It's for your own good.
+Dialogue: 0,1:16:10.46,1:16:12.13,Default,,0,0,0,,{\r译文字幕}不  我不会让你走的\N{\r原文字幕}No, I'm not letting you go.
+Dialogue: 0,1:16:17.66,1:16:19.06,Default,,0,0,0,,{\r译文字幕}看吧\N{\r原文字幕}You see?
+Dialogue: 0,1:16:20.34,1:16:23.21,Default,,0,0,0,,{\r译文字幕}我控制不住自己去伤害需要我的人\N{\r原文字幕}I can't help it, I hurt the people who need me.
+Dialogue: 0,1:16:23.97,1:16:25.57,Default,,0,0,0,,{\r译文字幕}这才是我\N{\r原文字幕}That's who I am.
+Dialogue: 0,1:16:26.31,1:16:27.71,Default,,0,0,0,,{\r译文字幕}对不起\N{\r原文字幕}I'm sorry.
+Dialogue: 0,1:16:29.57,1:16:31.00,Default,,0,0,0,,{\r译文字幕}对不起\N{\r原文字幕}I'm sorry.
+Dialogue: 0,1:16:31.39,1:16:32.79,Default,,0,0,0,,{\r译文字幕}蒂姆\N{\r原文字幕}Tim.
+Dialogue: 0,1:16:33.96,1:16:36.04,Default,,0,0,0,,{\r译文字幕}他要去哪\N{\r原文字幕}Where is he going?
+Dialogue: 0,1:16:36.04,1:16:37.66,Default,,0,0,0,,{\r译文字幕}怎么了\N{\r原文字幕}What happened?
+Dialogue: 0,1:16:38.67,1:16:40.58,Default,,0,0,0,,{\r译文字幕}皮卡丘还好吗\N{\r原文字幕}It's Pikachu ok?
+Dialogue: 0,1:16:40.97,1:16:42.93,Default,,0,0,0,,{\r译文字幕}不  他不好\N{\r原文字幕}No he's not.
+Dialogue: 0,1:16:43.96,1:16:46.21,Default,,0,0,0,,{\r译文字幕}走吧  我们得回城里去\N{\r原文字幕}Let's go, we gotta get back to the city.
+Dialogue: 0,1:16:52.71,1:17:00.50,Default,,0,0,0,,{\r译文字幕}{\fs35\pos(100,210)}宝可梦游行日
+Dialogue: 0,1:16:52.97,1:16:55.78,Default,,0,0,0,,{\r译文字幕}莱姆市十周年宝可梦精灵纪念游行\N{\r原文字幕}The 10th anniversary Rhyme City Pokémon Parade
+Dialogue: 0,1:16:55.78,1:16:57.86,Default,,0,0,0,,{\r译文字幕}将于今日下午开始\N{\r原文字幕}is set to begin this afternoon.
+Dialogue: 0,1:16:57.86,1:17:00.49,Default,,0,0,0,,{\r译文字幕}全城群众都聚集到市中心\N{\r原文字幕}The whole city is converging on downtown,
+Dialogue: 0,1:17:00.49,1:17:02.41,Default,,0,0,0,,{\r译文字幕}观看今日盛典\N{\r原文字幕}to watch the day's festivities
+Dialogue: 0,1:17:09.51,1:17:11.56,Default,,0,0,0,,{\r译文字幕}我不知道你们两个发生什么事\N{\r原文字幕}I... I don't know what happened between you two,
+Dialogue: 0,1:17:11.57,1:17:12.68,Default,,0,0,0,,{\r译文字幕}但我们需要制定战略\N{\r原文字幕}but we need to strategize.
+Dialogue: 0,1:17:12.68,1:17:14.08,Default,,0,0,0,,{\r译文字幕}等下  你要去哪\N{\r原文字幕}Wait, where are you going?
+Dialogue: 0,1:17:14.08,1:17:15.88,Default,,0,0,0,,{\r译文字幕}我们得先把消息告知公众\N{\r原文字幕}We need to tell the public what we found!
+Dialogue: 0,1:17:15.88,1:17:16.84,Default,,0,0,0,,{\r译文字幕}这可是爆炸性新闻\N{\r原文字幕}This is breaking news!
+Dialogue: 0,1:17:16.84,1:17:19.29,Default,,0,0,0,,{\r译文字幕}不  应该是你去报道这个新闻\N{\r原文字幕}No, no, you should break the news, you.
+Dialogue: 0,1:17:19.29,1:17:21.08,Default,,0,0,0,,{\r译文字幕}我要去找霍华德谈谈\N{\r原文字幕}I'm gonna go talk to Howard.
+Dialogue: 0,1:17:22.21,1:17:23.61,Default,,0,0,0,,{\r译文字幕}蒂姆\N{\r原文字幕}Tim?
+Dialogue: 0,1:17:23.62,1:17:25.03,Default,,0,0,0,,{\r译文字幕}这个新闻的主角就是新闻界大佬啊\N{\r原文字幕}How am I supposed to break the news
+Dialogue: 0,1:17:25.03,1:17:27.95,Default,,0,0,0,,{\r译文字幕}我该怎么报道\N{\r原文字幕}when the guy that runs the news is the breaking news?
+Dialogue: 0,1:17:33.93,1:17:36.64,Default,,0,0,0,,{\r译文字幕}乖乖在车里等着  好吗\N{\r原文字幕}Stay in the car, ok?
+Dialogue: 0,1:17:50.32,1:17:52.55,Default,,0,0,0,,{\r译文字幕}McMaster女士  你好  我是露西·史蒂文斯\N{\r原文字幕}Mrs. McMaster, hi. It's Lucy Stevens,
+Dialogue: 0,1:17:52.56,1:17:55.08,Default,,0,0,0,,{\r译文字幕}-CNM的实习生  -能拿一下吗\N{\r原文字幕}- The intern at CNM. - Could you?
+Dialogue: 0,1:17:55.08,1:17:58.10,Default,,0,0,0,,{\r译文字幕}我手上有一个很重要的新闻\N{\r原文字幕}Yeah, uh I have a story that's really important
+Dialogue: 0,1:17:58.12,1:17:59.21,Default,,0,0,0,,{\r译文字幕}需要告知所有观众\N{\r原文字幕}and the people need to hear it,
+Dialogue: 0,1:17:59.18,1:18:00.91,Default,,0,0,0,,{\r译文字幕}你能否帮我报道这个新闻呢\N{\r原文字幕}I was wondering if you could help me tell it.
+Dialogue: 0,1:18:00.91,1:18:02.34,Default,,0,0,0,,{\r译文字幕}-我只需要  -露西 露西\N{\r原文字幕}- I just need like... - Lucy ,Lucy, please,
+Dialogue: 0,1:18:02.34,1:18:05.25,Default,,0,0,0,,{\r译文字幕}帮我买杯咖啡  双份浓缩的馥芮白\N{\r原文字幕}Take my coffee order. Flat White, extra shot.
+Dialogue: 0,1:18:08.51,1:18:11.30,Default,,0,0,0,,{\r译文字幕}这就来  辛西娅\N{\r原文字幕}You got it. Cynthia.
+Dialogue: 0,1:18:11.61,1:18:14.82,Default,,0,0,0,,{\r译文字幕}♪ 到处找啊找 ♪\N{\r原文字幕}♪ Searching far and wide. ♪
+Dialogue: 0,1:18:14.82,1:18:17.91,Default,,0,0,0,,{\r译文字幕}♪ 教精灵宝可梦明白 ♪\N{\r原文字幕}♪ Teach Pokemon to understand ♪
+Dialogue: 0,1:18:17.91,1:18:21.14,Default,,0,0,0,,{\r译文字幕}♪ 他们蕴含的力量 ♪\N{\r原文字幕}♪ The power that's inside! ♪
+Dialogue: 0,1:18:21.14,1:18:24.90,Default,,0,0,0,,{\r译文字幕}♪ 宝可梦精灵 把他们全抓起来 ♪\N{\r原文字幕}♪ Pokémon! Gotta catch 'em all ♪
+Dialogue: 0,1:18:24.90,1:18:26.71,Default,,0,0,0,,{\r译文字幕}♪ 我和你 ♪\N{\r原文字幕}♪ It's you and me ♪
+Dialogue: 0,1:18:26.71,1:18:29.42,Default,,0,0,0,,{\r译文字幕}♪ 这就是我的宿命 ♪\N{\r原文字幕}♪ I know it's my destiny ♪
+Dialogue: 0,1:18:29.42,1:18:30.90,Default,,0,0,0,,{\r译文字幕}♪ 宝可梦 ♪\N{\r原文字幕}♪ Pokémon! ♪
+Dialogue: 0,1:18:33.12,1:18:34.84,Default,,0,0,0,,{\r译文字幕}这是啥啊\N{\r原文字幕}What... what is this?
+Dialogue: 0,1:18:40.47,1:18:42.14,Default,,0,0,0,,{\r译文字幕}我记得这个地方\N{\r原文字幕}I know this place.
+Dialogue: 0,1:18:45.90,1:18:47.78,Default,,0,0,0,,{\r译文字幕}这就是发生车祸的地方\N{\r原文字幕}This is the scene of the crash.
+Dialogue: 0,1:18:50.59,1:18:51.99,Default,,0,0,0,,{\r译文字幕}那是什么\N{\r原文字幕}What is that?
+Dialogue: 0,1:18:55.37,1:18:56.92,Default,,0,0,0,,{\r译文字幕}甲贺忍蛙的飞镖\N{\r原文字幕}Greninja stars.
+Dialogue: 0,1:19:00.68,1:19:03.77,Default,,0,0,0,,{\r译文字幕}肯定是罗杰派甲贺忍蛙造成车祸的\N{\r原文字幕}Roger must have sent the Greninja to cause the crash.
+Dialogue: 0,1:19:04.58,1:19:06.17,Default,,0,0,0,,{\r译文字幕}也就是说\N{\r原文字幕}Which means...
+Dialogue: 0,1:19:06.97,1:19:09.19,Default,,0,0,0,,{\r译文字幕}超梦其实是在保护我们吗\N{\r原文字幕}Mewtwo was trying to protect us?
+Dialogue: 0,1:19:11.87,1:19:13.89,Default,,0,0,0,,{\r译文字幕}最先进的全息投影\N{\r原文字幕}Advanced Holographic Imaging
+Dialogue: 0,1:19:13.89,1:19:16.64,Default,,0,0,0,,{\r译文字幕}它能让我们看到警方不能\N{\r原文字幕}It allows us to see things that they cannot
+Dialogue: 0,1:19:16.64,1:19:18.78,Default,,0,0,0,,{\r译文字幕}-或是不想让我们看见的  -等一下\N{\r原文字幕}- or don't want us to see. - Wait...
+Dialogue: 0,1:19:19.49,1:19:21.82,Default,,0,0,0,,{\r译文字幕}霍华德肯定也在影像里看到这个了\N{\r原文字幕}Howard would've seen this in his hologram.
+Dialogue: 0,1:19:21.82,1:19:23.83,Default,,0,0,0,,{\r译文字幕}不会吧  糟了糟了\N{\r原文字幕}Oh no! No, no, no.
+Dialogue: 0,1:19:23.83,1:19:25.23,Default,,0,0,0,,{\r译文字幕}蒂姆\N{\r原文字幕}Tim!
+Dialogue: 0,1:19:25.90,1:19:27.65,Default,,0,0,0,,{\r译文字幕}霍华德  克利福先生\N{\r原文字幕}Howard! Mr. Clifford!
+Dialogue: 0,1:19:27.66,1:19:29.06,Default,,0,0,0,,{\r译文字幕}您的儿子\N{\r原文字幕}Your son...
+Dialogue: 0,1:19:29.38,1:19:30.99,Default,,0,0,0,,{\r译文字幕}把超梦抓回来了\N{\r原文字幕}has Mewtwo here.
+Dialogue: 0,1:19:31.44,1:19:33.13,Default,,0,0,0,,{\r译文字幕}-等下  你在  -蒂姆\N{\r原文字幕}- Wait, what are you...? - Tim.
+Dialogue: 0,1:19:33.59,1:19:35.23,Default,,0,0,0,,{\r译文字幕}不用担心\N{\r原文字幕}It's gonna be ok.
+Dialogue: 0,1:19:43.28,1:19:45.43,Default,,0,0,0,,{\r译文字幕}快跑\N{\r原文字幕}Run!
+Dialogue: 0,1:20:05.59,1:20:07.94,Default,,0,0,0,,{\r译文字幕}转移成功了\N{\r原文字幕}The transfer worked.
+Dialogue: 0,1:20:08.78,1:20:11.24,Default,,0,0,0,,{\r译文字幕}我的身体坐在轮椅上\N{\r原文字幕}My body is in the chair,
+Dialogue: 0,1:20:12.26,1:20:15.61,Default,,0,0,0,,{\r译文字幕}灵魂却在超梦身体里\N{\r原文字幕}but my mind is in Mewtwo.
+Dialogue: 0,1:20:16.11,1:20:18.67,Default,,0,0,0,,{\r译文字幕}-霍华德  -做得很好  蒂姆\N{\r原文字幕}- Howard? - Well done, Tim.
+Dialogue: 0,1:20:18.67,1:20:22.81,Default,,0,0,0,,{\r译文字幕}多亏了你和哈利的皮卡丘才让我抓到了超梦\N{\r原文字幕}You and Harry's Pikachu led me straight to Mewtwo.
+Dialogue: 0,1:20:23.23,1:20:24.73,Default,,0,0,0,,{\r译文字幕}造成车祸的不是超梦\N{\r原文字幕}Mewtwo didn't cause the crash.
+Dialogue: 0,1:20:24.73,1:20:26.30,Default,,0,0,0,,{\r译文字幕}谁让你爸多管闲事\N{\r原文字幕}All your father had to do
+Dialogue: 0,1:20:26.30,1:20:28.67,Default,,0,0,0,,{\r译文字幕}他只要拿钱走人就行了\N{\r原文字幕}was take the money and walk away.
+Dialogue: 0,1:20:28.68,1:20:30.74,Default,,0,0,0,,{\r译文字幕}但他问东问西\N{\r原文字幕}But he started asking questions.
+Dialogue: 0,1:20:30.75,1:20:32.94,Default,,0,0,0,,{\r译文字幕}-我不得不制止他  -是你想杀他\N{\r原文字幕}- I had to stop him. - You tried to kill him!
+Dialogue: 0,1:20:32.94,1:20:34.34,Default,,0,0,0,,{\r译文字幕}我也没办法\N{\r原文字幕}I had no choice!
+Dialogue: 0,1:20:34.34,1:20:36.47,Default,,0,0,0,,{\r译文字幕}他顺着R血清发现了对战\N{\r原文字幕}He tracked the "R" to the battles.
+Dialogue: 0,1:20:36.47,1:20:38.48,Default,,0,0,0,,{\r译文字幕}还查到了劳伦特博士的身上\N{\r原文字幕}Traced it back to Dr. Laurent.
+Dialogue: 0,1:20:38.48,1:20:41.71,Default,,0,0,0,,{\r译文字幕}他和他的皮卡丘还帮超梦逃跑\N{\r原文字幕}And he and his Pikachu helped Mewtwo escape!
+Dialogue: 0,1:20:45.83,1:20:49.40,Default,,0,0,0,,{\r译文字幕}正如各位所见  市民们兴高采烈\N{\r原文字幕}So as you can see, we are more than happy with the turn out today.
+Dialogue: 0,1:20:49.40,1:20:50.93,Default,,0,0,0,,{\r译文字幕}也有很多家庭\N{\r原文字幕}So many families...
+Dialogue: 0,1:20:50.93,1:20:52.75,Default,,0,0,0,,{\r译文字幕}很感谢大家  谢谢  采访到此为止\N{\r原文字幕}Thank you so much. Thank you. That's all. Thank you.
+Dialogue: 0,1:20:54.10,1:20:55.64,Default,,0,0,0,,{\r译文字幕}让一下  不好意思  您好\N{\r原文字幕}Excuse me, please. Hello!
+Dialogue: 0,1:20:55.64,1:20:57.48,Default,,0,0,0,,{\r译文字幕}您好  我跟市长\N{\r原文字幕}Hi. I have an interview.
+Dialogue: 0,1:20:57.48,1:20:59.25,Default,,0,0,0,,{\r译文字幕}-预约了采访  -请进\N{\r原文字幕}- with the mayor... - Go on please.
+Dialogue: 0,1:21:00.06,1:21:02.73,Default,,0,0,0,,{\r译文字幕}市长先生  我得和您谈谈  是十分重要的事\N{\r原文字幕}Mr. Mayor, Mr. Mayor I need to speak with you please, it's urgent.
+Dialogue: 0,1:21:02.73,1:21:05.02,Default,,0,0,0,,{\r译文字幕}-你这采访也来得太晚了  -求您了\N{\r原文字幕}- Little late for a interview don't you think? - Please.
+Dialogue: 0,1:21:06.93,1:21:08.64,Default,,0,0,0,,{\r译文字幕}在我们开始游行之前\N{\r原文字幕}Before we begin the parade,
+Dialogue: 0,1:21:08.64,1:21:11.40,Default,,0,0,0,,{\r译文字幕}感谢我们的赞助者  霍华德·克利福\N{\r原文字幕}I'd like to thank our benefactor Howard Clifford.
+Dialogue: 0,1:21:11.40,1:21:14.14,Default,,0,0,0,,{\r译文字幕}整件事从来都不是为了治好我自己\N{\r原文字幕}This was never about curing me.
+Dialogue: 0,1:21:14.14,1:21:17.40,Default,,0,0,0,,{\r译文字幕}我是为全人类开辟了全新的道路\N{\r原文字幕}I've found a path forward for all of us.
+Dialogue: 0,1:21:17.40,1:21:19.88,Default,,0,0,0,,{\r译文字幕}超梦有能力将人类的灵魂\N{\r原文字幕}Mewtwo has the power to transfer
+Dialogue: 0,1:21:19.88,1:21:22.46,Default,,0,0,0,,{\r译文字幕}转移进宝可梦的身体里\N{\r原文字幕}the soul of a human into the body of a Pokémon,
+Dialogue: 0,1:21:22.47,1:21:26.44,Default,,0,0,0,,{\r译文字幕}唯一的条件是  宝可梦要进入疯狂状态\N{\r原文字幕}as long as the Pokémon are in a crazed state.
+Dialogue: 0,1:21:26.45,1:21:29.32,Default,,0,0,0,,{\r译文字幕}不过R气体能解决这个问题\N{\r原文字幕}The R gas takes care of that.
+Dialogue: 0,1:21:30.83,1:21:33.72,Default,,0,0,0,,{\r译文字幕}是气球  R气体在气球里\N{\r原文字幕}The balloons. The R gas is in the balloons.
+Dialogue: 0,1:21:43.17,1:21:45.75,Default,,0,0,0,,{\r译文字幕}莱姆市的民众啊\N{\r原文字幕}People of Rhyme City.
+Dialogue: 0,1:21:45.75,1:21:48.67,Default,,0,0,0,,{\r译文字幕}我终于找到了解药\N{\r原文字幕}I've finally discovered a cure.
+Dialogue: 0,1:21:48.67,1:21:53.49,Default,,0,0,0,,{\r译文字幕}不只是为我自己  而是为了全人类\N{\r原文字幕}Not just for me, but for all of humanity.
+Dialogue: 0,1:21:53.49,1:21:57.89,Default,,0,0,0,,{\r译文字幕}宝可梦能进化成更好的自己\N{\r原文字幕}Pokémon can evolve into better versions of themselves.
+Dialogue: 0,1:21:57.89,1:22:00.65,Default,,0,0,0,,{\r译文字幕}现在  你们也能了\N{\r原文字幕}And now, so can you.
+Dialogue: 0,1:22:00.65,1:22:02.94,Default,,0,0,0,,{\r译文字幕}人类和宝可梦\N{\r原文字幕}Humans and Pokémon
+Dialogue: 0,1:22:02.95,1:22:05.75,Default,,0,0,0,,{\r译文字幕}融为一体\N{\r原文字幕}merged into one.
+Dialogue: 0,1:22:17.91,1:22:20.75,Default,,0,0,0,,{\r译文字幕}别让你的宝可梦吸入紫色气体\N{\r原文字幕}Don't let your Pokémon breathe the purple gas.
+Dialogue: 0,1:22:28.09,1:22:30.60,Default,,0,0,0,,{\r译文字幕}这里是吉田  请求支援\N{\r原文字幕}This is Yoshida, requesting backup.
+Dialogue: 0,1:22:30.60,1:22:32.74,Default,,0,0,0,,{\r译文字幕}所有部队进入\N{\r原文字幕}All units should proceed to the...
+Dialogue: 0,1:22:34.25,1:22:35.77,Default,,0,0,0,,{\r译文字幕}布鲁  停下\N{\r原文字幕}Snubbull, no!
+Dialogue: 0,1:22:45.52,1:22:47.57,Default,,0,0,0,,{\r译文字幕}别让你的宝可梦吸入紫色气体\N{\r原文字幕}Don't let your Pokémon breathe the gas.
+Dialogue: 0,1:22:47.57,1:22:50.80,Default,,0,0,0,,{\r译文字幕}别让你的宝可梦吸入紫色气体\N{\r原文字幕}Don't let your Pokémon breathe the gas.
+Dialogue: 0,1:22:53.98,1:22:55.39,Default,,0,0,0,,{\r译文字幕}天啊\N{\r原文字幕}Come on...
+Dialogue: 0,1:22:55.39,1:22:57.15,Default,,0,0,0,,{\r译文字幕}这里是露西·史蒂文斯为您报道市内紧急情况\N{\r原文字幕}This is Lucy Stevens reporting a city wide emergency.
+Dialogue: 0,1:22:57.18,1:22:59.02,Default,,0,0,0,,{\r译文字幕}别让你的宝可梦吸\N{\r原文字幕}Do not let your Pokémon breathe...
+Dialogue: 0,1:22:59.02,1:23:00.89,Default,,0,0,0,,{\r译文字幕}可达鸭\N{\r原文字幕}Psyduck!
+Dialogue: 0,1:23:17.97,1:23:19.39,Default,,0,0,0,,{\r译文字幕}好吧\N{\r原文字幕}Ok.
+Dialogue: 0,1:23:19.80,1:23:21.63,Default,,0,0,0,,{\r译文字幕}从没见过这么乱的游行\N{\r原文字幕}Worst parade I've ever seen.
+Dialogue: 0,1:23:22.28,1:23:24.18,Default,,0,0,0,,{\r译文字幕}露西吗  你在这里面吗\N{\r原文字幕}Lucy? Lucy you are in there?
+Dialogue: 0,1:23:24.35,1:23:26.19,Default,,0,0,0,,{\r译文字幕}蒂姆呢\N{\r原文字幕}Where is Tim?
+Dialogue: 0,1:23:26.19,1:23:30.03,Default,,0,0,0,,{\r译文字幕}霍华德就是超梦\N{\r原文字幕}Howard is Mewtwo?
+Dialogue: 0,1:23:30.80,1:23:34.09,Default,,0,0,0,,{\r译文字幕}这可真是大开了我的天眼了\N{\r原文字幕}This really blows my bridge discovery out of the water.
+Dialogue: 0,1:23:34.59,1:23:36.92,Default,,0,0,0,,{\r译文字幕}好了  我要阻止这一切\N{\r原文字幕}Alright. I gotta stop this.
+Dialogue: 0,1:23:37.34,1:23:38.74,Default,,0,0,0,,{\r译文字幕}上吧\N{\r原文字幕}Game on!
+Dialogue: 0,1:23:48.38,1:23:49.88,Default,,0,0,0,,{\r译文字幕}好的  皮卡丘\N{\r原文字幕}Ok, Pikachu.
+Dialogue: 0,1:23:49.88,1:23:51.73,Default,,0,0,0,,{\r译文字幕}你身体里肯定有股能量\N{\r原文字幕}Your powers are in there somewhere.
+Dialogue: 0,1:23:51.73,1:23:53.88,Default,,0,0,0,,{\r译文字幕}你只需要让你的小脑瓜动起来\N{\r原文字幕}Just need a little spark to get this party started.
+Dialogue: 0,1:23:53.88,1:23:55.28,Default,,0,0,0,,{\r译文字幕}开工吧\N{\r原文字幕}Let's do this!
+Dialogue: 0,1:24:02.61,1:24:04.89,Default,,0,0,0,,{\r译文字幕}哈利的皮卡丘\N{\r原文字幕}Harry's Pikachu.
+Dialogue: 0,1:24:06.19,1:24:09.59,Default,,0,0,0,,{\r译文字幕}你觉得你能阻止未来的进程吗\N{\r原文字幕}You think you can stand in the way of the future?
+Dialogue: 0,1:24:09.59,1:24:12.39,Default,,0,0,0,,{\r译文字幕}我就是未来\N{\r原文字幕}I am the future!
+Dialogue: 0,1:24:54.42,1:24:55.82,Default,,0,0,0,,{\r译文字幕}他回来了\N{\r原文字幕}He's back!
+Dialogue: 0,1:25:05.31,1:25:06.93,Default,,0,0,0,,{\r译文字幕}神经连接\N{\r原文字幕}The neural link.
+Dialogue: 0,1:25:13.59,1:25:15.00,Default,,0,0,0,,{\r译文字幕}罗杰\N{\r原文字幕}Roger?
+Dialogue: 0,1:25:17.84,1:25:19.44,Default,,0,0,0,,{\r译文字幕}小心后面\N{\r原文字幕}Behind you!
+Dialogue: 0,1:25:33.23,1:25:34.63,Default,,0,0,0,,{\r译文字幕}你是个百变怪\N{\r原文字幕}You are a Ditto.
+Dialogue: 0,1:25:47.91,1:25:50.28,Default,,0,0,0,,{\r译文字幕}左拐  右拐右拐\N{\r原文字幕}Make left! Make right! Right!
+Dialogue: 0,1:25:50.28,1:25:53.28,Default,,0,0,0,,{\r译文字幕}你在哪考的飞行执照  幼儿园吗\N{\r原文字幕}Where did you learn how to fly? The ground?
+Dialogue: 0,1:25:53.90,1:25:55.88,Default,,0,0,0,,{\r译文字幕}别  停停停  停下\N{\r原文字幕}No, no, no, no. Stop, stop, stop.
+Dialogue: 0,1:25:55.88,1:25:57.28,Default,,0,0,0,,{\r译文字幕}等等\N{\r原文字幕}Wait, wait!
+Dialogue: 0,1:25:57.95,1:25:59.35,Default,,0,0,0,,{\r译文字幕}等一下等一下\N{\r原文字幕}Wait, wait, wait, wait!
+Dialogue: 0,1:26:04.49,1:26:07.09,Default,,0,0,0,,{\r译文字幕}天了噜  这题超纲了\N{\r原文字幕}Come on, no, that's not fair.
+Dialogue: 0,1:26:10.39,1:26:13.37,Default,,0,0,0,,{\r译文字幕}算了  事先声明  就算我喜欢的女人\N{\r原文字幕}Okay, for the record, I have no guilt hitting
+Dialogue: 0,1:26:13.37,1:26:16.07,Default,,0,0,0,,{\r译文字幕}变成了豆豆眼  我也敢打\N{\r原文字幕}a beady-eyed version of the woman I'm very attracted to.
+Dialogue: 0,1:26:21.50,1:26:23.27,Default,,0,0,0,,{\r译文字幕}往上  可别吸那个气\N{\r原文字幕}Oh! Pull up! Don't breathe the gas.
+Dialogue: 0,1:26:24.50,1:26:26.17,Default,,0,0,0,,{\r译文字幕}你还真吸了  对吧\N{\r原文字幕}You breathed the gas, didn't you?
+Dialogue: 0,1:26:52.49,1:26:53.97,Default,,0,0,0,,{\r译文字幕}好吧\N{\r原文字幕}Okay.
+Dialogue: 0,1:27:00.97,1:27:03.93,Default,,0,0,0,,{\r译文字幕}了结他  百变怪\N{\r原文字幕}Finish him, Ditto!
+Dialogue: 0,1:27:14.89,1:27:16.72,Default,,0,0,0,,{\r译文字幕}不  不要不要\N{\r原文字幕}No! No, no, no!
+Dialogue: 0,1:27:22.69,1:27:24.32,Default,,0,0,0,,{\r译文字幕}皮卡丘\N{\r原文字幕}Pikachu!
+Dialogue: 0,1:27:24.78,1:27:26.18,Default,,0,0,0,,{\r译文字幕}蒂姆\N{\r原文字幕}Tim...
+Dialogue: 0,1:27:27.37,1:27:30.39,Default,,0,0,0,,{\r译文字幕}哈利的儿子很快就要死了\N{\r原文字幕}Harry's son is finished.
+Dialogue: 0,1:27:30.39,1:27:31.79,Default,,0,0,0,,{\r译文字幕}不要\N{\r原文字幕}No...
+Dialogue: 0,1:27:31.79,1:27:34.35,Default,,0,0,0,,{\r译文字幕}蒂姆说过十万伏特是我的绝招\N{\r原文字幕}Tim says Volt Tackle is my best move.
+Dialogue: 0,1:27:34.36,1:27:36.77,Default,,0,0,0,,{\r译文字幕}让我好好发挥发挥\N{\r原文字幕}Let's do this Pokémon Battle thing right!
+Dialogue: 0,1:27:46.93,1:27:48.33,Default,,0,0,0,,{\r译文字幕}不要\N{\r原文字幕}No!
+Dialogue: 0,1:27:56.76,1:27:58.46,Default,,0,0,0,,{\r译文字幕}把手给我\N{\r原文字幕}Give me your hand!
+Dialogue: 0,1:28:03.95,1:28:05.50,Default,,0,0,0,,{\r译文字幕}那个杀千刀的百变怪哪来的\N{\r原文字幕}What kind of a Ditto was that?
+Dialogue: 0,1:28:05.50,1:28:09.06,Default,,0,0,0,,{\r译文字幕}那是改良版  我爸基因实验的结果\N{\r原文字幕}That was modified. My father's genetic experiments.
+Dialogue: 0,1:28:53.96,1:28:55.46,Default,,0,0,0,,{\r译文字幕}异想天开\N{\r原文字幕}A feeble effort!
+Dialogue: 0,1:28:55.46,1:28:59.66,Default,,0,0,0,,{\r译文字幕}皮卡丘怎么可能打得过超梦\N{\r原文字幕}A Pikachu cannot defeat Mewtwo in battle.
+Dialogue: 0,1:29:00.45,1:29:02.48,Default,,0,0,0,,{\r译文字幕}我也没想打败你\N{\r原文字幕}I didn't mean to defeat you.
+Dialogue: 0,1:29:03.08,1:29:05.22,Default,,0,0,0,,{\r译文字幕}我只需要让你分心\N{\r原文字幕}I just needed to distract you.
+Dialogue: 0,1:29:09.80,1:29:12.91,Default,,0,0,0,,{\r译文字幕}不\N{\r原文字幕}No!
+Dialogue: 0,1:29:16.29,1:29:19.42,Default,,0,0,0,,{\r译文字幕}你他妈的做了什么\N{\r原文字幕}What have you done?
+Dialogue: 0,1:29:22.00,1:29:25.05,Default,,0,0,0,,{\r译文字幕}皮卡丘  不要\N{\r原文字幕}Pikachu! No!
+Dialogue: 0,1:29:39.68,1:29:41.79,Default,,0,0,0,,{\r译文字幕}-皮卡丘  -蒂姆\N{\r原文字幕}- Pikachu! - Tim!
+Dialogue: 0,1:29:42.71,1:29:45.19,Default,,0,0,0,,{\r译文字幕}-你还好吗  -我很抱歉\N{\r原文字幕}- Are you ok? - I'm sorry!
+Dialogue: 0,1:29:45.19,1:29:48.10,Default,,0,0,0,,{\r译文字幕}我很抱歉在你最需要我的时候转身离开了\N{\r原文字幕}I'm sorry I pushed you away just when you needed me the most.
+Dialogue: 0,1:29:48.45,1:29:50.65,Default,,0,0,0,,{\r译文字幕}你能回来就够了\N{\r原文字幕}I'm just happy you are back.
+Dialogue: 0,1:29:52.05,1:29:53.59,Default,,0,0,0,,{\r译文字幕}搭档\N{\r原文字幕}Partner.
+Dialogue: 0,1:29:54.93,1:29:57.32,Default,,0,0,0,,{\r译文字幕}你应该能解决这一团糟吧\N{\r原文字幕}Please tell me you can fix this mess.
+Dialogue: 0,1:29:57.75,1:30:01.33,Default,,0,0,0,,{\r译文字幕}我会把一切变回原样\N{\r原文字幕}I will undo, what has be done.
+Dialogue: 0,1:30:32.03,1:30:34.37,Default,,0,0,0,,{\r译文字幕}以后再也不这样了\N{\r原文字幕}Let's never do that again,
+Dialogue: 0,1:30:34.37,1:30:36.00,Default,,0,0,0,,{\r译文字幕}我保证\N{\r原文字幕}okay?
+Dialogue: 0,1:30:51.35,1:30:54.87,Default,,0,0,0,,{\r译文字幕}奇怪的是  无论他有怎样的缺点\N{\r原文字幕}The strange thing is that no matter what his flaws,
+Dialogue: 0,1:30:54.87,1:30:59.72,Default,,0,0,0,,{\r译文字幕}我内心深处还是很自责没有陪伴他\N{\r原文字幕}deep down I blame myself for not being there for him.
+Dialogue: 0,1:31:00.69,1:31:03.18,Default,,0,0,0,,{\r译文字幕}你  你是在跟进这件事的\N{\r原文字幕}You! You were working on this story.
+Dialogue: 0,1:31:03.18,1:31:06.26,Default,,0,0,0,,{\r译文字幕}还没人知道的时候你就已有眉目了\N{\r原文字幕}Had a lead on it before anyone else even knew.
+Dialogue: 0,1:31:06.26,1:31:06.95,Default,,0,0,0,,{\r译文字幕}没错\N{\r原文字幕}That's correct.
+Dialogue: 0,1:31:06.95,1:31:08.70,Default,,0,0,0,,{\r译文字幕}很好  准备上电视吧\N{\r原文字幕}Good. Alright you are going on camera.
+Dialogue: 0,1:31:08.70,1:31:12.40,Default,,0,0,0,,{\r译文字幕}我要你在今晚CNM黄金时间深入报道\N{\r原文字幕}I want you to give an in-depth report for CNM tonight, prime time.
+Dialogue: 0,1:31:12.40,1:31:13.99,Default,,0,0,0,,{\r译文字幕}记得最后要提一嘴说\N{\r原文字幕}And make sure you close with:
+Dialogue: 0,1:31:13.99,1:31:18.47,Default,,0,0,0,,{\r译文字幕}罗杰·克利福保证补偿他父亲造成的损失\N{\r原文字幕}"Roger Clifford pledges to undo all the harm his father caused,
+Dialogue: 0,1:31:18.47,1:31:21.48,Default,,0,0,0,,{\r译文字幕}首先就是叫停他的宝可梦实验\N{\r原文字幕}starting with the Pokémon he experimented on."
+Dialogue: 0,1:31:25.00,1:31:26.71,Default,,0,0,0,,{\r译文字幕}难以置信  我们做到了\N{\r原文字幕}I can't believe we did it.
+Dialogue: 0,1:31:26.71,1:31:28.88,Default,,0,0,0,,{\r译文字幕}干得不错\N{\r原文字幕}Great work.
+Dialogue: 0,1:31:28.88,1:31:31.65,Default,,0,0,0,,{\r译文字幕}喂  消停会儿  冷静冷静\N{\r原文字幕}Hey, calm down. Stay calm.
+Dialogue: 0,1:31:32.55,1:31:34.97,Default,,0,0,0,,{\r译文字幕}你要这样以后不理你了\N{\r原文字幕}I hope we never get to see each other again.
+Dialogue: 0,1:31:34.97,1:31:36.89,Default,,0,0,0,,{\r译文字幕}-晚上再见吗  -可\N{\r原文字幕}- Meet me later tonight? - Cool.
+Dialogue: 0,1:31:36.89,1:31:38.74,Default,,0,0,0,,{\r译文字幕}我是说  当然可以\N{\r原文字幕}I mean, yeah.
+Dialogue: 0,1:31:41.75,1:31:44.41,Default,,0,0,0,,{\r译文字幕}跟上\N{\r原文字幕}Come on.
+Dialogue: 0,1:31:45.83,1:31:47.39,Default,,0,0,0,,{\r译文字幕}有长进了  蒂姆\N{\r原文字幕}Way to go, Tim!
+Dialogue: 0,1:31:49.00,1:31:52.53,Default,,0,0,0,,{\r译文字幕}还有最后一件事我得解决\N{\r原文字幕}There is one last thing I must fix.
+Dialogue: 0,1:31:56.09,1:31:57.49,Default,,0,0,0,,{\r译文字幕}我爸\N{\r原文字幕}My father.
+Dialogue: 0,1:31:57.85,1:32:02.74,Default,,0,0,0,,{\r译文字幕}你一直在找你父亲  其实一直在你身边\N{\r原文字幕}The father you have been looking for has been with you all along.
+Dialogue: 0,1:32:04.83,1:32:06.34,Default,,0,0,0,,{\r译文字幕}他啥意思\N{\r原文字幕}What's he talking about?
+Dialogue: 0,1:32:08.25,1:32:09.65,Default,,0,0,0,,{\r译文字幕}我也不\N{\r原文字幕}I don't...
+Dialogue: 0,1:32:32.16,1:32:33.94,Default,,0,0,0,,{\r译文字幕}你做得很好\N{\r原文字幕}You've done well.
+Dialogue: 0,1:32:33.95,1:32:35.81,Default,,0,0,0,,{\r译文字幕}人性本恶\N{\r原文字幕}Humanity is evil!
+Dialogue: 0,1:32:37.20,1:32:38.84,Default,,0,0,0,,{\r译文字幕}但你让我看见了\N{\r原文字幕}But you have shown me...
+Dialogue: 0,1:32:39.34,1:32:41.67,Default,,0,0,0,,{\r译文字幕}其光明的一面\N{\r原文字幕}that not all humans are bad.
+Dialogue: 0,1:32:42.95,1:32:44.37,Default,,0,0,0,,{\r译文字幕}哈利·古德曼\N{\r原文字幕}Harry Goodman,
+Dialogue: 0,1:32:44.37,1:32:48.41,Default,,0,0,0,,{\r译文字幕}你的皮卡丘愿意用身体来拯救你的灵魂\N{\r原文字幕}your Pikachu offers its' body to save your mind.
+Dialogue: 0,1:32:48.41,1:32:49.90,Default,,0,0,0,,{\r译文字幕}他有一个儿子\N{\r原文字幕}There is a son.
+Dialogue: 0,1:32:50.91,1:32:54.40,Default,,0,0,0,,{\r译文字幕}只有他的儿子回来了  我才能把你放出来\N{\r原文字幕}With the son's return, I can repair the father.
+Dialogue: 0,1:32:54.95,1:32:59.09,Default,,0,0,0,,{\r译文字幕}你的记忆会消失  但你内心深处不会忘\N{\r原文字幕}Your memory will be gone, but your heart will know who you are.
+Dialogue: 0,1:33:00.19,1:33:03.52,Default,,0,0,0,,{\r译文字幕}我暂时保管这具身体方便你行动\N{\r原文字幕}I take this body so that you might live.
+Dialogue: 0,1:33:04.47,1:33:06.50,Default,,0,0,0,,{\r译文字幕}记得把他的儿子带回来\N{\r原文字幕}Return with the son.
+Dialogue: 0,1:33:37.61,1:33:39.01,Default,,0,0,0,,{\r译文字幕}嘿  小子\N{\r原文字幕}Hey, kid!
+Dialogue: 0,1:33:56.13,1:33:58.04,Default,,0,0,0,,{\r译文字幕}到了之后奶奶会去接你\N{\r原文字幕}Grandma will meet you when you arrive.
+Dialogue: 0,1:33:59.32,1:34:00.72,Default,,0,0,0,,{\r译文字幕}好的\N{\r原文字幕}Ok.
+Dialogue: 0,1:34:07.39,1:34:08.79,Default,,0,0,0,,{\r译文字幕}再见\N{\r原文字幕}See ya.
+Dialogue: 0,1:34:10.43,1:34:11.83,Default,,0,0,0,,{\r译文字幕}再见\N{\r原文字幕}See ya.
+Dialogue: 0,1:34:42.07,1:34:43.47,Default,,0,0,0,,{\r译文字幕}对了老爸\N{\r原文字幕}Hey dad?
+Dialogue: 0,1:34:44.88,1:34:46.28,Default,,0,0,0,,{\r译文字幕}怎么\N{\r原文字幕}Yeah?
+Dialogue: 0,1:34:48.09,1:34:50.29,Default,,0,0,0,,{\r译文字幕}我能留下来和你呆一阵子吗\N{\r原文字幕}You think I can stay with you for a while?
+Dialogue: 0,1:34:52.66,1:34:54.44,Default,,0,0,0,,{\r译文字幕}当然可以\N{\r原文字幕}I'd like that, kid.
+Dialogue: 0,1:34:55.34,1:34:57.21,Default,,0,0,0,,{\r译文字幕}我很高兴\N{\r原文字幕}Yeah I'd like that very much.
+Dialogue: 0,1:35:00.70,1:35:02.10,Default,,0,0,0,,{\r译文字幕}我也是\N{\r原文字幕}Me too.
+Dialogue: 0,1:35:13.72,1:35:14.98,Default,,0,0,0,,{\r译文字幕}你想来杯咖啡吗\N{\r原文字幕}You wanna get a coffee?
+Dialogue: 0,1:35:14.98,1:35:16.59,Default,,0,0,0,,{\r译文字幕}无巧不巧  好死不死\N{\r原文字幕}It's the weirdest thing, that's...
+Dialogue: 0,1:35:16.59,1:35:19.83,Default,,0,0,0,,{\r译文字幕}我现在满脑子都是咖啡呢\N{\r原文字幕}It's all I've been thinking about was having a coffee right now.
+Dialogue: 0,1:35:20.86,1:35:23.25,Default,,0,0,0,,{\r译文字幕}我可能得找个新工作了\N{\r原文字幕}I think I'll have to find a new job.
+Dialogue: 0,1:35:23.44,1:35:25.11,Default,,0,0,0,,{\r译文字幕}是吗\N{\r原文字幕}Oh yeah?
+Dialogue: 0,1:35:25.11,1:35:26.54,Default,,0,0,0,,{\r译文字幕}有什么想法吗\N{\r原文字幕}What are you thinking?
+Dialogue: 0,1:35:27.44,1:35:31.13,Default,,0,0,0,,{\r译文字幕}我或许可以试试当探员\N{\r原文字幕}Maybe I could give detective work a try?
+Dialogue: 0,1:35:31.55,1:35:33.59,Default,,0,0,0,,{\r译文字幕}他好像也挺赞同的\N{\r原文字幕}I think he likes that idea.

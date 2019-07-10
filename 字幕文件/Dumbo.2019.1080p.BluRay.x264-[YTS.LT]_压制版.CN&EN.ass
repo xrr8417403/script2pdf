@@ -1,0 +1,1264 @@
+﻿[Script Info]
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+ScaledBorderAndShadow: no
+ScriptType: v4.00+
+Synch Point: 1
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正黑体_GBK,20,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0.00,1,2,1,2,5,5,15,1
+Style: 译文字幕,方正黑体_GBK,20,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0.00,1,2,1,2,5,5,15,1
+Style: 原文字幕,微软雅黑,14,&H00FFFFFF,&HF0000000,&H00H202020,&H32000000,0,0,0,0,100,100,0,0.00,1,2,1,2,5,5,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.00,0:00:08.00,Default,,0,0,0,,{\fad(0,400)}{\fscx2300\fscy600{\c&H000000&{\bord0\shad0.5\be2\pos(200,310)}{\fs28}{\alphaFF\t(0,800,\alpha&H80&)}{\clip(100,200,300,200)\t(0,1350,0.8,\clip(100,200,300,300))}■
+Dialogue: 0,0:00:01.00,0:00:08.00,Default,,0,0,0,,{\move(200,210,200,275,0,1000)}{\fad(800,400)}{\clip(100,210,300,275)}{\shad0.5}{\4c&H000000&}{\fn方正黑体简体}{\fs18}{\b0}{\c&HEA9E00&}{\bord0\fn方正黑体简体}本字幕由网络爱好者联盟原创翻译\N{\c&HFDFDFD&}欢迎加入我们 {\fn方正黑体简体}{\fs18}{\b0}{\c&H00B9FF&}www.ZiMuZu.pub\N{\c&H0C95C2&}{\fs12}在保留译者名单的前提下任何人不需要经得我们的同意\N可用本字幕做任何用途因此所产生的后果由您自行承担
+Dialogue: 0,0:00:08.00,0:00:13.00,Default,,0,0,0,,{\pos(200,216)}{\clip(201,214,201,216)\t(0,600,2,\clip(110,214,292,216))\t(4200,4800,2,\clip(201,214,201,216))}{\alpha50\c&HC6BCA5&}{\be1\bord0\shad0}{\fs28}{\fscx1600\fscy10}■
+Dialogue: 0,0:00:08.00,0:00:13.00,Default,,0,0,0,,{\clip(80,216,392,216)\t(600,1000,2,\clip(80,192,392,240))\t(4200,4600,2,\clip(80,216,392,216))}{\i0}{\fn微软雅黑}{\bord0\shad0.5}{\c&H02B4FF&}{\fs16}{\pos(200,233)}翻\h译\N\N{\fs14}{\c&HF4A40D&}吃薯条不想蘸酱\h\h\h\h马丁马丁回音山\h\h\h\h刺罗森林\h\h\h\hGashdany
+Dialogue: 0,0:00:13.00,0:00:18.00,Default,,0,0,0,,{\pos(200,216)}{\clip(201,214,201,216)\t(0,600,2,\clip(110,214,292,216))\t(4200,4800,2,\clip(201,214,201,216))}{\alpha50\c&HC6BCA5&}{\be1\bord0\shad0}{\fs28}{\fscx1600\fscy10}■
+Dialogue: 0,0:00:13.00,0:00:18.00,Default,,0,0,0,,{\clip(80,216,392,216)\t(600,1000,2,\clip(80,192,392,240))\t(4200,4600,2,\clip(80,216,392,216))}{\i0}{\fn微软雅黑}{\bord0\shad0.5}{\c&H02B4FF&}{\fs16}{\pos(200,233)}翻\h译\N\N{\fs14}{\c&HF4A40D&}大大大大大爷 \h\h\h\h有鹿er\h\h\h\h歪六六
+Dialogue: 0,0:00:18.00,0:00:24.00,Default,,0,0,0,,{\pos(200,216)}{\clip(201,214,201,216)\t(0,600,2,\clip(110,214,292,216))\t(4200,4800,2,\clip(201,214,201,216))}{\alpha50\c&HC6BCA5&}{\be1\bord0\shad0}{\fs28}{\fscx1600\fscy10}■
+Dialogue: 0,0:00:18.00,0:00:24.00,Default,,0,0,0,,{\clip(110,216,292,216)\t(600,1000,2,\clip(110,192,292,240))\t(4200,4600,2,\clip(110,216,292,216))}{\i0}{\fn微软雅黑}{\bord0\shad0.5}{\c&H02B4FF&}{\fs16}{\pos(200,233)}校对\h&\h后期\N\N{\fs14}{\c&HF4A40D&}青色桔子\h\h\h\h大红
+Dialogue: 0,0:00:24.00,0:00:32.00,Default,,0,0,0,,{\clip(62,224,336,224)\t(1000,1400,2,\clip(62,204,336,224))\t(7600,8000,\clip(62,224,336,224))}{\pos(199,229)}{\alpha&H80&\c&H000000&}{\bord0\shad0.5\be1}{\fs28}{\fscx3100\fscy150}■
+Dialogue: 0,0:00:24.00,0:00:32.00,Default,,0,0,0,,{\clip(62,224,336,224)\t(1000,1400,2,\clip(62,204,336,224))\t(7600,8000,\clip(62,224,336,224))}{\i0}{\fn微软雅黑}{\bord0\shad0.5}{\c&H02B4FF&}{\fs16}{\pos(200,220)}片头推广合作洽谈：{\fs14}{\c&HF4A40D&}请联系普罗米修斯邮箱{\c&H2455FF&} PLMXS2016@GmaiL.com
+Dialogue: 0,0:00:34.87,0:00:35.87,Default,,0,0,0,,{\r译文字幕}本英文字幕由explosiveskull提供
+Dialogue: 0,0:00:40.27,0:00:45.16,Default,,0,0,0,,{\r译文字幕}{\fs25\an8}美第奇兄弟马戏团
+Dialogue: 0,0:00:46.75,0:00:49.91,Default,,0,0,0,,{\r译文字幕}快点  该走了  别磨磨蹭蹭的\N{\r原文字幕}Come on, time to go. We haven't got all day.
+Dialogue: 0,0:00:49.91,0:00:51.50,Default,,0,0,0,,{\r译文字幕}{\fs14\pos(125,220)\bord1\b1}佛罗里达州  萨拉索塔市
+Dialogue: 0,0:00:49.91,0:00:51.50,Default,,0,0,0,,{\r译文字幕}{\fs12\pos(110,245)\bord1\b1}1919年
+Dialogue: 0,0:00:51.50,0:00:55.50,Default,,0,0,0,,{\r译文字幕}把那只猴子赶上火车\N{\r原文字幕}Get that monkey on the train.
+Dialogue: 0,0:00:55.50,0:00:59.04,Default,,0,0,0,,{\r译文字幕}美第奇兄弟马戏团出发了\N{\r原文字幕}The Medici Brothers' circus is taking off!
+Dialogue: 0,0:00:59.17,0:01:00.63,Default,,0,0,0,,{\r译文字幕}{\fs30\pos(190,230)}即将光临
+Dialogue: 0,0:00:59.27,0:01:00.63,Default,,0,0,0,,{\r译文字幕}{\fs40\an8}美第奇兄弟马戏团
+Dialogue: 0,0:01:07.85,0:01:10.35,Default,,0,0,0,,{\r译文字幕}{\fs22\an8}牡马之星
+Dialogue: 0,0:01:07.85,0:01:10.35,Default,,0,0,0,,{\r译文字幕}{\fs20\pos(195,230)}霍特和安妮
+Dialogue: 0,0:01:13.31,0:01:13.94,Default,,0,0,0,,{\r译文字幕}{\fs20\pos(190,40)}美人鱼亚特兰蒂斯小姐
+Dialogue: 0,0:01:20.15,0:01:22.24,Default,,0,0,0,,{\r译文字幕}{\fs20\pos(190,240)}小凯西号
+Dialogue: 0,0:01:24.57,0:01:26.07,Default,,0,0,0,,{\r译文字幕}{\fs20\pos(60,200)}荣格
+Dialogue: 0,0:01:24.57,0:01:26.07,Default,,0,0,0,,{\r译文字幕}{\fs20\pos(280,200)}大力士
+Dialogue: 0,0:01:24.57,0:01:26.07,Default,,0,0,0,,{\r译文字幕}{\fs20\pos(190,280)}世界冠军
+Dialogue: 0,0:01:29.87,0:01:30.62,Default,,0,0,0,,{\r译文字幕}{\fs20\pos(190,270)}迷人巫师普拉德什
+Dialogue: 0,0:01:34.38,0:01:35.82,Default,,0,0,0,,{\r译文字幕}{\fs20\pos(190,280)}神奇动物
+Dialogue: 0,0:01:41.42,0:01:42.38,Default,,0,0,0,,{\r译文字幕}{\fs12\pos(290,190)}萨拉索塔市
+Dialogue: 0,0:01:47.47,0:01:48.30,Default,,0,0,0,,{\r译文字幕}{\fs12\pos(280,80)}莫尔特里河滨展览场
+Dialogue: 0,0:01:52.18,0:01:54.73,Default,,0,0,0,,{\r译文字幕}{\fs12\pos(220,95)}韦塔姆卡
+Dialogue: 0,0:01:59.02,0:02:00.69,Default,,0,0,0,,{\r译文字幕}{\fs12\pos(210,60)}斯塔克维尔
+Dialogue: 0,0:02:08.58,0:01:59.02,Default,,0,0,0,,{\r译文字幕}{\fs17\pos(200,230)}巴斯特普罗镇
+Dialogue: 0,0:02:14.63,0:02:17.02,Default,,0,0,0,,{\r译文字幕}{\fs17\pos(220,200)}瑟西市
+Dialogue: 0,0:02:18.83,0:02:23.34,Default,,0,0,0,,{\r译文字幕}{\fs17\pos(200,125)}乔普林市
+Dialogue: 0,0:02:29.34,0:02:29.89,Default,,0,0,0,,{\r译文字幕}{\fs30\pos(250,80)}乔普林市
+Dialogue: 0,0:02:44.65,0:02:48.66,Default,tag,0,0,0,,{\r译文字幕}{\move(195,230,195,240)}\N{\fs40\t(0,5500,\fs50)}{\be30\t(0,1500,\be0)\t(4800,5500,\be30)}\N{\clip(100,196,300,212)\t(0,5500,\clip(100,196,300,216))}\N{\fsp10}{\bord1\shad1\blur0.5}{\fad(2000,1000)}\N{\c&H945630&\3c&HA4B8C1&\4c&HA4B8C1&}\N小飞象
+Dialogue: 0,0:02:44.65,0:02:48.66,Default,tag,0,0,0,,{\r译文字幕}{\move(195,230,195,240)}\N{\fs40\t(0,5500,\fs50)}{\be30\t(0,1500,\be0)\t(4800,5500,\be30)}\N{\clip(100,212,300,228)\t(0,5500,\clip(100,216,300,240))}\N{\fsp10}{\bord1\shad1\blur0.5}{\fad(2000,1000)}\N{\c&H211CE5&\3c&HA4B8C1&\4c&HA4B8C1&}\N小飞象
+Dialogue: 0,0:02:58.95,0:03:00.70,Default,,0,0,0,,{\r译文字幕}呼吸正常\N{\r原文字幕}Breathing normal...
+Dialogue: 0,0:03:00.70,0:03:02.29,Default,,0,0,0,,{\r译文字幕}心率正常\N{\r原文字幕}heart rate normal.
+Dialogue: 0,0:03:03.45,0:03:04.66,Default,,0,0,0,,{\r译文字幕}你可以上场表演了\N{\r原文字幕}You're cleared to perform.
+Dialogue: 0,0:03:05.91,0:03:08.75,Default,,0,0,0,,{\r译文字幕}米莉  又有一辆火车来了\N{\r原文字幕}Milly! Another train!
+Dialogue: 0,0:03:15.33,0:03:17.41,Default,,0,0,0,,{\r译文字幕}孩子们  等等  我们也要过去\N{\r原文字幕}Ninos, wait! We are coming, too!
+Dialogue: 0,0:03:29.75,0:03:31.50,Default,,0,0,0,,{\r译文字幕}乔普林市到了\N{\r原文字幕}Joplin!
+Dialogue: 0,0:03:31.50,0:03:33.29,Default,,0,0,0,,{\r译文字幕}密苏里州乔普林市\N{\r原文字幕}Joplin, Missouri!
+Dialogue: 0,0:03:33.29,0:03:35.45,Default,,0,0,0,,{\r译文字幕}-嘿  宝贝女儿  -爸爸\N{\r原文字幕}- Hey, sweetheart! - Daddy!
+Dialogue: 0,0:04:06.70,0:04:09.45,Default,,0,0,0,,{\r译文字幕}本来想跟你们说的\N{\r原文字幕}Oh, I meant to tell ya.
+Dialogue: 0,0:04:09.50,0:04:10.83,Default,,0,0,0,,{\r译文字幕}就在我寄回来的那些信里\N{\r原文字幕}You know, in the letter I sent?
+Dialogue: 0,0:04:12.04,0:04:15.45,Default,,0,0,0,,{\r译文字幕}很抱歉  那个时候我不在\N{\r原文字幕}I'm so sorry that I wasn't here.
+Dialogue: 0,0:04:16.54,0:04:17.83,Default,,0,0,0,,{\r译文字幕}快过来吧\N{\r原文字幕}Well, come here now.
+Dialogue: 0,0:04:18.91,0:04:20.25,Default,,0,0,0,,{\r译文字幕}我还是我\N{\r原文字幕}Still me.
+Dialogue: 0,0:04:27.45,0:04:28.87,Default,,0,0,0,,{\r译文字幕}你\N{\r原文字幕}And you...
+Dialogue: 0,0:04:30.87,0:04:32.33,Default,,0,0,0,,{\r译文字幕}你跟你妈妈一样好看\N{\r原文字幕}you're just as pretty as your momma.
+Dialogue: 0,0:04:40.95,0:04:42.29,Default,,0,0,0,,{\r译文字幕}爸爸  我们很想你\N{\r原文字幕}We missed you, Dad.
+Dialogue: 0,0:04:43.83,0:04:45.00,Default,,0,0,0,,{\r译文字幕}我也很想你们\N{\r原文字幕}I missed you, too.
+Dialogue: 0,0:04:49.00,0:04:51.54,Default,,0,0,0,,{\r译文字幕}伊万和凯瑟琳  谢谢你们两位\N{\r原文字幕}Ivan and Catherine, thank you both...
+Dialogue: 0,0:04:51.54,0:04:53.33,Default,,0,0,0,,{\r译文字幕}替我照看他们\N{\r原文字幕}for looking out for them.
+Dialogue: 0,0:04:53.33,0:04:54.79,Default,,0,0,0,,{\r译文字幕}这是我们该做的  法瑞尔上尉\N{\r原文字幕}Captain Farrier, of course.
+Dialogue: 0,0:04:54.79,0:04:56.58,Default,,0,0,0,,{\r译文字幕}别这样  叫我霍特就好\N{\r原文字幕}Oh, it's Holt, come on now.
+Dialogue: 0,0:04:56.58,0:04:57.91,Default,,0,0,0,,{\r译文字幕}叫我霍特就好\N{\r原文字幕}It's just Holt.
+Dialogue: 0,0:04:57.91,0:04:59.54,Default,,0,0,0,,{\r译文字幕}别担心\N{\r原文字幕}Don't you worry.
+Dialogue: 0,0:05:01.08,0:05:03.41,Default,,0,0,0,,{\r译文字幕}一切都会像以前一样\N{\r原文字幕}Everything's gonna be just like it was before.
+Dialogue: 0,0:05:07.62,0:05:08.62,Default,,0,0,0,,{\r译文字幕}快点  快点\N{\r原文字幕}Come on! Come on!
+Dialogue: 0,0:05:08.62,0:05:10.00,Default,,0,0,0,,{\r译文字幕}总算回家了\N{\r原文字幕}Home sweet home.
+Dialogue: 0,0:05:10.00,0:05:12.29,Default,,0,0,0,,{\r译文字幕}-嘿  霍特  -嘿  普克\N{\r原文字幕}- Hey! Holt! - Hey, Puck.
+Dialogue: 0,0:05:13.50,0:05:14.04,Default,,0,0,0,,{\r译文字幕}你好  托马斯\N{\r原文字幕}Hey, Thomas.
+Dialogue: 0,0:05:14.04,0:05:14.72,Default,,0,0,0,,{\r译文字幕}米莉  快点\N{\r原文字幕}Milly, come on!
+Dialogue: 0,0:05:14.82,0:05:15.83,Default,,0,0,0,,{\r译文字幕}你好  霍特\N{\r原文字幕}Hi, Holt.
+Dialogue: 0,0:05:16.79,0:05:19.50,Default,,0,0,0,,{\r译文字幕}你好  亚特兰蒂斯小姐\N{\r原文字幕}Oh! Hey, Miss Atlantis.
+Dialogue: 0,0:05:20.83,0:05:22.62,Default,,0,0,0,,{\r译文字幕}普拉德什\N{\r原文字幕}Pramesh!
+Dialogue: 0,0:05:22.62,0:05:24.33,Default,,0,0,0,,{\r译文字幕}亲爱的朋友  最棒的旅程\N{\r原文字幕}The very best journey, dear friend.
+Dialogue: 0,0:05:24.33,0:05:26.79,Default,,0,0,0,,{\r译文字幕}无异于踏上归家之路\N{\r原文字幕}The road that leads home.
+Dialogue: 0,0:05:26.79,0:05:28.66,Default,,0,0,0,,{\r译文字幕}欢迎回家\N{\r原文字幕}Welcome home.
+Dialogue: 0,0:05:30.58,0:05:32.37,Default,,0,0,0,,{\r译文字幕}别抱了\N{\r原文字幕}No hugs!
+Dialogue: 0,0:05:33.75,0:05:36.37,Default,,0,0,0,,{\r译文字幕}普拉德什  我也想你\N{\r原文字幕}Pramesh, I missed you, too.
+Dialogue: 0,0:05:36.37,0:05:39.54,Default,,0,0,0,,{\r译文字幕}怎么回事  营地怎么缩水了一半\N{\r原文字幕}What's going on? The camp's half the size it used to be.
+Dialogue: 0,0:05:39.54,0:05:42.04,Default,,0,0,0,,{\r译文字幕}时世艰难啊  朋友  大家都不好过\N{\r原文字幕}Hard times, my friend. For everyone.
+Dialogue: 0,0:05:48.58,0:05:50.79,Default,,0,0,0,,{\r译文字幕}各位请注意\N{\r原文字幕}Attention, everybody!
+Dialogue: 0,0:05:50.83,0:05:54.75,Default,,0,0,0,,{\r译文字幕}为什么说没有规矩  不成方圆\N{\r原文字幕}Why is Rule Number One called Rule Number One?
+Dialogue: 0,0:05:54.75,0:05:57.54,Default,,0,0,0,,{\r译文字幕}因为  锁好笼子\N{\r原文字幕}Because "keep the cages locked"
+Dialogue: 0,0:05:57.54,0:05:59.83,Default,,0,0,0,,{\r译文字幕}就是最重要的规矩\N{\r原文字幕}is the most important rule of all!
+Dialogue: 0,0:05:59.83,0:06:01.83,Default,,0,0,0,,{\r译文字幕}要是给我逮到\N{\r原文字幕}When I catch that fugitive scalawag
+Dialogue: 0,0:06:01.83,0:06:03.54,Default,,0,0,0,,{\r译文字幕}那个破坏我梦想的混蛋\N{\r原文字幕}who interrupted my dream...
+Dialogue: 0,0:06:03.54,0:06:04.50,Default,,0,0,0,,{\r译文字幕}荣格\N{\r原文字幕}Rongo!
+Dialogue: 0,0:06:04.50,0:06:05.83,Default,,0,0,0,,{\r译文字幕}荣格在哪儿\N{\r原文字幕}Where is Rongo?
+Dialogue: 0,0:06:07.91,0:06:09.91,Default,,0,0,0,,{\r译文字幕}是谁在负责管理营地\N{\r原文字幕}Who's heading camp management?
+Dialogue: 0,0:06:09.91,0:06:11.16,Default,,0,0,0,,{\r译文字幕}我只是个大力士\N{\r原文字幕}I'm the strongman.
+Dialogue: 0,0:06:11.16,0:06:13.83,Default,,0,0,0,,{\r译文字幕}没错  但是大家都得身兼数职\N{\r原文字幕}Yes, but we're all wearing multiple hats!
+Dialogue: 0,0:06:13.83,0:06:17.66,Default,,0,0,0,,{\r译文字幕}你得负责预算  记账  还有列清单\N{\r原文字幕}You're in charge of budgets, and accounting, and inventory.
+Dialogue: 0,0:06:17.66,0:06:20.16,Default,,0,0,0,,{\r译文字幕}也就是说你得负责动物的下落\N{\r原文字幕}Which means animal whereabouts!
+Dialogue: 0,0:06:20.16,0:06:22.16,Default,,0,0,0,,{\r译文字幕}现在立刻去把那只猴子找回来\N{\r原文字幕}Now, go find that monkey!
+Dialogue: 0,0:06:22.16,0:06:24.08,Default,,0,0,0,,{\r译文字幕}我去四处看看\N{\r原文字幕}I'll have a look around.
+Dialogue: 0,0:06:31.04,0:06:32.66,Default,,0,0,0,,{\r译文字幕}好了各位  回去工作吧\N{\r原文字幕}All right, everybody. Back to work.
+Dialogue: 0,0:06:36.87,0:06:37.95,Default,,0,0,0,,{\r译文字幕}霍特\N{\r原文字幕}Holt!
+Dialogue: 0,0:06:48.08,0:06:51.70,Default,,0,0,0,,{\r译文字幕}这个冬天的流感来势汹汹\N{\r原文字幕}This winter, the influenza hit us like a hurricane.
+Dialogue: 0,0:06:52.50,0:06:55.16,Default,,0,0,0,,{\r译文字幕}纳塔利娅  温琴佐\N{\r原文字幕}Natalya, Vincenzo...
+Dialogue: 0,0:06:55.16,0:06:57.83,Default,,0,0,0,,{\r译文字幕}范德吉一家  还有\N{\r原文字幕}the Vanderjees, and then...
+Dialogue: 0,0:06:59.00,0:07:01.62,Default,,0,0,0,,{\r译文字幕}你的妻子\N{\r原文字幕}your wife.
+Dialogue: 0,0:07:01.62,0:07:02.91,Default,,0,0,0,,{\r译文字幕}可怜的安妮\N{\r原文字幕}Poor Annie.
+Dialogue: 0,0:07:05.66,0:07:07.66,Default,,0,0,0,,{\r译文字幕}她顽强抵抗病魔\N{\r原文字幕}How she fought.
+Dialogue: 0,0:07:10.50,0:07:11.95,Default,,0,0,0,,{\r译文字幕}她是我们当中最优秀的\N{\r原文字幕}She was the best of us.
+Dialogue: 0,0:07:13.08,0:07:15.04,Default,,0,0,0,,{\r译文字幕}我知道\N{\r原文字幕}I know it.
+Dialogue: 0,0:07:15.04,0:07:17.75,Default,,0,0,0,,{\r译文字幕}为了她\N{\r原文字幕}So, uh, you know, for her,
+Dialogue: 0,0:07:17.75,0:07:19.04,Default,,0,0,0,,{\r译文字幕}我们要表演最好的一季\N{\r原文字幕}let's have our best season yet!
+Dialogue: 0,0:07:20.58,0:07:21.95,Default,,0,0,0,,{\r译文字幕}我的马呢\N{\r原文字幕}Now where's my horses?
+Dialogue: 0,0:07:24.20,0:07:26.08,Default,,0,0,0,,{\r译文字幕}这事儿说来有趣\N{\r原文字幕}Funny story about that.
+Dialogue: 0,0:07:26.08,0:07:27.62,Default,,0,0,0,,{\r译文字幕}怎么有趣\N{\r原文字幕}Funny how?
+Dialogue: 0,0:07:27.62,0:07:29.66,Default,,0,0,0,,{\r译文字幕}他把马卖了\N{\r原文字幕}He sold them.
+Dialogue: 0,0:07:29.66,0:07:31.45,Default,,0,0,0,,{\r译文字幕}但是我们的表演是马戏团的灵魂啊\N{\r原文字幕}But our act is the soul of this show!
+Dialogue: 0,0:07:31.50,0:07:33.52,Default,,0,0,0,,{\r译文字幕}然而先是你离开了\N{\r原文字幕}And first, we lost you,
+Dialogue: 0,0:07:33.53,0:07:35.65,Default,,0,0,0,,{\r译文字幕}接着安妮也走了  那些马没人骑\N{\r原文字幕}and then Annie, to ride 'em!
+Dialogue: 0,0:07:35.65,0:07:38.50,Default,,0,0,0,,{\r译文字幕}米莉也不肯学骑马\N{\r原文字幕}If only Milly would have learned the trade.
+Dialogue: 0,0:07:38.50,0:07:39.91,Default,,0,0,0,,{\r译文字幕}我不想在马戏团里出风头\N{\r原文字幕}I don't wanna be a show-off in your circus.
+Dialogue: 0,0:07:39.91,0:07:42.04,Default,,0,0,0,,{\r译文字幕}-出风头  -你听\N{\r原文字幕}- "Show-off"? - You see?
+Dialogue: 0,0:07:42.04,0:07:44.70,Default,,0,0,0,,{\r译文字幕}我想要研究科学\N{\r原文字幕}I wanna make scientific discoveries.
+Dialogue: 0,0:07:44.70,0:07:46.54,Default,,0,0,0,,{\r译文字幕}我要靠才智出名\N{\r原文字幕}I wanna be noticed for my mind.
+Dialogue: 0,0:07:46.54,0:07:48.00,Default,,0,0,0,,{\r译文字幕}好吧\N{\r原文字幕}Okay.
+Dialogue: 0,0:07:48.00,0:07:51.62,Default,,0,0,0,,{\r译文字幕}那就学学千里眼  读心术  什么都好\N{\r原文字幕}Then learn clairvoyance. Telepathy! Something!
+Dialogue: 0,0:07:51.62,0:07:54.66,Default,,0,0,0,,{\r译文字幕}我倒立能坚持十秒\N{\r原文字幕}I can do a handstand for almost ten seconds.
+Dialogue: 0,0:07:57.08,0:08:01.08,Default,,0,0,0,,{\r译文字幕}靠小孩倒立  七月份我们就得喝西北风\N{\r原文字幕}"Child does handstand." We'll be broke by July.
+Dialogue: 0,0:08:01.08,0:08:03.83,Default,,0,0,0,,{\r译文字幕}等等  没有马我要怎么表演\N{\r原文字幕}Hang on now. Without horses, what the hell's my act?
+Dialogue: 0,0:08:04.83,0:08:07.25,Default,,0,0,0,,{\r译文字幕}人们是涌来看我表演的\N{\r原文字幕}The crowds come to see me!
+Dialogue: 0,0:08:07.25,0:08:08.25,Default,,0,0,0,,{\r译文字幕}麦克斯  拜托\N{\r原文字幕}Max, please.
+Dialogue: 0,0:08:09.79,0:08:11.66,Default,,0,0,0,,{\r译文字幕}我需要工作\N{\r原文字幕}I need to work.
+Dialogue: 0,0:08:13.00,0:08:14.70,Default,,0,0,0,,{\r译文字幕}好消息\N{\r原文字幕}Good news.
+Dialogue: 0,0:08:14.70,0:08:16.54,Default,,0,0,0,,{\r译文字幕}我有一份工作\N{\r原文字幕}One job, I have.
+Dialogue: 0,0:08:16.54,0:08:18.58,Default,,0,0,0,,{\r译文字幕}那好  让我来场精彩表演\N{\r原文字幕}Okay, then. Give me a showstopper.
+Dialogue: 0,0:08:18.58,0:08:20.25,Default,,0,0,0,,{\r译文字幕}老麦克菲那个无赖\N{\r原文字幕}You know that old rascal Itchy McPhee?
+Dialogue: 0,0:08:20.25,0:08:21.95,Default,,0,0,0,,{\r译文字幕}他和胡子女士私奔跑路了\N{\r原文字幕}He finally ran off with the bearded lady.
+Dialogue: 0,0:08:21.95,0:08:26.08,Default,,0,0,0,,{\r译文字幕}之后我就只能找杂工来充当人手\N{\r原文字幕}I've been filling in with roustabouts ever since.
+Dialogue: 0,0:08:26.08,0:08:28.20,Default,,0,0,0,,{\r译文字幕}我需要有合适的人来照料大象\N{\r原文字幕}I need somebody good to tend the elephants.
+Dialogue: 0,0:08:28.20,0:08:30.25,Default,,0,0,0,,{\r译文字幕}不  你在开玩笑的吧\N{\r原文字幕}No, you're not serious.
+Dialogue: 0,0:08:30.25,0:08:31.62,Default,,0,0,0,,{\r译文字幕}谈正经事我不开玩笑\N{\r原文字幕}I am on occasion.
+Dialogue: 0,0:08:31.62,0:08:33.16,Default,,0,0,0,,{\r译文字幕}你知道的  这个工作很重要\N{\r原文字幕}This is a big job and you know it.
+Dialogue: 0,0:08:33.16,0:08:34.79,Default,,0,0,0,,{\r译文字幕}不  这是要我拿大铲子铲一大坨的\N{\r原文字幕}No, it's a big shovel for a big pile of...
+Dialogue: 0,0:08:34.79,0:08:35.79,Default,,0,0,0,,{\r译文字幕}爸\N{\r原文字幕}Dad.
+Dialogue: 0,0:08:38.33,0:08:40.80,Default,,0,0,0,,{\r译文字幕}你把我的马卖了  留下你的大象\N{\r原文字幕}So you sold my horses and kept your elephants.
+Dialogue: 0,0:08:40.80,0:08:44.91,Default,,0,0,0,,{\r译文字幕}那些脏兮兮  骨瘦如柴又低价的大象\N{\r原文字幕}Your scrawny, mangy, cut-rate elephants.
+Dialogue: 0,0:08:44.91,0:08:47.85,Default,,0,0,0,,{\r译文字幕}它们很重要  特别是在这一季\N{\r原文字幕}They're important. Especially this season.
+Dialogue: 0,0:08:47.85,0:08:49.20,Default,,0,0,0,,{\r译文字幕}怎么说\N{\r原文字幕}Why's that?
+Dialogue: 0,0:08:49.20,0:08:51.04,Default,,0,0,0,,{\r译文字幕}我知道这不是我的风格\N{\r原文字幕}I know it goes against my nature...
+Dialogue: 0,0:08:51.04,0:08:54.83,Default,,0,0,0,,{\r译文字幕}但这是我有史以来做的头一回投资\N{\r原文字幕}but for once, I made an investment.
+Dialogue: 0,0:08:56.79,0:09:00.04,Default,,0,0,0,,{\r译文字幕}漂亮小象  她在这儿呢\N{\r原文字幕}Bellissima! There she is!
+Dialogue: 0,0:09:00.04,0:09:02.83,Default,,0,0,0,,{\r译文字幕}全新的母亚洲象\N{\r原文字幕}Our brand-new Asian female.
+Dialogue: 0,0:09:02.83,0:09:05.79,Default,,0,0,0,,{\r译文字幕}我从比洛克西的布鲁贝克手上买下的\N{\r原文字幕}I bought her off a Brugelbecker in Biloxi.
+Dialogue: 0,0:09:05.79,0:09:07.79,Default,,0,0,0,,{\r译文字幕}我不得不跟他砍价\N{\r原文字幕}I had to get him way down on the price.
+Dialogue: 0,0:09:07.79,0:09:09.58,Default,,0,0,0,,{\r译文字幕}我跟你保证  霍特\N{\r原文字幕}But I swear to you, Holt,
+Dialogue: 0,0:09:09.58,0:09:12.66,Default,,0,0,0,,{\r译文字幕}她的眼神里隐含着不平凡的东西\N{\r原文字幕}I saw something special in her eyes.
+Dialogue: 0,0:09:12.66,0:09:14.40,Default,,0,0,0,,{\r译文字幕}这就是你说的投资吗\N{\r原文字幕}This is your investment?
+Dialogue: 0,0:09:14.40,0:09:16.00,Default,,0,0,0,,{\r译文字幕}一头年老病衰的大象\N{\r原文字幕}An old, sick elephant.
+Dialogue: 0,0:09:16.00,0:09:18.12,Default,,0,0,0,,{\r译文字幕}不  她没有生病\N{\r原文字幕}Oh, no. She's not sick.
+Dialogue: 0,0:09:19.12,0:09:20.75,Default,,0,0,0,,{\r译文字幕}不久之后\N{\r原文字幕}Any day now...
+Dialogue: 0,0:09:20.75,0:09:23.04,Default,,0,0,0,,{\r译文字幕}她就会生下一头象宝宝\N{\r原文字幕}she's having a baby.
+Dialogue: 0,0:09:27.37,0:09:30.12,Default,,0,0,0,,{\r译文字幕}爸爸  快看  我越来越熟练了\N{\r原文字幕}Dad, watch! Dad! I'm getting better!
+Dialogue: 0,0:09:30.12,0:09:31.83,Default,,0,0,0,,{\r译文字幕}等等  这就是我们的帐篷吗\N{\r原文字幕}Hang on now, this is our tent?
+Dialogue: 0,0:09:33.12,0:09:34.37,Default,,0,0,0,,{\r译文字幕}我们的东西哪去了\N{\r原文字幕}What happened to our things?
+Dialogue: 0,0:09:34.37,0:09:37.79,Default,,0,0,0,,{\r译文字幕}那些精美家具和房间呢\N{\r原文字幕}We had nice furniture, we had rooms.
+Dialogue: 0,0:09:38.95,0:09:41.12,Default,,0,0,0,,{\r译文字幕}麦克斯  你还把什么给卖了\N{\r原文字幕}Max, what didn't you sell?
+Dialogue: 0,0:09:41.12,0:09:43.04,Default,,0,0,0,,{\r译文字幕}真是个混蛋\N{\r原文字幕}You son of a gun.
+Dialogue: 0,0:09:43.04,0:09:44.12,Default,,0,0,0,,{\r译文字幕}爸爸  快看\N{\r原文字幕}Dad, look!
+Dialogue: 0,0:09:44.79,0:09:46.00,Default,,0,0,0,,{\r译文字幕}玩具\N{\r原文字幕}Toys?
+Dialogue: 0,0:09:46.00,0:09:47.83,Default,,0,0,0,,{\r译文字幕}这些不是玩具\N{\r原文字幕}They're not toys.
+Dialogue: 0,0:09:47.83,0:09:49.33,Default,,0,0,0,,{\r译文字幕}是我的科学实验工具\N{\r原文字幕}They're for my science experiments.
+Dialogue: 0,0:09:49.33,0:09:52.04,Default,,0,0,0,,{\r译文字幕}我们是马戏团  女儿  这里是马戏团\N{\r原文字幕}Well, we're a circus, darlin', a circus.
+Dialogue: 0,0:09:52.04,0:09:54.79,Default,,0,0,0,,{\r译文字幕}我们要想活下去就得务实一点\N{\r原文字幕}We need to be practical if we want to survive.
+Dialogue: 0,0:09:54.79,0:09:57.37,Default,,0,0,0,,{\r译文字幕}你不能开始学习表演吗  一个也行\N{\r原文字幕}You couldn't just take up one act?
+Dialogue: 0,0:09:57.37,0:09:59.79,Default,,0,0,0,,{\r译文字幕}翻筋斗  走绳索\N{\r原文字幕}Tumblin' or tightrope?
+Dialogue: 0,0:09:59.79,0:10:01.70,Default,,0,0,0,,{\r译文字幕}或许我不需要吸引全世界的目光\N{\r原文字幕}Maybe I don't need the world staring at me.
+Dialogue: 0,0:10:03.00,0:10:04.75,Default,,0,0,0,,{\r译文字幕}可能我就是不像你和妈妈\N{\r原文字幕}Maybe I'm just not you and Mom.
+Dialogue: 0,0:10:04.75,0:10:06.33,Default,,0,0,0,,{\r译文字幕}好吧  那这家里是谁说了算\N{\r原文字幕}Well, who makes the rules in this family?
+Dialogue: 0,0:10:06.66,0:10:07.91,Default,,0,0,0,,{\r译文字幕}妈妈说了算\N{\r原文字幕}Mom did.
+Dialogue: 0,0:10:07.91,0:10:09.12,Default,,0,0,0,,{\r译文字幕}好吧  那现在是我说了算\N{\r原文字幕}Yeah, well, I make them now.
+Dialogue: 0,0:10:09.12,0:10:11.25,Default,,0,0,0,,{\r译文字幕}所以  回你的房间去\N{\r原文字幕}So just, uh... Go to your room!
+Dialogue: 0,0:10:11.25,0:10:12.66,Default,,0,0,0,,{\r译文字幕}这就是我的房间\N{\r原文字幕}This is my room.
+Dialogue: 0,0:10:14.00,0:10:16.20,Default,,0,0,0,,{\r译文字幕}也是我们的房间\N{\r原文字幕}This is all our rooms.
+Dialogue: 0,0:10:16.20,0:10:18.29,Default,,0,0,0,,{\r译文字幕}看到没\N{\r原文字幕}See this?
+Dialogue: 0,0:10:18.29,0:10:20.12,Default,,0,0,0,,{\r译文字幕}知道这是什么吗\N{\r原文字幕}You know what this is?
+Dialogue: 0,0:10:20.12,0:10:21.66,Default,,0,0,0,,{\r译文字幕}这是给你们继承的遗产\N{\r原文字幕}It's your inheritance.
+Dialogue: 0,0:10:23.83,0:10:25.33,Default,,0,0,0,,{\r译文字幕}爸爸\N{\r原文字幕}Dad!
+Dialogue: 0,0:10:25.33,0:10:28.79,Default,,0,0,0,,{\r译文字幕}别担心  他会回来的\N{\r原文字幕}Don't worry, he's not going anywhere.
+Dialogue: 0,0:10:28.79,0:10:30.66,Default,,0,0,0,,{\r译文字幕}这个地方把他给困住了\N{\r原文字幕}He's stuck here.
+Dialogue: 0,0:10:30.66,0:10:32.20,Default,,0,0,0,,{\r译文字幕}就像困住我和你\N{\r原文字幕}Like you and me.
+Dialogue: 0,0:10:46.00,0:10:47.66,Default,,0,0,0,,{\r译文字幕}快点  快点  你要错过了\N{\r原文字幕}Come on, come on, you're missing it!
+Dialogue: 0,0:10:49.91,0:10:53.12,Default,,0,0,0,,{\r译文字幕}看  我可以  我真的可以  米莉\N{\r原文字幕}Look, I can do it! I'm doing it, Milly!
+Dialogue: 0,0:10:53.16,0:10:55.00,Default,,0,0,0,,{\r译文字幕}新的一季\N{\r原文字幕}A new season!
+Dialogue: 0,0:11:08.04,0:11:10.29,Default,,0,0,0,,{\r译文字幕}让我进去  你这个小毛球\N{\r原文字幕}Let me in, you little hairball!
+Dialogue: 0,0:11:20.20,0:11:23.75,Default,,0,0,0,,{\r译文字幕}谁能帮我进去我自己的车厢\N{\r原文字幕}Would somebody please let me in my own train?
+Dialogue: 0,0:12:06.83,0:12:08.20,Default,,0,0,0,,{\r译文字幕}爸爸  醒醒  我们走\N{\r原文字幕}Dad, wake up! Let's go!
+Dialogue: 0,0:12:08.20,0:12:09.50,Default,,0,0,0,,{\r译文字幕}我们得去帮帮大象\N{\r原文字幕}The elephants need us!
+Dialogue: 0,0:12:09.50,0:12:10.95,Default,,0,0,0,,{\r译文字幕}我的天  儿子\N{\r原文字幕}Good God, son,
+Dialogue: 0,0:12:10.95,0:12:12.41,Default,,0,0,0,,{\r译文字幕}你让我想起了打战\N{\r原文字幕}you're gonna make me miss the war.
+Dialogue: 0,0:12:12.41,0:12:14.75,Default,,0,0,0,,{\r译文字幕}这个给我\N{\r原文字幕}Gimme that.
+Dialogue: 0,0:12:14.75,0:12:16.04,Default,,0,0,0,,{\r译文字幕}走吧  带路\N{\r原文字幕}Go on, lead the way.
+Dialogue: 0,0:12:16.04,0:12:17.91,Default,,0,0,0,,{\r译文字幕}快走\N{\r原文字幕}Move it!
+Dialogue: 0,0:12:20.50,0:12:22.08,Default,,0,0,0,,{\r译文字幕}快走吧  珍宝女士\N{\r原文字幕}Let's skedaddle, Mrs. Jumbo!
+Dialogue: 0,0:12:22.08,0:12:24.00,Default,,0,0,0,,{\r译文字幕}别逼我动手\N{\r原文字幕}Don't make me have to incentivize.
+Dialogue: 0,0:12:24.00,0:12:25.08,Default,,0,0,0,,{\r译文字幕}快把她赶出来\N{\r原文字幕}Get her out of there, boys.
+Dialogue: 0,0:12:27.37,0:12:28.91,Default,,0,0,0,,{\r译文字幕}别急  鲁弗斯\N{\r原文字幕}Easy, Rufus.
+Dialogue: 0,0:12:28.91,0:12:30.45,Default,,0,0,0,,{\r译文字幕}里边可是头母象\N{\r原文字幕}That's a lady in there.
+Dialogue: 0,0:12:30.45,0:12:33.12,Default,,0,0,0,,{\r译文字幕}瞧瞧  有人来英雄救美了\N{\r原文字幕}Well, well, our own Tom Mix ridin' in to the rescue.
+Dialogue: 0,0:12:33.12,0:12:35.33,Default,,0,0,0,,{\r译文字幕}可惜他荣华不再了\N{\r原文字幕}But he just ain't on the marquee no more.
+Dialogue: 0,0:12:35.33,0:12:37.08,Default,,0,0,0,,{\r译文字幕}来看看他错过了什么\N{\r原文字幕}Time to see what he's been missing.
+Dialogue: 0,0:12:37.08,0:12:38.79,Default,,0,0,0,,{\r译文字幕}你感受到了吗\N{\r原文字幕}Do you ever get that feeling?
+Dialogue: 0,0:12:38.79,0:12:40.20,Default,,0,0,0,,{\r译文字幕}那种物是人非的感觉\N{\r原文字幕}Like there's something you're missing?
+Dialogue: 0,0:12:40.20,0:12:42.45,Default,,0,0,0,,{\r译文字幕}真是奇怪  你怎么没参军\N{\r原文字幕}Imagine my surprise, you didn't enlist.
+Dialogue: 0,0:12:42.45,0:12:45.12,Default,,0,0,0,,{\r译文字幕}心脏不好  医生说的\N{\r原文字幕}Weak ticker. Doc's advice.
+Dialogue: 0,0:12:45.12,0:12:47.22,Default,,0,0,0,,{\r译文字幕}爸  事情有点不对劲\N{\r原文字幕}Dad? Something's wrong.
+Dialogue: 0,0:12:48.04,0:12:49.47,Default,,0,0,0,,{\r译文字幕}她不想离开\N{\r原文字幕}She doesn't wanna leave.
+Dialogue: 0,0:12:54.25,0:12:55.37,Default,,0,0,0,,{\r译文字幕}快点\N{\r原文字幕}Come on!
+Dialogue: 0,0:12:55.37,0:12:56.91,Default,,0,0,0,,{\r译文字幕}我们把她弄出去\N{\r原文字幕}Let's get her outta there!
+Dialogue: 0,0:12:59.83,0:13:01.79,Default,,0,0,0,,{\r译文字幕}-你在做什么  -快点\N{\r原文字幕}- What are you doing? - Come on!
+Dialogue: 0,0:13:03.00,0:13:04.45,Default,,0,0,0,,{\r译文字幕}放开她\N{\r原文字幕}Leave her alone!
+Dialogue: 0,0:13:04.45,0:13:06.29,Default,,0,0,0,,{\r译文字幕}-求你别打她  -我说了让你别动她\N{\r原文字幕}- Stop hurting her, please! - Leave her alone!
+Dialogue: 0,0:13:18.08,0:13:19.16,Default,,0,0,0,,{\r译文字幕}爸  快看\N{\r原文字幕}Dad, look.
+Dialogue: 0,0:13:19.16,0:13:20.45,Default,,0,0,0,,{\r译文字幕}又怎么了\N{\r原文字幕}What now?
+Dialogue: 0,0:13:21.54,0:13:22.87,Default,,0,0,0,,{\r译文字幕}把她移走\N{\r原文字幕}Move her!
+Dialogue: 0,0:13:25.58,0:13:28.91,Default,,0,0,0,,{\r译文字幕}这里有个象宝宝\N{\r原文字幕}Whoa, we got a baby in here.
+Dialogue: 0,0:13:34.62,0:13:35.62,Default,,0,0,0,,{\r译文字幕}她生了个小宝宝\N{\r原文字幕}She had a baby!
+Dialogue: 0,0:13:35.62,0:13:36.87,Default,,0,0,0,,{\r译文字幕}小宝宝吗\N{\r原文字幕}Baby! Huh?
+Dialogue: 0,0:13:36.87,0:13:38.04,Default,,0,0,0,,{\r译文字幕}去通知报社\N{\r原文字幕}Notify the press!
+Dialogue: 0,0:13:38.04,0:13:39.29,Default,,0,0,0,,{\r译文字幕}美第奇兄弟马戏团\N{\r原文字幕}"The Medici Brothers...
+Dialogue: 0,0:13:39.29,0:13:41.37,Default,,0,0,0,,{\r译文字幕}荣幸给大家带来全美最新的\N{\r原文字幕}"proudly present America's newest,
+Dialogue: 0,0:13:41.37,0:13:44.33,Default,,0,0,0,,{\r译文字幕}珍贵快乐体验\N{\r原文字幕}"precious bundle of joy!"
+Dialogue: 0,0:13:45.33,0:13:46.50,Default,,0,0,0,,{\r译文字幕}快看\N{\r原文字幕}Look at that.
+Dialogue: 0,0:13:48.12,0:13:49.12,Default,,0,0,0,,{\r译文字幕}没事了\N{\r原文字幕}It's okay now.
+Dialogue: 0,0:13:50.45,0:13:52.29,Default,,0,0,0,,{\r译文字幕}别害怕\N{\r原文字幕}Don't be scared.
+Dialogue: 0,0:13:54.87,0:13:58.37,Default,,0,0,0,,{\r译文字幕}别怕  你的妈妈就在外面\N{\r原文字幕}Don't be scared now, your momma's right outside.
+Dialogue: 0,0:14:29.50,0:14:31.37,Default,,0,0,0,,{\r译文字幕}孩子  我们有个小宝宝了\N{\r原文字幕}Baby! We got a baby!
+Dialogue: 0,0:14:31.37,0:14:32.95,Default,,0,0,0,,{\r译文字幕}我们有小宝宝了\N{\r原文字幕}We got a baby!
+Dialogue: 0,0:14:38.41,0:14:39.62,Default,,0,0,0,,{\r译文字幕}那是个什么东西\N{\r原文字幕}What is that?
+Dialogue: 0,0:14:39.62,0:14:40.95,Default,,0,0,0,,{\r译文字幕}小珍宝\N{\r原文字幕}Baby Jumbo.
+Dialogue: 0,0:14:42.33,0:14:45.25,Default,,0,0,0,,{\r译文字幕}我的奇葩秀已经有很多伪奇葩了\N{\r原文字幕}I already got fake freaks in the freak show!
+Dialogue: 0,0:14:45.25,0:14:47.45,Default,,0,0,0,,{\r译文字幕}我不需要表演圈里有个真的\N{\r原文字幕}I don't need a real one in the center ring!
+Dialogue: 0,0:14:47.45,0:14:50.45,Default,,0,0,0,,{\r译文字幕}荣格  我们被骗了\N{\r原文字幕}Rongo! We've been swindled!
+Dialogue: 0,0:14:50.45,0:14:53.41,Default,,0,0,0,,{\r译文字幕}原来去买了个小怪物来\N{\r原文字幕}Gone and bought yourself a baby monster.
+Dialogue: 0,0:14:53.41,0:14:54.45,Default,,0,0,0,,{\r译文字幕}你觉得他能听见我说话吗\N{\r原文字幕}Think he can hear me?
+Dialogue: 0,0:15:15.37,0:15:18.20,Default,,0,0,0,,{\r译文字幕}荣格  给布鲁贝克发电报\N{\r原文字幕}Rongo! Telegram to Brugelbecker.
+Dialogue: 0,0:15:18.20,0:15:20.16,Default,,0,0,0,,{\r译文字幕}我们被劣质货骗了\N{\r原文字幕}"We have been bilked with damaged goods.
+Dialogue: 0,0:15:20.16,0:15:22.50,Default,,0,0,0,,{\r译文字幕}这是反常且扭曲的产物\N{\r原文字幕}"This is an aberration, travestation...
+Dialogue: 0,0:15:22.50,0:15:25.20,Default,,0,0,0,,{\r译文字幕}我得要回我的钱\N{\r原文字幕}"and I demand my money back."
+Dialogue: 0,0:15:25.20,0:15:28.04,Default,,0,0,0,,{\r译文字幕}但不管你做什么  别打电话给报社\N{\r原文字幕}But whatever you do, do not call the papers.
+Dialogue: 0,0:15:28.04,0:15:30.50,Default,,0,0,0,,{\r译文字幕}我们不会给这小东西打广告\N{\r原文字幕}We are not advertising this baby.
+Dialogue: 0,0:15:32.25,0:15:33.29,Default,,0,0,0,,{\r译文字幕}告诉我你还没打电话\N{\r原文字幕}Tell me you didn't do it.
+Dialogue: 0,0:15:34.20,0:15:36.20,Default,,0,0,0,,{\r译文字幕}你已经打了吗\N{\r原文字幕}You did it?
+Dialogue: 0,0:15:36.20,0:15:38.33,Default,,0,0,0,,{\r译文字幕}永远别在没跟我核对前\N{\r原文字幕}Never do anything I tell ya
+Dialogue: 0,0:15:38.33,0:15:40.29,Default,,0,0,0,,{\r译文字幕}就照我说的去做\N{\r原文字幕}without checking with me first!
+Dialogue: 0,0:15:45.16,0:15:47.27,Default,,0,0,0,,{\r译文字幕}为什么是我  为什么偏要是我\N{\r原文字幕}Why me? Why me?
+Dialogue: 0,0:15:47.66,0:15:49.95,Default,,0,0,0,,{\r译文字幕}长了张除了妈谁都不爱的脸\N{\r原文字幕}A face only a mother could love.
+Dialogue: 0,0:15:49.95,0:15:51.12,Default,,0,0,0,,{\r译文字幕}先生\N{\r原文字幕}Sir?
+Dialogue: 0,0:15:51.12,0:15:53.45,Default,,0,0,0,,{\r译文字幕}我们中也有不少人觉得您很帅气\N{\r原文字幕}Many of us find you handsome.
+Dialogue: 0,0:15:53.45,0:15:55.29,Default,,0,0,0,,{\r译文字幕}我说的是这象\N{\r原文字幕}I was talking about the elephant!
+Dialogue: 0,0:16:00.16,0:16:02.58,Default,,0,0,0,,{\r译文字幕}看  她要给他洗澡\N{\r原文字幕}Look, she's drawing him a bath.
+Dialogue: 0,0:16:08.45,0:16:10.33,Default,,0,0,0,,{\r译文字幕}得找个兽医来给他看看  麦克斯\N{\r原文字幕}Need a vet to come to look at him, Max.
+Dialogue: 0,0:16:10.33,0:16:12.12,Default,,0,0,0,,{\r译文字幕}不行  不能有人看见\N{\r原文字幕}No, no witnesses!
+Dialogue: 0,0:16:12.12,0:16:14.04,Default,,0,0,0,,{\r译文字幕}我们还有两周就要到乔普林了\N{\r原文字幕}We are going to be in Joplin for two weeks.
+Dialogue: 0,0:16:14.04,0:16:15.62,Default,,0,0,0,,{\r译文字幕}我们答应的是一个漂亮的宝宝\N{\r原文字幕}We promised them a beautiful baby!
+Dialogue: 0,0:16:15.62,0:16:18.08,Default,,0,0,0,,{\r译文字幕}你明晚之前要想办法解决\N{\r原文字幕}You have until tomorrow night to fix that!
+Dialogue: 0,0:16:18.08,0:16:19.62,Default,,0,0,0,,{\r译文字幕}-我吗  -对  就你\N{\r原文字幕}- Me? - Yes, you!
+Dialogue: 0,0:16:19.62,0:16:21.00,Default,,0,0,0,,{\r译文字幕}这是我的问题吗\N{\r原文字幕}This is my problem?
+Dialogue: 0,0:16:21.00,0:16:22.29,Default,,0,0,0,,{\r译文字幕}是啊  你照顾象群\N{\r原文字幕}Yes. You tend the elephants.
+Dialogue: 0,0:16:22.29,0:16:24.16,Default,,0,0,0,,{\r译文字幕}让那对耳朵消失\N{\r原文字幕}Make those ears disappear!
+Dialogue: 0,0:16:32.41,0:16:34.00,Default,,0,0,0,,{\r译文字幕}别看我\N{\r原文字幕}Don't look at me.
+Dialogue: 0,0:16:42.70,0:16:44.66,Default,,0,0,0,,{\r译文字幕}你看他  巨大的耳朵压得他抬不起头\N{\r原文字幕}Look at him, those giant ears weigh him down.
+Dialogue: 0,0:16:47.75,0:16:49.58,Default,,0,0,0,,{\r译文字幕}你好呀  小珍宝\N{\r原文字幕}Hi, Baby Jumbo.
+Dialogue: 0,0:16:49.58,0:16:51.45,Default,,0,0,0,,{\r译文字幕}欢迎来到马戏团\N{\r原文字幕}Welcome to the circus.
+Dialogue: 0,0:16:51.45,0:16:54.41,Default,,0,0,0,,{\r译文字幕}我们都是一家人  不管体型多小\N{\r原文字幕}We're all family here. No matter how small.
+Dialogue: 0,0:16:55.45,0:16:58.04,Default,,0,0,0,,{\r译文字幕}大象不是怕老鼠的吗\N{\r原文字幕}Aren't elephants afraid of mice?
+Dialogue: 0,0:16:58.04,0:17:01.33,Default,,0,0,0,,{\r译文字幕}谁说的  所以我们才要实验\N{\r原文字幕}Says who? That's why we experiment.
+Dialogue: 0,0:17:01.33,0:17:02.54,Default,,0,0,0,,{\r译文字幕}总有人要在他的妈妈不在时\N{\r原文字幕}Someone needs to keep him company.
+Dialogue: 0,0:17:02.54,0:17:03.75,Default,,0,0,0,,{\r译文字幕}陪在他身边\N{\r原文字幕}when he's not with his momma.
+Dialogue: 0,0:17:15.62,0:17:17.33,Default,,0,0,0,,{\r译文字幕}快看  也给他一个\N{\r原文字幕}Look. Give him one.
+Dialogue: 0,0:17:17.33,0:17:21.50,Default,,0,0,0,,{\r译文字幕}如果他能把耳朵移开就好\N{\r原文字幕}If he can lift his ears out of the way.
+Dialogue: 0,0:17:21.50,0:17:23.66,Default,,0,0,0,,{\r译文字幕}不  你得把耳朵吹到一边\N{\r原文字幕}No. You have to blow your ears out of the way.
+Dialogue: 0,0:17:23.66,0:17:25.54,Default,,0,0,0,,{\r译文字幕}像这样\N{\r原文字幕}Like this.
+Dialogue: 0,0:17:29.58,0:17:31.12,Default,,0,0,0,,{\r译文字幕}祝你好运了\N{\r原文字幕}Good luck with that.
+Dialogue: 0,0:17:31.12,0:17:32.50,Default,,0,0,0,,{\r译文字幕}搞不好你还能教他抛接呢\N{\r原文字幕}Maybe you can teach him to juggle, too.
+Dialogue: 0,0:17:33.16,0:17:34.79,Default,,0,0,0,,{\r译文字幕}小珍宝  看着我\N{\r原文字幕}Baby Jumbo, look at me.
+Dialogue: 0,0:17:34.79,0:17:36.12,Default,,0,0,0,,{\r译文字幕}跟我学着做\N{\r原文字幕}Do what I do.
+Dialogue: 0,0:17:36.12,0:17:37.33,Default,,0,0,0,,{\r译文字幕}吹\N{\r原文字幕}Blow.
+Dialogue: 0,0:17:44.79,0:17:48.16,Default,,0,0,0,,{\r译文字幕}不  别吹羽毛  吹你的耳朵  吹\N{\r原文字幕}No, not the feather. Your ears. Blow!
+Dialogue: 0,0:17:48.16,0:17:50.12,Default,,0,0,0,,{\r译文字幕}他觉得这是个游戏\N{\r原文字幕}He thinks it's a game.
+Dialogue: 0,0:17:51.41,0:17:53.20,Default,,0,0,0,,{\r译文字幕}-麦克斯  过来  -干嘛\N{\r原文字幕}- Oh, Max, come here. - What?
+Dialogue: 0,0:17:53.20,0:17:55.12,Default,,0,0,0,,{\r译文字幕}看这个\N{\r原文字幕}Watch this.
+Dialogue: 0,0:17:55.12,0:17:58.29,Default,,0,0,0,,{\r译文字幕}我滑出来  跳几下  然后突然间\N{\r原文字幕}I ride out, I do some jumps, then all of a sudden...
+Dialogue: 0,0:17:58.29,0:18:00.29,Default,,0,0,0,,{\r译文字幕}动物们全部窜出\N{\r原文字幕}stampede!
+Dialogue: 0,0:18:00.29,0:18:01.37,Default,,0,0,0,,{\r译文字幕}放动物\N{\r原文字幕}Send 'em!
+Dialogue: 0,0:18:03.16,0:18:04.37,Default,,0,0,0,,{\r译文字幕}让开  麦克斯\N{\r原文字幕}Get out of the way, Max!
+Dialogue: 0,0:18:07.62,0:18:09.75,Default,,0,0,0,,{\r译文字幕}我还在研究时间点\N{\r原文字幕}I'm, uh, still working out the timing.
+Dialogue: 0,0:18:15.70,0:18:17.33,Default,,0,0,0,,{\r译文字幕}让我也试试\N{\r原文字幕}Let me have a turn.
+Dialogue: 0,0:18:31.83,0:18:33.45,Default,,0,0,0,,{\r译文字幕}同时  给你\N{\r原文字幕}Meanwhile, for when you
+Dialogue: 0,0:18:33.45,0:18:34.66,Default,,0,0,0,,{\r译文字幕}-带大象出来的时候用  -什么\N{\r原文字幕}- lead out the elephants... - Uh-huh.
+Dialogue: 0,0:18:34.66,0:18:35.75,Default,,0,0,0,,{\r译文字幕}我让服装公司\N{\r原文字幕}I had the costume departments
+Dialogue: 0,0:18:35.79,0:18:36.87,Default,,0,0,0,,{\r译文字幕}给你做了点小东西\N{\r原文字幕}make you up a little something.
+Dialogue: 0,0:18:36.87,0:18:37.87,Default,,0,0,0,,{\r译文字幕}好吧\N{\r原文字幕}Okay.
+Dialogue: 0,0:18:39.45,0:18:40.79,Default,,0,0,0,,{\r译文字幕}我的天\N{\r原文字幕}What in gosh...
+Dialogue: 0,0:18:40.79,0:18:42.79,Default,,0,0,0,,{\r译文字幕}你真的为这个破费了  麦克斯\N{\r原文字幕}You really broke the bank with this, Max.
+Dialogue: 0,0:18:42.79,0:18:44.41,Default,,0,0,0,,{\r译文字幕}会有很多孩子来看演出\N{\r原文字幕}A lot of kids come to the show.
+Dialogue: 0,0:18:44.41,0:18:46.20,Default,,0,0,0,,{\r译文字幕}你不想让我吓到人  我懂\N{\r原文字幕}You don't want me to scare anyone, I get it.
+Dialogue: 0,0:18:46.20,0:18:47.33,Default,,0,0,0,,{\r译文字幕}爸爸  爸爸\N{\r原文字幕}Dad, Dad!
+Dialogue: 0,0:18:47.33,0:18:48.75,Default,,0,0,0,,{\r译文字幕}是小珍宝  快来看\N{\r原文字幕}It's Baby Jumbo. Come see.
+Dialogue: 0,0:18:48.75,0:18:50.70,Default,,0,0,0,,{\r译文字幕}他浮在空中了  用他的耳朵\N{\r原文字幕}He jumped in the air. With his ears.
+Dialogue: 0,0:18:50.70,0:18:52.37,Default,,0,0,0,,{\r译文字幕}孩子们  我说了别管他\N{\r原文字幕}Guys, I said leave him be.
+Dialogue: 0,0:18:52.37,0:18:53.54,Default,,0,0,0,,{\r译文字幕}但是他离地好高的\N{\r原文字幕}But he was this far off the ground!
+Dialogue: 0,0:18:53.54,0:18:54.87,Default,,0,0,0,,{\r译文字幕}可不是吗  我猜也是\N{\r原文字幕}Yeah, I bet he was.
+Dialogue: 0,0:18:54.87,0:18:56.70,Default,,0,0,0,,{\r译文字幕}他像那样会被耳朵绊着的\N{\r原文字幕}He'll be tripping all over with ears like that.
+Dialogue: 0,0:18:56.70,0:18:58.62,Default,,0,0,0,,{\r译文字幕}爸爸  是真的  我们做了个实验\N{\r原文字幕}Dad, really. We tried an experiment.
+Dialogue: 0,0:18:58.62,0:19:00.33,Default,,0,0,0,,{\r译文字幕}就别管那个可怜的小东西了\N{\r原文字幕}Just leave the poor guy alone.
+Dialogue: 0,0:19:04.66,0:19:07.58,Default,,0,0,0,,{\r译文字幕}科学守则第一条  你得感兴趣\N{\r原文字幕}First rule of science, you have to have interest.
+Dialogue: 0,0:19:07.58,0:19:09.87,Default,,0,0,0,,{\r译文字幕}否则  你就无法发现真理\N{\r原文字幕}Otherwise, you don't deserve to know.
+Dialogue: 0,0:19:11.91,0:19:15.16,Default,,0,0,0,,{\r译文字幕}对他俩来说今年都很不好过\N{\r原文字幕}It's been a rough year for both of them.
+Dialogue: 0,0:19:15.16,0:19:16.79,Default,,0,0,0,,{\r译文字幕}只有安妮知道怎么和他们沟通\N{\r原文字幕}Annie knew how to talk to 'em.
+Dialogue: 0,0:19:22.16,0:19:23.70,Default,,0,0,0,,{\r译文字幕}女士们  先生们\N{\r原文字幕}Ladies and gentlemen,
+Dialogue: 0,0:19:23.70,0:19:26.29,Default,,0,0,0,,{\r译文字幕}小伙子们  小姑娘们  请上座\N{\r原文字幕}boys and girls, step right up.
+Dialogue: 0,0:19:26.29,0:19:27.41,Default,,0,0,0,,{\r译文字幕}快点  快来看\N{\r原文字幕}Hurry, hurry.
+Dialogue: 0,0:19:27.41,0:19:28.45,Default,,0,0,0,,{\r译文字幕}开看看今天的马戏表演\N{\r原文字幕}Come see the circus today.
+Dialogue: 0,0:19:29.54,0:19:30.00,Default,,0,0,0,,{\r译文字幕}{\pos(100,150)\fs20\bord0\b1}解剖\N之惊奇
+Dialogue: 0,0:19:30.00,0:19:30.91,Default,,0,0,0,,{\r译文字幕}{\pos(355,240)\fs20\bord0\b1}现场\N演示
+Dialogue: 0,0:19:32.87,0:19:37.58,Default,,0,0,0,,{\r译文字幕}"生存还是毁灭"\N{\r原文字幕}"To be or not to be...
+Dialogue: 0,0:19:37.58,0:19:39.83,Default,,0,0,0,,{\r译文字幕}"这是一个值得考虑的问题"\N{\r原文字幕}"that is the question.
+Dialogue: 0,0:19:39.83,0:19:41.75,Default,,0,0,0,,{\r译文字幕}"哪一种更高贵"\N{\r原文字幕}"Whether 'tis nobler in the mind
+Dialogue: 0,0:19:41.75,0:19:43.75,Default,,0,0,0,,{\r译文字幕}"默然忍受命运的暴虐的毒箭"\N{\r原文字幕}"to suffer the slings and arrows of outrageous..."
+Dialogue: 0,0:20:01.83,0:20:02.91,Default,,0,0,0,,{\r译文字幕}那才不是蛇\N{\r原文字幕}That ain't no snake.
+Dialogue: 0,0:20:02.91,0:20:04.70,Default,,0,0,0,,{\r译文字幕}妈的  我都能做到\N{\r原文字幕}Heck, I could do it.
+Dialogue: 0,0:20:04.70,0:20:06.37,Default,,0,0,0,,{\r译文字幕}那您请吧\N{\r原文字幕}As you wish.
+Dialogue: 0,0:20:06.37,0:20:07.91,Default,,0,0,0,,{\r译文字幕}快跑\N{\r原文字幕}Get out of here!
+Dialogue: 0,0:20:09.37,0:20:10.91,Default,,0,0,0,,{\r译文字幕}荣格  我们走\N{\r原文字幕}Rongo, let's go!
+Dialogue: 0,0:20:14.37,0:20:17.20,Default,,0,0,0,,{\r译文字幕}离那只小象远点\N{\r原文字幕}Hey, get away from the baby elephant!
+Dialogue: 0,0:20:39.70,0:20:42.91,Default,,0,0,0,,{\r译文字幕}欢迎各位乔普林和密苏里的来宾\N{\r原文字幕}Welcome, Joplin, Missouri!
+Dialogue: 0,0:20:42.91,0:20:45.00,Default,,0,0,0,,{\r译文字幕}女士们  先生们\N{\r原文字幕}Ladies and gentlemen...
+Dialogue: 0,0:20:45.00,0:20:47.33,Default,,0,0,0,,{\r译文字幕}我是你们的典礼大师\N{\r原文字幕}I am your Master of Ceremonies,
+Dialogue: 0,0:20:47.33,0:20:50.29,Default,,0,0,0,,{\r译文字幕}马克西米连·美第奇\N{\r原文字幕}Maximilian Medici.
+Dialogue: 0,0:20:51.45,0:20:54.62,Default,,0,0,0,,{\r译文字幕}现在  我将为大家介绍\N{\r原文字幕}And now, I give to you...
+Dialogue: 0,0:20:54.62,0:20:56.95,Default,,0,0,0,,{\r译文字幕}美第奇兄弟的马戏团\N{\r原文字幕}the Medici Brothers'  circus.
+Dialogue: 0,0:21:05.45,0:21:06.66,Default,,0,0,0,,{\r译文字幕}好了\N{\r原文字幕}Okay.
+Dialogue: 0,0:21:06.70,0:21:08.50,Default,,0,0,0,,{\r译文字幕}没事的  没人会伤害他的\N{\r原文字幕}Okay, okay, no one's gonna hurt him.
+Dialogue: 0,0:21:08.50,0:21:11.25,Default,,0,0,0,,{\r译文字幕}好了  小家伙  咱们表演去\N{\r原文字幕}Okay, little guy, let's put on a show.
+Dialogue: 0,0:21:37.66,0:21:41.50,Default,,0,0,0,,{\r译文字幕}那不是霍特·法瑞尔吗  那位牡马之星\N{\r原文字幕}Hey,  ain't  that Holt Farrier,  the  Stallion  Star?
+Dialogue: 0,0:21:41.54,0:21:44.91,Default,,0,0,0,,{\r译文字幕}你是霍特·法瑞尔吗\N{\r原文字幕}Hey! Ain't you Holt Farrier?
+Dialogue: 0,0:21:44.91,0:21:47.41,Default,,0,0,0,,{\r译文字幕}不  他在战争中死了  真是遗憾\N{\r原文字幕}Nah, he died in the war. So sad.
+Dialogue: 0,0:22:02.41,0:22:03.70,Default,,0,0,0,,{\r译文字幕}他在干什么\N{\r原文字幕}What's he doing?
+Dialogue: 0,0:22:10.41,0:22:12.33,Default,,0,0,0,,{\r译文字幕}他想去拿那羽毛\N{\r原文字幕}He's reaching for the feathers.
+Dialogue: 0,0:22:20.83,0:22:22.66,Default,,0,0,0,,{\r译文字幕}外套  外套  快穿上\N{\r原文字幕}Coat, coat, coat, coat!
+Dialogue: 0,0:22:34.01,0:22:35.18,Default,,0,0,0,,{\r译文字幕}{\pos(220,190)\fs24\fry-7\frz9}大耳呆宝
+Dialogue: 0,0:22:40.83,0:22:43.50,Default,,0,0,0,,{\r译文字幕}你对他做了什么  那才不是真的大象\N{\r原文字幕}What'd you do to that thing? That ain't a real elephant.
+Dialogue: 0,0:22:43.50,0:22:45.04,Default,,0,0,0,,{\r译文字幕}耳朵是假的吧\N{\r原文字幕}Those ears are fake!
+Dialogue: 0,0:22:45.04,0:22:46.95,Default,,0,0,0,,{\r译文字幕}看  看那个标牌\N{\r原文字幕}Look! Look at the sign!
+Dialogue: 0,0:22:46.95,0:22:48.95,Default,,0,0,0,,{\r译文字幕}呆宝\N{\r原文字幕}"Dumbo!"
+Dialogue: 0,0:22:46.95,0:22:48.75,Default,,0,0,0,,{\r译文字幕}{\an8\fs16\bord0\b1}该词本意为傻子
+Dialogue: 0,0:22:56.91,0:22:59.08,Default,,0,0,0,,{\r译文字幕}冷静  快点\N{\r原文字幕}Whoa, calm down, now.
+Dialogue: 0,0:23:03.45,0:23:04.87,Default,,0,0,0,,{\r译文字幕}他是假的\N{\r原文字幕}He's a fake!
+Dialogue: 0,0:23:04.87,0:23:06.12,Default,,0,0,0,,{\r译文字幕}没错  他是假的\N{\r原文字幕}Yeah, he's a fake!
+Dialogue: 0,0:23:06.12,0:23:07.55,Default,,0,0,0,,{\r译文字幕}闭嘴\N{\r原文字幕}Shut up!
+Dialogue: 0,0:23:07.79,0:23:09.62,Default,,0,0,0,,{\r译文字幕}你们吓到大象们了\N{\r原文字幕}You're scaring the elephants!
+Dialogue: 0,0:23:10.95,0:23:12.75,Default,,0,0,0,,{\r译文字幕}放松  别紧张\N{\r原文字幕}Take it easy now. Calm down.
+Dialogue: 0,0:23:12.75,0:23:14.75,Default,,0,0,0,,{\r译文字幕}蠢货  傻子  冒牌货\N{\r原文字幕}Dumbo, Dumbo, fake, fake, fake!
+Dialogue: 0,0:23:16.70,0:23:18.12,Default,,0,0,0,,{\r译文字幕}好了  都坐下\N{\r原文字幕}All right, sit down.
+Dialogue: 0,0:23:18.12,0:23:18.87,Default,,0,0,0,,{\r译文字幕}蠢货  傻子  冒牌货\N{\r原文字幕}Dumbo, Dumbo, fake, fake, fake!
+Dialogue: 0,0:23:18.87,0:23:19.91,Default,,0,0,0,,{\r译文字幕}我说了坐下\N{\r原文字幕}I said sit down!
+Dialogue: 0,0:23:20.95,0:23:22.08,Default,,0,0,0,,{\r译文字幕}没关系的  小家伙\N{\r原文字幕}It's okay, little fella.
+Dialogue: 0,0:23:23.83,0:23:24.91,Default,,0,0,0,,{\r译文字幕}冒牌货\N{\r原文字幕}Fake!
+Dialogue: 0,0:23:26.79,0:23:28.66,Default,,0,0,0,,{\r译文字幕}荣格  起音乐\N{\r原文字幕}Rongo! Music!
+Dialogue: 0,0:23:28.66,0:23:30.75,Default,,0,0,0,,{\r译文字幕}欢乐  愉悦\N{\r原文字幕}Happiness, joy!
+Dialogue: 0,0:23:38.16,0:23:41.75,Default,,0,0,0,,{\r译文字幕}听说他们在嘲笑你家丑小子了吗\N{\r原文字幕}Hear 'em making fun of your ugly baby?
+Dialogue: 0,0:23:41.75,0:23:43.62,Default,,0,0,0,,{\r译文字幕}现在还有谁会帮他\N{\r原文字幕}Who's gonna help him now?
+Dialogue: 0,0:23:45.95,0:23:49.45,Default,,0,0,0,,{\r译文字幕}霍特  把那对耳朵给我弄台下去\N{\r原文字幕}Holt, get those ears off the stage!
+Dialogue: 0,0:23:58.12,0:24:00.04,Default,,0,0,0,,{\r译文字幕}好了  没事了\N{\r原文字幕}Okay, all right.
+Dialogue: 0,0:24:00.04,0:24:01.45,Default,,0,0,0,,{\r译文字幕}没事的  没人会伤害你的孩子\N{\r原文字幕}Okay, nobody's gonna hurt your baby.
+Dialogue: 0,0:24:01.45,0:24:03.58,Default,,0,0,0,,{\r译文字幕}先冷静下来\N{\r原文字幕}Just calm down.
+Dialogue: 0,0:24:04.16,0:24:06.54,Default,,0,0,0,,{\r译文字幕}冷静  乖丫头\N{\r原文字幕}Okay. Attagirl.
+Dialogue: 0,0:24:06.54,0:24:08.41,Default,,0,0,0,,{\r译文字幕}我们也在保护他  就和你一样\N{\r原文字幕}We're here to protect him. Same as you.
+Dialogue: 0,0:24:09.66,0:24:11.66,Default,,0,0,0,,{\r译文字幕}好姑娘\N{\r原文字幕}Attagirl.
+Dialogue: 0,0:24:11.66,0:24:12.87,Default,,0,0,0,,{\r译文字幕}乖乖的  放松点\N{\r原文字幕}Nice and easy.
+Dialogue: 0,0:24:17.00,0:24:18.87,Default,,0,0,0,,{\r译文字幕}没事的  没人会伤害你的孩子\N{\r原文字幕}Shh. Okay, nobody's gonna hurt your baby.
+Dialogue: 0,0:24:21.04,0:24:22.58,Default,,0,0,0,,{\r译文字幕}鲁弗斯  不要\N{\r原文字幕}Rufus, no!
+Dialogue: 0,0:24:24.25,0:24:26.04,Default,,0,0,0,,{\r译文字幕}-鲁弗斯  停下  -疯大象\N{\r原文字幕}- Rufus, stop! - Mad elephant!
+Dialogue: 0,0:24:26.04,0:24:27.12,Default,,0,0,0,,{\r译文字幕}给我回来\N{\r原文字幕}Get back!
+Dialogue: 0,0:24:33.54,0:24:35.16,Default,,0,0,0,,{\r译文字幕}麦克斯  把孩子们带出去\N{\r原文字幕}Max, get the kids out of here!
+Dialogue: 0,0:24:35.16,0:24:37.04,Default,,0,0,0,,{\r译文字幕}所有人  快走  到安全的地方去\N{\r原文字幕}Everybody, out! Get to safety.
+Dialogue: 0,0:24:37.04,0:24:38.58,Default,,0,0,0,,{\r译文字幕}小心  小心\N{\r原文字幕}Careful, careful.
+Dialogue: 0,0:24:45.75,0:24:47.00,Default,,0,0,0,,{\r译文字幕}孩子们\N{\r原文字幕}Kids?
+Dialogue: 0,0:24:47.00,0:24:48.54,Default,,0,0,0,,{\r译文字幕}走  走  走\N{\r原文字幕}Go, go, go!
+Dialogue: 0,0:24:48.54,0:24:49.62,Default,,0,0,0,,{\r译文字幕}快快快  走  走  走\N{\r原文字幕}Quick, quick, quick. Go, go, go.
+Dialogue: 0,0:24:49.62,0:24:50.70,Default,,0,0,0,,{\r译文字幕}快来  这边走  快点\N{\r原文字幕}Come on. This way , come on.
+Dialogue: 0,0:24:52.25,0:24:55.04,Default,,0,0,0,,{\r译文字幕}现在觉得你的工作怎么样啊  牛仔\N{\r原文字幕}How do you like your job now, cowboy?
+Dialogue: 0,0:25:02.70,0:25:04.54,Default,,0,0,0,,{\r译文字幕}米莉  乔  快点\N{\r原文字幕}Milly, Joe! Come on!
+Dialogue: 0,0:25:06.29,0:25:07.75,Default,,0,0,0,,{\r译文字幕}快走  快点\N{\r原文字幕}Let's go! Come on!
+Dialogue: 0,0:25:41.00,0:25:41.54,Default,,0,0,0,,{\r译文字幕}{\pos(120,180)\fs30}乔普林警察局
+Dialogue: 0,0:25:41.54,0:25:42.87,Default,,0,0,0,,{\r译文字幕}我想强调一下\N{\r原文字幕}And I wanna just emphasize,
+Dialogue: 0,0:25:42.87,0:25:44.54,Default,,0,0,0,,{\r译文字幕}我们没做错什么\N{\r原文字幕}we did everything right.
+Dialogue: 0,0:25:44.58,0:25:46.58,Default,,0,0,0,,{\r译文字幕}事情就是  帐篷倒了\N{\r原文字幕}What it is, the tent just absolutely fell down.
+Dialogue: 0,0:25:46.58,0:25:47.95,Default,,0,0,0,,{\r译文字幕}就是塌了\N{\r原文字幕}It just collapsed.
+Dialogue: 0,0:25:47.95,0:25:49.95,Default,,0,0,0,,{\r译文字幕}我们怎么知道会发生什么\N{\r原文字幕}And we had no way of knowing what was gonna happen.
+Dialogue: 0,0:26:08.50,0:26:12.57,Default,,0,0,0,,{\r译文字幕}{\pos(200,220)\fs30}疯象
+Dialogue: 0,0:26:18.15,0:26:19.57,Default,,0,0,0,,{\r原文字幕}{\an8\fs17}bgm:Baby  Mine--Sharon Rooney
+Dialogue: 0,0:27:56.87,0:27:59.41,Default,,0,0,0,,{\r译文字幕}布鲁贝克  我的人死了一个\N{\r原文字幕}Brugelbecker, I have a man dead,
+Dialogue: 0,0:27:59.41,0:28:00.79,Default,,0,0,0,,{\r译文字幕}你知道吗\N{\r原文字幕}do you understand?
+Dialogue: 0,0:28:00.79,0:28:02.80,Default,,0,0,0,,{\r译文字幕}这就是从五大湖到海湾的人们所读到的\N{\r原文字幕}This is what they're reading from the Great Lakes to the Gulf!
+Dialogue: 0,0:28:02.80,0:28:04.00,Default,,0,0,0,,{\r译文字幕}{\pos(200,160)\fr-10\fs40}马戏团的杀人野兽
+Dialogue: 0,0:28:04.00,0:28:06.08,Default,,0,0,0,,{\r译文字幕}你把那头杀人大象买回来\N{\r原文字幕}You have a moral responsibility
+Dialogue: 0,0:28:06.08,0:28:08.08,Default,,0,0,0,,{\r译文字幕}是要受到道德谴责的\N{\r原文字幕}to buy your killer elephant back.
+Dialogue: 0,0:28:08.08,0:28:10.25,Default,,0,0,0,,{\r译文字幕}那头小象呢\N{\r原文字幕}What about the baby?
+Dialogue: 0,0:28:10.25,0:28:13.29,Default,,0,0,0,,{\r译文字幕}至少它还逗笑了一些人\N{\r原文字幕}Well, at least he got a few laughs.
+Dialogue: 0,0:28:13.29,0:28:14.91,Default,,0,0,0,,{\r译文字幕}我要让他演小丑戏\N{\r原文字幕}I'll put him in the clown act,
+Dialogue: 0,0:28:14.91,0:28:17.08,Default,,0,0,0,,{\r译文字幕}看看还能不能补救一下\N{\r原文字幕}see if I can salvage something.
+Dialogue: 0,0:28:19.25,0:28:20.91,Default,,0,0,0,,{\r译文字幕}我出半价把它买回来\N{\r原文字幕}I'll buy her back half price.
+Dialogue: 0,0:28:22.50,0:28:25.16,Default,,0,0,0,,{\r译文字幕}你得出全额\N{\r原文字幕}You will buy her back full price.
+Dialogue: 0,0:28:25.16,0:28:26.37,Default,,0,0,0,,{\r译文字幕}四分之一的价钱\N{\r原文字幕}Quarter price.
+Dialogue: 0,0:28:26.37,0:28:28.91,Default,,0,0,0,,{\r译文字幕}半价就半价\N{\r原文字幕}Half price it is!
+Dialogue: 0,0:28:34.33,0:28:35.70,Default,,0,0,0,,{\r译文字幕}起来\N{\r原文字幕}Up!
+Dialogue: 0,0:28:39.04,0:28:40.87,Default,,0,0,0,,{\r译文字幕}发生什么事了  他们要带它去哪\N{\r原文字幕}What's happening? Where are they taking her?
+Dialogue: 0,0:28:40.87,0:28:42.08,Default,,0,0,0,,{\r译文字幕}走开  回到你的帐篷去\N{\r原文字幕}Away. Back to your tent now.
+Dialogue: 0,0:28:42.08,0:28:43.87,Default,,0,0,0,,{\r译文字幕}但它是小象的妈妈\N{\r原文字幕}But she's his mom!
+Dialogue: 0,0:28:43.87,0:28:45.83,Default,,0,0,0,,{\r译文字幕}爸爸  求你了  阻止他们\N{\r原文字幕}Dad, please. Stop them.
+Dialogue: 0,0:28:45.83,0:28:47.12,Default,,0,0,0,,{\r译文字幕}拜托\N{\r原文字幕}Please!
+Dialogue: 0,0:28:47.12,0:28:48.50,Default,,0,0,0,,{\r译文字幕}做点什么\N{\r原文字幕}Do something.
+Dialogue: 0,0:28:48.50,0:28:50.16,Default,,0,0,0,,{\r译文字幕}妈妈要在就会阻止他们\N{\r原文字幕}Mom would have done something.
+Dialogue: 0,0:28:51.04,0:28:52.70,Default,,0,0,0,,{\r译文字幕}你妈不在这里\N{\r原文字幕}Momma's not here.
+Dialogue: 0,0:28:57.79,0:29:01.16,Default,,0,0,0,,{\r译文字幕}好了  小家伙  过来吧\N{\r原文字幕}Okay, little fella. Okay. Come on.
+Dialogue: 0,0:29:03.41,0:29:06.04,Default,,0,0,0,,{\r译文字幕}我知道  我懂的\N{\r原文字幕}I know, I do.
+Dialogue: 0,0:29:06.04,0:29:10.25,Default,,0,0,0,,{\r译文字幕}美丽的生灵  我们会照顾好你的儿子\N{\r原文字幕}Beautiful creature, we'll take care of your son.
+Dialogue: 0,0:30:31.91,0:30:33.20,Default,,0,0,0,,{\r译文字幕}亲爱的  很晚了\N{\r原文字幕}Darlin', it's late.
+Dialogue: 0,0:30:34.45,0:30:36.08,Default,,0,0,0,,{\r译文字幕}去睡觉吧\N{\r原文字幕}Go on now.
+Dialogue: 0,0:31:28.95,0:31:33.00,Default,,0,0,0,,{\r译文字幕}我懂你  所以我也睡不着\N{\r原文字幕}I know. I can't sleep, either.
+Dialogue: 0,0:31:33.00,0:31:35.37,Default,,0,0,0,,{\r译文字幕}我妈妈告诉我总有一天\N{\r原文字幕}My momma told me there'd be times
+Dialogue: 0,0:31:35.37,0:31:39.54,Default,,0,0,0,,{\r译文字幕}我也会体会到被锁在门里的感觉\N{\r原文字幕}when my life seemed locked behind a door.
+Dialogue: 0,0:31:39.54,0:31:43.07,Default,,0,0,0,,{\r译文字幕}所以  她给了我这把钥匙\N{\r原文字幕}So, she gave me this key,
+Dialogue: 0,0:31:43.07,0:31:45.95,Default,,0,0,0,,{\r译文字幕}是我外婆给她的\N{\r原文字幕}that her momma gave her.
+Dialogue: 0,0:31:45.95,0:31:49.45,Default,,0,0,0,,{\r译文字幕}她说  每当我有这种感觉的时候\N{\r原文字幕}And said whenever I have that feeling,
+Dialogue: 0,0:31:49.45,0:31:51.54,Default,,0,0,0,,{\r译文字幕}就想象一下那扇门\N{\r原文字幕}imagine that door...
+Dialogue: 0,0:31:51.54,0:31:52.62,Default,,0,0,0,,{\r译文字幕}然后转动一下钥匙\N{\r原文字幕}and just turn the key.
+Dialogue: 0,0:31:55.58,0:31:57.50,Default,,0,0,0,,{\r译文字幕}所以  我一直在努力\N{\r原文字幕}So, I keep trying.
+Dialogue: 0,0:32:05.50,0:32:07.70,Default,,0,0,0,,{\r译文字幕}你不应该一个人来这里\N{\r原文字幕}Not supposed to be in here alone.
+Dialogue: 0,0:32:07.70,0:32:09.66,Default,,0,0,0,,{\r译文字幕}我不是一个人  你不是来了吗\N{\r原文字幕}I'm not. You're here.
+Dialogue: 0,0:32:09.66,0:32:11.25,Default,,0,0,0,,{\r译文字幕}那是什么\N{\r原文字幕}What's that?
+Dialogue: 0,0:32:11.25,0:32:13.70,Default,,0,0,0,,{\r译文字幕}我只是觉得它可能饿了\N{\r原文字幕}I just thought he might be hungry.
+Dialogue: 0,0:32:13.70,0:32:15.33,Default,,0,0,0,,{\r译文字幕}它很伤心\N{\r原文字幕}He's sad.
+Dialogue: 0,0:32:16.50,0:32:18.00,Default,,0,0,0,,{\r译文字幕}你伤心的时候也吃不下东西的\N{\r原文字幕}You don't eat when you're sad.
+Dialogue: 0,0:32:18.04,0:32:19.37,Default,,0,0,0,,{\r译文字幕}美人鱼就吃\N{\r原文字幕}The mermaid does.
+Dialogue: 0,0:32:21.25,0:32:23.04,Default,,0,0,0,,{\r译文字幕}来吧\N{\r原文字幕}Come on.
+Dialogue: 0,0:32:23.04,0:32:25.50,Default,,0,0,0,,{\r译文字幕}吃一口吧  呆宝\N{\r原文字幕}Have one, Dumbo.
+Dialogue: 0,0:32:25.50,0:32:27.50,Default,,0,0,0,,{\r译文字幕}我们要叫他呆宝吗\N{\r原文字幕}We're calling him Dumbo now?
+Dialogue: 0,0:32:27.50,0:32:29.62,Default,,0,0,0,,{\r译文字幕}如果我们叫他珍宝二号\N{\r原文字幕}If we call him Jumbo Junior...
+Dialogue: 0,0:32:29.62,0:32:32.20,Default,,0,0,0,,{\r译文字幕}它可能会想妈妈的\N{\r原文字幕}it might make him miss his mom.
+Dialogue: 0,0:32:37.54,0:32:41.62,Default,,0,0,0,,{\r译文字幕}干得好  呆宝\N{\r原文字幕}Here you go... Dumbo.
+Dialogue: 0,0:32:41.62,0:32:44.41,Default,,0,0,0,,{\r译文字幕}来吧  再拍一下耳朵\N{\r原文字幕}Come on, and flap those ears again.
+Dialogue: 0,0:32:44.41,0:32:46.50,Default,,0,0,0,,{\r译文字幕}表演一个我们意想不到的\N{\r原文字幕}To show us we didn't imagine it.
+Dialogue: 0,0:32:51.04,0:32:54.20,Default,,0,0,0,,{\r译文字幕}你妈妈  它并不想害任何人\N{\r原文字幕}Your momma, she didn't mean to hurt anyone.
+Dialogue: 0,0:32:55.20,0:32:57.33,Default,,0,0,0,,{\r译文字幕}它只是在保护你\N{\r原文字幕}She was just protecting you.
+Dialogue: 0,0:32:57.33,0:32:59.95,Default,,0,0,0,,{\r译文字幕}我们认为你的耳朵很棒\N{\r原文字幕}And we think your ears are great.
+Dialogue: 0,0:33:04.58,0:33:07.58,Default,,0,0,0,,{\r译文字幕}也许它想一个人呆着  像爸爸那样\N{\r原文字幕}Maybe he wants to be alone. Like Dad.
+Dialogue: 0,0:33:07.58,0:33:09.58,Default,,0,0,0,,{\r译文字幕}没有人真正想孤身一人\N{\r原文字幕}Nobody wants to be alone.
+Dialogue: 0,0:33:10.54,0:33:11.54,Default,,0,0,0,,{\r译文字幕}好吧\N{\r原文字幕}Well...
+Dialogue: 0,0:33:13.29,0:33:15.12,Default,,0,0,0,,{\r译文字幕}如果你改变主意了\N{\r原文字幕}if you change your mind...
+Dialogue: 0,0:33:18.16,0:33:19.66,Default,,0,0,0,,{\r译文字幕}晚安  呆宝\N{\r原文字幕}Night-night, Dumbo.
+Dialogue: 0,0:33:49.54,0:33:50.54,Default,,0,0,0,,{\r译文字幕}天啊\N{\r原文字幕}Wow!
+Dialogue: 0,0:33:54.58,0:33:56.70,Default,,0,0,0,,{\r译文字幕}这可不是花生让它飞起来的\N{\r原文字幕}It's not the peanuts that made him do it.
+Dialogue: 0,0:33:56.70,0:33:58.08,Default,,0,0,0,,{\r译文字幕}是羽毛\N{\r原文字幕}It's the feathers!
+Dialogue: 0,0:34:05.04,0:34:06.20,Default,,0,0,0,,{\r译文字幕}呆宝\N{\r原文字幕}Dumbo!
+Dialogue: 0,0:34:36.33,0:34:38.70,Default,,0,0,0,,{\r译文字幕}呆宝  你一定得表演这个\N{\r原文字幕}Dumbo, you gotta do this in the show.
+Dialogue: 0,0:34:38.70,0:34:40.41,Default,,0,0,0,,{\r译文字幕}什么意思\N{\r原文字幕}What do you mean?
+Dialogue: 0,0:34:40.41,0:34:41.79,Default,,0,0,0,,{\r译文字幕}如果马戏团能卖更多的票\N{\r原文字幕}'Cause if the circus sells more tickets
+Dialogue: 0,0:34:41.79,0:34:43.25,Default,,0,0,0,,{\r译文字幕}美第奇赚了更多的钱\N{\r原文字幕}and Medici makes more money...
+Dialogue: 0,0:34:43.25,0:34:44.41,Default,,0,0,0,,{\r译文字幕}我们就可以让他出钱\N{\r原文字幕}then we can get him to use some
+Dialogue: 0,0:34:44.41,0:34:45.41,Default,,0,0,0,,{\r译文字幕}把珍宝太太买回来\N{\r原文字幕}to buy Mrs. Jumbo back.
+Dialogue: 0,0:34:45.41,0:34:46.58,Default,,0,0,0,,{\r译文字幕}是啊\N{\r原文字幕}Yeah!
+Dialogue: 0,0:34:46.58,0:34:48.54,Default,,0,0,0,,{\r译文字幕}我们可以救你妈妈回来  呆宝\N{\r原文字幕}We can get her back, Dumbo.
+Dialogue: 0,0:34:48.54,0:34:49.12,Default,,0,0,0,,{\r译文字幕}你可以\N{\r原文字幕}You can.
+Dialogue: 0,0:34:49.12,0:34:50.83,Default,,0,0,0,,{\r译文字幕}让他们看看你的本事\N{\r原文字幕}Just show them all what you can do.
+Dialogue: 0,0:34:50.83,0:34:52.45,Default,,0,0,0,,{\r译文字幕}来吧  我们得告诉爸爸\N{\r原文字幕}Come on. We gotta tell Dad.
+Dialogue: 0,0:34:52.45,0:34:55.29,Default,,0,0,0,,{\r译文字幕}不  他只会跟我们说现实一点\N{\r原文字幕}No. He'll just tell us to be practical.
+Dialogue: 0,0:34:55.29,0:34:57.29,Default,,0,0,0,,{\r译文字幕}节目被取消了一个星期  对吗\N{\r原文字幕}Shows got canceled for a week, right?
+Dialogue: 0,0:34:57.29,0:34:59.33,Default,,0,0,0,,{\r译文字幕}我们还有时间研究  学习  测试\N{\r原文字幕}We can research and study and test.
+Dialogue: 0,0:35:00.87,0:35:04.16,Default,,0,0,0,,{\r译文字幕}你真是个神奇的小象  呆宝\N{\r原文字幕}You're a miracle elephant, Dumbo.
+Dialogue: 0,0:35:04.16,0:35:06.29,Default,,0,0,0,,{\r译文字幕}我们要带你妈妈回家了\N{\r原文字幕}And we're gonna bring your momma home.
+Dialogue: 0,0:35:09.16,0:35:11.12,Default,,0,0,0,,{\r译文字幕}开火\N{\r原文字幕}Fire!
+Dialogue: 0,0:35:32.33,0:35:33.70,Default,,0,0,0,,{\r译文字幕}太惨了\N{\r原文字幕}So low.
+Dialogue: 0,0:35:33.70,0:35:35.37,Default,,0,0,0,,{\r译文字幕}前所未有的惨\N{\r原文字幕}An all-time low.
+Dialogue: 0,0:35:35.37,0:35:37.33,Default,,0,0,0,,{\r译文字幕}谁说他不希望自己家喻户晓的\N{\r原文字幕}Who said he didn't want to be recognized?
+Dialogue: 0,0:35:39.16,0:35:40.98,Default,,0,0,0,,{\r译文字幕}好了大呆宝  就是现在\N{\r原文字幕}Okay, Big D, this is it.
+Dialogue: 0,0:35:40.98,0:35:42.54,Default,,0,0,0,,{\r译文字幕}就像排练那样\N{\r原文字幕}Just like in rehearsal.
+Dialogue: 0,0:35:42.54,0:35:44.54,Default,,0,0,0,,{\r译文字幕}别管那些灯光  音乐  火和人群\N{\r原文字幕}Except for lights, music, fire and crowds.
+Dialogue: 0,0:35:44.54,0:35:46.41,Default,,0,0,0,,{\r译文字幕}你可以做到  来吧  呆宝\N{\r原文字幕}You can do it. Come on, Dumbo.
+Dialogue: 0,0:35:48.37,0:35:49.62,Default,,0,0,0,,{\r译文字幕}你能做到的  呆宝\N{\r原文字幕}You can do it, Dumbo!
+Dialogue: 0,0:35:49.62,0:35:50.87,Default,,0,0,0,,{\r译文字幕}让他们开开眼界\N{\r原文字幕}Show 'em all like you showed us!
+Dialogue: 0,0:35:55.41,0:35:57.91,Default,,0,0,0,,{\r译文字幕}来吧  来吧  好样的  来吧\N{\r原文字幕}Come! Come! Come! Attaboy, come on.
+Dialogue: 0,0:35:57.91,0:35:59.87,Default,,0,0,0,,{\r译文字幕}继续前进  来吧\N{\r原文字幕}Keep comin'. Come on.
+Dialogue: 0,0:36:05.66,0:36:07.70,Default,,0,0,0,,{\r译文字幕}继续走  呆宝  继续\N{\r原文字幕}Go on now, Dumbo! Come on.
+Dialogue: 0,0:36:39.25,0:36:41.54,Default,,0,0,0,,{\r译文字幕}他们喜欢  他们喜欢\N{\r原文字幕}They love it! They love it!
+Dialogue: 0,0:36:45.37,0:36:46.50,Default,,0,0,0,,{\r译文字幕}好了  呆宝\N{\r原文字幕}All right, Dumbo.
+Dialogue: 0,0:36:46.50,0:36:47.70,Default,,0,0,0,,{\r译文字幕}你要把火扑灭了\N{\r原文字幕}You put out the fire.
+Dialogue: 0,0:37:05.91,0:37:07.58,Default,,0,0,0,,{\r译文字幕}它不敢飞  它很害怕\N{\r原文字幕}He won't fly. He's scared.
+Dialogue: 0,0:37:07.58,0:37:09.41,Default,,0,0,0,,{\r译文字幕}我知道  它站得太高了\N{\r原文字幕}I know. Now, he's up too high.
+Dialogue: 0,0:37:16.54,0:37:17.54,Default,,0,0,0,,{\r译文字幕}继续  呆宝\N{\r原文字幕}Go on, Dumbo!
+Dialogue: 0,0:37:32.58,0:37:33.75,Default,,0,0,0,,{\r译文字幕}好样的\N{\r原文字幕}Attaboy.
+Dialogue: 0,0:37:36.33,0:37:38.54,Default,,0,0,0,,{\r译文字幕}第一条规则\N{\r原文字幕}Yeah! Rule Number One.
+Dialogue: 0,0:37:38.54,0:37:40.29,Default,,0,0,0,,{\r译文字幕}结尾一定要华丽亮相\N{\r原文字幕}"Always have a big finish!"
+Dialogue: 0,0:37:49.37,0:37:51.50,Default,,0,0,0,,{\r译文字幕}好了  伙计们  把它放下来\N{\r原文字幕}Okay, guys. Bring him down.
+Dialogue: 0,0:38:04.54,0:38:06.87,Default,,0,0,0,,{\r译文字幕}霍特\N{\r原文字幕}Holt!
+Dialogue: 0,0:38:06.87,0:38:08.50,Default,,0,0,0,,{\r译文字幕}看  麦克斯  什么  什么\N{\r原文字幕}Look, Max! What? What?
+Dialogue: 0,0:38:08.50,0:38:10.25,Default,,0,0,0,,{\r译文字幕}它被困在那里  快把火扑灭\N{\r原文字幕}He's trapped up there. Put the fire out!
+Dialogue: 0,0:38:12.75,0:38:14.00,Default,,0,0,0,,{\r译文字幕}呆宝  飞啊\N{\r原文字幕}Dumbo! Fly!
+Dialogue: 0,0:38:14.00,0:38:16.45,Default,,0,0,0,,{\r译文字幕}没有羽毛它就不会飞\N{\r原文字幕}He won't fly without a feather!
+Dialogue: 0,0:38:20.41,0:38:22.50,Default,,0,0,0,,{\r译文字幕}快把火扑灭\N{\r原文字幕}Put the fire out!
+Dialogue: 0,0:38:22.50,0:38:23.58,Default,,0,0,0,,{\r译文字幕}把火给我灭了\N{\r原文字幕}Put it out!
+Dialogue: 0,0:38:24.95,0:38:26.66,Default,,0,0,0,,{\r译文字幕}乔  住手\N{\r原文字幕}Joe! Stop!
+Dialogue: 0,0:38:28.04,0:38:30.75,Default,,0,0,0,,{\r译文字幕}霍特  她上去干什么\N{\r原文字幕}Holt, I thought she didn't want to be in an act.
+Dialogue: 0,0:38:33.87,0:38:35.12,Default,,0,0,0,,{\r译文字幕}米莉\N{\r原文字幕}Milly!
+Dialogue: 0,0:38:51.79,0:38:53.45,Default,,0,0,0,,{\r译文字幕}给你  呆宝\N{\r原文字幕}Here, Dumbo!
+Dialogue: 0,0:38:53.45,0:38:54.95,Default,,0,0,0,,{\r译文字幕}来吧\N{\r原文字幕}Come on.
+Dialogue: 0,0:38:55.66,0:38:56.66,Default,,0,0,0,,{\r译文字幕}让他们看看\N{\r原文字幕}Show 'em.
+Dialogue: 0,0:38:58.45,0:38:59.70,Default,,0,0,0,,{\r译文字幕}来吧  呆宝\N{\r原文字幕}Come on, Dumbo.
+Dialogue: 0,0:39:26.83,0:39:27.95,Default,,0,0,0,,{\r译文字幕}飞吧  呆宝\N{\r原文字幕}Fly, Dumbo.
+Dialogue: 0,0:39:28.00,0:39:29.00,Default,,0,0,0,,{\r译文字幕}飞啊\N{\r原文字幕}Fly!
+Dialogue: 0,0:39:45.79,0:39:46.95,Default,,0,0,0,,{\r译文字幕}太好了\N{\r原文字幕}Yeah!
+Dialogue: 0,0:40:22.45,0:40:24.16,Default,,0,0,0,,{\r译文字幕}你知道它能飞吗\N{\r原文字幕}You knew he could do this?
+Dialogue: 0,0:40:24.16,0:40:26.45,Default,,0,0,0,,{\r译文字幕}你应该多和你的孩子们谈谈\N{\r原文字幕}You should talk to your kids more.
+Dialogue: 0,0:40:35.70,0:40:37.10,Default,,0,0,0,,{\r译文字幕}{\pos(180,100)\fr-5\fs30}神奇大象因在\N空中翱翔而出名
+Dialogue: 0,0:40:37.04,0:40:38.20,Default,,0,0,0,,{\r译文字幕}索斯比\N{\r原文字幕}Sotheby...
+Dialogue: 0,0:40:38.20,0:40:40.45,Default,,0,0,0,,{\r译文字幕}取消我和总统的晚餐\N{\r原文字幕}cancel my dinner with the president.
+Dialogue: 0,0:40:40.45,0:40:42.70,Default,,0,0,0,,{\r译文字幕}我们要去会会这头大象了\N{\r原文字幕}We've got business with an elephant.
+Dialogue: 0,0:40:45.66,0:40:47.50,Default,,0,0,0,,{\r译文字幕}朋友们\N{\r原文字幕}Friends,
+Dialogue: 0,0:40:47.50,0:40:50.75,Default,,0,0,0,,{\r译文字幕}接下来的演出会在阿肯色州\N{\r原文字幕}the next available shows are in Arkansas!
+Dialogue: 0,0:40:51.79,0:40:53.08,Default,,0,0,0,,{\r译文字幕}小丑们快乐\N{\r原文字幕}Happy clowns!
+Dialogue: 0,0:40:57.62,0:41:01.12,Default,,0,0,0,,{\r译文字幕}-荣格你好强壮  -老板\N{\r原文字幕}- Ah, Rongo the Strong! - Boss.
+Dialogue: 0,0:41:01.12,0:41:02.66,Default,,0,0,0,,{\r译文字幕}你好  乔\N{\r原文字幕}Hello, Jo!
+Dialogue: 0,0:41:02.66,0:41:05.04,Default,,0,0,0,,{\r译文字幕}美第奇兄弟马戏团\N{\r原文字幕}The Medici Brothers' circus.
+Dialogue: 0,0:41:05.04,0:41:09.00,Default,,0,0,0,,{\r译文字幕}真爱和神秘相伴的地方\N{\r原文字幕}Where true love and mystery abound!
+Dialogue: 0,0:41:10.25,0:41:12.04,Default,,0,0,0,,{\r译文字幕}我的明星在哪里\N{\r原文字幕}Now where's my star?
+Dialogue: 0,0:41:12.04,0:41:15.16,Default,,0,0,0,,{\r译文字幕}呆宝\NAh,  呆宝!
+Dialogue: 0,0:41:15.16,0:41:16.50,Default,,0,0,0,,{\r译文字幕}洗澡舒服么\N{\r原文字幕}How's your bath?
+Dialogue: 0,0:41:16.54,0:41:18.54,Default,,0,0,0,,{\r译文字幕}太热了  太冷了\N{\r原文字幕}Too warm? Too cold?
+Dialogue: 0,0:41:18.54,0:41:21.75,Default,,0,0,0,,{\r译文字幕}女士们  确保它的皱纹不要再长皱纹\N{\r原文字幕}Ladies, make sure his wrinkles don't get wrinkles.
+Dialogue: 0,0:41:21.75,0:41:24.16,Default,,0,0,0,,{\r译文字幕}在我们国家的传说中\N{\r原文字幕}In our country, legend tells us
+Dialogue: 0,0:41:24.16,0:41:26.91,Default,,0,0,0,,{\r译文字幕}神可以化身于动物体内\N{\r原文字幕}the gods can take animal forms.
+Dialogue: 0,0:41:26.91,0:41:28.70,Default,,0,0,0,,{\r译文字幕}为呆宝喝一杯\N{\r原文字幕}Champagne for Dumbo!
+Dialogue: 0,0:41:28.70,0:41:30.75,Default,,0,0,0,,{\r译文字幕}婴儿面前不准喝酒\N{\r原文字幕}No booze near the baby!
+Dialogue: 0,0:41:52.83,0:41:54.00,Default,,0,0,0,,{\r译文字幕}对不起  呆宝\N{\r原文字幕}Sorry, Dumbo.
+Dialogue: 0,0:41:55.25,0:41:56.66,Default,,0,0,0,,{\r译文字幕}不是你妈妈\N{\r原文字幕}It's not your momma.
+Dialogue: 0,0:41:56.66,0:41:58.29,Default,,0,0,0,,{\r译文字幕}把呆宝带回去\N{\r原文字幕}Take Dumbo back inside.
+Dialogue: 0,0:42:08.83,0:42:10.12,Default,,0,0,0,,{\r译文字幕}女士们先生们  请你们\N{\r原文字幕}Ladies and gentlemen, please make way
+Dialogue: 0,0:42:10.12,0:42:11.91,Default,,0,0,0,,{\r译文字幕}给这位迷人的国王\N{\r原文字幕}for the emperor of enchantment.
+Dialogue: 0,0:42:11.91,0:42:13.25,Default,,0,0,0,,{\r译文字幕}这位筑梦师\N{\r原文字幕}For the architect of dreams.
+Dialogue: 0,0:42:13.25,0:42:15.58,Default,,0,0,0,,{\r译文字幕}这位来自科尼岛的哥伦布的\N{\r原文字幕}For the Columbus of Coney Island.
+Dialogue: 0,0:42:15.58,0:42:17.54,Default,,0,0,0,,{\r译文字幕}V.A.范德维尔先生让路\N{\r原文字幕}Mr. V.A. Vandevere!
+Dialogue: 0,0:42:21.33,0:42:25.04,Default,,0,0,0,,{\r译文字幕}与他同行的  是他那闪亮的星星\N{\r原文字幕}And traveling with him, his bright shining star.
+Dialogue: 0,0:42:25.04,0:42:28.58,Default,,0,0,0,,{\r译文字幕}科莱特·玛茜特  天堂女王\N{\r原文字幕}Colette Marchant, the Queen of the Heavens!
+Dialogue: 0,0:42:28.58,0:42:30.12,Default,,0,0,0,,{\r译文字幕}玛茜特小姐  玛茜特小姐\N{\r原文字幕}Miss Marchant! Miss Marchant!
+Dialogue: 0,0:42:35.62,0:42:37.04,Default,,0,0,0,,{\r译文字幕}美第奇先生\N{\r原文字幕}Signore Medici!
+Dialogue: 0,0:42:37.91,0:42:39.58,Default,,0,0,0,,{\r译文字幕}他居然知道我是谁诶\N{\r原文字幕}He knows who I am.
+Dialogue: 0,0:42:39.58,0:42:41.12,Default,,0,0,0,,{\r译文字幕}我们刚好经过密苏里州\N{\r原文字幕}We were just passing through Missouri...
+Dialogue: 0,0:42:41.12,0:42:43.12,Default,,0,0,0,,{\r译文字幕}听说你们正要表演一个小节目\N{\r原文字幕}and we heard you were putting on a little show.
+Dialogue: 0,0:42:43.12,0:42:46.83,Default,,0,0,0,,{\r译文字幕}我很荣幸  范德维尔先生\N{\r原文字幕}Mr. Vandevere. It's an honor.
+Dialogue: 0,0:42:46.83,0:42:49.83,Default,,0,0,0,,{\r译文字幕}不  先生  是我的荣幸啊\N{\r原文字幕}No, sir. The honor is mine.
+Dialogue: 0,0:42:52.33,0:42:53.87,Default,,0,0,0,,{\r译文字幕}我想请你喝一杯\N{\r原文字幕}I would like to offer you a drink.
+Dialogue: 0,0:42:53.87,0:42:56.20,Default,,0,0,0,,{\r译文字幕}但我这儿已经没有波旁威士忌了\N{\r原文字幕}But I'm all out of bourbon.
+Dialogue: 0,0:42:58.16,0:43:00.58,Default,,0,0,0,,{\r译文字幕}干邑白兰地和苏格兰威士忌也没了\N{\r原文字幕}And cognac and scotch.
+Dialogue: 0,0:43:06.75,0:43:09.16,Default,,0,0,0,,{\r译文字幕}现在不是时候\N{\r原文字幕}Not now!
+Dialogue: 0,0:43:10.62,0:43:12.20,Default,,0,0,0,,{\r译文字幕}你抽屉里是有一只猴子吗\N{\r原文字幕}Is that a monkey in your desk?
+Dialogue: 0,0:43:13.16,0:43:14.70,Default,,0,0,0,,{\r译文字幕}只是以防万一罢了\N{\r原文字幕}Just for emergencies.
+Dialogue: 0,0:43:14.70,0:43:17.00,Default,,0,0,0,,{\r译文字幕}听着  范德维尔先生\N{\r原文字幕}Look, Mr. Vandevere...
+Dialogue: 0,0:43:17.00,0:43:18.79,Default,,0,0,0,,{\r译文字幕}我还是要事先说明\N{\r原文字幕}I probably should tell you...
+Dialogue: 0,0:43:18.79,0:43:21.16,Default,,0,0,0,,{\r译文字幕}我们是不会出售那只象的\N{\r原文字幕}the elephant is not for sale.
+Dialogue: 0,0:43:21.16,0:43:23.79,Default,,0,0,0,,{\r译文字幕}呆宝只会在美第奇马戏团表演\N{\r原文字幕}Dumbo will only fly for the Medici circus.
+Dialogue: 0,0:43:23.83,0:43:26.16,Default,,0,0,0,,{\r译文字幕}也就是说  他真的会飞\N{\r原文字幕}That's assuming he is real.
+Dialogue: 0,0:43:33.25,0:43:34.75,Default,,0,0,0,,{\r译文字幕}你自己看吧\N{\r原文字幕}See for yourself.
+Dialogue: 0,0:43:34.75,0:43:37.12,Default,,0,0,0,,{\r译文字幕}恕我直言  我没那么多时间和你们耗\N{\r原文字幕}And all due respect, I don't got all day.
+Dialogue: 0,0:43:37.12,0:43:38.70,Default,,0,0,0,,{\r译文字幕}-很荣幸能见到您  -借过\N{\r原文字幕}- Pleasure to meet you... - Excuse me.
+Dialogue: 0,0:43:39.87,0:43:40.91,Default,,0,0,0,,{\r译文字幕}你好啊\N{\r原文字幕}Hello there.
+Dialogue: 0,0:43:48.95,0:43:51.12,Default,,0,0,0,,{\r译文字幕}所以这个  你的这个生物…\N{\r原文字幕}So this, uh, creature of yours...
+Dialogue: 0,0:43:51.12,0:43:52.83,Default,,0,0,0,,{\r译文字幕}是可以飞的吗\N{\r原文字幕}is supposed to fly?
+Dialogue: 0,0:43:54.29,0:43:55.87,Default,,0,0,0,,{\r译文字幕}这是商业秘密\N{\r原文字幕}Trade secrets.
+Dialogue: 0,0:44:05.70,0:44:08.66,Default,,0,0,0,,{\r译文字幕}麦克斯  如果你不介意的话\N{\r原文字幕}Uh, Max, if you don't mind my asking...
+Dialogue: 0,0:44:08.66,0:44:13.12,Default,,0,0,0,,{\r译文字幕}你是在哪儿发现这只动物的\N{\r原文字幕}where did you come upon the animal?
+Dialogue: 0,0:44:13.12,0:44:15.29,Default,,0,0,0,,{\r译文字幕}他来自远东\N{\r原文字幕}He hails from the far east.
+Dialogue: 0,0:44:15.29,0:44:16.75,Default,,0,0,0,,{\r译文字幕}有多远\N{\r原文字幕}How far?
+Dialogue: 0,0:44:16.75,0:44:18.12,Default,,0,0,0,,{\r译文字幕}很远\N{\r原文字幕}Far.
+Dialogue: 0,0:44:18.12,0:44:21.08,Default,,0,0,0,,{\r译文字幕}它看上去可不像有什么所谓的魔法\N{\r原文字幕}He doesn't look like "magic" to me.
+Dialogue: 0,0:44:21.12,0:44:23.79,Default,,0,0,0,,{\r译文字幕}你光凭外表也得出些什么结论\N{\r原文字幕}Well, what the heck can you tell by appearances, right?
+Dialogue: 0,0:44:23.79,0:44:26.79,Default,,0,0,0,,{\r译文字幕}你也训练飞象吗\N{\r原文字幕}And you train flying elephants, too?
+Dialogue: 0,0:44:26.79,0:44:28.29,Default,,0,0,0,,{\r译文字幕}是的  一个小爱好而已\N{\r原文字幕}Yeah, it's a little hobby on the side.
+Dialogue: 0,0:44:31.45,0:44:33.16,Default,,0,0,0,,{\r译文字幕}呆宝是孩子们训练出来的\N{\r原文字幕}It's the kids taught Dumbo.
+Dialogue: 0,0:44:35.70,0:44:37.75,Default,,0,0,0,,{\r译文字幕}是的\N{\r原文字幕}Ah, yes.
+Dialogue: 0,0:44:41.20,0:44:42.37,Default,,0,0,0,,{\r译文字幕}对吧\N{\r原文字幕}Yeah?
+Dialogue: 0,0:44:42.37,0:44:46.04,Default,,0,0,0,,{\r译文字幕}但你们到底是怎么做到的\N{\r原文字幕}And how on earth did you do that?
+Dialogue: 0,0:44:46.04,0:44:47.41,Default,,0,0,0,,{\r译文字幕}用科学方法\N{\r原文字幕}With the scientific method.
+Dialogue: 0,0:44:49.37,0:44:51.75,Default,,0,0,0,,{\r译文字幕}一张照片  只能拍一张照片\N{\r原文字幕}One picture, one picture!
+Dialogue: 0,0:44:51.75,0:44:53.45,Default,,0,0,0,,{\r译文字幕}麦克斯\N{\r原文字幕}Max.
+Dialogue: 0,0:44:53.45,0:44:56.29,Default,,0,0,0,,{\r译文字幕}你拥有一样很罕见的东西\N{\r原文字幕}You possess something that's very rare in life.
+Dialogue: 0,0:44:56.29,0:44:58.95,Default,,0,0,0,,{\r译文字幕}可惜的是\N{\r原文字幕}And the tragedy of it is,
+Dialogue: 0,0:44:58.95,0:45:01.87,Default,,0,0,0,,{\r译文字幕}你没意识到这一点\N{\r原文字幕}is you don't even know that you have it.
+Dialogue: 0,0:45:01.87,0:45:04.50,Default,,0,0,0,,{\r译文字幕}你知道那样东西是什么吗  麦克斯\N{\r原文字幕}Do you know what it is that you have, Max?
+Dialogue: 0,0:45:04.50,0:45:05.75,Default,,0,0,0,,{\r译文字幕}不\N{\r原文字幕}No.
+Dialogue: 0,0:45:05.75,0:45:07.04,Default,,0,0,0,,{\r译文字幕}是神秘\N{\r原文字幕}It's mystique.
+Dialogue: 0,0:45:08.29,0:45:11.00,Default,,0,0,0,,{\r译文字幕}麦克斯  我知道你是什么样的人\N{\r原文字幕}Max, I know your type.
+Dialogue: 0,0:45:11.00,0:45:13.37,Default,,0,0,0,,{\r译文字幕}吹牛的  骗子  不劳而获的家伙\N{\r原文字幕}Charlatan, con man, opportunist...
+Dialogue: 0,0:45:13.37,0:45:16.41,Default,,0,0,0,,{\r译文字幕}如果你不知道  纽约就是这样子的\N{\r原文字幕}New York is that way, in case you need directions.
+Dialogue: 0,0:45:16.41,0:45:19.00,Default,,0,0,0,,{\r译文字幕}我知道  建立一些真实的东西\N{\r原文字幕}And I know it comes from a deep desire
+Dialogue: 0,0:45:19.00,0:45:20.91,Default,,0,0,0,,{\r译文字幕}是你的一种深深的渴望\N{\r原文字幕}to build something authentic and true.
+Dialogue: 0,0:45:20.91,0:45:22.75,Default,,0,0,0,,{\r译文字幕}我懂你的游戏规则\N{\r原文字幕}I know your game.
+Dialogue: 0,0:45:22.75,0:45:24.08,Default,,0,0,0,,{\r译文字幕}这不是游戏\N{\r原文字幕}It's not a game.
+Dialogue: 0,0:45:24.08,0:45:27.41,Default,,0,0,0,,{\r译文字幕}有些人不遵守规则  有些人改变规则\N{\r原文字幕}Some men cheat the rules, others change them.
+Dialogue: 0,0:45:28.75,0:45:29.95,Default,,0,0,0,,{\r译文字幕}它在你袖子里\N{\r原文字幕}It's up your sleeve.
+Dialogue: 0,0:45:31.12,0:45:33.00,Default,,0,0,0,,{\r译文字幕}不  是在你的口袋里\N{\r原文字幕}It's in your pocket.
+Dialogue: 0,0:45:40.25,0:45:41.83,Default,,0,0,0,,{\r译文字幕}你要是想随时随地就能表演魔术\N{\r原文字幕}The secret to show business
+Dialogue: 0,0:45:41.83,0:45:43.37,Default,,0,0,0,,{\r译文字幕}就要时刻留一只兔子在你的魔术帽里\N{\r原文字幕}is always keep a rabbit in your hat.
+Dialogue: 0,0:45:43.37,0:45:46.04,Default,,0,0,0,,{\r译文字幕}或者就像你在桌子里放的猴子一样\N{\r原文字幕}Or a monkey in your desk, I guess.
+Dialogue: 0,0:45:47.75,0:45:49.16,Default,,0,0,0,,{\r译文字幕}这是  所有权的股份\N{\r原文字幕}Ownership shares?
+Dialogue: 0,0:45:49.16,0:45:50.41,Default,,0,0,0,,{\r译文字幕}麦克斯  看看你周围吧\N{\r原文字幕}Max, look around you.
+Dialogue: 0,0:45:50.41,0:45:52.87,Default,,0,0,0,,{\r译文字幕}你的整个生活方式都快无聊死了\N{\r原文字幕}Your entire way of life is dying.
+Dialogue: 0,0:45:52.87,0:45:54.41,Default,,0,0,0,,{\r译文字幕}娱乐业的未来\N{\r原文字幕}The future of the entertainment business
+Dialogue: 0,0:45:54.41,0:45:56.25,Default,,0,0,0,,{\r译文字幕}就是得把要观众带到你面前\N{\r原文字幕}is to bring the audience to you.
+Dialogue: 0,0:45:56.25,0:45:58.20,Default,,0,0,0,,{\r译文字幕}我建造了那个地方\N{\r原文字幕}And I've built that destination.
+Dialogue: 0,0:45:58.20,0:46:00.83,Default,,0,0,0,,{\r译文字幕}而我只缺\N{\r原文字幕}What I'm lacking...
+Dialogue: 0,0:46:00.83,0:46:02.95,Default,,0,0,0,,{\r译文字幕}一个门生\N{\r原文字幕}is a protege.
+Dialogue: 0,0:46:06.04,0:46:09.16,Default,,0,0,0,,{\r译文字幕}我知道你其实没有兄弟\N{\r原文字幕}I know there's no Medici Brothers.
+Dialogue: 0,0:46:10.33,0:46:13.20,Default,,0,0,0,,{\r译文字幕}你可能一直挺想要一个的吧\N{\r原文字幕}You probably always wanted one.
+Dialogue: 0,0:46:14.41,0:46:16.00,Default,,0,0,0,,{\r译文字幕}你这是要和我合作的意思吗\N{\r原文字幕}You're offering me a partnership?
+Dialogue: 0,0:46:16.00,0:46:17.16,Default,,0,0,0,,{\r译文字幕}对\N{\r原文字幕}Yes.
+Dialogue: 0,0:46:17.16,0:46:19.00,Default,,0,0,0,,{\r译文字幕}还有给你和你剧团的\N{\r原文字幕}And a home.
+Dialogue: 0,0:46:19.04,0:46:21.04,Default,,0,0,0,,{\r译文字幕}一个家\N{\r原文字幕}For you and the entire troupe.
+Dialogue: 0,0:46:21.04,0:46:24.12,Default,,0,0,0,,{\r译文字幕}一个家吗  给我们所有人吗\N{\r原文字幕}A home? For all of us?
+Dialogue: 0,0:46:24.12,0:46:26.45,Default,,0,0,0,,{\r译文字幕}对  和我合作吧\N{\r原文字幕}Yes. Join me.
+Dialogue: 0,0:46:26.45,0:46:28.54,Default,,0,0,0,,{\r译文字幕}和我合作吧  成为我们的家人吧\N{\r原文字幕}Join me and my family.
+Dialogue: 0,0:46:28.58,0:46:31.33,Default,,0,0,0,,{\r译文字幕}让我带领大家实现未来\N{\r原文字幕}Let me take us all into the future.
+Dialogue: 0,0:46:31.33,0:46:33.33,Default,,0,0,0,,{\r译文字幕}让我带大家进入\N{\r原文字幕}Let me take us all...
+Dialogue: 0,0:46:34.45,0:46:36.29,Default,,0,0,0,,{\r译文字幕}梦幻之地\N{\r原文字幕}to Dreamland!
+Dialogue: 0,0:47:19.25,0:47:22.00,Default,,0,0,0,,{\r译文字幕}我真希望妈妈也能看到这个\N{\r原文字幕}I wish Momma could've seen this.
+Dialogue: 0,0:47:22.00,0:47:24.29,Default,,0,0,0,,{\r译文字幕}不知怎的  我总觉得她知道我们在这里\N{\r原文字幕}Well, somehow, I think she knows we're here.
+Dialogue: 0,0:47:29.95,0:47:32.04,Default,,0,0,0,,{\r译文字幕}这是你的魔术梦想之路啊  麦克斯\N{\r原文字幕}Way to work your magic, Max.
+Dialogue: 0,0:47:42.58,0:47:45.16,Default,,0,0,0,,{\r译文字幕}我们听到你在叫了  呆宝\N{\r原文字幕}We hear you, Dumbo!
+Dialogue: 0,0:47:45.16,0:47:46.62,Default,,0,0,0,,{\r译文字幕}你为什么不让他看看外面\N{\r原文字幕}Why won't you let him see outside?
+Dialogue: 0,0:47:46.62,0:47:49.12,Default,,0,0,0,,{\r译文字幕}要记住  小姐\N{\r原文字幕}Remember, young lady...
+Dialogue: 0,0:47:49.12,0:47:50.33,Default,,0,0,0,,{\r译文字幕}保持神秘\N{\r原文字幕}mystique.
+Dialogue: 0,0:47:54.50,0:47:56.83,Default,,0,0,0,,{\r译文字幕}这就是我加入马戏团的原因\N{\r原文字幕}Now this is why I joined the circus.
+Dialogue: 0,0:48:00.41,0:48:03.12,Default,,0,0,0,,{\r译文字幕}爸爸  这都是科学奇迹\N{\r原文字幕}Dad. Wonders of Science!
+Dialogue: 0,0:48:03.12,0:48:04.37,Default,,0,0,0,,{\r译文字幕}好吧  我的小糖果\N{\r原文字幕}All right, sugar plum.
+Dialogue: 0,0:48:04.37,0:48:06.20,Default,,0,0,0,,{\r译文字幕}别忘了  我们是来这工作的\N{\r原文字幕}Remember, we got a job to do here.
+Dialogue: 0,0:48:06.20,0:48:06.85,Default,,0,0,0,,{\r译文字幕}这是我女儿\N{\r原文字幕}My daughter,
+Dialogue: 0,0:48:06.86,0:48:08.91,Default,,0,0,0,,{\r译文字幕}她总是想象自己是下一个居里夫人\N{\r原文字幕}she fancies herself the next Marie Curie.
+Dialogue: 0,0:48:08.91,0:48:12.62,Default,,0,0,0,,{\r译文字幕}不要让别人来告诉你  你做不到\N{\r原文字幕}Don't ever let anybody tell you what you can't do.
+Dialogue: 0,0:48:12.62,0:48:15.41,Default,,0,0,0,,{\r译文字幕}等等  我没说她做不到啊\N{\r原文字幕}Hang on, I wasn't saying she can't.
+Dialogue: 0,0:48:15.41,0:48:19.95,Default,,0,0,0,,{\r译文字幕}我们在这儿是为了干什么  夫人\N{\r原文字幕}What is it exactly that we do here, ma cherie?
+Dialogue: 0,0:48:19.95,0:48:23.45,Default,,0,0,0,,{\r译文字幕}我们使不可能成为可能\N{\r原文字幕}We make the impossible possible.
+Dialogue: 0,0:48:28.54,0:48:30.16,Default,,0,0,0,,{\r译文字幕}这就是你要表演的地方\N{\r原文字幕}And that's where you'll perform.
+Dialogue: 0,0:48:30.16,0:48:31.45,Default,,0,0,0,,{\r译文字幕}奇幻竞技场\N{\r原文字幕}The Colosseum!
+Dialogue: 0,0:48:31.45,0:48:34.41,Default,,0,0,0,,{\r译文字幕}呆宝会呆在后面的训练帐篷里\N{\r原文字幕}Dumbo will stay in the training tent behind.
+Dialogue: 0,0:48:34.41,0:48:35.54,Default,,0,0,0,,{\r译文字幕}呆宝\N{\r原文字幕}Dumbo!
+Dialogue: 0,0:48:41.12,0:48:42.58,Default,,0,0,0,,{\r译文字幕}我们为什么不和他一起去\N{\r原文字幕}Why aren't we going with him?
+Dialogue: 0,0:48:42.58,0:48:46.45,Default,,0,0,0,,{\r译文字幕}因为那个才是你的新家\N{\r原文字幕}Because that is your new home.
+Dialogue: 0,0:48:54.33,0:48:56.16,Default,,0,0,0,,{\r译文字幕}看看这儿啊\N{\r原文字幕}Look at this place!
+Dialogue: 0,0:48:56.16,0:48:57.54,Default,,0,0,0,,{\r译文字幕}一个图书馆\N{\r原文字幕}A library...
+Dialogue: 0,0:48:57.54,0:48:59.58,Default,,0,0,0,,{\r译文字幕}"孩子们将引领他们"\N{\r原文字幕}"And the children shall lead them."
+Dialogue: 0,0:48:57.54,0:48:59.58,Default,,0,0,0,,{\r译文字幕}{\an8\fs17\bord0\b1}改自《以赛亚书》第11章6节
+Dialogue: 0,0:48:59.58,0:49:01.62,Default,,0,0,0,,{\r译文字幕}我们很感激这次机会  范德维尔先生\N{\r原文字幕}We're grateful for the opportunity, Mr. Vandevere.
+Dialogue: 0,0:49:01.62,0:49:04.66,Default,,0,0,0,,{\r译文字幕}别这么说  我们已经是个大家庭了\N{\r原文字幕}Oh, your family's mine.
+Dialogue: 0,0:49:07.04,0:49:10.70,Default,,0,0,0,,{\r译文字幕}法瑞尔先生  我总是能耳闻您的故事\N{\r原文字幕}You know, I've been brushing up on your story, Mr. Farrier.
+Dialogue: 0,0:49:10.70,0:49:13.00,Default,,0,0,0,,{\r译文字幕}您是肯塔基州最好的特技骑手\N{\r原文字幕}Kentucky's top trick rider.
+Dialogue: 0,0:49:13.00,0:49:14.37,Default,,0,0,0,,{\r译文字幕}所以  您在这儿也肯定一样是的\N{\r原文字幕}Well, there's no reason you can't be again...
+Dialogue: 0,0:49:14.41,0:49:17.58,Default,,0,0,0,,{\r译文字幕}唯一不同的是  您是法瑞尔上尉\N{\r原文字幕}only here, you'd be Captain Farrier...
+Dialogue: 0,0:49:17.58,0:49:18.70,Default,,0,0,0,,{\r译文字幕}一个战争英雄\N{\r原文字幕}war hero.
+Dialogue: 0,0:49:21.41,0:49:22.50,Default,,0,0,0,,{\r译文字幕}一个独臂人的奇迹\N{\r原文字幕}One-armed wonder.
+Dialogue: 0,0:49:22.50,0:49:24.04,Default,,0,0,0,,{\r译文字幕}堪称国宝\N{\r原文字幕}National treasure.
+Dialogue: 0,0:49:26.12,0:49:27.41,Default,,0,0,0,,{\r译文字幕}我还是能骑的\N{\r原文字幕}Well, I still can ride.
+Dialogue: 0,0:49:27.41,0:49:28.62,Default,,0,0,0,,{\r译文字幕}我知道你能\N{\r原文字幕}Oh, I know you can.
+Dialogue: 0,0:49:28.62,0:49:31.08,Default,,0,0,0,,{\r译文字幕}而且你一定要骑\N{\r原文字幕}And you're going to.
+Dialogue: 0,0:49:31.08,0:49:32.50,Default,,0,0,0,,{\r译文字幕}就在你得到那只小象之后\N{\r原文字幕}Right after you get that little elephant
+Dialogue: 0,0:49:32.50,0:49:33.75,Default,,0,0,0,,{\r译文字幕}然后要从地上飞起来\N{\r原文字幕}off the ground for me.
+Dialogue: 0,0:49:33.75,0:49:35.54,Default,,0,0,0,,{\r译文字幕}是在它成功地完成演出的情况下吗\N{\r原文字幕}You mean once his act's working?
+Dialogue: 0,0:49:35.54,0:49:37.33,Default,,0,0,0,,{\r译文字幕}没错  看来你已经准备好了\N{\r原文字幕}You're back in the saddle.
+Dialogue: 0,0:49:37.33,0:49:39.33,Default,,0,0,0,,{\r译文字幕}你剧团剩下的成员\N{\r原文字幕}We're still working on the schedule
+Dialogue: 0,0:49:39.33,0:49:40.45,Default,,0,0,0,,{\r译文字幕}会依旧按计划工作\N{\r原文字幕}for the rest of your troupe...
+Dialogue: 0,0:49:40.45,0:49:42.50,Default,,0,0,0,,{\r译文字幕}但是星期五\N{\r原文字幕}but on Friday...
+Dialogue: 0,0:49:42.50,0:49:44.20,Default,,0,0,0,,{\r译文字幕}就是我们的呆宝首演的日子\N{\r原文字幕}we premiere our little Dumbo.
+Dialogue: 0,0:49:46.70,0:49:48.66,Default,,0,0,0,,{\r译文字幕}我兴奋得都起鸡皮疙瘩了\N{\r原文字幕}I get goose bumps.
+Dialogue: 0,0:49:51.20,0:49:53.41,Default,,0,0,0,,{\r译文字幕}你为什么看着我\N{\r原文字幕}Why are you looking at me?
+Dialogue: 0,0:49:53.41,0:49:55.29,Default,,0,0,0,,{\r译文字幕}因为只有一样东西\N{\r原文字幕}Well, because the only thing
+Dialogue: 0,0:49:55.29,0:49:58.41,Default,,0,0,0,,{\r译文字幕}比飞象更神奇\N{\r原文字幕}more amazing than a flying elephant...
+Dialogue: 0,0:49:58.41,0:49:59.95,Default,,0,0,0,,{\r译文字幕}那就是能够骑着它飞的女神\N{\r原文字幕}is the goddess who can fly it.
+Dialogue: 0,0:50:01.54,0:50:03.62,Default,,0,0,0,,{\r译文字幕}你是疯了吧\N{\r原文字幕}Have you lost your mind?
+Dialogue: 0,0:50:06.50,0:50:09.50,Default,,0,0,0,,{\r译文字幕}别忘了我们是从哪儿来的  亲爱的\N{\r原文字幕}Let's not forget from whence we came, darling.
+Dialogue: 0,0:50:11.58,0:50:13.58,Default,,0,0,0,,{\r译文字幕}好了  所以我们会在周五试飞\N{\r原文字幕}So, we fly Friday!
+Dialogue: 0,0:50:13.58,0:50:17.70,Default,,0,0,0,,{\r译文字幕}呆宝从来没有载人飞行过\N{\r原文字幕}Uh, Dumbo's never flown with anyone.
+Dialogue: 0,0:50:17.70,0:50:20.70,Default,,0,0,0,,{\r译文字幕}已经很明显了  这就是为什么\N{\r原文字幕}That's why it's become abundantly clear
+Dialogue: 0,0:50:20.70,0:50:21.70,Default,,0,0,0,,{\r译文字幕}我们需要你\N{\r原文字幕}why we need you.
+Dialogue: 0,0:50:24.04,0:50:25.37,Default,,0,0,0,,{\r译文字幕}呆宝\N{\r原文字幕}Dumbo!
+Dialogue: 0,0:50:29.50,0:50:31.50,Default,,0,0,0,,{\r译文字幕}伙计  我们想死你了  你还好吗\N{\r原文字幕}Hey, buddy. We missed you. You all right?
+Dialogue: 0,0:50:31.50,0:50:34.29,Default,,0,0,0,,{\r译文字幕}法瑞尔上尉负责这只呆宝了\N{\r原文字幕}Hey. Captain Farrier is in charge.
+Dialogue: 0,0:50:34.29,0:50:36.25,Default,,0,0,0,,{\r译文字幕}未经他同意  任何人都不能见这只动物\N{\r原文字幕}No one sees the animal without his approval.
+Dialogue: 0,0:50:36.66,0:50:37.70,Default,,0,0,0,,{\r译文字幕}霍特\N{\r原文字幕}Holt.
+Dialogue: 0,0:50:37.70,0:50:39.25,Default,,0,0,0,,{\r译文字幕}就叫我霍特吧\N{\r原文字幕}Just call me Holt.
+Dialogue: 0,0:50:40.58,0:50:42.58,Default,,0,0,0,,{\r译文字幕}我以为你是个军人\N{\r原文字幕}I thought you were a military man.
+Dialogue: 0,0:50:42.58,0:50:45.04,Default,,0,0,0,,{\r译文字幕}你的靴子很漂亮  是鲨鱼皮的吗\N{\r原文字幕}Nice boots you bagged there. What are they, shark skin?
+Dialogue: 0,0:50:45.04,0:50:48.04,Default,,0,0,0,,{\r译文字幕}不\N{\r原文字幕}No.
+Dialogue: 0,0:50:48.04,0:50:49.33,Default,,0,0,0,,{\r译文字幕}所以  你最好让你的大象朋友\N{\r原文字幕}So you better keep your elephant friend
+Dialogue: 0,0:50:49.33,0:50:50.66,Default,,0,0,0,,{\r译文字幕}表现好点儿\N{\r原文字幕}on my good side.
+Dialogue: 0,0:50:56.16,0:50:57.16,Default,,0,0,0,,{\r译文字幕}你好  呆宝\N{\r原文字幕}Hiya, Dumbo.
+Dialogue: 0,0:51:04.29,0:51:06.33,Default,,0,0,0,,{\r译文字幕}呆宝  你介意\N{\r原文字幕}Dumbo, you mind?
+Dialogue: 0,0:51:06.33,0:51:07.45,Default,,0,0,0,,{\r译文字幕}把我胳膊松开吗\N{\r原文字幕}Can I get my arm?
+Dialogue: 0,0:51:09.25,0:51:11.25,Default,,0,0,0,,{\r译文字幕}这就是我要交予生命来换取的那双手吗\N{\r原文字幕}And these are the hands I'll be putting my life in?
+Dialogue: 0,0:51:11.70,0:51:13.62,Default,,0,0,0,,{\r译文字幕}欢迎\N{\r原文字幕}Welcome.
+Dialogue: 0,0:51:13.62,0:51:16.20,Default,,0,0,0,,{\r译文字幕}提前说一声  这不是我的主意\N{\r原文字幕}For the record, this was not my idea.
+Dialogue: 0,0:51:16.20,0:51:17.66,Default,,0,0,0,,{\r译文字幕}呆宝一般自己飞\N{\r原文字幕}Dumbo works alone.
+Dialogue: 0,0:51:17.66,0:51:19.29,Default,,0,0,0,,{\r译文字幕}我也是\N{\r原文字幕}So do I.
+Dialogue: 0,0:51:21.33,0:51:22.54,Default,,0,0,0,,{\r译文字幕}你好  米莉  乔\N{\r原文字幕}Bonjour, Milly, Joe...
+Dialogue: 0,0:51:24.20,0:51:25.79,Default,,0,0,0,,{\r译文字幕}还有你\N{\r原文字幕}And you...
+Dialogue: 0,0:51:28.87,0:51:30.41,Default,,0,0,0,,{\r译文字幕}很迷人\N{\r原文字幕}Hmm, charming.
+Dialogue: 0,0:51:30.41,0:51:31.70,Default,,0,0,0,,{\r译文字幕}嗯  也许是因为他认不出来\N{\r原文字幕}Well, maybe he doesn't recognize you
+Dialogue: 0,0:51:31.70,0:51:34.25,Default,,0,0,0,,{\r译文字幕}没化妆的你\N{\r原文字幕}without your makeup.
+Dialogue: 0,0:51:34.25,0:51:36.08,Default,,0,0,0,,{\r译文字幕}所以我要教你飞\N{\r原文字幕}So I gotta teach you to fly?
+Dialogue: 0,0:51:36.08,0:51:40.45,Default,,0,0,0,,{\r译文字幕}我从小就知道怎么飞了\N{\r原文字幕}I know how to fly, ever since I was a child.
+Dialogue: 0,0:51:40.45,0:51:42.75,Default,,0,0,0,,{\r译文字幕}他们教呆宝飞  不是吗\N{\r原文字幕}They taught Dumbo to fly, no?
+Dialogue: 0,0:51:42.75,0:51:44.45,Default,,0,0,0,,{\r译文字幕}所以我不需要你的那些专业知识\N{\r原文字幕}So I don't need your expertise.
+Dialogue: 0,0:51:46.29,0:51:48.58,Default,,0,0,0,,{\r译文字幕}好吧\N{\r原文字幕}All right.
+Dialogue: 0,0:51:48.58,0:51:51.20,Default,,0,0,0,,{\r译文字幕}就告诉你一下  我去过法国\N{\r原文字幕}Well, just so you know, I've been to France.
+Dialogue: 0,0:51:51.20,0:51:52.79,Default,,0,0,0,,{\r译文字幕}那可不是一次美好的经历\N{\r原文字幕}It wasn't a good experience.
+Dialogue: 0,0:51:52.79,0:51:54.75,Default,,0,0,0,,{\r译文字幕}告诉我你的秘密吧\N{\r原文字幕}Show me your secret!
+Dialogue: 0,0:51:54.75,0:51:56.79,Default,,0,0,0,,{\r译文字幕}你的大象到底是怎么飞的\N{\r原文字幕}How on earth does your elephant fly?
+Dialogue: 0,0:51:56.79,0:51:59.20,Default,,0,0,0,,{\r译文字幕}首先  他需要一根羽毛\N{\r原文字幕}Well, first, he needs a feather.
+Dialogue: 0,0:52:00.37,0:52:02.04,Default,,0,0,0,,{\r译文字幕}没有羽毛他就飞不了\N{\r原文字幕}He won't fly without a feather.
+Dialogue: 0,0:52:03.25,0:52:06.33,Default,,0,0,0,,{\r译文字幕}那么  我也不行\N{\r原文字幕}Well then, neither will I.
+Dialogue: 0,0:52:34.16,0:52:35.83,Default,,0,0,0,,{\r译文字幕}公主慢点儿   安全第一\N{\r原文字幕}Whoa, slow down, princess. Safety first.
+Dialogue: 0,0:52:35.83,0:52:37.16,Default,,0,0,0,,{\r译文字幕}伙计们  网子拉上\N{\r原文字幕}Guys, nets.
+Dialogue: 0,0:52:37.16,0:52:38.33,Default,,0,0,0,,{\r译文字幕}来吧  快点儿\N{\r原文字幕}Come on, hurry.
+Dialogue: 0,0:52:41.50,0:52:43.25,Default,,0,0,0,,{\r译文字幕}可以了  伙计们\N{\r原文字幕}All right, guys, good.
+Dialogue: 0,0:52:52.20,0:52:53.66,Default,,0,0,0,,{\r译文字幕}呆宝看到了吗\N{\r原文字幕}See, Dumbo?
+Dialogue: 0,0:52:54.83,0:52:56.87,Default,,0,0,0,,{\r译文字幕}我飞起来了\N{\r原文字幕}I fly!
+Dialogue: 0,0:53:05.41,0:53:07.12,Default,,0,0,0,,{\r译文字幕}试试看能不能抓到我\N{\r原文字幕}See if you can catch me!
+Dialogue: 0,0:53:09.95,0:53:11.45,Default,,0,0,0,,{\r译文字幕}给你羽毛  呆宝\N{\r原文字幕}Here, Dumbo!
+Dialogue: 0,0:54:11.66,0:54:13.95,Default,,0,0,0,,{\r译文字幕}咱们可有的练了\N{\r原文字幕}Oh, we got some work to do.
+Dialogue: 0,0:54:22.84,0:54:24.55,Default,,0,0,0,,{\r译文字幕}朋友们  同事们\N{\r原文字幕}Friends and colleagues...
+Dialogue: 0,0:54:24.55,0:54:26.41,Default,,0,0,0,,{\r译文字幕}让我们把梦幻之地式的热烈欢迎\N{\r原文字幕}let's give a warm Dreamland welcome
+Dialogue: 0,0:54:26.45,0:54:27.79,Default,,0,0,0,,{\r译文字幕}送给我们的新执行副总裁\N{\r原文字幕}to our new executive vice president...
+Dialogue: 0,0:54:27.79,0:54:28.79,Default,,0,0,0,,{\r译文字幕}麦克斯·美第奇先生\N{\r原文字幕}Mr. Max Medici.
+Dialogue: 0,0:54:31.70,0:54:33.79,Default,,0,0,0,,{\r译文字幕}他需要的一切\N{\r原文字幕}Anything he needs, anything at all...
+Dialogue: 0,0:54:33.83,0:54:35.75,Default,,0,0,0,,{\r译文字幕}请你们像往常一样帮他完成\N{\r原文字幕}make it happen as you always do.
+Dialogue: 0,0:54:40.54,0:54:42.29,Default,,0,0,0,,{\r译文字幕}这是维娜小姐\N{\r原文字幕}This is Miss Verna.
+Dialogue: 0,0:54:42.29,0:54:46.04,Default,,0,0,0,,{\r译文字幕}她会处理你的日程  书信  以及电话\N{\r原文字幕}She will handle your schedule, correspondence, and all your calls.
+Dialogue: 0,0:54:46.04,0:54:47.79,Default,,0,0,0,,{\r译文字幕}如果有会议需要你的话\N{\r原文字幕}When you're needed in meetings,
+Dialogue: 0,0:54:47.79,0:54:49.37,Default,,0,0,0,,{\r译文字幕}她会通知你\N{\r原文字幕}she'll let you know.
+Dialogue: 0,0:54:49.37,0:54:50.75,Default,,0,0,0,,{\r译文字幕}今天就有会吗\N{\r原文字幕}Are there meetings today?
+Dialogue: 0,0:54:50.75,0:54:52.50,Default,,0,0,0,,{\r译文字幕}我会通知你的\N{\r原文字幕}I'll let you know!
+Dialogue: 0,0:54:54.75,0:54:56.62,Default,,0,0,0,,{\r译文字幕}范德维尔先生  我还有个问题\N{\r原文字幕}Uh, Mr. Vandevere, one question.
+Dialogue: 0,0:54:56.62,0:54:58.83,Default,,0,0,0,,{\r译文字幕}我到底是干什么的\N{\r原文字幕}Exactly what do I do?
+Dialogue: 0,0:55:03.04,0:55:05.37,Default,,0,0,0,,{\r译文字幕}范德维尔是在哪里找到你的\N{\r原文字幕}So where'd Vandevere find you?
+Dialogue: 0,0:55:07.08,0:55:08.91,Default,,0,0,0,,{\r译文字幕}我曾经在巴黎街头表演\N{\r原文字幕}I was a street performer in Paris.
+Dialogue: 0,0:55:10.50,0:55:11.91,Default,,0,0,0,,{\r译文字幕}他发掘了我\N{\r原文字幕}He discovered me.
+Dialogue: 0,0:55:11.91,0:55:13.70,Default,,0,0,0,,{\r译文字幕}然后我就到这儿来了\N{\r原文字幕}And here I am.
+Dialogue: 0,0:55:15.87,0:55:17.79,Default,,0,0,0,,{\r译文字幕}然后就成了百万富翁的女友\N{\r原文字幕}A millionaire's girlfriend.
+Dialogue: 0,0:55:17.79,0:55:19.00,Default,,0,0,0,,{\r译文字幕}可真是个重大的转变啊\N{\r原文字幕}That's a tough break.
+Dialogue: 0,0:55:20.70,0:55:22.75,Default,,0,0,0,,{\r译文字幕}全都是逢场作戏而已\N{\r原文字幕}It's all for show.
+Dialogue: 0,0:55:22.75,0:55:25.41,Default,,0,0,0,,{\r译文字幕}所以你们不是\N{\r原文字幕}So you and he, you're not, uh...
+Dialogue: 0,0:55:25.41,0:55:27.08,Default,,0,0,0,,{\r译文字幕}我只是他满身的饰品之一\N{\r原文字幕}I'm one of many gems he wears
+Dialogue: 0,0:55:27.08,0:55:28.62,Default,,0,0,0,,{\r译文字幕}用来把舞台灯聚焦到他身上\N{\r原文字幕}to reflect the light back onto him.
+Dialogue: 0,0:55:32.62,0:55:34.58,Default,,0,0,0,,{\r译文字幕}干得漂亮呆宝\N{\r原文字幕}Good boy, Dumbo.
+Dialogue: 0,0:55:34.58,0:55:36.37,Default,,0,0,0,,{\r译文字幕}干得不错  观众会喜欢他的\N{\r原文字幕}Good job. Yeah! They're gonna love him.
+Dialogue: 0,0:55:36.37,0:55:37.87,Default,,0,0,0,,{\r译文字幕}看来你才是幸运的那个\N{\r原文字幕}I think you are the lucky one.
+Dialogue: 0,0:55:40.45,0:55:42.00,Default,,0,0,0,,{\r译文字幕}呆宝你真棒  好孩子\N{\r原文字幕}Well done, Dumbo. Good boy.
+Dialogue: 0,0:55:42.00,0:55:45.33,Default,,0,0,0,,{\r译文字幕}♪ 是谁做着和我同样的梦 ♪\N{\r原文字幕}♪ Who's been dreaming like I've been dreaming? ♪
+Dialogue: 0,0:55:46.83,0:55:49.37,Default,,0,0,0,,{\r译文字幕}这边怎么样  还顺利吗\N{\r原文字幕}So, how's everything? Good?
+Dialogue: 0,0:55:49.37,0:55:51.08,Default,,0,0,0,,{\r译文字幕}我们有点进展了\N{\r原文字幕}Oh, we're making progress.
+Dialogue: 0,0:55:51.08,0:55:52.83,Default,,0,0,0,,{\r译文字幕}但它还没怎么准备好\N{\r原文字幕}But he ain't quite ready yet.
+Dialogue: 0,0:55:52.83,0:55:55.58,Default,,0,0,0,,{\r译文字幕}哪儿出问题了  这动物不信任你吗\N{\r原文字幕}What's the problem? Doesn't the animal trust you?
+Dialogue: 0,0:55:55.58,0:55:57.95,Default,,0,0,0,,{\r译文字幕}这没那么简单\N{\r原文字幕}It's not that simple.
+Dialogue: 0,0:55:57.95,0:56:01.66,Default,,0,0,0,,{\r译文字幕}我亲爱的  我们票都已经卖光了\N{\r原文字幕}Ma cherie...we've already sold all the tickets.
+Dialogue: 0,0:56:01.66,0:56:03.45,Default,,0,0,0,,{\r译文字幕}没准我们这儿的小科学家\N{\r原文字幕}Maybe our little scientist here
+Dialogue: 0,0:56:03.45,0:56:05.33,Default,,0,0,0,,{\r译文字幕}能为我们展示顺利的表演\N{\r原文字幕}can show us that it's going to work.
+Dialogue: 0,0:56:18.00,0:56:19.62,Default,,0,0,0,,{\r译文字幕}起飞预备\N{\r原文字幕}Prepare for takeoff.
+Dialogue: 0,0:56:19.62,0:56:20.79,Default,,0,0,0,,{\r译文字幕}右翼检查\N{\r原文字幕}Right wing? Check!
+Dialogue: 0,0:56:22.75,0:56:25.87,Default,,0,0,0,,{\r译文字幕}左翼检查\N{\r原文字幕}Left wing? Check!
+Dialogue: 0,0:56:25.87,0:56:27.95,Default,,0,0,0,,{\r译文字幕}载她起飞呆宝\N{\r原文字幕}Take her up, Dumbo.
+Dialogue: 0,0:56:31.87,0:56:33.62,Default,,0,0,0,,{\r译文字幕}来吧\N{\r原文字幕}Let's go.
+Dialogue: 0,0:56:33.62,0:56:35.83,Default,,0,0,0,,{\r译文字幕}加油呆宝  加油\N{\r原文字幕}Come on, buddy. Come on. Come on, Dumbo.
+Dialogue: 0,0:56:37.08,0:56:38.91,Default,,0,0,0,,{\r译文字幕}好的  加油\N{\r原文字幕}That's it. Come on.
+Dialogue: 0,0:56:45.58,0:56:46.62,Default,,0,0,0,,{\r译文字幕}我们再试一次\N{\r原文字幕}Let's try it again.
+Dialogue: 0,0:56:48.54,0:56:50.37,Default,,0,0,0,,{\r译文字幕}你可以的  羽毛给你\N{\r原文字幕}You got this. Here you go.
+Dialogue: 0,0:57:05.04,0:57:07.41,Default,,0,0,0,,{\r译文字幕}你是我见过最酷的独臂牛仔\N{\r原文字幕}You beautiful one-armed cowboy.
+Dialogue: 0,0:57:08.70,0:57:10.87,Default,,0,0,0,,{\r译文字幕}你让我感觉自己又是个孩子了\N{\r原文字幕}You've made me a child again.
+Dialogue: 0,0:57:22.75,0:57:25.79,Default,,0,0,0,,{\r译文字幕}欢迎来到奇幻竞技场\N{\r原文字幕}Welcome to the Colosseum...
+Dialogue: 0,0:57:25.79,0:57:28.54,Default,,0,0,0,,{\r译文字幕}在这里点石可成金  枯木能生花\N{\r原文字幕}where the impossible is possible.
+Dialogue: 0,0:58:11.54,0:58:15.08,Default,,0,0,0,,{\r译文字幕}晚上好  我是麦克斯·美第奇\N{\r原文字幕}Buonasera. Max Medici.
+Dialogue: 0,0:58:15.08,0:58:17.54,Default,,0,0,0,,{\r译文字幕}是我发现了那头大象  那是我的象\N{\r原文字幕}I discovered the elephant, my elephant.
+Dialogue: 0,0:58:17.54,0:58:18.87,Default,,0,0,0,,{\r译文字幕}然后我就说了不\N{\r原文字幕}And basically I said no.
+Dialogue: 0,0:58:18.87,0:58:20.58,Default,,0,0,0,,{\r译文字幕}我走了出去 然后就结束了\N{\r原文字幕}I walked out and that was the end of that.
+Dialogue: 0,0:58:20.58,0:58:21.91,Default,,0,0,0,,{\r译文字幕}那头能飞的大象是我的\N{\r原文字幕}The flying elephant's mine.
+Dialogue: 0,0:58:24.12,0:58:25.95,Default,,0,0,0,,{\r译文字幕}你就是那个人\N{\r原文字幕}You're the guy!
+Dialogue: 0,0:58:25.95,0:58:28.75,Default,,0,0,0,,{\r译文字幕}你就是那个有魔法的人\N{\r原文字幕}You're the guy that's made out of magic dust!
+Dialogue: 0,0:58:28.75,0:58:29.95,Default,,0,0,0,,{\r译文字幕}麦克斯\N{\r原文字幕}Max.
+Dialogue: 0,0:58:30.00,0:58:31.41,Default,,0,0,0,,{\r译文字幕}这位是来自亚特拉斯制造银行\N{\r原文字幕}J. Griffin Remington.
+Dialogue: 0,0:58:31.41,0:58:32.54,Default,,0,0,0,,{\r译文字幕}的J·格里芬·雷明顿\N{\r原文字幕}Atlas Forge Bank.
+Dialogue: 0,0:58:32.54,0:58:34.83,Default,,0,0,0,,{\r译文字幕}他是我们的金主\N{\r原文字幕}He's the money man.
+Dialogue: 0,0:58:34.83,0:58:36.12,Default,,0,0,0,,{\r译文字幕}你就是那位J\N{\r原文字幕}The J?
+Dialogue: 0,0:58:36.12,0:58:38.95,Default,,0,0,0,,{\r译文字幕}很荣幸见到您\N{\r原文字幕}Whoa! It's a pleasure to meet you.
+Dialogue: 0,0:58:38.95,0:58:39.97,Default,,0,0,0,,{\r译文字幕}你好\N{\r原文字幕}How are you?
+Dialogue: 0,0:58:39.97,0:58:42.08,Default,,0,0,0,,{\r译文字幕}有人说月亮是有魔法的\N{\r原文字幕}You know, they say the moon is made out of magic dust.
+Dialogue: 0,0:58:42.08,0:58:43.45,Default,,0,0,0,,{\r译文字幕}所以他们最近才要\N{\r原文字幕}That's why they're going to
+Dialogue: 0,0:58:43.45,0:58:45.12,Default,,0,0,0,,{\r译文字幕}送个人上去\N{\r原文字幕}send a man up there one of these days.
+Dialogue: 0,0:58:45.12,0:58:47.29,Default,,0,0,0,,{\r译文字幕}而我的银行就是那个\N{\r原文字幕}And my bank is going to be the bank
+Dialogue: 0,0:58:47.29,0:58:50.04,Default,,0,0,0,,{\r译文字幕}赞助这次探索的银行\N{\r原文字幕}that finances the expedition.
+Dialogue: 0,0:58:50.04,0:58:51.16,Default,,0,0,0,,{\r译文字幕}有什么评价吗\N{\r原文字幕}What do you think of that?
+Dialogue: 0,0:58:52.58,0:58:53.91,Default,,0,0,0,,{\r译文字幕}麦克斯  毫无疑问的是\N{\r原文字幕}Needless to say, Max...
+Dialogue: 0,0:58:53.91,0:58:55.75,Default,,0,0,0,,{\r译文字幕}我们都很期待今晚的表演\N{\r原文字幕}we all have high hopes for tonight.
+Dialogue: 0,0:58:55.79,0:58:58.75,Default,,0,0,0,,{\r译文字幕}我明白  你们当然都很期待\N{\r原文字幕}Oh, yeah. High hopes. High hopes.
+Dialogue: 0,0:58:58.75,0:59:00.58,Default,,0,0,0,,{\r译文字幕}期望啊  梦想啊\N{\r原文字幕}Well, you know, hopes, and dreams,
+Dialogue: 0,0:59:00.58,0:59:02.04,Default,,0,0,0,,{\r译文字幕}都只是一方面  一些空泛的词语而已\N{\r原文字幕}that's one thing. That's words.
+Dialogue: 0,0:59:02.04,0:59:05.89,Default,,0,0,0,,{\r译文字幕}但我们在这里讨论的是事实和计划\N{\r原文字幕}But what we're talking about here is facts! Plans!
+Dialogue: 0,0:59:05.89,0:59:07.87,Default,,0,0,0,,{\r译文字幕}那些需要的是真金白银\N{\r原文字幕}Plans! That takes a lot of money.
+Dialogue: 0,0:59:07.87,0:59:09.58,Default,,0,0,0,,{\r译文字幕}而他没钱\N{\r原文字幕}Which he hasn't got!
+Dialogue: 0,0:59:09.58,0:59:11.16,Default,,0,0,0,,{\r译文字幕}所以我们希望你的厚皮怪\N{\r原文字幕}So, we are hoping that your pachyderm
+Dialogue: 0,0:59:11.20,0:59:13.04,Default,,0,0,0,,{\r译文字幕}能顺利表演  赚一大笔钱\N{\r原文字幕}comes through with the goods.
+Dialogue: 0,0:59:13.04,0:59:15.95,Default,,0,0,0,,{\r译文字幕}那么现在让表演开始吧\N{\r原文字幕}Now let's get this show on the road!
+Dialogue: 0,0:59:22.75,0:59:24.12,Default,,0,0,0,,{\r译文字幕}我们都准备好了\N{\r原文字幕}We are looking good!
+Dialogue: 0,0:59:25.62,0:59:27.33,Default,,0,0,0,,{\r译文字幕}别担心大呆宝\N{\r原文字幕}Don't worry, Big D.
+Dialogue: 0,0:59:27.33,0:59:29.12,Default,,0,0,0,,{\r译文字幕}这里只是让你能敞开了飞而已  没什么\N{\r原文字幕}There's just more room to fly out there, that's all.
+Dialogue: 0,0:59:29.12,0:59:31.66,Default,,0,0,0,,{\r译文字幕}就飞几圈  像我们练习的那样\N{\r原文字幕}Round and round, just like we practiced.
+Dialogue: 0,0:59:31.66,0:59:32.80,Default,,0,0,0,,{\r译文字幕}然后老爸就能跟范德维尔\N{\r原文字幕}And then Dad can talk
+Dialogue: 0,0:59:32.80,0:59:34.08,Default,,0,0,0,,{\r译文字幕}谈谈我们的约定了\N{\r原文字幕}to Vandevere about the deal!
+Dialogue: 0,0:59:34.08,0:59:35.12,Default,,0,0,0,,{\r译文字幕}谈什么\N{\r原文字幕}About the what?
+Dialogue: 0,0:59:35.16,0:59:36.66,Default,,0,0,0,,{\r译文字幕}我们和呆宝有个约定\N{\r原文字幕}We made a deal with Dumbo.
+Dialogue: 0,0:59:36.66,0:59:38.12,Default,,0,0,0,,{\r译文字幕}我们跟它保证了会把它妈妈买回来\N{\r原文字幕}We promised we'd buy his mom back
+Dialogue: 0,0:59:38.12,0:59:39.75,Default,,0,0,0,,{\r译文字幕}用它在马戏团里挣得钱\N{\r原文字幕}with all the money he makes for the circus.
+Dialogue: 0,0:59:39.75,0:59:40.87,Default,,0,0,0,,{\r译文字幕}所以他才同意表演\N{\r原文字幕}That's why he flies.
+Dialogue: 0,0:59:42.12,0:59:42.78,Default,,0,0,0,,{\r译文字幕}乔现在不是谈这个的时候\N{\r原文字幕}Joe, not now!
+Dialogue: 0,0:59:42.78,0:59:44.62,Default,,0,0,0,,{\r译文字幕}准备好了吗\N{\r原文字幕}Are we ready?
+Dialogue: 0,0:59:44.62,0:59:45.87,Default,,0,0,0,,{\r译文字幕}当然\N{\r原文字幕}Yeah.
+Dialogue: 0,0:59:48.37,0:59:49.62,Default,,0,0,0,,{\r译文字幕}祝我们好运\N{\r原文字幕}Bonne chance.
+Dialogue: 0,0:59:52.36,0:59:48.37,Default,,0,0,0,,{\r译文字幕}好的  我们上\N{\r原文字幕}Okay, let's go.
+Dialogue: 0,0:59:53.83,0:59:56.54,Default,,0,0,0,,{\r译文字幕}呆宝  出发了\N{\r原文字幕}Okay, Dumbo, let's do this.
+Dialogue: 0,1:00:55.70,1:00:57.37,Default,,0,0,0,,{\r译文字幕}粉色的大象\N{\r原文字幕}Pink elephants?
+Dialogue: 0,1:00:57.37,1:00:58.83,Default,,0,0,0,,{\r译文字幕}怎么了\N{\r原文字幕}So?
+Dialogue: 0,1:01:57.95,1:02:02.87,Default,,0,0,0,,{\r译文字幕}女士们先生们  大朋友们小朋友们\N{\r原文字幕}Ladies and gentlemen, boys and girls of all ages!
+Dialogue: 0,1:02:02.87,1:02:06.95,Default,,0,0,0,,{\r译文字幕}我们等待已久的时刻终于到了\N{\r原文字幕}This is the moment we've all been waiting for!
+Dialogue: 0,1:02:06.95,1:02:09.08,Default,,0,0,0,,{\r译文字幕}V.A. 范德维尔\N{\r原文字幕}V.A. Vandevere,
+Dialogue: 0,1:02:09.08,1:02:11.29,Default,,0,0,0,,{\r译文字幕}和麦克斯·美第奇一道\N{\r原文字幕}in association with Max Medici...
+Dialogue: 0,1:02:11.29,1:02:15.95,Default,,0,0,0,,{\r译文字幕}骄傲地为您呈现\N{\r原文字幕}proudly presents, making his Dreamland debut...
+Dialogue: 0,1:02:15.95,1:02:18.37,Default,,0,0,0,,{\r译文字幕}也许你见过小飞马\N{\r原文字幕}You've seen a horse-fly.
+Dialogue: 0,1:02:18.37,1:02:21.04,Default,,0,0,0,,{\r译文字幕}也许你见过小飞龙\N{\r原文字幕}You've seen a dragonfly.
+Dialogue: 0,1:02:21.04,1:02:23.95,Default,,0,0,0,,{\r译文字幕}也许你甚至见过小飞屋\N{\r原文字幕}You've even seen a housefly.
+Dialogue: 0,1:02:23.95,1:02:26.16,Default,,0,0,0,,{\r译文字幕}但你依然还没见过某些东西\N{\r原文字幕}But you haven't seen anything...
+Dialogue: 0,1:02:26.16,1:02:30.08,Default,,0,0,0,,{\r译文字幕}直到你见到了小飞象\N{\r原文字幕}until you see an elephant fly.
+Dialogue: 0,1:02:30.08,1:02:33.04,Default,,0,0,0,,{\r译文字幕}让我们欢迎  呆宝\N{\r原文字幕}Let's get ready for Dumbo!
+Dialogue: 0,1:02:50.29,1:02:51.83,Default,,0,0,0,,{\r译文字幕}借光\N{\r原文字幕}Coming through.
+Dialogue: 0,1:02:53.12,1:02:54.83,Default,,0,0,0,,{\r译文字幕}过来\N{\r原文字幕}Come on.
+Dialogue: 0,1:03:13.16,1:03:14.25,Default,,0,0,0,,{\r译文字幕}它能做到\N{\r原文字幕}He can do it.
+Dialogue: 0,1:03:16.91,1:03:18.08,Default,,0,0,0,,{\r译文字幕}他肯定可以\N{\r原文字幕}I know he can.
+Dialogue: 0,1:03:22.91,1:03:24.91,Default,,0,0,0,,{\r译文字幕}然后让我们欢迎这位\N{\r原文字幕}And here to welcome him...
+Dialogue: 0,1:03:24.95,1:03:29.95,Default,,0,0,0,,{\r译文字幕}我们的天国女王\N{\r原文字幕}our own Queen of the Heavens!
+Dialogue: 0,1:04:21.00,1:04:23.91,Default,,0,0,0,,{\r译文字幕}呆宝\N{\r原文字幕}Dumbo.
+Dialogue: 0,1:04:23.91,1:04:27.20,Default,,0,0,0,,{\r译文字幕}我们只要绕着这儿飞五圈就好了\N{\r原文字幕}Five times around the ring. That's all we have to do.
+Dialogue: 0,1:04:28.41,1:04:29.83,Default,,0,0,0,,{\r译文字幕}慢慢来  像我们排练的那样\N{\r原文字幕}Nice and easy, like we practiced.
+Dialogue: 0,1:04:36.54,1:04:38.20,Default,,0,0,0,,{\r译文字幕}-老爸  -怎么\N{\r原文字幕}-Dad? - Mmm-hmm.
+Dialogue: 0,1:04:38.20,1:04:39.62,Default,,0,0,0,,{\r译文字幕}他们为什么没把网子拉起来\N{\r原文字幕}Why aren't they putting up the nets?
+Dialogue: 0,1:04:42.37,1:04:44.00,Default,,0,0,0,,{\r译文字幕}嘿  朋友们\N{\r原文字幕}Hey, guys?
+Dialogue: 0,1:04:44.00,1:04:45.33,Default,,0,0,0,,{\r译文字幕}什么情况\N{\r原文字幕}Guys, what's going on?
+Dialogue: 0,1:04:45.33,1:04:46.50,Default,,0,0,0,,{\r译文字幕}你们本来应该在外面\N{\r原文字幕}Your men are supposed to be out there!
+Dialogue: 0,1:04:46.54,1:04:47.62,Default,,0,0,0,,{\r译文字幕}上面有话  计划有变\N{\r原文字幕}Change of plan. From the top.
+Dialogue: 0,1:04:58.41,1:05:01.12,Default,,0,0,0,,{\r译文字幕}没把网子拉起来吗\N{\r原文字幕}I can't see the nets.
+Dialogue: 0,1:05:01.12,1:05:03.50,Default,,0,0,0,,{\r译文字幕}聪明的人才看得见\N{\r原文字幕}They're invisible.
+Dialogue: 0,1:05:04.95,1:05:06.58,Default,,0,0,0,,{\r译文字幕}你们有毛病吗  他们需要这些网\N{\r原文字幕}What's wrong with you? They need nets!
+Dialogue: 0,1:05:08.95,1:05:09.91,Default,,0,0,0,,{\r译文字幕}科莱特\N{\r原文字幕}Colette!
+Dialogue: 0,1:05:09.91,1:05:11.41,Default,,0,0,0,,{\r译文字幕}等下  先别飞\N{\r原文字幕}Wait, don't take off!
+Dialogue: 0,1:05:13.20,1:05:14.45,Default,,0,0,0,,{\r译文字幕}呆宝\N{\r原文字幕}Dumbo...
+Dialogue: 0,1:05:14.45,1:05:15.50,Default,,0,0,0,,{\r译文字幕}天呐  不好了\N{\r原文字幕}Oh, boy!
+Dialogue: 0,1:05:15.50,1:05:17.16,Default,,0,0,0,,{\r译文字幕}象国之子\N{\r原文字幕}...Prince of the Elephants.
+Dialogue: 0,1:05:19.12,1:05:21.95,Default,,0,0,0,,{\r译文字幕}请你和我一起飞翔\N{\r原文字幕}I command you to fly with me.
+Dialogue: 0,1:05:53.00,1:05:54.16,Default,,0,0,0,,{\r译文字幕}科莱特\N{\r原文字幕}Colette!
+Dialogue: 0,1:06:10.20,1:06:11.58,Default,,0,0,0,,{\r译文字幕}快把平台降下来\N{\r原文字幕}Lower the platform!
+Dialogue: 0,1:06:30.00,1:06:32.00,Default,,0,0,0,,{\r译文字幕}飞啊  孩子\N{\r原文字幕}Fly, little one!
+Dialogue: 0,1:06:51.45,1:06:53.16,Default,,0,0,0,,{\r译文字幕}这是就魔法\N{\r原文字幕}Magic dust!
+Dialogue: 0,1:07:21.04,1:07:22.25,Default,,0,0,0,,{\r译文字幕}我的精彩演出呢\N{\r原文字幕}Where's my show?
+Dialogue: 0,1:07:45.08,1:07:47.75,Default,,0,0,0,,{\r译文字幕}那头大象往噩梦岛去了\N{\r原文字幕}The elephant's headed to Nightmare Island.
+Dialogue: 0,1:08:07.66,1:08:10.37,Default,,0,0,0,,{\r译文字幕}来吧宝贝  咱们离开这儿\N{\r原文字幕}Come on, sweetie. Let's go.
+Dialogue: 0,1:08:46.54,1:08:47.79,Default,,0,0,0,,{\r译文字幕}呆宝  别害怕\N{\r原文字幕}Dumbo, it's okay.
+Dialogue: 0,1:08:47.79,1:08:49.66,Default,,0,0,0,,{\r译文字幕}有我们在这儿\N{\r原文字幕}We're here.
+Dialogue: 0,1:08:50.70,1:08:52.16,Default,,0,0,0,,{\r译文字幕}晚上好\N{\r原文字幕}Good evening.
+Dialogue: 0,1:08:52.16,1:08:53.62,Default,,0,0,0,,{\r译文字幕}是范德维尔先生\N{\r原文字幕}It's Mr. Vandevere.
+Dialogue: 0,1:08:53.62,1:08:54.83,Default,,0,0,0,,{\r译文字幕}大家好\N{\r原文字幕}Hello, hi.
+Dialogue: 0,1:08:54.83,1:08:56.16,Default,,0,0,0,,{\r译文字幕}玩的都还开心吗\N{\r原文字幕}Everyone having fun?
+Dialogue: 0,1:08:56.16,1:08:57.54,Default,,0,0,0,,{\r译文字幕}太好了\N{\r原文字幕}Good.
+Dialogue: 0,1:08:57.54,1:08:59.29,Default,,0,0,0,,{\r译文字幕}-开心吗  -开心极了\N{\r原文字幕}- Having a good time? - Yes, sir.
+Dialogue: 0,1:08:59.29,1:09:01.12,Default,,0,0,0,,{\r译文字幕}完美\N{\r原文字幕}Fantastic.
+Dialogue: 0,1:09:01.12,1:09:03.62,Default,,0,0,0,,{\r译文字幕}把它弄出去\N{\r原文字幕}Get him outta here.
+Dialogue: 0,1:09:03.62,1:09:05.20,Default,,0,0,0,,{\r译文字幕}好的\N{\r原文字幕}Yes.
+Dialogue: 0,1:09:05.20,1:09:06.54,Default,,0,0,0,,{\r译文字幕}大家请跟我来\N{\r原文字幕}Folks, please.
+Dialogue: 0,1:09:06.54,1:09:08.33,Default,,0,0,0,,{\r译文字幕}请大家先离开这里\N{\r原文字幕}Folks, I need you to leave the exhibit.
+Dialogue: 0,1:09:08.33,1:09:10.37,Default,,0,0,0,,{\r译文字幕}过来\N{\r原文字幕}Come on.
+Dialogue: 0,1:09:12.33,1:09:13.91,Default,,0,0,0,,{\r译文字幕}你们轻点儿  他还是个孩子\N{\r原文字幕}Guys, guys, go easy, he's just a baby.
+Dialogue: 0,1:09:13.91,1:09:16.29,Default,,0,0,0,,{\r译文字幕}士兵  在这里要听我的命令\N{\r原文字幕}Soldier, I give the orders here.
+Dialogue: 0,1:09:24.20,1:09:25.45,Default,,0,0,0,,{\r译文字幕}他该睡觉了\N{\r原文字幕}It's his bedtime.
+Dialogue: 0,1:09:27.70,1:09:29.75,Default,,0,0,0,,{\r译文字幕}此景点现已关闭\N{\r原文字幕}This attraction is now closed.
+Dialogue: 0,1:09:36.91,1:09:38.50,Default,,0,0,0,,{\r译文字幕}爸爸\N{\r原文字幕}Dad?
+Dialogue: 0,1:09:40.54,1:09:42.29,Default,,0,0,0,,{\r译文字幕}她是珍宝夫人\N{\r原文字幕}It's Mrs. Jumbo.
+Dialogue: 0,1:09:48.16,1:09:50.29,Default,,0,0,0,,{\r译文字幕}拜托  我想看呆宝\N{\r原文字幕}Come on, I want to see Dumbo!
+Dialogue: 0,1:09:50.29,1:09:52.70,Default,,0,0,0,,{\r译文字幕}我想要回我的猴子\N{\r原文字幕}I want my money back!
+Dialogue: 0,1:09:52.70,1:09:53.87,Default,,0,0,0,,{\r译文字幕}我不明白\N{\r原文字幕}I don't understand.
+Dialogue: 0,1:09:53.87,1:09:56.29,Default,,0,0,0,,{\r译文字幕}大象居然能飞  你也看到了\N{\r原文字幕}The elephant flies. You saw it.
+Dialogue: 0,1:09:56.29,1:09:57.87,Default,,0,0,0,,{\r译文字幕}我什么也没看到\N{\r原文字幕}I saw a vanishing act.
+Dialogue: 0,1:09:57.87,1:10:01.50,Default,,0,0,0,,{\r译文字幕}除非我看到表演  我才会投资\N{\r原文字幕}I'm not investing one cent until I can see this works.
+Dialogue: 0,1:10:01.50,1:10:03.79,Default,,0,0,0,,{\r译文字幕}你甚至控制不了你的动物\N{\r原文字幕}You can't control your animal.
+Dialogue: 0,1:10:03.79,1:10:05.91,Default,,0,0,0,,{\r译文字幕}给我点时间  我会处理好的\N{\r原文字幕}You give me a little time, I can fix this.
+Dialogue: 0,1:10:05.91,1:10:09.45,Default,,0,0,0,,{\r译文字幕}随便你  处理好之前别想拿到一分钱\N{\r原文字幕}Whatever! Till then, the bank is closed.
+Dialogue: 0,1:10:13.91,1:10:15.20,Default,,0,0,0,,{\r译文字幕}刚刚是怎么回事\N{\r原文字幕}What happened up there?
+Dialogue: 0,1:10:15.20,1:10:16.45,Default,,0,0,0,,{\r译文字幕}你的动物失控了\N{\r原文字幕}You lost control of the animal.
+Dialogue: 0,1:10:16.45,1:10:17.45,Default,,0,0,0,,{\r译文字幕}你才是动物\N{\r原文字幕}You're the animal.
+Dialogue: 0,1:10:17.45,1:10:18.79,Default,,0,0,0,,{\r译文字幕}我的网呢\N{\r原文字幕}Where was my net?
+Dialogue: 0,1:10:18.79,1:10:21.25,Default,,0,0,0,,{\r译文字幕}网是用来排练的  这可是表演\N{\r原文字幕}Nets are for rehearsal. This is the show.
+Dialogue: 0,1:10:23.91,1:10:26.33,Default,,0,0,0,,{\r译文字幕}练习  你说这是练习\N{\r原文字幕}Training? You call that training?
+Dialogue: 0,1:10:26.33,1:10:27.69,Default,,0,0,0,,{\r译文字幕}别急  范德维尔先生\N{\r原文字幕}Now, hold on, Mr. Vandevere,
+Dialogue: 0,1:10:27.69,1:10:28.83,Default,,0,0,0,,{\r译文字幕}我们知道他为什么会飞走\N{\r原文字幕}we know why he flew away.
+Dialogue: 0,1:10:28.83,1:10:30.83,Default,,0,0,0,,{\r译文字幕}他听到了另一头大象的呼唤\N{\r原文字幕}He recognized that other elephant's call.
+Dialogue: 0,1:10:30.83,1:10:32.91,Default,,0,0,0,,{\r译文字幕}就是被关在噩梦岛的    他的妈妈\N{\r原文字幕}The one on Nightmare Island. It's his momma!
+Dialogue: 0,1:10:32.91,1:10:34.70,Default,,0,0,0,,{\r译文字幕}是真的  是她\N{\r原文字幕}It's true. It's her.
+Dialogue: 0,1:10:34.70,1:10:36.00,Default,,0,0,0,,{\r译文字幕}两个月前她从我们马戏团卖出去了\N{\r原文字幕}She was sold from our circus two months ago.
+Dialogue: 0,1:10:36.00,1:10:37.54,Default,,0,0,0,,{\r译文字幕}每个孩子都能认出自己的妈妈\N{\r原文字幕}Every child knows its mother.
+Dialogue: 0,1:10:37.54,1:10:40.00,Default,,0,0,0,,{\r译文字幕}听说大象记忆力很好\N{\r原文字幕}And they say elephants never forget.
+Dialogue: 0,1:10:40.00,1:10:42.25,Default,,0,0,0,,{\r译文字幕}他们现在可以在一起了\N{\r原文字幕}They can be together now.
+Dialogue: 0,1:10:42.29,1:10:43.95,Default,,0,0,0,,{\r译文字幕}这两个小孩怎么会在我办公室\N{\r原文字幕}Why are there children in my office?
+Dialogue: 0,1:10:43.95,1:10:47.91,Default,,0,0,0,,{\r译文字幕}范德维尔先生求你了  呆宝需要妈妈\N{\r原文字幕}Mr. Vandevere, please, all Dumbo wants is his momma.
+Dialogue: 0,1:10:47.91,1:10:49.29,Default,,0,0,0,,{\r译文字幕}让他们团聚吧\N{\r原文字幕}Just reunite them,
+Dialogue: 0,1:10:49.33,1:10:50.75,Default,,0,0,0,,{\r译文字幕}他会服从你的命令\N{\r原文字幕}and he'll do whatever you want.
+Dialogue: 0,1:10:50.75,1:10:53.87,Default,,0,0,0,,{\r译文字幕}错  他只听他妈妈的话\N{\r原文字幕}No, he'll do whatever she wants.
+Dialogue: 0,1:10:53.87,1:10:55.45,Default,,0,0,0,,{\r译文字幕}你以为如果我相信他们的血缘关系\N{\r原文字幕}You think I'd have bought her
+Dialogue: 0,1:10:55.45,1:10:57.91,Default,,0,0,0,,{\r译文字幕}我就要买下她吗\N{\r原文字幕}if I thought she was related to him? Hmm?
+Dialogue: 0,1:10:57.91,1:11:00.45,Default,,0,0,0,,{\r译文字幕}这对我根本没有好处\N{\r原文字幕}Doesn't help me at all.
+Dialogue: 0,1:11:04.91,1:11:06.54,Default,,0,0,0,,{\r译文字幕}你们想知道成长中\N{\r原文字幕}You wanna know the most important thing
+Dialogue: 0,1:11:06.54,1:11:07.87,Default,,0,0,0,,{\r译文字幕}最重要的事是什么吗？\N{\r原文字幕}about growing up?
+Dialogue: 0,1:11:09.54,1:11:13.75,Default,,0,0,0,,{\r译文字幕}你必须学会独自一人\N{\r原文字幕}You've got to learn to go it alone.
+Dialogue: 0,1:11:16.79,1:11:19.45,Default,,0,0,0,,{\r译文字幕}把那个母亲挪走  你知道她在哪里\N{\r原文字幕}Get rid of the mother. You know where to take her.
+Dialogue: 0,1:11:19.45,1:11:20.83,Default,,0,0,0,,{\r译文字幕}还有就是给你自己买双新靴子\N{\r原文字幕}And treat yourself to some new boots.
+Dialogue: 0,1:11:20.83,1:11:23.20,Default,,0,0,0,,{\r译文字幕}但是先生  你不能杀了她\N{\r原文字幕}But, sir, you can't just kill her.
+Dialogue: 0,1:11:23.70,1:11:24.87,Default,,0,0,0,,{\r译文字幕}为什么不行\N{\r原文字幕}Why not?
+Dialogue: 0,1:11:24.87,1:11:26.33,Default,,0,0,0,,{\r译文字幕}范德维尔先生\N{\r原文字幕}Mr. Vandevere.
+Dialogue: 0,1:11:26.33,1:11:28.62,Default,,0,0,0,,{\r译文字幕}请等等  请不要分开他们\N{\r原文字幕}Wait! Don't separate 'em, please.
+Dialogue: 0,1:11:28.62,1:11:30.66,Default,,0,0,0,,{\r译文字幕}不要这样对我的孩子\N{\r原文字幕}Don't do that to my kids.
+Dialogue: 0,1:11:30.66,1:11:33.04,Default,,0,0,0,,{\r译文字幕}你知道吗  霍特  我父亲离开我时\N{\r原文字幕}You know, Holt, when my father left us,
+Dialogue: 0,1:11:33.04,1:11:34.66,Default,,0,0,0,,{\r译文字幕}对我来说其实是件好事\N{\r原文字幕}it was a blessing really.
+Dialogue: 0,1:11:34.66,1:11:37.66,Default,,0,0,0,,{\r译文字幕}因为我必须学会自力更生\N{\r原文字幕}Because I had to learn how to fend for myself.
+Dialogue: 0,1:11:37.66,1:11:40.08,Default,,0,0,0,,{\r译文字幕}你的孩子可能也需如此\N{\r原文字幕}Maybe that's what your children need.
+Dialogue: 0,1:11:40.08,1:11:41.58,Default,,0,0,0,,{\r译文字幕}别跟我说我的孩子需要什么\N{\r原文字幕}Don't tell me what my children need.
+Dialogue: 0,1:11:41.58,1:11:43.00,Default,,0,0,0,,{\r译文字幕}别靠这么近  养象人\N{\r原文字幕}Best take a step back, Elephant Man.
+Dialogue: 0,1:11:45.33,1:11:46.91,Default,,0,0,0,,{\r译文字幕}亲爱的\N{\r原文字幕}Darling...
+Dialogue: 0,1:11:46.95,1:11:51.33,Default,,0,0,0,,{\r译文字幕}呆宝要和他妈妈分开一段时间\N{\r原文字幕}Dumbo and his mom need a little alone time.
+Dialogue: 0,1:11:51.33,1:11:53.62,Default,,0,0,0,,{\r译文字幕}所以  妈妈会离开几天\N{\r原文字幕}So, Mommy's going to take a little trip...
+Dialogue: 0,1:11:53.62,1:11:55.66,Default,,0,0,0,,{\r译文字幕}这样呆宝就不会分心了\N{\r原文字幕}so that Dumbo won't be distracted.
+Dialogue: 0,1:11:58.45,1:12:00.87,Default,,0,0,0,,{\r译文字幕}米莉  米莉\N{\r原文字幕}Milly! Milly!
+Dialogue: 0,1:12:13.91,1:12:14.91,Default,,0,0,0,,{\r译文字幕}科莱特\N{\r原文字幕}Colette?
+Dialogue: 0,1:12:16.75,1:12:18.00,Default,,0,0,0,,{\r译文字幕}我还要排练\N{\r原文字幕}I have rehearsal.
+Dialogue: 0,1:12:19.66,1:12:20.75,Default,,0,0,0,,{\r译文字幕}麦克斯\N{\r原文字幕}Max.
+Dialogue: 0,1:12:26.00,1:12:27.58,Default,,0,0,0,,{\r译文字幕}噩梦岛\N{\r原文字幕}Nightmare Island.
+Dialogue: 0,1:12:27.58,1:12:29.37,Default,,0,0,0,,{\r译文字幕}米莉\N{\r原文字幕}Milly?
+Dialogue: 0,1:12:29.37,1:12:31.00,Default,,0,0,0,,{\r译文字幕}世上最危险的野兽的家园\N{\r原文字幕}Home of the most dangerous beasts in the world.
+Dialogue: 0,1:12:31.00,1:12:32.66,Default,,0,0,0,,{\r译文字幕}先生  景点关门了\N{\r原文字幕}Sir, park's closing.
+Dialogue: 0,1:12:39.83,1:12:40.91,Default,,0,0,0,,{\r译文字幕}米莉  米莉\N{\r原文字幕}Milly! Milly!
+Dialogue: 0,1:12:50.83,1:12:52.87,Default,,0,0,0,,{\r译文字幕}找到她了吗\N{\r原文字幕}Did you find her?
+Dialogue: 0,1:12:53.66,1:12:54.66,Default,,0,0,0,,{\r译文字幕}没有\N{\r原文字幕}No.
+Dialogue: 0,1:12:57.95,1:13:01.27,Default,,0,0,0,,{\r译文字幕}她妈妈总是知道该怎么办\N{\r原文字幕}Well, her momma always knew what to say.
+Dialogue: 0,1:13:01.27,1:13:03.95,Default,,0,0,0,,{\r译文字幕}任何情况下她都知道\N{\r原文字幕}No matter what, she always knew.
+Dialogue: 0,1:13:03.95,1:13:07.50,Default,,0,0,0,,{\r译文字幕}你的孩子不需要你很完美\N{\r原文字幕}Your children don't need you to be perfect.
+Dialogue: 0,1:13:07.50,1:13:09.70,Default,,0,0,0,,{\r译文字幕}他们只需要你的信任\N{\r原文字幕}They just need you to believe in them.
+Dialogue: 0,1:13:11.37,1:13:12.87,Default,,0,0,0,,{\r译文字幕}就这么简单  是吗\N{\r原文字幕}That simple, huh?
+Dialogue: 0,1:13:19.12,1:13:22.41,Default,,0,0,0,,{\r译文字幕}好吧  我再找找\N{\r原文字幕}All right, well, I'm gonna keep looking.
+Dialogue: 0,1:13:43.54,1:13:46.20,Default,,0,0,0,,{\r译文字幕}那是我女儿吗\N{\r原文字幕}That's my daughter all right.
+Dialogue: 0,1:13:46.20,1:13:49.37,Default,,0,0,0,,{\r译文字幕}我认识的唯一一个离家上学的女孩\N{\r原文字幕}The only girl I know who runs away to go to school.
+Dialogue: 0,1:13:50.54,1:13:52.16,Default,,0,0,0,,{\r译文字幕}是我们的错\N{\r原文字幕}It's our fault.
+Dialogue: 0,1:13:52.16,1:13:54.66,Default,,0,0,0,,{\r译文字幕}呆宝肯定希望不曾遇到过我们\N{\r原文字幕}Bet Dumbo wishes he never met us.
+Dialogue: 0,1:13:54.66,1:13:57.20,Default,,0,0,0,,{\r译文字幕}不  你让他学会了飞翔\N{\r原文字幕}Ah, you showed him he could fly.
+Dialogue: 0,1:13:57.20,1:14:00.04,Default,,0,0,0,,{\r译文字幕}你认为他会靠这个赚钱吗\N{\r原文字幕}You think he'd ever trade that?
+Dialogue: 0,1:14:00.04,1:14:02.04,Default,,0,0,0,,{\r译文字幕}他只想要他妈妈回来\N{\r原文字幕}He would to have his mom back.
+Dialogue: 0,1:14:07.66,1:14:08.95,Default,,0,0,0,,{\r译文字幕}我想妈妈了\N{\r原文字幕}I miss Momma.
+Dialogue: 0,1:14:10.87,1:14:12.62,Default,,0,0,0,,{\r译文字幕}我也想她了\N{\r原文字幕}Yeah, so do I.
+Dialogue: 0,1:14:16.20,1:14:19.66,Default,,0,0,0,,{\r译文字幕}给你看些东西\N{\r原文字幕}There's something I want to show you.
+Dialogue: 0,1:14:19.70,1:14:22.83,Default,,0,0,0,,{\r译文字幕}随着工程学和医学的进步\N{\r原文字幕}With advances in both engineering and medicine...
+Dialogue: 0,1:14:22.83,1:14:25.20,Default,,0,0,0,,{\r译文字幕}不久之后人类和机器就能共同\N{\r原文字幕}the human and the mechanical will soon be combined...
+Dialogue: 0,1:14:25.20,1:14:28.70,Default,,0,0,0,,{\r译文字幕}协助普通家庭  工人和退伍军人\N{\r原文字幕}to assist ordinary families, workers and veterans.
+Dialogue: 0,1:14:28.70,1:14:30.83,Default,,0,0,0,,{\r译文字幕}无数科技奇迹\N{\r原文字幕}All kinds of technological marvels
+Dialogue: 0,1:14:30.83,1:14:32.91,Default,,0,0,0,,{\r译文字幕}在20世纪等着我们\N{\r原文字幕}await us in the 20th century.
+Dialogue: 0,1:14:34.16,1:14:35.16,Default,,0,0,0,,{\r译文字幕}你会做得很好的\N{\r原文字幕}You're gonna do great things.
+Dialogue: 0,1:14:35.16,1:14:37.75,Default,,0,0,0,,{\r译文字幕}{\an8\bord0\b1}宏伟而又光明的未来
+Dialogue: 0,1:14:37.75,1:14:38.75,Default,,0,0,0,,{\r译文字幕}我相信你\N{\r原文字幕}I know it.
+Dialogue: 0,1:14:49.62,1:14:51.00,Default,,0,0,0,,{\r译文字幕}这是什么\N{\r原文字幕}Whoa, whoa. What's this?
+Dialogue: 0,1:14:51.04,1:14:52.66,Default,,0,0,0,,{\r译文字幕}让我休息一下\N{\r原文字幕}Oh, give me a break.
+Dialogue: 0,1:14:52.66,1:14:55.54,Default,,0,0,0,,{\r译文字幕}我难道要教你怎么读英语吗\N{\r原文字幕}I gotta teach you how to read English, too?
+Dialogue: 0,1:14:58.78,1:14:59.54,Default,,0,0,0,,{\r译文字幕}{\pos(200,80)\fr-13\fs30}梦幻之地的飞象失控了吗
+Dialogue: 0,1:15:00.70,1:15:03.70,Default,,0,0,0,,{\r译文字幕}你好  麦克斯\N{\r原文字幕}Oh, Max, hello!
+Dialogue: 0,1:15:03.70,1:15:05.75,Default,,0,0,0,,{\r译文字幕}很好  你把文件带来了\N{\r原文字幕}Good, you brought the paperwork.
+Dialogue: 0,1:15:05.75,1:15:07.75,Default,,0,0,0,,{\r译文字幕}麦克斯\N{\r原文字幕}Max...
+Dialogue: 0,1:15:07.75,1:15:10.54,Default,,0,0,0,,{\r译文字幕}我在回顾你的演出\N{\r原文字幕}I was reviewing your troupe...
+Dialogue: 0,1:15:10.54,1:15:12.25,Default,,0,0,0,,{\r译文字幕}老实说\N{\r原文字幕}and to be honest with you...
+Dialogue: 0,1:15:12.25,1:15:14.91,Default,,0,0,0,,{\r译文字幕}他们模仿我们的动作一点也不像\N{\r原文字幕}they're really pale imitations from the acts we already have.
+Dialogue: 0,1:15:14.91,1:15:16.79,Default,,0,0,0,,{\r译文字幕}所以我在考虑  也许\N{\r原文字幕}So I was thinking, I don't know,
+Dialogue: 0,1:15:16.79,1:15:18.58,Default,,0,0,0,,{\r译文字幕}一个月的遣散费  够公平吧\N{\r原文字幕}a month's severance? Seems fair.
+Dialogue: 0,1:15:18.58,1:15:18.68,Default,,0,0,0,,{\r译文字幕}明白了吗\N{\r原文字幕}Capisce?
+Dialogue: 0,1:15:18.68,1:15:19.95,Default,,0,0,0,,{\r译文字幕}{\fs18\an8\bord1\b1}Capisce为意大利语
+Dialogue: 0,1:15:21.25,1:15:23.16,Default,,0,0,0,,{\r译文字幕}我以为你答应了\N{\r原文字幕}I thought you promised to...
+Dialogue: 0,1:15:23.16,1:15:26.04,Default,,0,0,0,,{\r译文字幕}麦克斯  事实证明我得解雇他们\N{\r原文字幕}Max, the contract says that I'd hire them.
+Dialogue: 0,1:15:26.04,1:15:28.08,Default,,0,0,0,,{\r译文字幕}而我从没规定雇佣期限\N{\r原文字幕}It never stipulated for how long.
+Dialogue: 0,1:15:28.08,1:15:31.20,Default,,0,0,0,,{\r译文字幕}所以  把你那群廉价的疯子带出去\N{\r原文字幕}So, get your little band of low-rent freaks out of here.
+Dialogue: 0,1:15:31.20,1:15:34.75,Default,,0,0,0,,{\r译文字幕}但他们是我的剧团  他们在等我\N{\r原文字幕}But they're my troupe. They're countin' on me.
+Dialogue: 0,1:15:34.75,1:15:37.25,Default,,0,0,0,,{\r译文字幕}好吧  那就公开布诚\N{\r原文字幕}Okay, let's have a heart.
+Dialogue: 0,1:15:37.25,1:15:39.08,Default,,0,0,0,,{\r译文字幕}你为什么不直接告诉他们呢\N{\r原文字幕}Why don't you tell them?
+Dialogue: 0,1:15:50.83,1:15:54.08,Default,,0,0,0,,{\r译文字幕}老板  我们什么时候开始\N{\r原文字幕}'Bout time, boss. So, when do we start?
+Dialogue: 0,1:16:05.16,1:16:06.87,Default,,0,0,0,,{\r译文字幕}怎么了\N{\r原文字幕}What's going on, guys?
+Dialogue: 0,1:16:06.87,1:16:08.83,Default,,0,0,0,,{\r译文字幕}他们被范德维尔解雇了\N{\r原文字幕}Vandevere's fired them all.
+Dialogue: 0,1:16:08.83,1:16:10.95,Default,,0,0,0,,{\r译文字幕}明天就得离开\N{\r原文字幕}They're to leave by tomorrow.
+Dialogue: 0,1:16:23.70,1:16:26.66,Default,,0,0,0,,{\r译文字幕}再见  小可爱\N{\r原文字幕}Goodbye, little friend.
+Dialogue: 0,1:16:26.66,1:16:28.16,Default,,0,0,0,,{\r译文字幕}再见\N{\r原文字幕}Goodbye.
+Dialogue: 0,1:16:30.33,1:16:33.20,Default,,0,0,0,,{\r译文字幕}我们想最后看一次\N{\r原文字幕}We wanted to see him one last time.
+Dialogue: 0,1:16:33.20,1:16:36.87,Default,,0,0,0,,{\r译文字幕}最后看他飞一次\N{\r原文字幕}One last time to see him fly.
+Dialogue: 0,1:16:36.87,1:16:39.20,Default,,0,0,0,,{\r译文字幕}我觉得他不想再飞了\N{\r原文字幕}I don't think he wants to anymore.
+Dialogue: 0,1:16:39.20,1:16:41.16,Default,,0,0,0,,{\r译文字幕}别这样  他必须要飞\N{\r原文字幕}Oh, no. But he must.
+Dialogue: 0,1:16:41.16,1:16:43.91,Default,,0,0,0,,{\r译文字幕}他不能再次失去他的妈妈\N{\r原文字幕}He cannot lose Mrs. Jumbo again!
+Dialogue: 0,1:16:43.91,1:16:46.75,Default,,0,0,0,,{\r译文字幕}这还不是最糟糕的\N{\r原文字幕}Uh, I'm afraid it's rather worse than that.
+Dialogue: 0,1:16:47.29,1:16:49.04,Default,,0,0,0,,{\r译文字幕}索斯比先生\N{\r原文字幕}Mr. Sotheby?
+Dialogue: 0,1:16:49.04,1:16:51.95,Default,,0,0,0,,{\r译文字幕}出于良心的谴责\N{\r原文字幕}I've come to clear my conscience.
+Dialogue: 0,1:16:51.95,1:16:54.79,Default,,0,0,0,,{\r译文字幕}我一听到他的指令我就辞职了\N{\r原文字幕}I resigned my position as soon as I heard him give the order.
+Dialogue: 0,1:16:54.79,1:16:57.12,Default,,0,0,0,,{\r译文字幕}什么指令\N{\r原文字幕}What order?
+Dialogue: 0,1:16:57.16,1:17:00.20,Default,,0,0,0,,{\r译文字幕}珍宝夫人明晚要被送走了\N{\r原文字幕}Mrs. Jumbo will be gone by tomorrow night.
+Dialogue: 0,1:17:00.20,1:17:02.04,Default,,0,0,0,,{\r译文字幕}没人能救她\N{\r原文字幕}And she's not meant to survive.
+Dialogue: 0,1:17:17.87,1:17:20.41,Default,,0,0,0,,{\r译文字幕}梦幻之地配不上他\N{\r原文字幕}This "Dreamland" doesn't deserve him.
+Dialogue: 0,1:17:20.41,1:17:22.25,Default,,0,0,0,,{\r译文字幕}没有马戏团配得上\N{\r原文字幕}No circus does.
+Dialogue: 0,1:17:34.20,1:17:38.66,Default,,0,0,0,,{\r译文字幕}谁愿意帮我\N{\r原文字幕}Well, who's gonna be willing to help me?
+Dialogue: 0,1:17:40.95,1:17:42.79,Default,,0,0,0,,{\r译文字幕}让呆宝和他妈妈重获自由\N{\r原文字幕}Set Dumbo and his momma free.
+Dialogue: 0,1:18:12.12,1:18:13.66,Default,,0,0,0,,{\r译文字幕}欢迎来到奇幻竞技场\N{\r原文字幕}Welcome to the Colosseum,
+Dialogue: 0,1:18:13.66,1:18:16.37,Default,,0,0,0,,{\r译文字幕}这里点石可成金  朽木能生花\N{\r原文字幕}where the impossible is possible.
+Dialogue: 0,1:18:18.75,1:18:21.41,Default,,0,0,0,,{\r译文字幕}好吧  第二次被吸引来\N{\r原文字幕}Okay. Second time's the charm.
+Dialogue: 0,1:18:21.41,1:18:25.00,Default,,0,0,0,,{\r译文字幕}让我们看看梦之父表现如何\N{\r原文字幕}Let's see if Dream Daddy's worked out the kinks.
+Dialogue: 0,1:18:25.00,1:18:27.69,Default,,0,0,0,,{\r译文字幕}我们要从噩梦岛带大象出去\N{\r原文字幕}Here to pick up the elephant from Nightmare Island.
+Dialogue: 0,1:18:27.70,1:18:28.16,Default,,0,0,0,,{\r译文字幕}收到\N{\r原文字幕}Confirmed.
+Dialogue: 0,1:18:28.16,1:18:29.79,Default,,0,0,0,,{\r译文字幕}打开后门\N{\r原文字幕}Unlock the back gates.
+Dialogue: 0,0:46:46.67,0:46:47.22,Default,tag,0,0,0,,{\r译文字幕}{\bord0\b1\fs20\pos(200,90)}梦幻之地
+Dialogue: 0,1:18:50.22,1:18:52.35,Default,,0,0,0,,{\r译文字幕}{\bord0\b1\fs20\pos(290,105)}噩梦岛
+Dialogue: 0,1:18:50.22,1:18:52.35,Default,,0,0,0,,{\r译文字幕}{\bord0\b1\fs18\pos(290,195)}后门
+Dialogue: 0,1:18:52.87,1:18:55.41,Default,,0,0,0,,{\r译文字幕}呆宝就位\N{\r原文字幕}Dumbo in position!
+Dialogue: 0,1:18:55.41,1:18:57.25,Default,,0,0,0,,{\r译文字幕}他一飞  你们就跑回他的帐篷\N{\r原文字幕}Soon as he flies, you run back to his tent
+Dialogue: 0,1:18:57.25,1:18:58.87,Default,,0,0,0,,{\r译文字幕}我会去那里找你们\N{\r原文字幕}and I'll find you there.
+Dialogue: 0,1:18:58.87,1:19:00.20,Default,,0,0,0,,{\r译文字幕}别担心  大呆宝\N{\r原文字幕}All right, Big D.
+Dialogue: 0,1:19:01.50,1:19:04.33,Default,,0,0,0,,{\r译文字幕}就看你的了\N{\r原文字幕}It's all up to you now.
+Dialogue: 0,1:19:04.33,1:19:06.79,Default,,0,0,0,,{\r译文字幕}加油  霍特\N{\r原文字幕}Come on, Holt!
+Dialogue: 0,1:19:16.75,1:19:18.12,Default,,0,0,0,,{\r译文字幕}见鬼去吧\N{\r原文字幕}To hell with it.
+Dialogue: 0,1:19:22.83,1:19:24.87,Default,,0,0,0,,{\r译文字幕}准备就位\N{\r原文字幕}Ready for positions.
+Dialogue: 0,1:19:24.87,1:19:27.16,Default,,0,0,0,,{\r译文字幕}我们应该排练一下\N{\r原文字幕}We could have used a little rehearsal.
+Dialogue: 0,1:19:27.16,1:19:28.83,Default,,0,0,0,,{\r译文字幕}排练\N{\r原文字幕}Rehearsal?
+Dialogue: 0,1:19:28.83,1:19:28.83,Default,,0,0,0,,{\r译文字幕}我们在阿尔贡战役中有预演吗\N{\r原文字幕}Think we got a rehearsal at the Battle of the Argonne?
+Dialogue: 0,1:19:28.83,1:19:31.12,Default,,0,0,0,,{\r译文字幕}{\an8\fs16\bord0\b1}一战著名战役,此次战役协约国大获全胜
+Dialogue: 0,1:19:32.16,1:19:34.08,Default,,0,0,0,,{\r译文字幕}你确定你可以吗\N{\r原文字幕}You sure you can do this?
+Dialogue: 0,1:19:34.08,1:19:35.91,Default,,0,0,0,,{\r译文字幕}我很有经验\N{\r原文字幕}I fly elephants all the time.
+Dialogue: 0,1:19:37.04,1:19:39.54,Default,,0,0,0,,{\r译文字幕}你确定你做得到吗\N{\r原文字幕}Are you sure you can do this?
+Dialogue: 0,1:19:39.54,1:19:41.41,Default,,0,0,0,,{\r译文字幕}就算绑上一只手也完全没问题\N{\r原文字幕}With one hand tied behind my back.
+Dialogue: 0,1:19:54.20,1:19:56.83,Default,,0,0,0,,{\r译文字幕}等等  谁在那\N{\r原文字幕}Wait. What's that?
+Dialogue: 0,1:19:58.20,1:19:59.20,Default,,0,0,0,,{\r译文字幕}女士\N{\r原文字幕}Ma'am?
+Dialogue: 0,1:20:01.00,1:20:05.08,Default,,0,0,0,,{\r译文字幕}抱歉  女士  景点关门了\N{\r原文字幕}Sorry, ma'am, attraction's closed.
+Dialogue: 0,1:20:05.08,1:20:08.29,Default,,0,0,0,,{\r译文字幕}我梦想  成为美人鱼\N{\r原文字幕}My dream... to be a mermaid...
+Dialogue: 0,1:20:08.29,1:20:10.83,Default,,0,0,0,,{\r译文字幕}但是现在他们夺走了我的梦想\N{\r原文字幕}and now they've taken it away.
+Dialogue: 0,1:20:10.83,1:20:13.29,Default,,0,0,0,,{\r译文字幕}我听见海水在歌唱\N{\r原文字幕}And yet I hear the water singing.
+Dialogue: 0,1:20:13.29,1:20:14.54,Default,,0,0,0,,{\r译文字幕}听见他们在唤我回家\N{\r原文字幕}I hear them beckoning me home.
+Dialogue: 0,1:20:14.54,1:20:16.45,Default,,0,0,0,,{\r译文字幕}女士  小心一点好吗\N{\r原文字幕}Lady, just be careful, okay?
+Dialogue: 0,1:20:16.45,1:20:17.87,Default,,0,0,0,,{\r译文字幕}把我带回广阔的深渊\N{\r原文字幕}Return me to the vast abyss!
+Dialogue: 0,1:20:17.87,1:20:19.29,Default,,0,0,0,,{\r译文字幕}我们走\N{\r原文字幕}Let's go.
+Dialogue: 0,1:20:19.33,1:20:21.75,Default,,0,0,0,,{\r译文字幕}-我的命运  回归大海  -好了\N{\r原文字幕}- My destiny, the sea! - Okay.
+Dialogue: 0,1:21:11.12,1:21:12.41,Default,,0,0,0,,{\r译文字幕}停电了\N{\r原文字幕}We've lost power!
+Dialogue: 0,1:21:12.41,1:21:13.91,Default,,0,0,0,,{\r译文字幕}笼子的锁也失效了\N{\r原文字幕}Even the cages?
+Dialogue: 0,1:21:13.91,1:21:17.12,Default,,0,0,0,,{\r译文字幕}这些动物\N{\r原文字幕}But the animals...
+Dialogue: 0,1:21:17.12,1:21:19.45,Default,,0,0,0,,{\r译文字幕}找到断电的地方  把灯打开\N{\r原文字幕}Find the breakers. Get the lights back on!
+Dialogue: 0,1:21:19.45,1:21:21.29,Default,,0,0,0,,{\r译文字幕}确保所有笼子都锁着\N{\r原文字幕}And make sure those cages are locked.
+Dialogue: 0,1:21:39.91,1:21:41.33,Default,,0,0,0,,{\r译文字幕}女士们  先生们\N{\r原文字幕}Ladies and gentlemen,
+Dialogue: 0,1:21:41.33,1:21:43.33,Default,,0,0,0,,{\r译文字幕}男孩们  女孩们\N{\r原文字幕}boys and girls.
+Dialogue: 0,1:21:43.33,1:21:47.00,Default,,0,0,0,,{\r译文字幕}这是他第二次在梦幻之地亮相\N{\r原文字幕}Making his second Dreamland debut.
+Dialogue: 0,1:21:47.00,1:21:49.66,Default,,0,0,0,,{\r译文字幕}让我们准备好迎接呆宝吧\N{\r原文字幕}Let's get ready for Dumbo!
+Dialogue: 0,1:22:59.20,1:23:00.95,Default,,0,0,0,,{\r译文字幕}这是个骗局  给我回到\N{\r原文字幕}It's a trick! Get back to the...
+Dialogue: 0,1:23:16.25,1:23:20.75,Default,,0,0,0,,{\r译文字幕}再一次  我们自己的天堂女王出场\N{\r原文字幕}And once again, our very own Queen of the Heavens!
+Dialogue: 0,1:23:42.66,1:23:43.70,Default,,0,0,0,,{\r译文字幕}你\N{\r原文字幕}You.
+Dialogue: 0,1:23:43.70,1:23:46.54,Default,,0,0,0,,{\r译文字幕}你的怪胎马戏团在哪\N{\r原文字幕}Where is your circus of freaks?
+Dialogue: 0,1:23:48.41,1:23:49.79,Default,,0,0,0,,{\r译文字幕}发生什么事\N{\r原文字幕}What's going on?
+Dialogue: 0,1:23:49.79,1:23:52.29,Default,,0,0,0,,{\r译文字幕}大象的妈妈不见了\N{\r原文字幕}The elephant's mother is gone!
+Dialogue: 0,1:23:52.29,1:23:55.20,Default,,0,0,0,,{\r译文字幕}他的戏团搞的鬼\N{\r原文字幕}His troupe's behind it!
+Dialogue: 0,1:23:55.20,1:23:57.75,Default,,0,0,0,,{\r译文字幕}警戒塔台  防守大门\N{\r原文字幕}Alert the tower and secure the gates.
+Dialogue: 0,1:23:57.75,1:23:59.37,Default,,0,0,0,,{\r译文字幕}别让他们出去\N{\r原文字幕}Don't let them get out.
+Dialogue: 0,1:24:00.62,1:24:02.75,Default,,0,0,0,,{\r译文字幕}但他们为什么只带走这一头呢\N{\r原文字幕}But why would they only take the one?
+Dialogue: 0,1:24:04.25,1:24:07.25,Default,,0,0,0,,{\r译文字幕}看好法瑞尔和那俩孩子\N{\r原文字幕}Keep your eye on Farrier and those kids.
+Dialogue: 0,1:24:07.29,1:24:08.95,Default,,0,0,0,,{\r译文字幕}你  跟我们来\N{\r原文字幕}You! Come with us.
+Dialogue: 0,1:24:23.16,1:24:24.45,Default,,0,0,0,,{\r译文字幕}他们在那\N{\r原文字幕}There they are!
+Dialogue: 0,1:24:37.50,1:24:39.12,Default,,0,0,0,,{\r译文字幕}嘿  你\N{\r原文字幕}Hey, you!
+Dialogue: 0,1:24:39.12,1:24:40.58,Default,,0,0,0,,{\r译文字幕}你在上面干什么\N{\r原文字幕}What are you doing up there?
+Dialogue: 0,1:24:40.62,1:24:42.41,Default,,0,0,0,,{\r译文字幕}那是私人财产\N{\r原文字幕}That's private property.
+Dialogue: 0,1:24:42.41,1:24:44.29,Default,,0,0,0,,{\r译文字幕}快点  下来\N{\r原文字幕}Come on! Get down here!
+Dialogue: 0,1:24:44.29,1:24:45.54,Default,,0,0,0,,{\r译文字幕}马上\N{\r原文字幕}Now!
+Dialogue: 0,1:24:45.54,1:24:47.21,Default,,0,0,0,,{\r译文字幕}嘿  我是麦克斯·美第奇\N{\r原文字幕}Hey, I'm Max Medici,
+Dialogue: 0,1:24:47.21,1:24:48.75,Default,,0,0,0,,{\r译文字幕}范德维尔的搭档\N{\r原文字幕}Vandevere's partner.
+Dialogue: 0,1:24:48.75,1:24:51.33,Default,,0,0,0,,{\r译文字幕}他只是个修理工在修灯\N{\r原文字幕}He's just a maintenance man fixing a light!
+Dialogue: 0,1:24:51.33,1:24:52.62,Default,,0,0,0,,{\r译文字幕}回到你的岗位上去\N{\r原文字幕}Get back to your posts!
+Dialogue: 0,1:24:52.62,1:24:54.50,Default,,0,0,0,,{\r译文字幕}是的  美第奇先生\N{\r原文字幕}Yes, sir, Mr. Medici.
+Dialogue: 0,1:25:09.45,1:25:11.45,Default,,0,0,0,,{\r译文字幕}让我们再试一次\N{\r原文字幕}Let's try this again.
+Dialogue: 0,1:25:11.45,1:25:12.75,Default,,0,0,0,,{\r译文字幕}你和我\N{\r原文字幕}You and me.
+Dialogue: 0,1:25:28.45,1:25:29.70,Default,,0,0,0,,{\r译文字幕}孩子们呢\N{\r原文字幕}Hey, the kids?
+Dialogue: 0,1:25:29.70,1:25:30.87,Default,,0,0,0,,{\r译文字幕}孩子们在哪\N{\r原文字幕}Where are the kids?
+Dialogue: 0,1:25:30.87,1:25:32.33,Default,,0,0,0,,{\r译文字幕}你见过孩子们吗\N{\r原文字幕}Hey, have you seen the kids?
+Dialogue: 0,1:25:32.33,1:25:36.41,Default,,0,0,0,,{\r译文字幕}呆宝  大象王子\N{\r原文字幕}Dumbo, Prince of the Elephants!
+Dialogue: 0,1:25:36.41,1:25:39.41,Default,,0,0,0,,{\r译文字幕}我命令你和我一起飞行\N{\r原文字幕}I command you to fly with me.
+Dialogue: 0,1:25:54.54,1:25:56.79,Default,,0,0,0,,{\r译文字幕}呆宝  拜托了快飞\N{\r原文字幕}Dumbo, please fly.
+Dialogue: 0,1:25:57.83,1:25:59.54,Default,,0,0,0,,{\r译文字幕}为你的妈妈飞\N{\r原文字幕}Do it for your momma.
+Dialogue: 0,1:26:54.62,1:26:55.75,Default,,0,0,0,,{\r译文字幕}你们的父亲在哪\N{\r原文字幕}Where's your father?
+Dialogue: 0,1:27:09.25,1:27:10.79,Default,,0,0,0,,{\r译文字幕}呆宝\N{\r原文字幕}Dumbo!
+Dialogue: 0,1:27:23.37,1:27:25.16,Default,,0,0,0,,{\r译文字幕}嘿  抓住那俩孩子\N{\r原文字幕}Hey! Get those kids!
+Dialogue: 0,1:27:28.29,1:27:29.91,Default,,0,0,0,,{\r译文字幕}呆宝去那\N{\r原文字幕}Dumbo!
+Dialogue: 0,1:28:02.41,1:28:03.54,Default,,0,0,0,,{\r译文字幕}走吧\N{\r原文字幕}Come on.
+Dialogue: 0,1:28:04.70,1:28:05.83,Default,,0,0,0,,{\r译文字幕}那儿\N{\r原文字幕}There!
+Dialogue: 0,1:28:23.41,1:28:24.50,Default,,0,0,0,,{\r译文字幕}您好\N{\r原文字幕}Bonsoir.
+Dialogue: 0,1:28:26.79,1:28:28.33,Default,,0,0,0,,{\r译文字幕}只是路过\N{\r原文字幕}Just passing through!
+Dialogue: 0,1:28:29.66,1:28:31.29,Default,,0,0,0,,{\r译文字幕}你不能那样做\N{\r原文字幕}Hey! You can't do that!
+Dialogue: 0,1:28:34.58,1:28:35.75,Default,,0,0,0,,{\r译文字幕}抓住大象\N{\r原文字幕}Get the elephant!
+Dialogue: 0,1:28:35.75,1:28:37.54,Default,,0,0,0,,{\r译文字幕}你去抓大象\N{\r原文字幕}You get the elephant!
+Dialogue: 0,1:28:58.83,1:29:02.00,Default,,0,0,0,,{\r译文字幕}别担心  爸爸很快就到\N{\r原文字幕}Don't worry. Dad'll be here soon.
+Dialogue: 0,1:29:02.00,1:29:03.79,Default,,0,0,0,,{\r译文字幕}大象在哪\N{\r原文字幕}Where's the elephant?
+Dialogue: 0,1:29:09.95,1:29:11.70,Default,,0,0,0,,{\r译文字幕}你怎么还傻站在那\N{\r原文字幕}Why are you just standing there?
+Dialogue: 0,1:29:11.70,1:29:13.00,Default,,0,0,0,,{\r译文字幕}到塔台上去\N{\r原文字幕}Get to the tower!
+Dialogue: 0,1:29:13.00,1:29:15.33,Default,,0,0,0,,{\r译文字幕}停电了  没有电梯\N{\r原文字幕}Electricity's failing! There's no elevators!
+Dialogue: 0,1:29:15.33,1:29:18.95,Default,,0,0,0,,{\r译文字幕}据我所知  他们发明了楼梯\N{\r原文字幕}When I last checked, they invented stairs.
+Dialogue: 0,1:29:19.00,1:29:22.62,Default,,0,0,0,,{\r译文字幕}我们似乎遇到了一些技术故障\N{\r原文字幕}We seem to be experiencing some technical difficulties.
+Dialogue: 0,1:29:37.08,1:29:39.62,Default,,0,0,0,,{\r译文字幕}我的电力是怎么了\N{\r原文字幕}What happened to my power?
+Dialogue: 0,1:29:39.62,1:29:42.45,Default,,0,0,0,,{\r译文字幕}什么权力  亲爱的\N{\r原文字幕}What power, mon cheri?
+Dialogue: 0,1:29:42.45,1:29:43.95,Default,,0,0,0,,{\r译文字幕}你这忘恩负义的\N{\r原文字幕}You ungrateful...
+Dialogue: 0,1:29:43.95,1:29:47.83,Default,,0,0,0,,{\r译文字幕}你以前什么都不是  在我把你变成我的\N{\r原文字幕}You were nothing before I made you my... Uh...
+Dialogue: 0,1:29:47.83,1:29:50.87,Default,,0,0,0,,{\r译文字幕}我相信这个词是  女王\N{\r原文字幕}I believe the word is "queen."
+Dialogue: 0,1:29:52.37,1:29:53.79,Default,,0,0,0,,{\r译文字幕}我需要灯\N{\r原文字幕}I need lights!
+Dialogue: 0,1:29:56.79,1:29:58.62,Default,,0,0,0,,{\r译文字幕}范德维尔先生  等等\N{\r原文字幕}Mr. Vandevere, wait!
+Dialogue: 0,1:29:58.62,1:30:00.54,Default,,0,0,0,,{\r译文字幕}我们必须重置电源  否则会引发浪涌\N{\r原文字幕}We have to reset the mains, or you could cause a surge!
+Dialogue: 0,1:30:00.54,1:30:01.75,Default,,0,0,0,,{\r译文字幕}现在是不可能的\N{\r原文字幕}Right now it's impossible!
+Dialogue: 0,1:30:01.75,1:30:04.04,Default,,0,0,0,,{\r译文字幕}没有什么是不可能的\N{\r原文字幕}Nothing's impossible!
+Dialogue: 0,1:30:05.70,1:30:07.54,Default,,0,0,0,,{\r译文字幕}范德维尔先生\N{\r原文字幕}Mr. Vandevere!
+Dialogue: 0,1:30:13.45,1:30:14.83,Default,,0,0,0,,{\r译文字幕}范德维尔先生  停下\N{\r原文字幕}Mr. Vandevere, stop!
+Dialogue: 0,1:30:40.58,1:30:42.12,Default,,0,0,0,,{\r译文字幕}米莉  乔\N{\r原文字幕}Milly! Joe!
+Dialogue: 0,1:30:50.95,1:30:52.79,Default,,0,0,0,,{\r译文字幕}来吧  走  快点\N{\r原文字幕}Come on. Go! Come on!
+Dialogue: 0,1:31:19.45,1:31:20.91,Default,,0,0,0,,{\r译文字幕}所有人都出来\N{\r原文字幕}Get everyone out!
+Dialogue: 0,1:31:20.91,1:31:22.91,Default,,0,0,0,,{\r译文字幕}从公园撤离\N{\r原文字幕}Evacuate the park!
+Dialogue: 0,1:31:26.95,1:31:28.70,Default,,0,0,0,,{\r译文字幕}米莉  乔\N{\r原文字幕}Milly! Joe!
+Dialogue: 0,1:31:49.00,1:31:51.04,Default,,0,0,0,,{\r译文字幕}大象在哪\N{\r原文字幕}Where is the elephant?
+Dialogue: 0,1:31:51.04,1:31:53.04,Default,,0,0,0,,{\r译文字幕}放开她\N{\r原文字幕}Let her go!
+Dialogue: 0,1:32:09.83,1:32:11.00,Default,,0,0,0,,{\r译文字幕}快点\N{\r原文字幕}Come on!
+Dialogue: 0,1:32:11.00,1:32:12.20,Default,,0,0,0,,{\r译文字幕}米莉  乔\N{\r原文字幕}Milly! Joe!
+Dialogue: 0,1:32:12.20,1:32:14.00,Default,,0,0,0,,{\r译文字幕}爸爸\N{\r原文字幕}Dad!
+Dialogue: 0,1:32:14.00,1:32:15.25,Default,,0,0,0,,{\r译文字幕}-你们还好吧  -我们没事\N{\r原文字幕}- You all right? - All right? We're fine.
+Dialogue: 0,1:32:15.25,1:32:16.95,Default,,0,0,0,,{\r译文字幕}好  快点  遮住脸\N{\r原文字幕}Okay, come on. All right, cover your faces.
+Dialogue: 0,1:32:16.95,1:32:18.70,Default,,0,0,0,,{\r译文字幕}把手给我  快点\N{\r原文字幕}Give me your hand! Come on!
+Dialogue: 0,1:32:18.70,1:32:19.83,Default,,0,0,0,,{\r译文字幕}后退\N{\r原文字幕}Back!
+Dialogue: 0,1:32:22.12,1:32:23.25,Default,,0,0,0,,{\r译文字幕}别分散\N{\r原文字幕}Stay close.
+Dialogue: 0,1:32:32.70,1:32:34.00,Default,,0,0,0,,{\r译文字幕}来吧  大伙\N{\r原文字幕}Come on, everybody.
+Dialogue: 0,1:32:34.00,1:32:36.70,Default,,0,0,0,,{\r译文字幕}我们现在去海港吧\N{\r原文字幕}Let's get to the seaport! Now!
+Dialogue: 0,1:32:36.70,1:32:37.80,Default,,0,0,0,,{\r译文字幕}法瑞尔一家在哪里\N{\r原文字幕}Where are the Farriers?
+Dialogue: 0,1:32:37.80,1:32:38.83,Default,,0,0,0,,{\r译文字幕}他们一定还在里面\N{\r原文字幕}They must still be inside.
+Dialogue: 0,1:33:11.62,1:33:12.62,Default,,0,0,0,,{\r译文字幕}爸爸\N{\r原文字幕}Dad!
+Dialogue: 0,1:33:13.25,1:33:14.70,Default,,0,0,0,,{\r译文字幕}没事的  乔\N{\r原文字幕}It's okay, Joe.
+Dialogue: 0,1:33:16.20,1:33:17.29,Default,,0,0,0,,{\r译文字幕}过来  过来\N{\r原文字幕}Come here. Come here.
+Dialogue: 0,1:33:20.20,1:33:21.20,Default,,0,0,0,,{\r译文字幕}呆宝\N{\r原文字幕}Dumbo!
+Dialogue: 0,1:33:29.25,1:33:32.29,Default,,0,0,0,,{\r译文字幕}快来\N{\r原文字幕}Come on!
+Dialogue: 0,1:33:32.29,1:33:35.16,Default,,0,0,0,,{\r译文字幕}走 走  快去  跳\N{\r原文字幕}Go! Go! Go! Go! Jump!
+Dialogue: 0,1:33:35.16,1:33:36.75,Default,,0,0,0,,{\r译文字幕}过来  过来\N{\r原文字幕}Come on. Come on.
+Dialogue: 0,1:33:44.29,1:33:46.12,Default,,0,0,0,,{\r译文字幕}好了  我们走吧  跟紧点  快点\N{\r原文字幕}All right, let's go. Stay close, come on.
+Dialogue: 0,1:33:49.08,1:33:50.33,Default,,0,0,0,,{\r译文字幕}好了  快走  快走\N{\r原文字幕}Okay. Go! Go! Go!
+Dialogue: 0,1:33:50.33,1:33:52.75,Default,,0,0,0,,{\r译文字幕}快点\N{\r原文字幕}Come on!
+Dialogue: 0,1:33:52.75,1:33:54.91,Default,,0,0,0,,{\r译文字幕}呆宝  快来\N{\r原文字幕}Dumbo! Come on!
+Dialogue: 0,1:33:54.91,1:33:56.33,Default,,0,0,0,,{\r译文字幕}呆宝  怎么了\N{\r原文字幕}Dumbo! What's wrong?
+Dialogue: 0,1:33:56.33,1:33:56.70,Default,,0,0,0,,{\r译文字幕}伙计们\N{\r原文字幕}Guys!
+Dialogue: 0,1:33:56.70,1:33:58.16,Default,,0,0,0,,{\r译文字幕}米莉  乔  快点\N{\r原文字幕}Milly! Joe! Come on!
+Dialogue: 0,1:33:58.16,1:33:59.79,Default,,0,0,0,,{\r译文字幕}呆宝  我们走\N{\r原文字幕}Dumbo, let's go!
+Dialogue: 0,1:34:03.79,1:34:04.91,Default,,0,0,0,,{\r译文字幕}走\N{\r原文字幕}Go!
+Dialogue: 0,1:34:10.00,1:34:11.62,Default,,0,0,0,,{\r译文字幕}呆宝\N{\r原文字幕}Dumbo!
+Dialogue: 0,1:34:11.62,1:34:13.29,Default,,0,0,0,,{\r译文字幕}抓住他\N{\r原文字幕}Get him!
+Dialogue: 0,1:34:13.29,1:34:14.25,Default,,0,0,0,,{\r译文字幕}他看到我们了\N{\r原文字幕}He's seen us.
+Dialogue: 0,1:34:14.25,1:34:15.79,Default,,0,0,0,,{\r译文字幕}呆宝  你得走了\N{\r原文字幕}Dumbo, you gotta go.
+Dialogue: 0,1:34:15.79,1:34:16.49,Default,,0,0,0,,{\r译文字幕}他们要来抓你\N{\r原文字幕}They're comin' for you.
+Dialogue: 0,1:34:16.49,1:34:17.25,Default,,0,0,0,,{\r译文字幕}你得走了  呆宝\N{\r原文字幕}You gotta go, Dumbo.
+Dialogue: 0,1:34:17.25,1:34:18.33,Default,,0,0,0,,{\r译文字幕}他的羽毛丢了\N{\r原文字幕}He lost the feather.
+Dialogue: 0,1:34:18.33,1:34:19.79,Default,,0,0,0,,{\r译文字幕}羽毛没什么用\N{\r原文字幕}Feather doesn't do nothin'.
+Dialogue: 0,1:34:19.83,1:34:21.79,Default,,0,0,0,,{\r译文字幕}呆宝  你不需要羽毛就能飞\N{\r原文字幕}Dumbo, you don't need the feather to fly.
+Dialogue: 0,1:34:21.79,1:34:23.33,Default,,0,0,0,,{\r译文字幕}爸爸  他们来了\N{\r原文字幕}Dad, they're coming!
+Dialogue: 0,1:34:23.33,1:34:25.70,Default,,0,0,0,,{\r译文字幕}退后  退后\N{\r原文字幕}Stand back! Stand back!
+Dialogue: 0,1:34:25.70,1:34:26.75,Default,,0,0,0,,{\r译文字幕}让开\N{\r原文字幕}Out of my way!
+Dialogue: 0,1:34:29.00,1:34:31.04,Default,,0,0,0,,{\r译文字幕}呆宝  还记这个吗\N{\r原文字幕}Dumbo, remember this?
+Dialogue: 0,1:34:31.04,1:34:33.04,Default,,0,0,0,,{\r译文字幕}我从妈妈那里得到的\N{\r原文字幕}From my momma?
+Dialogue: 0,1:34:33.04,1:34:37.91,Default,,0,0,0,,{\r译文字幕}我可以打开任何门  你也可以\N{\r原文字幕}I can unlock any door. And you can, too.
+Dialogue: 0,1:34:37.91,1:34:39.70,Default,,0,0,0,,{\r译文字幕}但我不需要这把钥匙就能做到\N{\r原文字幕}But I don't need this key to do it.
+Dialogue: 0,1:34:39.70,1:34:40.91,Default,,0,0,0,,{\r译文字幕}而你也不需要羽毛\N{\r原文字幕}And you don't need the feather.
+Dialogue: 0,1:34:42.12,1:34:43.12,Default,,0,0,0,,{\r译文字幕}来吧\N{\r原文字幕}Come on.
+Dialogue: 0,1:34:58.41,1:34:59.66,Default,,0,0,0,,{\r译文字幕}爸爸\N{\r原文字幕}Dad!
+Dialogue: 0,1:34:59.66,1:35:00.79,Default,,0,0,0,,{\r译文字幕}得走了  快点\N{\r原文字幕}Gotta go. Come on!
+Dialogue: 0,1:35:02.70,1:35:04.12,Default,,0,0,0,,{\r译文字幕}你干嘛\N{\r原文字幕}What are you doing?
+Dialogue: 0,1:35:04.12,1:35:05.87,Default,,0,0,0,,{\r译文字幕}象背上不够三个人坐的\N{\r原文字幕}There ain't room for the three of us.
+Dialogue: 0,1:35:05.87,1:35:07.20,Default,,0,0,0,,{\r译文字幕}你带他去海港  我们在那儿见\N{\r原文字幕}You get him to the seaport and I'll see you there.
+Dialogue: 0,1:35:07.20,1:35:08.62,Default,,0,0,0,,{\r译文字幕}走吧  大呆宝\N{\r原文字幕}Go on, Big D.
+Dialogue: 0,1:35:14.91,1:35:16.08,Default,,0,0,0,,{\r译文字幕}抓住他们\N{\r原文字幕}Grab 'em!
+Dialogue: 0,1:35:26.91,1:35:28.95,Default,,0,0,0,,{\r译文字幕}那是我的大象\N{\r原文字幕}That's my elephant!
+Dialogue: 0,1:35:42.70,1:35:44.29,Default,,0,0,0,,{\r译文字幕}他们安全了\N{\r原文字幕}They're safe.
+Dialogue: 0,1:35:44.29,1:35:45.91,Default,,0,0,0,,{\r译文字幕}快点  我们走\N{\r原文字幕}Come on, let's go!
+Dialogue: 0,1:35:48.75,1:35:50.25,Default,,0,0,0,,{\r译文字幕}嘿  回来\N{\r原文字幕}Hey! Get back here!
+Dialogue: 0,1:35:53.50,1:35:55.29,Default,,0,0,0,,{\r译文字幕}你这个畸形  你做了什么\N{\r原文字幕}You freak! What have you done?
+Dialogue: 0,1:35:55.29,1:35:57.12,Default,,0,0,0,,{\r译文字幕}他们为此付我钱  先生\N{\r原文字幕}What they pay me for, mister.
+Dialogue: 0,1:35:57.12,1:35:58.75,Default,,0,0,0,,{\r译文字幕}上演一场精彩的演出\N{\r原文字幕}Put on a hell of a show.
+Dialogue: 0,1:36:02.00,1:36:03.83,Default,,0,0,0,,{\r译文字幕}他\N{\r原文字幕}Hey! Him!
+Dialogue: 0,1:36:03.83,1:36:04.94,Default,,0,0,0,,{\r译文字幕}就那个  逮捕那个人\N{\r原文字幕}Right there, arrest that man.
+Dialogue: 0,1:36:04.94,1:36:05.75,Default,,0,0,0,,{\r译文字幕}他偷了我的大象\N{\r原文字幕}He stole my elephant.
+Dialogue: 0,1:36:05.75,1:36:08.08,Default,,0,0,0,,{\r译文字幕}我们有合同  美第奇\N{\r原文字幕}Hey, we had a contract, Medici!
+Dialogue: 0,1:36:08.08,1:36:08.89,Default,,0,0,0,,{\r译文字幕}我不是专家\N{\r原文字幕}I'm no expert,
+Dialogue: 0,1:36:08.89,1:36:11.12,Default,,0,0,0,,{\r译文字幕}但我认为你这里有更大的问题\N{\r原文字幕}but I think you got bigger problems here.
+Dialogue: 0,1:36:23.04,1:36:25.12,Default,,0,0,0,,{\r译文字幕}这真是一场灾难\N{\r原文字幕}Wow. This is a disaster.
+Dialogue: 0,1:36:26.29,1:36:27.95,Default,,0,0,0,,{\r译文字幕}来吧  我请你吃热狗\N{\r原文字幕}Come on, I'll buy you a hot dog.
+Dialogue: 0,1:36:27.95,1:36:29.87,Default,,0,0,0,,{\r译文字幕}听起来不错  J.G.\N{\r原文字幕}Sounds good, J.G.
+Dialogue: 0,1:36:38.70,1:36:40.20,Default,,0,0,0,,{\r译文字幕}{\pos(190,80)\fs30}骗子之地
+Dialogue: 0,1:37:09.45,1:37:12.00,Default,,0,0,0,,{\r译文字幕}最后装货提醒\N{\r原文字幕}Last call for cargo!
+Dialogue: 0,1:37:12.00,1:37:14.58,Default,,0,0,0,,{\r译文字幕}全部上船\N{\r原文字幕}All aboard!
+Dialogue: 0,1:37:35.83,1:37:37.12,Default,,0,0,0,,{\r译文字幕}科莱特\N{\r原文字幕}Colette!
+Dialogue: 0,1:37:45.16,1:37:46.87,Default,,0,0,0,,{\r译文字幕}你父亲在哪\N{\r原文字幕}Where's your father?
+Dialogue: 0,1:37:46.87,1:37:49.04,Default,,0,0,0,,{\r译文字幕}别担心  他会赶到的\N{\r原文字幕}Don't worry. He'll be here.
+Dialogue: 0,1:37:55.20,1:37:56.58,Default,,0,0,0,,{\r译文字幕}爸爸\N{\r原文字幕}Dad!
+Dialogue: 0,1:37:56.58,1:37:58.45,Default,,0,0,0,,{\r译文字幕}我就知道你们会骑象\N{\r原文字幕}I knew you could ride.
+Dialogue: 0,1:38:04.87,1:38:06.21,Default,,0,0,0,,{\r译文字幕}普拉德什  我们得走了\N{\r原文字幕}Pramesh, we have to go.
+Dialogue: 0,1:38:06.21,1:38:06.95,Default,,0,0,0,,{\r译文字幕}拜托  快点\N{\r原文字幕}Please, hurry.
+Dialogue: 0,1:38:08.29,1:38:10.79,Default,,0,0,0,,{\r译文字幕}快点  赶紧  快点\N{\r原文字幕}Hurry! Come on! Hurry!
+Dialogue: 0,1:38:11.91,1:38:13.04,Default,,0,0,0,,{\r译文字幕}来吧\N{\r原文字幕}Come.
+Dialogue: 0,1:38:13.95,1:38:15.41,Default,,0,0,0,,{\r译文字幕}我们回家吧\N{\r原文字幕}Let's go home.
+Dialogue: 0,1:38:55.25,1:38:57.29,Default,,0,0,0,,{\r译文字幕}快走吧  你个小捣蛋鬼\N{\r原文字幕}Well, get out of here, you little troublemaker.
+Dialogue: 0,1:39:00.04,1:39:01.04,Default,,0,0,0,,{\r译文字幕}走吧\N{\r原文字幕}Go on.
+Dialogue: 0,1:39:41.12,1:39:43.04,Default,,0,0,0,,{\r译文字幕}女士们  先生们\N{\r原文字幕}Ladies and gentlemen...
+Dialogue: 0,1:39:43.04,1:39:47.70,Default,,0,0,0,,{\r译文字幕}我为你们介绍我们世界著名的飞象\N{\r原文字幕}introducing our world-famous flying elephant.
+Dialogue: 0,1:39:55.08,1:39:58.45,Default,,0,0,0,,{\r译文字幕}欢迎来到美第奇家族马戏团\N{\r原文字幕}Welcome to the Medici Family circus!
+Dialogue: 0,1:39:58.45,1:40:00.66,Default,,0,0,0,,{\r译文字幕}我们相信没有野生动物\N{\r原文字幕}Where we believe no wild animals
+Dialogue: 0,1:40:00.66,1:40:03.29,Default,,0,0,0,,{\r译文字幕}应该被关起来\N{\r原文字幕}shall be held in captivity.
+Dialogue: 0,1:40:04.91,1:40:06.60,Default,,0,0,0,,{\r译文字幕}{\pos(200,260)}地球上最棒的小型演出
+Dialogue: 0,1:40:10.70,1:40:12.58,Default,,0,0,0,,{\r译文字幕}看看荣格\N{\r原文字幕}See Rongo...
+Dialogue: 0,1:40:12.58,1:40:16.12,Default,,0,0,0,,{\r译文字幕}世界上最强壮最多才多艺的人\N{\r原文字幕}the world's strongest and most versatile man.
+Dialogue: 0,1:40:18.08,1:40:21.33,Default,,0,0,0,,{\r译文字幕}认识一下迷人的亚特兰蒂斯小姐\N{\r原文字幕}Meet the bewitching Miss Atlantis...
+Dialogue: 0,1:40:21.33,1:40:24.08,Default,,0,0,0,,{\r译文字幕}她正在表演水下莎士比亚\N{\r原文字幕}now performing underwater Shakespeare,
+Dialogue: 0,1:40:24.08,1:40:28.27,Default,,0,0,0,,{\r译文字幕}和世界上唯一活着的人鱼普克一起\N{\r原文字幕}with the world's only living merman, Puck!
+Dialogue: 0,1:40:28.27,1:40:33.70,Default,,0,0,0,,{\r译文字幕}{\pos(200,265)\fr10}呼吸  还是不呼吸
+Dialogue: 0,1:40:33.70,1:40:36.08,Default,,0,0,0,,{\r译文字幕}参观我们最新的景点\N{\r原文字幕}And visit our newest attraction,
+Dialogue: 0,1:40:36.08,1:40:38.08,Default,,0,0,0,,{\r译文字幕}米莉·法瑞尔的奇妙世界\N{\r原文字幕}Milly Farrier's World of Wonders...
+Dialogue: 0,1:40:36.08,1:40:38.62,Default,,0,0,0,,{\r译文字幕}{\an8}米莉·法瑞尔的奇妙世界
+Dialogue: 0,1:40:38.62,1:40:42.20,Default,,0,0,0,,{\r译文字幕}去发现所有真实存在的奇观\N{\r原文字幕}to discover all the real-life amazements
+Dialogue: 0,1:40:42.20,1:40:45.12,Default,,0,0,0,,{\r译文字幕}在今天塑造明天\N{\r原文字幕}that are shaping tomorrow today!
+Dialogue: 0,1:41:02.79,1:41:07.08,Default,,0,0,0,,{\r译文字幕}惊叹于传奇的霍特的骑术\N{\r原文字幕}Marvel at the skills of the legendary Holt...
+Dialogue: 0,1:41:07.08,1:41:10.33,Default,,0,0,0,,{\r译文字幕}我们的未来牛仔\N{\r原文字幕}our cowboy of the future!
+Dialogue: 0,1:41:24.79,1:41:28.25,Default,,0,0,0,,{\r译文字幕}以及巴黎珍珠  科莱特\N{\r原文字幕}And the Pearl of Paris, Colette.
+Dialogue: 0,1:41:28.25,1:41:30.50,Default,,0,0,0,,{\r译文字幕}天堂女王\N{\r原文字幕}Queen of the Heavens!
+Dialogue: 0,1:41:54.87,1:41:56.54,Default,,0,0,0,,{\r译文字幕}朋友们  无论老少\N{\r原文字幕}Friends, young and old,
+Dialogue: 0,1:41:56.54,1:41:58.70,Default,,0,0,0,,{\r译文字幕}你在我们的马戏团都有个家\N{\r原文字幕}you have a home at our circus.
+Dialogue: 0,1:41:58.70,1:42:00.80,Default,,0,0,0,,{\r译文字幕}在这里一切皆有可能\N{\r原文字幕}Where anything is possible
+Dialogue: 0,1:42:00.81,1:42:02.50,Default,,0,0,0,,{\r译文字幕}是奇迹发生的地方\N{\r原文字幕}and miracles happen.
+Dialogue: 0,1:42:02.50,1:42:04.16,Default,,0,0,0,,{\r译文字幕}相信我  真的会发生\N{\r原文字幕}Believe me, they do.
+Dialogue: 0,1:42:09.16,1:42:09.65,Default,,0,0,0,,{\r译文字幕}{\pos(200,240)\fs25}美第奇家族马戏团
+Dialogue: 0,1:44:03.16,1:44:07.00,Default,,0,0,0,,{\r译文字幕}{\an5\fs30\fade(500,500)}本片终
