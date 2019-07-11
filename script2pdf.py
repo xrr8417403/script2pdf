@@ -40,12 +40,12 @@ def get_file_path(path):
 
 def isdialog(str,row=0):
     str = str.replace("{\\r译文字幕}","")
-    res = re.search(r'Dialogue: 0.*,0,0,0,,(.*)\\N{.*}(.*)',str)
+    res = re.search(r'Dialogue: 0.*,0{1,4},0{1,4},0{1,4},,(.*)\\N{.*}(.*)',str)
     if res:
         if not re.search(r'[\{\}]',res.group(1)):   #group1无{或}号方为匹配
             #print(res.groups())
-            print(res.group(2))
-            print(res.group(1))
+            #print(res.group(2))
+            #print(res.group(1))
             style1 = document.styles['Normal']
             font1 = style1.font
             font1.name = "Cambria"
@@ -67,7 +67,7 @@ def isdialog(str,row=0):
             #document.add_paragraph('\n')
 
 
-path = "C:\\Users\Administrator\\Desktop\Personal\\字幕文件"
+path = "D:\\script2pdf\\字幕文件"
 filepath = "C:\\Users\\Administrator\\Desktop\Personal\\字幕文件\\Chernobyl.S01E01.1.23.45.720p.AMZN.WEB-DL.DDP5.1.H.264-NTb.简体&英文.ass"
 
 document = Document()
@@ -86,6 +86,7 @@ for list in lists:
     heading = document.add_heading(name, 0)
     heading.alignment = WD_ALIGN_PARAGRAPH.CENTER
     document.add_paragraph('  ')
+    print("正在转换%s,请等待..."%list)
 
     try:
         with open(filepath,'r',encoding='utf-16',errors='ignore') as f:
@@ -96,5 +97,6 @@ for list in lists:
         with open(filepath,'r',encoding='utf-8',errors='ignore') as f:
             for line in f:
                 isdialog(line)
+    print("%s转换成功！"%name)
     docx_name = name + ".docx"
     document.save(docx_name)
