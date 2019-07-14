@@ -8,6 +8,7 @@ Data:2019/7/2
 
 import os
 import re
+import shutil
 from docx import Document
 from docx.shared import Inches,Pt,RGBColor
 from docx.oxml.ns import qn
@@ -17,6 +18,7 @@ def get_name(str):
     name = str
     res1 = re.search(r'(.*)?(S[\d]{1,2}E[\d]{1,2})',str,flags=re.IGNORECASE)
     res2 = re.search(r'(.*)?(\.[\d]{4}\.[\d]{3,4}p)',str,flags=re.IGNORECASE)
+    res3 = re.search(r'(.*)?(\.[\d]{3,4}p)',str,flags=re.IGNORECASE)
     if res1:
         name = res1.group(1)+res1.group(2)
         print(res1.group(1)+res1.group(2))
@@ -25,9 +27,17 @@ def get_name(str):
         name = res2.group(1)
         print(res2.group(1))
         return name
+    if res3:
+        name = res3.group(1)
+        print(res3.group(1))
+        return name
     #if res.group(2):
 
     #res = re.search(r'(.*)?([\d]{3,4}p)',str,flags=re.IGNORECASE)
+
+def move_file(current_path,target_path):
+    shutil.move(current_path,target_path)
+
 
 def get_file_path(path):
     """
@@ -40,6 +50,10 @@ def get_file_path(path):
 
 def isdialog(str,row=0):
     str = str.replace("{\\r译文字幕}","")
+    #str = str.replace(r"{\fnSIMHEI\fs22\1c&HFFFFFF&\3c&HFF8000&}", "") #临时
+    str = str.replace("{\\r}","") #临时
+    #print(str)
+    #res = re.search(r'Dialogue: 0.*,0{1,4},0{1,4},0{1,4},,(.*)\\N(.*)',str)
     res = re.search(r'Dialogue: 0.*,0{1,4},0{1,4},0{1,4},,(.*)\\N{.*}(.*)',str)
     if res:
         if not re.search(r'[\{\}]',res.group(1)):   #group1无{或}号方为匹配
@@ -79,24 +93,28 @@ document = Document()
 
 lists = os.listdir(path)
 for list in lists:
-    name = get_name(list)
-    filepath = os.path.join(path,list)
-    #print(name)
-    document = Document()
-    heading = document.add_heading(name, 0)
-    heading.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    document.add_paragraph('  ')
-    print("正在转换%s,请等待..."%list)
+    if ".ass" in list:
+        name = get_name(list)
+        filepath = os.path.join(path,list)
+        #print(name)
+        document = Document()
+        heading = document.add_heading(name, 0)
+        heading.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        document.add_paragraph('  ')
+        print("正在转换%s,请等待..."%list)
 
-    try:
-        with open(filepath,'r',encoding='utf-16',errors='ignore') as f:
-            for line in f:
-                isdialog(line)
-    except UnicodeError as e:
-        print(e)
-        with open(filepath,'r',encoding='utf-8',errors='ignore') as f:
-            for line in f:
-                isdialog(line)
-    print("%s转换成功！"%name)
-    docx_name = name + ".docx"
-    document.save(docx_name)
+        try:
+            with open(filepath,'r',encoding='utf-16',errors='ignore') as f:
+                for line in f:
+                    isdialog(line)
+        except UnicodeError as e:
+            print(e)
+            with open(filepath,'r',encoding='utf-8',errors='ignore') as f:
+                for line in f:
+                    isdialog(line)
+        docx_name = name + " 精选热门美剧电影台词 学英语单词口语 中英对照" + ".doc"
+        document.save(docx_name)
+        current_path = os.path.join(os.getcwd(),docx_name)
+        target_path = os.path.join(os.getcwd(),"doc")
+        move_file(current_path,target_path)
+        print("%s转换成功！"%name)

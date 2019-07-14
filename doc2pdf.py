@@ -18,8 +18,9 @@ def word2pdf(word, pwd, in_file):
     else:
         try:
             file_name_list = in_file.split(".")
+            #file_name_list = in_file
             file_name_list.pop()
-            doc.SaveAs(pwd + "/pdfs/" + ''.join(file_name_list) + ".pdf", 17)
+            doc.SaveAs(pwd + '/' + ''.join(file_name_list) + ".pdf", 17)
         except:
             print("%s convert Error!" % (in_file))
             return False
@@ -48,7 +49,7 @@ if __name__ == '__main__':
     except:
         print("Please install or check Microsoft Word!")
     else:
-        pwd = os.getcwd()
+        pwd = os.path.join(os.getcwd(),"doc")
         if os.path.exists(pwd + "/pdfs") is not True:
             os.mkdir(pwd + "/pdfs")
         file_list = os.listdir(pwd)
